@@ -424,7 +424,7 @@ msgstr "<0>{0}</0> от Пацифистских принципов (оборо�
 #. placeholder {0}: region.strategicBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
 msgid "<0>{0}</0> from strategic resources production bonus."
-msgstr "<0>{0}</0> от бонуса на добычу стратегических ресурсов"
+msgstr "<0>{0}</0> от бонуса к производству от стратегических ресурсов"
 
 #. placeholder {0}: gameConfig.battle.pointsToWinRound
 #: src/components/_common/RoundPoints.tsx:17
