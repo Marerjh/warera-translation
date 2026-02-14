@@ -136,7 +136,7 @@ msgstr "*Posibil să ardă"
 #~ msgstr "+{0}% din resurse strategice"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:392
-#: src/components/_user/notification/notification.frontConfig.tsx:1215
+#: src/components/_user/notification/notification.frontConfig.tsx:1218
 msgid "<0/> applied to join <1/>"
 msgstr "<0/> a aplicat să se alăture UM <1/>"
 
@@ -155,7 +155,7 @@ msgstr "<0/> la <1>{0}</1> salariu.{1}"
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> cumpără regiunea <1/> pentru <2>{0}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:913
+#: src/components/_user/notification/notification.frontConfig.tsx:916
 msgid "<0/> commented on your article <1/>"
 msgstr "<0/> a comentat la articolul tău <1/>"
 
@@ -169,7 +169,7 @@ msgstr "<0/> a apărat <1/>"
 
 #. placeholder {0}: data.amount
 #: src/components/_user/notification/notification.frontConfig.tsx:406
-#: src/components/_user/notification/notification.frontConfig.tsx:1289
+#: src/components/_user/notification/notification.frontConfig.tsx:1292
 msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> a donat <1>{0}</1> către <2/>"
 
@@ -178,12 +178,12 @@ msgstr "<0/> a donat <1>{0}</1> către <2/>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> te-a concediat de la locul tău de muncă de <1>{0}</1> în <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1152
+#: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> ți-a dăruit un plan Susținător!"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1592
+#: src/components/_user/notification/notification.frontConfig.tsx:1595
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> ți-a dăruit coperta \"{0}\"!"
 
@@ -191,16 +191,16 @@ msgstr "<0/> ți-a dăruit coperta \"{0}\"!"
 #~ msgid "<0/> gifted you the skin \"{0}\"!"
 #~ msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1693
+#: src/components/_user/notification/notification.frontConfig.tsx:1696
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr ""
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1756
+#: src/components/_user/notification/notification.frontConfig.tsx:1759
 msgid "<0/> gifted you the skin pack \"{0}\"!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1422
+#: src/components/_user/notification/notification.frontConfig.tsx:1425
 msgid "<0/> has been created, it gonna start soon!"
 msgstr "<0/> a fost creat, va începe în curând!"
 
@@ -212,23 +212,23 @@ msgstr "<0/> a fost creat, va începe în curând!"
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> a fost ales președinte al <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1074
+#: src/components/_user/notification/notification.frontConfig.tsx:1077
 msgid "<0/> has started a revolution in <1/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1435
+#: src/components/_user/notification/notification.frontConfig.tsx:1438
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> a început! Să înceapă bătăliile!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1030
+#: src/components/_user/notification/notification.frontConfig.tsx:1033
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/> atacă <1/> în <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1016
+#: src/components/_user/notification/notification.frontConfig.tsx:1019
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> atacă țara ta în <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1045
+#: src/components/_user/notification/notification.frontConfig.tsx:1048
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> se revoltă împotriva țării tale în <1/>"
 
@@ -250,15 +250,15 @@ msgstr "<0/> s-a alăturat companiei tale <1/> pentru un salariu de <2>{0}</2>"
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> a demisionat din compania ta {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:898
+#: src/components/_user/notification/notification.frontConfig.tsx:901
 msgid "<0/> liked your article <1/>"
 msgstr "<0/> a apreciat articolul tău <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:961
+#: src/components/_user/notification/notification.frontConfig.tsx:964
 msgid "<0/> liked your message <1/>"
 msgstr "<0/> a apreciat mesajul tău <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1303
+#: src/components/_user/notification/notification.frontConfig.tsx:1306
 msgid "<0/> mentioned you in a message <1/>"
 msgstr "<0/> te-a menționat într-un mesaj <1/>"
 
@@ -266,7 +266,7 @@ msgstr "<0/> te-a menționat într-un mesaj <1/>"
 msgid "<0/> Priority ends in <1/>"
 msgstr "Prioritatea pentru <0/> se termină în <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:884
+#: src/components/_user/notification/notification.frontConfig.tsx:885
 msgid "<0/> published a new article"
 msgstr "<0/> a publicat un articol nou"
 
@@ -275,15 +275,15 @@ msgid "<0/> referred you to the game."
 msgstr "<0/> te-a recomandat pentru joc."
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:988
+#: src/components/_user/notification/notification.frontConfig.tsx:991
 msgid "<0/> responded to your message {0}"
 msgstr "<0/> a răspuns la mesajul tău {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:947
+#: src/components/_user/notification/notification.frontConfig.tsx:950
 msgid "<0/> subscribed to you on your article <1/>"
 msgstr "<0/> s-a abonat la tine de la articolul tău <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:928
+#: src/components/_user/notification/notification.frontConfig.tsx:931
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> ți-a sponsorizat articolul <1/>"
 
@@ -921,7 +921,7 @@ msgid "A deposit has been found in this region, it can be exploited by companies
 msgstr "Un zăcământ a fost găsit în această regiune, poate fi exploatat de companii pentru a produce materii prime."
 
 #. placeholder {0}: data.prize
-#: src/components/_user/notification/notification.frontConfig.tsx:1540
+#: src/components/_user/notification/notification.frontConfig.tsx:1543
 msgid "A new giveaway for {0} cases has started! Join now!"
 msgstr "O nouă tombolă pentru {0} cutii a început! Înscrie-te acum!"
 
@@ -1030,7 +1030,7 @@ msgstr "Admin"
 msgid "Admin Actions"
 msgstr "Acțiuni Admin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1095
+#: src/components/_user/notification/notification.frontConfig.tsx:1098
 msgid "Admin notification"
 msgstr "Notificare de la administrator"
 
@@ -1283,7 +1283,7 @@ msgstr "Armură"
 msgid "Article ID"
 msgstr "ID articol"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:896
+#: src/components/_user/notification/notification.frontConfig.tsx:899
 msgid "Article liked"
 msgstr "Articol apreciat"
 
@@ -1291,7 +1291,7 @@ msgstr "Articol apreciat"
 msgid "Article Tip"
 msgstr "Sponsorizări articol"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:926
+#: src/components/_user/notification/notification.frontConfig.tsx:929
 msgid "Article tipped"
 msgstr "Articol sponsorizat"
 
@@ -1390,15 +1390,15 @@ msgstr "Faliment"
 msgid "Banned"
 msgstr "Banat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1620
+#: src/components/_user/notification/notification.frontConfig.tsx:1623
 msgid "Banner Accepted!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1589
+#: src/components/_user/notification/notification.frontConfig.tsx:1592
 msgid "Banner gift received"
 msgstr "Copertă primită cadou"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1558
+#: src/components/_user/notification/notification.frontConfig.tsx:1561
 msgid "Banner gift sent"
 msgstr "Copertă dăruită"
 
@@ -1445,7 +1445,7 @@ msgstr "Bătălia s-a încheiat"
 msgid "Battle opened"
 msgstr "Bătălie deschisă"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1349
+#: src/components/_user/notification/notification.frontConfig.tsx:1352
 msgid "Battle Ranking Reward"
 msgstr "Recompensă clasament bătălie"
 
@@ -1982,20 +1982,20 @@ msgid "Congratulations! You have been elected to the council of <0/>"
 msgstr "Felicitări! Ați fost ales în consiliul <0/>"
 
 #. placeholder {0}: militaryRankingConfig[data.rank].percentDamages
-#: src/components/_user/notification/notification.frontConfig.tsx:1328
+#: src/components/_user/notification/notification.frontConfig.tsx:1331
 msgid "Congratulations! You have been promoted to <0/> with an attack bonus of <1>{0}</1>"
 msgstr "Felicitări! Ai fost promovat la <0/> cu un bonus de atac de <1>{0}</1>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1524
+#: src/components/_user/notification/notification.frontConfig.tsx:1527
 msgid "Congratulations! You won the giveaway and received cases!"
 msgstr "Felicitări! Ai câștigat tombola și ai primit cutii!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:365
-#: src/components/_user/notification/notification.frontConfig.tsx:1201
+#: src/components/_user/notification/notification.frontConfig.tsx:1204
 msgid "Congratulations! Your application to <0/> has been accepted"
 msgstr "Felicitări! Aplicația ta la <0/> a fost acceptată"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1403
+#: src/components/_user/notification/notification.frontConfig.tsx:1406
 msgid "Congratulations! Your team <0/> won the tournament <1/>!"
 msgstr "Felicitări! Echipa ta <0/> a câștigat turneul <1/>!"
 
@@ -2250,7 +2250,7 @@ msgstr "Zilnice"
 msgid "Daily maintenance"
 msgstr "Întreținere zinlică"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1633
+#: src/components/_user/notification/notification.frontConfig.tsx:1636
 msgid "Daily Missions Reset"
 msgstr "Resetare Misiuni Zilnice"
 
@@ -2398,7 +2398,7 @@ msgstr "Șterge contul"
 msgid "Delete your account"
 msgstr "Ștergere cont"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1255
+#: src/components/_user/notification/notification.frontConfig.tsx:1258
 msgid "Demoted from Commander"
 msgstr "Retrogradat din comandant"
 
@@ -2741,7 +2741,7 @@ msgstr "Echipamente"
 msgid "Error"
 msgstr "Eroare"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:103
 msgid "Estimated benefit per"
 msgstr ""
 
@@ -2845,7 +2845,7 @@ msgstr "Feed"
 msgid "Fidelity Bonus"
 msgstr "Bonus de fidelitate"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:164
 msgid "Fidelity bonus:"
 msgstr ""
 
@@ -3080,15 +3080,15 @@ msgstr "Adaugă bani"
 msgid "Give your token a descriptive name so you can identify it later."
 msgstr "Dă tokenului un nume descriptiv pentru a-l identifica mai târziu."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1550
+#: src/components/_user/notification/notification.frontConfig.tsx:1553
 msgid "Giveaway Ended"
 msgstr "Tombola s-a încheiat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1538
+#: src/components/_user/notification/notification.frontConfig.tsx:1541
 msgid "Giveaway Started"
 msgstr "Tombola a început"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1522
+#: src/components/_user/notification/notification.frontConfig.tsx:1525
 msgid "Giveaway Won!"
 msgstr "Ai câștigat tombola!"
 
@@ -3810,7 +3810,7 @@ msgstr ""
 msgid "Members"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1301
+#: src/components/_user/notification/notification.frontConfig.tsx:1304
 msgid "Mentioned in message"
 msgstr "Menționat în mesaj"
 
@@ -3822,7 +3822,7 @@ msgstr "Menționat în mesaj"
 msgid "Message (Optional)"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:959
+#: src/components/_user/notification/notification.frontConfig.tsx:962
 msgid "Message liked"
 msgstr "Mesaj apreciat"
 
@@ -3843,7 +3843,7 @@ msgstr "Legi militare"
 msgid "Military Rank"
 msgstr "Rang Militar"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1326
+#: src/components/_user/notification/notification.frontConfig.tsx:1329
 msgid "Military Rank Up!"
 msgstr "Avansare în rang militar!"
 
@@ -3960,19 +3960,19 @@ msgstr "Transferat la o nouă companie"
 msgid "MU"
 msgstr "UM"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1199
+#: src/components/_user/notification/notification.frontConfig.tsx:1202
 msgid "MU Application Accepted"
 msgstr "Aplicația UM acceptată"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1186
+#: src/components/_user/notification/notification.frontConfig.tsx:1189
 msgid "MU Application Rejected"
 msgstr "Aplicația UM respinsă"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1287
+#: src/components/_user/notification/notification.frontConfig.tsx:1290
 msgid "MU Donation Received"
 msgstr "Donație UM primită"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1269
+#: src/components/_user/notification/notification.frontConfig.tsx:1272
 msgid "MU Ownership Transferred"
 msgstr "Proprietatea UM transferată"
 
@@ -4025,7 +4025,7 @@ msgstr "Nume"
 msgid "Need a job?"
 msgstr "Cauți un loc de muncă?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:173
 msgid "Net benefit:"
 msgstr ""
 
@@ -4051,7 +4051,7 @@ msgstr "Token API Nou Creat"
 msgid "New article"
 msgstr "Articol nou"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:911
+#: src/components/_user/notification/notification.frontConfig.tsx:914
 msgid "New comment"
 msgstr "Comentariu nou"
 
@@ -4081,7 +4081,7 @@ msgstr "Locație nouă"
 msgid "New military unit"
 msgstr "Unitate militară nouă"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1213
+#: src/components/_user/notification/notification.frontConfig.tsx:1216
 msgid "New MU Application"
 msgstr "Aplicație nouă la UM"
 
@@ -4110,7 +4110,7 @@ msgstr "Utilizator nou recomandat"
 msgid "New referrer"
 msgstr "Recomandator nou"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:945
+#: src/components/_user/notification/notification.frontConfig.tsx:948
 msgid "New subscriber"
 msgstr "Abonat nou"
 
@@ -4378,7 +4378,7 @@ msgstr "Doar președinții pot înregistra țara lor"
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Doar Susținătorii își pot vedea raportul de venit și cheltuieli."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:454
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:451
 msgid "Open"
 msgstr "Deschide"
 
@@ -4386,7 +4386,7 @@ msgstr "Deschide"
 msgid "Open <0>{count}</0>"
 msgstr "Deschide <0>{count}</0>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:474
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:471
 msgid "Open case"
 msgstr "Deschide cutia"
 
@@ -4469,7 +4469,7 @@ msgstr ""
 msgid "Owned Military Units"
 msgstr "Unități Militare Deținute"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1271
+#: src/components/_user/notification/notification.frontConfig.tsx:1274
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "Proprietatea <0/> a fost transferată de la <1/> la <2/>"
 
@@ -4648,23 +4648,23 @@ msgstr "Precizie"
 msgid "Premium"
 msgstr "Plan Susținător"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1118
+#: src/components/_user/notification/notification.frontConfig.tsx:1121
 msgid "Premium activated"
 msgstr "Plan Susținător activat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1128
+#: src/components/_user/notification/notification.frontConfig.tsx:1131
 msgid "Premium expired"
 msgstr "Plan Susținător expirat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1171
+#: src/components/_user/notification/notification.frontConfig.tsx:1174
 msgid "Premium gift expired"
 msgstr "Cadou Plan Susținător expirat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1149
+#: src/components/_user/notification/notification.frontConfig.tsx:1152
 msgid "Premium gift received"
 msgstr "Cadou Plan Susținător primit"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1136
+#: src/components/_user/notification/notification.frontConfig.tsx:1139
 msgid "Premium gift sent"
 msgstr "Cadou Plan Susținător trimis"
 
@@ -4775,7 +4775,7 @@ msgstr "Bonus producție"
 #~ msgid "Production bonus from deposit resources in this region."
 #~ msgstr "Bonus de producție din resursele depozitului din această regiune."
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:156
 msgid "Production bonus:"
 msgstr ""
 
@@ -4791,7 +4791,7 @@ msgstr "Magazia este plină"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1241
+#: src/components/_user/notification/notification.frontConfig.tsx:1244
 msgid "Promoted to Commander"
 msgstr "Promovat la comandant"
 
@@ -4879,7 +4879,7 @@ msgstr "Dezmembrează rapid obiectele"
 msgid "Ranking loot chance"
 msgstr "Șansă pradă după clasament"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1481
+#: src/components/_user/notification/notification.frontConfig.tsx:1484
 msgid "Ranking Reward"
 msgstr "Recompensă clasament"
 
@@ -4893,7 +4893,7 @@ msgstr "Clasamente"
 msgid "Ranks"
 msgstr "Clasament"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:128
 msgid "Raw materials:"
 msgstr ""
 
@@ -5030,7 +5030,7 @@ msgstr "Regiune"
 msgid "Region buy offer"
 msgstr "Ofertă de cumpărare regiune"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1043
+#: src/components/_user/notification/notification.frontConfig.tsx:1046
 msgid "Region is revolting!"
 msgstr "Regiunea se revoltă!"
 
@@ -5146,7 +5146,7 @@ msgstr "Elimină inamicul principal"
 msgid "Remove the current party leader from their position"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1227
+#: src/components/_user/notification/notification.frontConfig.tsx:1230
 msgid "Removed from Military Unit"
 msgstr "Eliminat din Unitatea Militară"
 
@@ -5241,7 +5241,7 @@ msgstr "Resurse"
 msgid "Resources reshuffled"
 msgstr "Resurse redistribuite"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:986
+#: src/components/_user/notification/notification.frontConfig.tsx:989
 msgid "Response to message"
 msgstr "Răspuns la mesaj"
 
@@ -5257,7 +5257,7 @@ msgstr "Eliberează o regiune către țara ei originală"
 msgid "Revoke API token?"
 msgstr "Revoci tokenul API?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1057
+#: src/components/_user/notification/notification.frontConfig.tsx:1060
 msgid "Revolt started!"
 msgstr "Revolta a început!"
 
@@ -5273,7 +5273,7 @@ msgstr ""
 msgid "Revolution started"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1072
+#: src/components/_user/notification/notification.frontConfig.tsx:1075
 msgid "Revolution started!"
 msgstr ""
 
@@ -5454,7 +5454,7 @@ msgstr "Comandă de vânzare rezolvată!"
 msgid "Sell orders"
 msgstr "Comenzi de vânzare"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:111
 msgid "Sell price:"
 msgstr ""
 
@@ -5601,15 +5601,15 @@ msgstr "Competențele te fac mai puternic. Hai să-ți îmbunătățim abilită�
 msgid "Skills saved!"
 msgstr "Competențe salvate!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1690
+#: src/components/_user/notification/notification.frontConfig.tsx:1693
 msgid "Skin gift received"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1658
+#: src/components/_user/notification/notification.frontConfig.tsx:1661
 msgid "Skin gift sent"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1722
+#: src/components/_user/notification/notification.frontConfig.tsx:1725
 msgid "Skin pack gift sent"
 msgstr ""
 
@@ -5921,7 +5921,7 @@ msgstr "Evenimentul XP dublu s-a încheiat."
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Efectul buffurilor tale consumate s-a încheiat. Faza de debuff a început și va dura <0>{debuffDuration}h</0>."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1551
+#: src/components/_user/notification/notification.frontConfig.tsx:1554
 msgid "The giveaway has ended. Check if you won!"
 msgstr "Tombola s-a încheiat. Verifică dacă ai câștigat!"
 
@@ -5929,7 +5929,7 @@ msgstr "Tombola s-a încheiat. Verifică dacă ai câștigat!"
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Resursa strategică va fi redistribuită în următorul timp."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1448
+#: src/components/_user/notification/notification.frontConfig.tsx:1451
 msgid "The tournament has ended for your team <0/>. Check the results!"
 msgstr "Turneul s-a încheiat pentru echipa ta <0/>. Verifică rezultatele!"
 
@@ -6047,7 +6047,7 @@ msgstr "total"
 msgid "Total"
 msgstr "Total"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:439
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:436
 msgid "Total cases opened:"
 msgstr "Total cutii deschise:"
 
@@ -6065,27 +6065,27 @@ msgstr "Total donat:"
 msgid "Tournament"
 msgstr "Turneu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1420
+#: src/components/_user/notification/notification.frontConfig.tsx:1423
 msgid "Tournament Created"
 msgstr "Turneu Creat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1460
+#: src/components/_user/notification/notification.frontConfig.tsx:1463
 msgid "Tournament Eliminated"
 msgstr "Eliminat din turneu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1446
+#: src/components/_user/notification/notification.frontConfig.tsx:1449
 msgid "Tournament Ended"
 msgstr "Turneul s-a încheiat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1371
+#: src/components/_user/notification/notification.frontConfig.tsx:1374
 msgid "Tournament Round Won"
 msgstr "Rundă de turneu câștigată"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1433
+#: src/components/_user/notification/notification.frontConfig.tsx:1436
 msgid "Tournament Started"
 msgstr "Turneul a început"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1401
+#: src/components/_user/notification/notification.frontConfig.tsx:1404
 msgid "Tournament Won!"
 msgstr "Turneu câștigat!"
 
@@ -6174,7 +6174,7 @@ msgstr "Deblochează butonul Ajută-i pe toți"
 msgid "Unlock Produce all button"
 msgstr "Deblochează butonul Produce tot"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1753
+#: src/components/_user/notification/notification.frontConfig.tsx:1756
 msgid "Unlocked pack"
 msgstr ""
 
@@ -6504,7 +6504,7 @@ msgstr "Salariu"
 msgid "Wage changed"
 msgstr "Salariu modificat"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:119
 msgid "Wage cost ({productionPoints} pts):"
 msgstr ""
 
@@ -6582,11 +6582,11 @@ msgstr "Balanță săptămânală"
 msgid "Weekly damages"
 msgstr "Daune săptămânale"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1645
+#: src/components/_user/notification/notification.frontConfig.tsx:1648
 msgid "Weekly Missions Reset"
 msgstr "Resetare Misiuni Săptămânale"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1086
+#: src/components/_user/notification/notification.frontConfig.tsx:1089
 msgid "Welcome"
 msgstr "Bine ai venit"
 
@@ -6595,7 +6595,7 @@ msgid "Welcome back {username}!"
 msgstr "Bine ai revenit {username}!"
 
 #: src/components/_user/auth/WelcomeModal.tsx:113
-#: src/components/_user/notification/notification.frontConfig.tsx:1087
+#: src/components/_user/notification/notification.frontConfig.tsx:1090
 msgid "Welcome to War Era!"
 msgstr "Bun venit pe War Era!"
 
@@ -6615,11 +6615,11 @@ msgstr "Producție completă"
 msgid "Why do you want to propose this law?"
 msgstr "Care este motivul legii?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"
 msgstr ""
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:195
 msgid "with bonus + fidelity"
 msgstr ""
 
@@ -6773,7 +6773,7 @@ msgstr "Vei fi aprobat automat, deoarece populația acestei țări este sub"
 msgid "You have a case!"
 msgstr "Ai o cutie!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1257
+#: src/components/_user/notification/notification.frontConfig.tsx:1260
 msgid "You have been demoted from commander in <0/> by <1/>"
 msgstr "Ai fost retrogradat din comandant în <0/> de <1/>"
 
@@ -6781,16 +6781,16 @@ msgstr "Ai fost retrogradat din comandant în <0/> de <1/>"
 msgid "You have been elected as the new leader of <0/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1243
+#: src/components/_user/notification/notification.frontConfig.tsx:1246
 msgid "You have been promoted to commander in <0/> by <1/>"
 msgstr "Ai fost promovat la comandant în <0/> de <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1229
+#: src/components/_user/notification/notification.frontConfig.tsx:1232
 msgid "You have been removed from <0/> by <1/>"
 msgstr "Ai fost eliminat din <0/> de <1/>"
 
 #. placeholder {0}: data.money
-#: src/components/_user/notification/notification.frontConfig.tsx:1351
+#: src/components/_user/notification/notification.frontConfig.tsx:1354
 msgid "You have been rewarded <0>{0}</0> for your contribution to the battle in <1/>"
 msgstr "Ai fost recompensat cu <0>{0}</0> pentru contribuția ta la bătălia din <1/>"
 
@@ -6870,13 +6870,13 @@ msgstr ""
 msgid "You need to equip a weapon first"
 msgstr "Echipează întâi o armă"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1173
+#: src/components/_user/notification/notification.frontConfig.tsx:1176
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
 msgstr "Cadoul tău Susținător de la <0/> a expirat! Ai lua în considerare să te abonezi și să susții jocul? 👉👈"
 
 #. placeholder {0}: data.muId ? ( <MuName muId={data.muId} /> ) : data.countryId ? ( <CountryName countryId={data.countryId} /> ) : ( 'your' )
 #. placeholder {1}: data.rank && ( <> position{' '} <Typo fw='bold' color='text1'> #{data.rank} </Typo> </> )
-#: src/components/_user/notification/notification.frontConfig.tsx:1483
+#: src/components/_user/notification/notification.frontConfig.tsx:1486
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "Ai primit o recompensă pentru {0} {1} în nivelul<0/> în clasamentul <1/>"
 
@@ -6885,11 +6885,11 @@ msgid "You sold items."
 msgstr "Ai vândut obiecte."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1561
+#: src/components/_user/notification/notification.frontConfig.tsx:1564
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1661
+#: src/components/_user/notification/notification.frontConfig.tsx:1664
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr ""
 
@@ -6897,12 +6897,12 @@ msgstr ""
 #~ msgid "You successfully gifted a banner to <0/>!"
 #~ msgstr "Ai dăruit cu succes o copertă pentru <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1138
+#: src/components/_user/notification/notification.frontConfig.tsx:1141
 msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "Ai dăruit cu succes un plan Susținător pentru <0/>!"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1725
+#: src/components/_user/notification/notification.frontConfig.tsx:1728
 msgid "You successfully gifted the skin pack \"{0}\" to <0/>!"
 msgstr ""
 
@@ -6977,12 +6977,12 @@ msgid "Your ancestors are proud"
 msgstr "Strămoșii tăi sunt mândri"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:379
-#: src/components/_user/notification/notification.frontConfig.tsx:1188
+#: src/components/_user/notification/notification.frontConfig.tsx:1191
 msgid "Your application to <0/> has been rejected"
 msgstr "Aplicația ta la <0/> a fost respinsă"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1622
+#: src/components/_user/notification/notification.frontConfig.tsx:1625
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr ""
 
@@ -6994,15 +6994,15 @@ msgstr "Cetățenia ta se va schimba"
 msgid "Your country"
 msgstr "Țara ta"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1014
+#: src/components/_user/notification/notification.frontConfig.tsx:1017
 msgid "Your country is under attack!"
 msgstr "Țara ta este atacată!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1028
+#: src/components/_user/notification/notification.frontConfig.tsx:1031
 msgid "Your country launched an attack!"
 msgstr "Țara ta a lansat un atac!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1059
+#: src/components/_user/notification/notification.frontConfig.tsx:1062
 msgid "Your country started a revolt in <0/> against <1/>"
 msgstr "Țara ta a început o revoltă în <0/> împotriva <1/>"
 
@@ -7018,7 +7018,7 @@ msgstr "Locul tău de muncă actual"
 msgid "Your current order"
 msgstr "Comanda ta actuală"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1635
+#: src/components/_user/notification/notification.frontConfig.tsx:1638
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Misiunile tale zilnice au fost resetate! Completează-le pentru a câștiga recompense."
 
@@ -7078,11 +7078,11 @@ msgstr "Ofertele tale"
 msgid "Your party name"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1120
+#: src/components/_user/notification/notification.frontConfig.tsx:1123
 msgid "Your premium subscription has been activated!"
 msgstr "Planul Susținător a fost activat!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1129
+#: src/components/_user/notification/notification.frontConfig.tsx:1132
 msgid "Your premium subscription has expired!"
 msgstr "Planul Susținător a expirat!"
 
@@ -7094,11 +7094,11 @@ msgstr "Rangul tau"
 msgid "Your referral link"
 msgstr "Link-ul tău de recomandare"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1462
+#: src/components/_user/notification/notification.frontConfig.tsx:1465
 msgid "Your team <0/> has been eliminated from the <1/>"
 msgstr "Echipa ta <0/> a fost eliminată din <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1373
+#: src/components/_user/notification/notification.frontConfig.tsx:1376
 msgid "Your team <0/> won a round in <1/>!"
 msgstr "Echipa ta <0/> a câștigat o rundă în <1/>!"
 
@@ -7112,7 +7112,7 @@ msgstr "Echipa ta:"
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "Salariul tău în <0/> s-a schimbat de la <1>{0}</1> la <2>{1}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1647
+#: src/components/_user/notification/notification.frontConfig.tsx:1650
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Misiunile tale săptămânale au fost resetate! Completează-le pentru a câștiga recompense."
 

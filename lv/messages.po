@@ -141,7 +141,7 @@ msgstr "*Var aizdegties"
 #~ msgstr "+{0}% no stratēģiskajiem resursiem"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:392
-#: src/components/_user/notification/notification.frontConfig.tsx:1215
+#: src/components/_user/notification/notification.frontConfig.tsx:1218
 msgid "<0/> applied to join <1/>"
 msgstr "<0/> pieteicās pievienoties <1/>"
 
@@ -160,7 +160,7 @@ msgstr "<0/> ar <1>{0}</1> algu.{1}"
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> pērk jūsu reģionu <1/> par <2>{0}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:913
+#: src/components/_user/notification/notification.frontConfig.tsx:916
 msgid "<0/> commented on your article <1/>"
 msgstr "<0/> atstāja komentāru zem tava raksta <1/>"
 
@@ -174,7 +174,7 @@ msgstr "<0/> aizstāvēja <1/>"
 
 #. placeholder {0}: data.amount
 #: src/components/_user/notification/notification.frontConfig.tsx:406
-#: src/components/_user/notification/notification.frontConfig.tsx:1289
+#: src/components/_user/notification/notification.frontConfig.tsx:1292
 msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> ziedoja <2/> <1>{0}</1>"
 
@@ -183,12 +183,12 @@ msgstr "<0/> ziedoja <2/> <1>{0}</1>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> atlaida tevi no darba uzņēmumā <1>{0}</1> ar algu <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1152
+#: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> tev uzdāvināja premium abonementu!"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1592
+#: src/components/_user/notification/notification.frontConfig.tsx:1595
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> uzdāvināja tev baneri \"{0}\"!"
 
@@ -196,16 +196,16 @@ msgstr "<0/> uzdāvināja tev baneri \"{0}\"!"
 #~ msgid "<0/> gifted you the skin \"{0}\"!"
 #~ msgstr "<0/> uzdāvināja tev veidolu \"{0}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1693
+#: src/components/_user/notification/notification.frontConfig.tsx:1696
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr "<0/> uzdāvināja tev veidolu \"{skinTitle}\"!"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1756
+#: src/components/_user/notification/notification.frontConfig.tsx:1759
 msgid "<0/> gifted you the skin pack \"{0}\"!"
 msgstr "<0/> uzdāvināja tev veidolu komplektu \"{0}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1422
+#: src/components/_user/notification/notification.frontConfig.tsx:1425
 msgid "<0/> has been created, it gonna start soon!"
 msgstr "<0/> tika izveidots, tas drīz sāksies!"
 
@@ -217,23 +217,23 @@ msgstr "<0/> tika izveidots, tas drīz sāksies!"
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> tika ievēlēts par <1/> valsts prezidentu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1074
+#: src/components/_user/notification/notification.frontConfig.tsx:1077
 msgid "<0/> has started a revolution in <1/>"
 msgstr "<0/> ir uzsācis revolūciju <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1435
+#: src/components/_user/notification/notification.frontConfig.tsx:1438
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> ir sācies! Lai sākas cīņas!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1030
+#: src/components/_user/notification/notification.frontConfig.tsx:1033
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/> uzbrūk <1/> reģionā <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1016
+#: src/components/_user/notification/notification.frontConfig.tsx:1019
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> uzbrūk tavai valstij reģionā <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1045
+#: src/components/_user/notification/notification.frontConfig.tsx:1048
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> saceļas reģionā <1/> pret tavu valsti"
 
@@ -255,15 +255,15 @@ msgstr "<0/> pievienojās tavam uzņēmumam <1/> par <2>{0}</2> algu"
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> pameta darbu tavā uzņēmumā {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:898
+#: src/components/_user/notification/notification.frontConfig.tsx:901
 msgid "<0/> liked your article <1/>"
 msgstr "<0/> atzīmēja tavu rakstu <1/> ar Patīk"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:961
+#: src/components/_user/notification/notification.frontConfig.tsx:964
 msgid "<0/> liked your message <1/>"
 msgstr "<0/> atzīmēja tavu ziņu <1/> ar Patīk"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1303
+#: src/components/_user/notification/notification.frontConfig.tsx:1306
 msgid "<0/> mentioned you in a message <1/>"
 msgstr "<0/> pieminēja tevi ziņā <1/>"
 
@@ -271,7 +271,7 @@ msgstr "<0/> pieminēja tevi ziņā <1/>"
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> Prioritāte beidzas pēc <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:884
+#: src/components/_user/notification/notification.frontConfig.tsx:885
 msgid "<0/> published a new article"
 msgstr "<0/> publicēja jaunu rakstu"
 
@@ -280,15 +280,15 @@ msgid "<0/> referred you to the game."
 msgstr "<0/> ieteica tev šo spēli."
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:988
+#: src/components/_user/notification/notification.frontConfig.tsx:991
 msgid "<0/> responded to your message {0}"
 msgstr "<0/> atbildēja uz tavu ziņu {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:947
+#: src/components/_user/notification/notification.frontConfig.tsx:950
 msgid "<0/> subscribed to you on your article <1/>"
 msgstr "<0/> piesekoja tev rakstā <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:928
+#: src/components/_user/notification/notification.frontConfig.tsx:931
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> atstāja tev dzeramnaudu rakstā <1/>"
 
@@ -926,7 +926,7 @@ msgid "A deposit has been found in this region, it can be exploited by companies
 msgstr "Šajā reģionā tika atrasta atradne. Uzņēmumi to var izmantot, lai ražotu izejvielas."
 
 #. placeholder {0}: data.prize
-#: src/components/_user/notification/notification.frontConfig.tsx:1540
+#: src/components/_user/notification/notification.frontConfig.tsx:1543
 msgid "A new giveaway for {0} cases has started! Join now!"
 msgstr "Jauna izloze par {0} kastēm ir sākusies! Pievienojies!"
 
@@ -979,7 +979,8 @@ msgstr "Pieņemts"
 #: src/components/_user/user/UserHeader.tsx:162
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
-#: src/pages/user/[userId]/account.tsx:25 src/pages/user/[userId]/index.tsx:149
+#: src/pages/user/[userId]/account.tsx:25
+#: src/pages/user/[userId]/index.tsx:149
 msgid "Account"
 msgstr "Profils"
 
@@ -1034,7 +1035,7 @@ msgstr "Administrators"
 msgid "Admin Actions"
 msgstr "Administratora Darbības"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1095
+#: src/components/_user/notification/notification.frontConfig.tsx:1098
 msgid "Admin notification"
 msgstr "Administratora paziņojums"
 
@@ -1158,7 +1159,8 @@ msgstr "Šķiet gandrīz kā krāpšanās"
 msgid "Almost ready..."
 msgstr "Gandrīz gatavs..."
 
-#: src/components/_user/UserEquipments.tsx:116 src/utils/translations.tsx:35
+#: src/components/_user/UserEquipments.tsx:116
+#: src/utils/translations.tsx:35
 msgid "Ammo"
 msgstr "Munīcija"
 
@@ -1231,6 +1233,7 @@ msgstr "Kartes fons"
 msgid "Application fee"
 msgstr "Pieteikšanās maksa"
 
+#: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:62
 #: src/pages/country/[countryId]/citizenship.tsx:44
 msgid "Apply"
 msgstr "Pieteikties"
@@ -1281,7 +1284,7 @@ msgstr "Bruņas"
 msgid "Article ID"
 msgstr "Raksta ID"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:896
+#: src/components/_user/notification/notification.frontConfig.tsx:899
 msgid "Article liked"
 msgstr "Raksts patika"
 
@@ -1289,7 +1292,7 @@ msgstr "Raksts patika"
 msgid "Article Tip"
 msgstr "Dzeramnauda"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:926
+#: src/components/_user/notification/notification.frontConfig.tsx:929
 msgid "Article tipped"
 msgstr "Dzeramnauda atstāta"
 
@@ -1388,15 +1391,15 @@ msgstr "Bankrots"
 msgid "Banned"
 msgstr "Nobanots"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1620
+#: src/components/_user/notification/notification.frontConfig.tsx:1623
 msgid "Banner Accepted!"
 msgstr "Baners Pieņemts!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1589
+#: src/components/_user/notification/notification.frontConfig.tsx:1592
 msgid "Banner gift received"
 msgstr "Banera dāvana saņemta"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1558
+#: src/components/_user/notification/notification.frontConfig.tsx:1561
 msgid "Banner gift sent"
 msgstr "Banera dāvana nosūtīta"
 
@@ -1443,7 +1446,7 @@ msgstr "Kauja beidzās"
 msgid "Battle opened"
 msgstr "Kauja sākās"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1349
+#: src/components/_user/notification/notification.frontConfig.tsx:1352
 msgid "Battle Ranking Reward"
 msgstr "Kaujas Kopvērtējuma Atlīdzība"
 
@@ -1980,20 +1983,20 @@ msgid "Congratulations! You have been elected to the council of <0/>"
 msgstr "Apsveicam! Tu tiki ievēlēts par <0/> padomes locekli"
 
 #. placeholder {0}: militaryRankingConfig[data.rank].percentDamages
-#: src/components/_user/notification/notification.frontConfig.tsx:1328
+#: src/components/_user/notification/notification.frontConfig.tsx:1331
 msgid "Congratulations! You have been promoted to <0/> with an attack bonus of <1>{0}</1>"
 msgstr "Apsveicam! Tu tiki paaugstināts par <0/> ar uzbrukuma bonusu <1>{0}</1>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1524
+#: src/components/_user/notification/notification.frontConfig.tsx:1527
 msgid "Congratulations! You won the giveaway and received cases!"
 msgstr "Apsveicam! Tu laimēji izlozē un dabūji kastes!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:365
-#: src/components/_user/notification/notification.frontConfig.tsx:1201
+#: src/components/_user/notification/notification.frontConfig.tsx:1204
 msgid "Congratulations! Your application to <0/> has been accepted"
 msgstr "Apsveicam! Tavs pieteikums uz <0/> tika pieņemts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1403
+#: src/components/_user/notification/notification.frontConfig.tsx:1406
 msgid "Congratulations! Your team <0/> won the tournament <1/>!"
 msgstr "Apsveicam! Tava komanda <0/> uzvarēja turnīrā <1/>!"
 
@@ -2033,7 +2036,6 @@ msgstr "Kongresa vēlēšanas"
 #: src/components/_political/party/party.frontConfig.tsx:204
 msgid "Congress has a minimum of <0>{0} seats</0>."
 msgstr "Kongresā ir vismaz <0>{0} vietas</0>."
-
 
 #: src/components/_political/party/party.frontConfig.tsx:149
 #~ msgid "Congress has a minimum of <0>10 seats</0>."
@@ -2249,7 +2251,7 @@ msgstr "Dienas"
 msgid "Daily maintenance"
 msgstr "Ikdienas uzturēšana"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1633
+#: src/components/_user/notification/notification.frontConfig.tsx:1636
 msgid "Daily Missions Reset"
 msgstr "Jauni Dienas Uzdevumi"
 
@@ -2397,7 +2399,7 @@ msgstr "Izdzēst profilu"
 msgid "Delete your account"
 msgstr "Izdzēst savu profilu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1255
+#: src/components/_user/notification/notification.frontConfig.tsx:1258
 msgid "Demoted from Commander"
 msgstr "Pazemināts no Komandiera pakāpes"
 
@@ -2717,7 +2719,8 @@ msgstr "Ievadi lietotājvārdu, kuru vēlies nominēt"
 msgid "Entrepreneurship"
 msgstr "Uzņēmējdarbība"
 
-#: src/pages/market/index.tsx:71 src/pages/user/[userId]/index.tsx:90
+#: src/pages/market/index.tsx:71
+#: src/pages/user/[userId]/index.tsx:90
 #: src/pages/user/[userId]/inventory.tsx:58
 msgid "Equipment"
 msgstr "Ekipējums"
@@ -2739,7 +2742,7 @@ msgstr "Ekipējumi"
 msgid "Error"
 msgstr "Kļūda"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:103
 msgid "Estimated benefit per"
 msgstr "Aplēse par"
 
@@ -2843,7 +2846,7 @@ msgstr "Pasaulē"
 msgid "Fidelity Bonus"
 msgstr "Uzticības Bonuss"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:164
 msgid "Fidelity bonus:"
 msgstr "Uzticības bonuss:"
 
@@ -3078,15 +3081,15 @@ msgstr "Dot naudu"
 msgid "Give your token a descriptive name so you can identify it later."
 msgstr "Iedod savam žetonam raksturojošu nosaukumu, lai varētu to vēlāk atpazīt."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1550
+#: src/components/_user/notification/notification.frontConfig.tsx:1553
 msgid "Giveaway Ended"
 msgstr "Izloze Beigusies"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1538
+#: src/components/_user/notification/notification.frontConfig.tsx:1541
 msgid "Giveaway Started"
 msgstr "Izloze Sākusies"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1522
+#: src/components/_user/notification/notification.frontConfig.tsx:1525
 msgid "Giveaway Won!"
 msgstr "Izloze Uzvarēta!"
 
@@ -3301,14 +3304,14 @@ msgstr "Nodokļu ienākumi palielinas par <0>{0}</0>."
 msgid "Income tax"
 msgstr "Ienākuma nodoklis"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:20
-#~ msgid "Industrialism"
-#~ msgstr "Industriālisms"
-
 #: src/components/_economy/company/CompanyTags.tsx:49
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:167
 msgid "Income Tax"
 msgstr "Ienākuma Nodoklis"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:20
+#~ msgid "Industrialism"
+#~ msgstr "Industriālisms"
 
 #: src/components/_political/party/party.frontConfig.tsx:316
 msgid "Industrialism vs Agrarianism"
@@ -3800,7 +3803,7 @@ msgstr "Biedru Pieteikumi"
 msgid "Members"
 msgstr "Biedri"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1301
+#: src/components/_user/notification/notification.frontConfig.tsx:1304
 msgid "Mentioned in message"
 msgstr "Tu esi pieminēts ziņā"
 
@@ -3812,7 +3815,7 @@ msgstr "Tu esi pieminēts ziņā"
 msgid "Message (Optional)"
 msgstr "Ziņa, ko nodot (neobligāti)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:959
+#: src/components/_user/notification/notification.frontConfig.tsx:962
 msgid "Message liked"
 msgstr "Kādam patika tava ziņa"
 
@@ -3833,7 +3836,7 @@ msgstr "Militārie likumi"
 msgid "Military Rank"
 msgstr "Dienesta Pakāpe"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1326
+#: src/components/_user/notification/notification.frontConfig.tsx:1329
 msgid "Military Rank Up!"
 msgstr "Jauna dienesta pakāpe!"
 
@@ -3950,19 +3953,19 @@ msgstr "Pārvietots uz citu uzņēmumu"
 msgid "MU"
 msgstr "MV"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1199
+#: src/components/_user/notification/notification.frontConfig.tsx:1202
 msgid "MU Application Accepted"
 msgstr "MV Pieteikums Pieņemts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1186
+#: src/components/_user/notification/notification.frontConfig.tsx:1189
 msgid "MU Application Rejected"
 msgstr "MV Pieteikums Noraidīts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1287
+#: src/components/_user/notification/notification.frontConfig.tsx:1290
 msgid "MU Donation Received"
 msgstr "MV Ziedojums Saņemts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1269
+#: src/components/_user/notification/notification.frontConfig.tsx:1272
 msgid "MU Ownership Transferred"
 msgstr "MV īpašuma tiesības nodotas"
 
@@ -4015,7 +4018,7 @@ msgstr "Nosaukums"
 msgid "Need a job?"
 msgstr "Vajag darbu?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:173
 msgid "Net benefit:"
 msgstr "Netto labums:"
 
@@ -4041,7 +4044,7 @@ msgstr "Jauns API Žetons izveidots"
 msgid "New article"
 msgstr "Jauns raksts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:911
+#: src/components/_user/notification/notification.frontConfig.tsx:914
 msgid "New comment"
 msgstr "Jauns komentārs"
 
@@ -4071,7 +4074,7 @@ msgstr "Jaunā atrašanās vieta"
 msgid "New military unit"
 msgstr "Jauna militārā vienība"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1213
+#: src/components/_user/notification/notification.frontConfig.tsx:1216
 msgid "New MU Application"
 msgstr "Jauns MV Pieteikums"
 
@@ -4100,7 +4103,7 @@ msgstr "Jauns ielūgtais lietotājs"
 msgid "New referrer"
 msgstr "Jauns ieteicējs"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:945
+#: src/components/_user/notification/notification.frontConfig.tsx:948
 msgid "New subscriber"
 msgstr "Jauns sekotājs"
 
@@ -4368,7 +4371,7 @@ msgstr "Tikai prezidenti var pieteikt savu valsti"
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Tikai atbalstītāji var redzēt savu tēriņu un ienākumu sadalījumu."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:454
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:451
 msgid "Open"
 msgstr "Atvērt"
 
@@ -4376,7 +4379,7 @@ msgstr "Atvērt"
 msgid "Open <0>{count}</0>"
 msgstr "Atver <0>{count}</0>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:474
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:471
 msgid "Open case"
 msgstr "Atvērt kasti"
 
@@ -4459,7 +4462,7 @@ msgstr "Piederošie"
 msgid "Owned Military Units"
 msgstr "Piederošās Militārās Vienības"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1271
+#: src/components/_user/notification/notification.frontConfig.tsx:1274
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "Īpašumtiesības <0/> tika pārceltas no <1/> uz <2/>"
 
@@ -4638,23 +4641,23 @@ msgstr "Precizitāte"
 msgid "Premium"
 msgstr "Premium"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1118
+#: src/components/_user/notification/notification.frontConfig.tsx:1121
 msgid "Premium activated"
 msgstr "Premium aktivizēts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1128
+#: src/components/_user/notification/notification.frontConfig.tsx:1131
 msgid "Premium expired"
 msgstr "Premium ir beidzies"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1171
+#: src/components/_user/notification/notification.frontConfig.tsx:1174
 msgid "Premium gift expired"
 msgstr "Premium gift expired"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1149
+#: src/components/_user/notification/notification.frontConfig.tsx:1152
 msgid "Premium gift received"
 msgstr "Premium dāvana ir beigusies"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1136
+#: src/components/_user/notification/notification.frontConfig.tsx:1139
 msgid "Premium gift sent"
 msgstr "Premium dāvana saņemta"
 
@@ -4765,7 +4768,7 @@ msgstr "Ražošanas bonuss"
 #~ msgid "Production bonus from deposit resources in this region."
 #~ msgstr "Ražošanas bonuss no atradnēm šajā reģionā."
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:156
 msgid "Production bonus:"
 msgstr "Ražosānas bonuss:"
 
@@ -4781,7 +4784,7 @@ msgstr "Ražošanas stabiņš ir pilns"
 msgid "Profile"
 msgstr "Profils"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1241
+#: src/components/_user/notification/notification.frontConfig.tsx:1244
 msgid "Promoted to Commander"
 msgstr "Paaugstināts Komandiera amatā"
 
@@ -4869,7 +4872,7 @@ msgstr "Ātri izjauc ekipējumus"
 msgid "Ranking loot chance"
 msgstr "Kopvērtējuma laupījuma iespēja"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1481
+#: src/components/_user/notification/notification.frontConfig.tsx:1484
 msgid "Ranking Reward"
 msgstr "Kopvērtējuma Atlīdzība"
 
@@ -4883,7 +4886,7 @@ msgstr "Kopvērtējums"
 msgid "Ranks"
 msgstr "Kopvērt."
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:128
 msgid "Raw materials:"
 msgstr "Izejvielas:"
 
@@ -5020,7 +5023,7 @@ msgstr "Reģions"
 msgid "Region buy offer"
 msgstr "Reģiona pirkšanas piedāvājums"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1043
+#: src/components/_user/notification/notification.frontConfig.tsx:1046
 msgid "Region is revolting!"
 msgstr "Reģionā notiek sacelšanās!"
 
@@ -5123,20 +5126,20 @@ msgstr "Noņemt padomes biedru"
 msgid "Remove Description"
 msgstr "Noņemt aprakstu"
 
-#: src/components/_other/ActionLogList.tsx:64
-#~ msgid "Remove mercenary"
-#~ msgstr "Noņemt algotni"
-
 #: src/components/_political/law/law.frontConfig.tsx:276
 msgid "Remove enemy"
 msgstr "Noņemt valsts ienaidnieku"
+
+#: src/components/_other/ActionLogList.tsx:64
+#~ msgid "Remove mercenary"
+#~ msgstr "Noņemt algotni"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:60
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:63
 msgid "Remove the current party leader from their position"
 msgstr "Atlaist esošo partijas līderi no līdera pozīcijas"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1227
+#: src/components/_user/notification/notification.frontConfig.tsx:1230
 msgid "Removed from Military Unit"
 msgstr "Izmests no Militārās Vienības"
 
@@ -5231,7 +5234,7 @@ msgstr "Resursi"
 msgid "Resources reshuffled"
 msgstr "Resursu pārdalīšana"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:986
+#: src/components/_user/notification/notification.frontConfig.tsx:989
 msgid "Response to message"
 msgstr "Atbilde uz ziņu"
 
@@ -5247,7 +5250,7 @@ msgstr "Atgriezt reģionu tā īstajai valstij"
 msgid "Revoke API token?"
 msgstr "Atsaukt API žetonu?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1057
+#: src/components/_user/notification/notification.frontConfig.tsx:1060
 msgid "Revolt started!"
 msgstr "Dumpis ir sācies!"
 
@@ -5263,7 +5266,7 @@ msgstr "Revolūcija ir beigusies"
 msgid "Revolution started"
 msgstr "Revolūcija ir sākusies"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1072
+#: src/components/_user/notification/notification.frontConfig.tsx:1075
 msgid "Revolution started!"
 msgstr "Ir sākusies revolūcija!"
 
@@ -5444,7 +5447,7 @@ msgstr "Pārdots!"
 msgid "Sell orders"
 msgstr "Pārdošanas rīkojumi"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:111
 msgid "Sell price:"
 msgstr "Pārdošanas cena:"
 
@@ -5591,15 +5594,15 @@ msgstr "Uzlabosim tavas prasmes! Tās padara tevi spēcīgāku."
 msgid "Skills saved!"
 msgstr "Prasmes saglabātas!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1690
+#: src/components/_user/notification/notification.frontConfig.tsx:1693
 msgid "Skin gift received"
 msgstr "Saņemta veidola dāvana"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1658
+#: src/components/_user/notification/notification.frontConfig.tsx:1661
 msgid "Skin gift sent"
 msgstr "Veidola dāvana nosūtīta"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1722
+#: src/components/_user/notification/notification.frontConfig.tsx:1725
 msgid "Skin pack gift sent"
 msgstr "Veidolu komplekta dāvana nosūtīta"
 
@@ -5911,7 +5914,7 @@ msgstr "Dubultās pieredzes iegūšanas notikums ir beidzies."
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Tablešu effekts ir beidzies. Tagad tev ir paģiras, kas ilgs <0>{debuffDuration}h</0>."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1551
+#: src/components/_user/notification/notification.frontConfig.tsx:1554
 msgid "The giveaway has ended. Check if you won!"
 msgstr "Izloze ir beigusies. Pārliecinies vai tu neesi uzvarējis!"
 
@@ -5919,7 +5922,7 @@ msgstr "Izloze ir beigusies. Pārliecinies vai tu neesi uzvarējis!"
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Stratēģiskie resursi tiks pārkārtoti pēc sekojoša laika perioda."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1448
+#: src/components/_user/notification/notification.frontConfig.tsx:1451
 msgid "The tournament has ended for your team <0/>. Check the results!"
 msgstr "Tavai komandai <0/> šis turnīrs ir beidzies. Vari aplūkot kopvērtējumu!"
 
@@ -6037,7 +6040,7 @@ msgstr "kopā"
 msgid "Total"
 msgstr "Kopā"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:439
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:436
 msgid "Total cases opened:"
 msgstr "Kastes atvērtas:"
 
@@ -6055,27 +6058,27 @@ msgstr "Kopā Noziedots:"
 msgid "Tournament"
 msgstr "Turnīrs"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1420
+#: src/components/_user/notification/notification.frontConfig.tsx:1423
 msgid "Tournament Created"
 msgstr "Turnīrs Izveidots"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1460
+#: src/components/_user/notification/notification.frontConfig.tsx:1463
 msgid "Tournament Eliminated"
 msgstr "Komanda izslēgta no turnīra"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1446
+#: src/components/_user/notification/notification.frontConfig.tsx:1449
 msgid "Tournament Ended"
 msgstr "Turnīrs Beidzies"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1371
+#: src/components/_user/notification/notification.frontConfig.tsx:1374
 msgid "Tournament Round Won"
 msgstr "Turnīra Raunds Uzvarēts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1433
+#: src/components/_user/notification/notification.frontConfig.tsx:1436
 msgid "Tournament Started"
 msgstr "Sākās turnīrs"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1401
+#: src/components/_user/notification/notification.frontConfig.tsx:1404
 msgid "Tournament Won!"
 msgstr "Turnīrs uzvarēts!"
 
@@ -6164,7 +6167,7 @@ msgstr "Iegūsti \"Palīdzēt visiem\" pogu"
 msgid "Unlock Produce all button"
 msgstr "Iegūsti \"Ražot visu\" pogu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1753
+#: src/components/_user/notification/notification.frontConfig.tsx:1756
 msgid "Unlocked pack"
 msgstr "Komplekts iegūts"
 
@@ -6234,13 +6237,13 @@ msgstr "Apstiprināt darbinieka izmaiņas"
 msgid "Upgrade a company"
 msgstr "Uzlabot uzņēmumu"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:369
-msgid "Upgrade Company"
-msgstr "Uzlabot Uzņēmumu"
-
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:130
 #~ msgid "Upgrade a moderate ethic to its fanatic version"
 #~ msgstr "Uzlabot vidējo ideoloģiju uz tās fanātisko versiju"
+
+#: src/components/_user/mission/mission.frontConfig.tsx:369
+msgid "Upgrade Company"
+msgstr "Uzlabot Uzņēmumu"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:438
 msgid "Upgrade Skills"
@@ -6494,7 +6497,7 @@ msgstr "Alga"
 msgid "Wage changed"
 msgstr "Alga mainīta"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:119
 msgid "Wage cost ({productionPoints} pts):"
 msgstr "Algas maksa cost ({productionPoints} punkti):"
 
@@ -6572,11 +6575,11 @@ msgstr "Nedēļas bilance"
 msgid "Weekly damages"
 msgstr "Nedēļas bojājumi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1645
+#: src/components/_user/notification/notification.frontConfig.tsx:1648
 msgid "Weekly Missions Reset"
 msgstr "Jauni Nedēļas Uzdevumi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1086
+#: src/components/_user/notification/notification.frontConfig.tsx:1089
 msgid "Welcome"
 msgstr "Laipni lūgts"
 
@@ -6585,7 +6588,7 @@ msgid "Welcome back {username}!"
 msgstr "Ar atgriešanos {username}!"
 
 #: src/components/_user/auth/WelcomeModal.tsx:113
-#: src/components/_user/notification/notification.frontConfig.tsx:1087
+#: src/components/_user/notification/notification.frontConfig.tsx:1090
 msgid "Welcome to War Era!"
 msgstr "Laipni lūgts Kara Laikmetā!"
 
@@ -6605,11 +6608,11 @@ msgstr "Kopā saražots"
 msgid "Why do you want to propose this law?"
 msgstr "Kādēļ gribi ierosināt šo likumu?"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"
 msgstr "ar bonusu"
 
-#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:195
 msgid "with bonus + fidelity"
 msgstr "ar bonusu + uzticību"
 
@@ -6763,7 +6766,7 @@ msgstr "Tevi automātiski pieņems, jo šīs valsts iedzīvotāju skaits ir zem"
 msgid "You have a case!"
 msgstr "Tev ir kaste!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1257
+#: src/components/_user/notification/notification.frontConfig.tsx:1260
 msgid "You have been demoted from commander in <0/> by <1/>"
 msgstr "<1/> atstādināja tevi no <0/> komandiera amata"
 
@@ -6771,16 +6774,16 @@ msgstr "<1/> atstādināja tevi no <0/> komandiera amata"
 msgid "You have been elected as the new leader of <0/>"
 msgstr "Tu esi ievēlēts par jauno <0/> līderi"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1243
+#: src/components/_user/notification/notification.frontConfig.tsx:1246
 msgid "You have been promoted to commander in <0/> by <1/>"
 msgstr "<1/> iecēla tevi par <0/> komandieri"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1229
+#: src/components/_user/notification/notification.frontConfig.tsx:1232
 msgid "You have been removed from <0/> by <1/>"
 msgstr "<1/> atstādināja tevi no <0/>"
 
 #. placeholder {0}: data.money
-#: src/components/_user/notification/notification.frontConfig.tsx:1351
+#: src/components/_user/notification/notification.frontConfig.tsx:1354
 msgid "You have been rewarded <0>{0}</0> for your contribution to the battle in <1/>"
 msgstr "Tevi atalgoja <0>{0}</0> par dalību <1/> kaujā"
 
@@ -6860,13 +6863,13 @@ msgstr "Tev ir jāizmanto visi 3 ideoloģijas punkti ({pointsRemaining} atlikuš
 msgid "You need to equip a weapon first"
 msgstr "Uzvelc ieroci vispirms"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1173
+#: src/components/_user/notification/notification.frontConfig.tsx:1176
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
 msgstr "Premium dāvanas termiņš no <0/> ir iztecējis! Varbūt tu vēlies atbalstīt spēli abonējot premium? 👉👈"
 
 #. placeholder {0}: data.muId ? ( <MuName muId={data.muId} /> ) : data.countryId ? ( <CountryName countryId={data.countryId} /> ) : ( 'your' )
 #. placeholder {1}: data.rank && ( <> position{' '} <Typo fw='bold' color='text1'> #{data.rank} </Typo> </> )
-#: src/components/_user/notification/notification.frontConfig.tsx:1483
+#: src/components/_user/notification/notification.frontConfig.tsx:1486
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "Tu saņēmi balvu par {0} {1} sasniedzot <0/> kārtu, kopvērtējumā <1/>"
 
@@ -6875,11 +6878,11 @@ msgid "You sold items."
 msgstr "Tu pārdevi preces."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1561
+#: src/components/_user/notification/notification.frontConfig.tsx:1564
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr "<0/> saņēma tavu dāvināto \"{0}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1661
+#: src/components/_user/notification/notification.frontConfig.tsx:1664
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "Tu uzdāvināji <0/> \"{skinTitle}\" veidolu!"
 
@@ -6887,12 +6890,12 @@ msgstr "Tu uzdāvināji <0/> \"{skinTitle}\" veidolu!"
 #~ msgid "You successfully gifted a banner to <0/>!"
 #~ msgstr "Tu uzdāvināji baneri <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1138
+#: src/components/_user/notification/notification.frontConfig.tsx:1141
 msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "Tu uzdāvināji premium abonementu <0/>!"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1725
+#: src/components/_user/notification/notification.frontConfig.tsx:1728
 msgid "You successfully gifted the skin pack \"{0}\" to <0/>!"
 msgstr "Tu uzdāvināji \"{0}\" veidolu komplektu <0/>!"
 
@@ -6967,12 +6970,12 @@ msgid "Your ancestors are proud"
 msgstr "Tavi senči ir lepni"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:379
-#: src/components/_user/notification/notification.frontConfig.tsx:1188
+#: src/components/_user/notification/notification.frontConfig.tsx:1191
 msgid "Your application to <0/> has been rejected"
 msgstr "Tavs pieteikums <0/> tika noraidīts"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1622
+#: src/components/_user/notification/notification.frontConfig.tsx:1625
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "Tavs baneris \"{0}\" tika pieņemts un tagad ir pieejams veikalā! Tas arī ir automātiski pieejams tev."
 
@@ -6984,15 +6987,15 @@ msgstr "Tava pilsonība mainīsies"
 msgid "Your country"
 msgstr "Valsts"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1014
+#: src/components/_user/notification/notification.frontConfig.tsx:1017
 msgid "Your country is under attack!"
 msgstr "Tavai valstij uzbrūk!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1028
+#: src/components/_user/notification/notification.frontConfig.tsx:1031
 msgid "Your country launched an attack!"
 msgstr "Tava valsts uzsāka uzbrukumu!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1059
+#: src/components/_user/notification/notification.frontConfig.tsx:1062
 msgid "Your country started a revolt in <0/> against <1/>"
 msgstr "Tava valsts uzsāka sacelšanos <0/> reģionā pret <1/>"
 
@@ -7008,7 +7011,7 @@ msgstr "Tava darba vieta"
 msgid "Your current order"
 msgstr "Tavs pašreizējais sludinājums"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1635
+#: src/components/_user/notification/notification.frontConfig.tsx:1638
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Ikdienas uzdevumi ir atjaunoti! Izpildi tos, lai saņemtu atlīdzību."
 
@@ -7068,11 +7071,11 @@ msgstr "Tavi sludinājumi"
 msgid "Your party name"
 msgstr "Tavas partijas nosaukums"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1120
+#: src/components/_user/notification/notification.frontConfig.tsx:1123
 msgid "Your premium subscription has been activated!"
 msgstr "Tavs premium abonements ir aktivizēts!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1129
+#: src/components/_user/notification/notification.frontConfig.tsx:1132
 msgid "Your premium subscription has expired!"
 msgstr "Tavs premium abonements ir beidzies!"
 
@@ -7084,11 +7087,11 @@ msgstr "Tava pozīcija reitingā"
 msgid "Your referral link"
 msgstr "Tava ielūguma adrese"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1462
+#: src/components/_user/notification/notification.frontConfig.tsx:1465
 msgid "Your team <0/> has been eliminated from the <1/>"
 msgstr "Tava komanda <0/> tika izslēgta no <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1373
+#: src/components/_user/notification/notification.frontConfig.tsx:1376
 msgid "Your team <0/> won a round in <1/>!"
 msgstr "Tava komanda <0/> uzvarēja turnīra <1/> kārtā!"
 
@@ -7102,7 +7105,7 @@ msgstr "Tava komanda:"
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "Tava alga <0/> mainijās no <1>{0}</1> uz <2>{1}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1647
+#: src/components/_user/notification/notification.frontConfig.tsx:1650
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Tev ir jauni nedēļas uzdevumi! Izpildi tos, lai saņemtu atlīdzību."
 
