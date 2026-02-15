@@ -902,7 +902,8 @@ msgstr "Прийнято"
 #: src/components/_user/user/UserHeader.tsx:162
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
-#: src/pages/user/[userId]/account.tsx:25 src/pages/user/[userId]/index.tsx:149
+#: src/pages/user/[userId]/account.tsx:25 
+#: src/pages/user/[userId]/index.tsx:149
 msgid "Account"
 msgstr "Рахунок"
 
@@ -2489,7 +2490,8 @@ msgstr "Введіть прізвисько користувача для при
 msgid "Entrepreneurship"
 msgstr "Підприємливість"
 
-#: src/pages/market/index.tsx:71 src/pages/user/[userId]/index.tsx:90
+#: src/pages/market/index.tsx:71 
+#: src/pages/user/[userId]/index.tsx:90
 #: src/pages/user/[userId]/inventory.tsx:58
 msgid "Equipment"
 msgstr "Спорядження"
@@ -2651,7 +2653,8 @@ msgstr "Профінансувати закордонний спротив"
 msgid "Finance local resistance"
 msgstr "Профінансувати місцевий спротив"
 
-#: src/pages/companies.tsx:90 src/pages/user/[userId]/companies.tsx:73
+#: src/pages/companies.tsx:90 
+#: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Знайти роботу"
 
@@ -2825,7 +2828,8 @@ msgstr "Виграш у розіграші!"
 msgid "Globe (experimental)"
 msgstr "Глобус (експериментально)"
 
-#: src/components/_user/UserEquipments.tsx:196 src/utils/translations.tsx:189
+#: src/components/_user/UserEquipments.tsx:196 
+#: src/utils/translations.tsx:189
 msgid "Gloves"
 msgstr "Рукавиці"
 
@@ -3038,9 +3042,12 @@ msgstr "Новобранець"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154 src/pages/companies.tsx:50
-#: src/pages/country/[countryId]/account.tsx:24 src/pages/market/index.tsx:49
-#: src/pages/user/[userId]/account.tsx:19 src/pages/user/[userId]/bans.tsx:100
+#: src/components/_user/user/UserHeader.tsx:154
+#: src/pages/companies.tsx:50
+#: src/pages/country/[countryId]/account.tsx:24
+#: src/pages/market/index.tsx:49
+#: src/pages/user/[userId]/account.tsx:19
+#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3076,7 +3083,8 @@ msgstr "Предмет придбано"
 msgid "Item Market"
 msgstr "Ринок спорядження"
 
-#: src/pages/companies.tsx:62 src/pages/user/[userId]/companies.tsx:56
+#: src/pages/companies.tsx:62 
+#: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Робота"
 
@@ -4144,7 +4152,8 @@ msgstr "Пацифізм"
 msgid "Packs"
 msgstr "Набори"
 
-#: src/components/_user/UserEquipments.tsx:163 src/utils/translations.tsx:198
+#: src/components/_user/UserEquipments.tsx:163
+#: src/utils/translations.tsx:198
 msgid "Pants"
 msgstr "Штани"
 
@@ -4745,7 +4754,8 @@ msgstr "Прибрати <0/> з партійної ради"
 msgid "Remove a member from the party council"
 msgstr "Прибрати члена з партійної ради"
 
-#: src/pages/market/index.tsx:174 src/pages/market/index.tsx:234
+#: src/pages/market/index.tsx:174
+#: src/pages/market/index.tsx:234
 msgid "Remove all"
 msgstr "Видалити усі"
 
@@ -5646,7 +5656,8 @@ msgstr "всього"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:153
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/work/WorkChart.tsx:198
-#: src/pages/market/index.tsx:153 src/pages/market/index.tsx:202
+#: src/pages/market/index.tsx:153 
+#: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "Всього"
 
@@ -5710,7 +5721,8 @@ msgid "Transac."
 msgstr "Транзакц."
 
 #: src/components/_political/country/CountryHeader.tsx:76
-#: src/pages/market/index.tsx:83 src/pages/user/[userId]/index.tsx:221
+#: src/pages/market/index.tsx:83
+#: src/pages/user/[userId]/index.tsx:221
 msgid "Transactions"
 msgstr "Транзакції"
 
@@ -5875,7 +5887,8 @@ msgstr "Використайте <0>Голод</0>, щоб поїсти та в�
 msgid "Used"
 msgstr "Пошкоджені"
 
-#: src/utils/translations.tsx:78 src/utils/translations.tsx:84
+#: src/utils/translations.tsx:78 
+#: src/utils/translations.tsx:84
 #: src/utils/translations.tsx:89
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Використовується для стрільби. Збільшують вашу <0>Шкоду</0>"
@@ -6297,7 +6310,8 @@ msgstr "Ви вже є президентом іншої держави. Спо�
 msgid "You are already vice president of another country. Resign first."
 msgstr "Ви вже є віцепрезидентом іншої держави. Спочатку подайте у відставку."
 
-#: src/pages/companies.tsx:76 src/pages/user/[userId]/companies.tsx:64
+#: src/pages/companies.tsx:76
+#: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Ви безробітні"
 
