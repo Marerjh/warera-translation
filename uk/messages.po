@@ -2793,11 +2793,11 @@ msgstr "Профінансувати повстанську битву в оку
 
 #: src/components/_political/law/law.frontConfig.tsx:411
 msgid "Finance a resistance to liberate an occupied region"
-msgstr "Профінансувати повстанську битву, аби звільнити окупований регіон"
+msgstr "Профінансувати повстанську битву, щоб звільнити окупований регіон"
 
 #: src/components/_political/law/law.frontConfig.tsx:416
 msgid "Finance a revolt to liberate <0/>"
-msgstr "Профінансувати повстання, щоб звільнити </0>"
+msgstr "Профінансувати повстання, щоб звільнити <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:430
 #~ msgid "Finance a revolt to liberate <0/> for <1>{cost}</1>"
