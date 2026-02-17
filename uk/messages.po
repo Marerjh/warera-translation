@@ -100,6 +100,22 @@ msgstr "{0}% зарплати робітників буде відрахован
 msgid "{0}% of invested"
 msgstr "{0}% інвестицій"
 
+#: src/components/_military/battle/BattleName.tsx:141
+msgid "{battleIcon}Resistance battle for {regionName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:146
+msgid "{battleIcon}Revolution battle {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:151
+msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:136
+msgid "{battleIcon}War battle for {regionName} {score}"
+msgstr ""
+
 #: src/components/_user/mission/MissionsList.tsx:162
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} завершено"
@@ -124,18 +140,6 @@ msgstr "*Якщо гравець вже володіє частиною набо
 #: src/components/_user/premium/PremiumFeatureList.tsx:143
 msgid "*May burn"
 msgstr "*Може згоріти"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:120
-#~ msgid "+{0}% from deposit"
-#~ msgstr "+{0}% від покладу"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:132
-#~ msgid "+{0}% from pacifist ethics"
-#~ msgstr "+{0}% через етику пацифізму"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
-#~ msgid "+{0}% from strategic resources"
-#~ msgstr "+{0}% від стратегічних ресурсів"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:392
 #: src/components/_user/notification/notification.frontConfig.tsx:1218
@@ -188,10 +192,6 @@ msgstr "<0/> подарував вам преміум-підписку!"
 #: src/components/_user/notification/notification.frontConfig.tsx:1595
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> подарував вам банер \"{0}\"!"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1690
-#~ msgid "<0/> gifted you the skin \"{0}\"!"
-#~ msgstr "<0/> подарував вам скін \"{0}\"!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1696
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
@@ -401,10 +401,6 @@ msgstr "<0>{0}</0> через бонус покладів аграрної ет�
 msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> через альянс з <1/>"
 
-#: src/components/_military/battle/BattleDamageBonuses.tsx:65
-#~ msgid "<0>{0}</0> from defense of your country's core region"
-#~ msgstr "<0>{0}</0> через захист національного регіону вашої держави"
-
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
 msgid "<0>{0}</0> from deposit resources."
@@ -429,10 +425,6 @@ msgstr "<0>{0}</0> через бонус спеціалізації індуст
 #: src/components/_military/battle/BattleDamageBonuses.tsx:252
 msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
 msgstr "<0>{0}</0> через ізоляціоністську етику (боротьба з ворогом)"
-
-#: src/components/_military/battle/BattleDamageBonuses.tsx:214
-#~ msgid "<0>{0}</0> from Militarist ethics"
-#~ msgstr "<0>{0}</0> через етику мілітаризму"
 
 #. placeholder {0}: sideBonus.militarismBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:222
@@ -464,10 +456,6 @@ msgstr "<0>{0}</0> контролю потрібно для перемоги у 
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/день"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:81
-#~ msgid "<0>{citizenBonus}</0> from <1/> militarist ethics (citizen owner bonus)."
-#~ msgstr ""
-
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> від покладів ресурсу у <1/>."
@@ -480,10 +468,6 @@ msgstr "<0>{ethicDepositBonus}</0> через бонус аграрної ети
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<0>{ethicSpecializationBonus}</0> через виробничний бонус індустріальної етики держави <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:70
-#~ msgid "<0>{pacifistBonus}</0> from <1/> pacifist ethics."
-#~ msgstr "<0>{pacifistBonus}</0> через пацифістську етику держави <1/>."
-
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> завдяки бонусу виробництва <1/> від стратегічних ресурсів."
@@ -492,16 +476,6 @@ msgstr "<0>{strategicBonus}</0> завдяки бонусу виробництв
 #: src/pages/country/[countryId]/index.tsx:448
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0>-й ресурс кожного типу = <1>{value}</1>"
-
-#: src/components/_political/party/party.frontConfig.tsx:319
-#: src/components/_political/party/party.frontConfig.tsx:332
-#~ msgid "<0>+{0}</0> bonus towards ammo or construction specialization good."
-#~ msgstr ""
-
-#: src/components/_political/party/party.frontConfig.tsx:280
-#: src/components/_political/party/party.frontConfig.tsx:299
-#~ msgid "<0>+{0}</0> from deposits in your country."
-#~ msgstr ""
 
 #: src/components/_user/user/UserTooltip.tsx:122
 msgid "<0>Buff</0> ends <1/>"
@@ -537,26 +511,6 @@ msgstr "<0>Наповнюється <1>Балами виробництва</1> �
 #: src/components/_political/unrest/UnrestBar.tsx:25
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> or <4>{1}</4> to add <5>{2}</5> to the bar. Unrest decays daily by <6>{3}-{4}%</6>.<7/><8/>When the bar is full, any party can vote via motion to start a <9>Civil war</9> (cost: <10>development × 10</10>, cooldown: {5}h). The battle takes place in the capital region, and <11>only citizens</11> can fight.<12/><13/>If revolutionaries win:<14/>- Government is impeached<15/>- Borders are opened for {6} days<16/>- Presidential elections begin<17/><18/>After a revolution, contributions are disabled for {7}h."
 msgstr ""
-
-#: src/components/_political/unrest/UnrestBar.tsx:24
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin"
-#~ msgstr ""
-
-#: src/components/_political/unrest/UnrestBar.tsx:24
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin<16/><17/>After a revolution, contributions are disabled for {6}h."
-#~ msgstr ""
-
-#: src/components/_political/unrest/UnrestBar.tsx:24
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>50-100%</5> of country initial development.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {2}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {3} days<15/>- Presidential elections begin"
-#~ msgstr ""
-
-#: src/components/_political/unrest/UnrestBar.tsx:22
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>{0}%</3> of max.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {1} days<9/>- Presidential elections begin"
-#~ msgstr ""
-
-#: src/components/_political/unrest/UnrestBar.tsx:22
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>50-100%</3> of country development.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {0} days<9/>- Presidential elections begin"
-#~ msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
@@ -1044,10 +998,6 @@ msgstr "Сповіщення адміна"
 msgid "Admiral"
 msgstr "Адмірал"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:113
-#~ msgid "Adopt a new moderate ethic on an empty axis"
-#~ msgstr ""
-
 #: src/utils/translations.tsx:183
 msgid "Advanced Boots"
 msgstr "Покращені чоботи"
@@ -1100,11 +1050,6 @@ msgstr "Усі поклади коки, зерна, худоби та риби �
 #: src/components/_political/party/party.frontConfig.tsx:337
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
 msgstr ""
-
-#: src/components/_political/party/party.frontConfig.tsx:280
-#: src/components/_political/party/party.frontConfig.tsx:301
-#~ msgid "All companies in your borders get <0>+{0}</0> from deposits."
-#~ msgstr ""
 
 #: src/components/_political/event/EventList.tsx:134
 msgid "All event types"
@@ -1290,10 +1235,6 @@ msgstr "Статті"
 msgid "Articles by <0/>"
 msgstr "Статті <0/>"
 
-#: src/components/_other/shop/ShopHeader.tsx:21
-#~ msgid "Assets"
-#~ msgstr "Контент"
-
 #: src/components/_military/damageRanking/DamageRankingList.tsx:253
 msgid "At end of battle/rounds, <0>Top 30%</0> of the ranking, get <1>Loot chance</1> to get cases depending on total <2>Damages</2> of the side. "
 msgstr "У кінці битви/раундів <0>Топ 30%</0> гравців у рейтингу отримують додаткові <1>Шанси</1> отримати кейси залежно від загальної <2>шкоди</2> сторони. "
@@ -1310,7 +1251,11 @@ msgstr "Ну, ти спробував"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Коли таймер дійде нуля, <0>{actualTickPoints}</0> буде присвоєно стороні з більшою шкодою."
 
-#: src/components/_military/hit/HitButton.tsx:285
+#. js-lingui-explicit-id
+#: src/components/_military/hit/HitButton.tsx:286
+msgid "attackButtonAttacker"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
@@ -1663,18 +1608,6 @@ msgstr "Змінити колірну схему на <0>{0}</0> з <1>{1}</1> �
 msgid "Change the tax of {0} to"
 msgstr "Встановити податок на {0}:"
 
-#: src/components/_other/ActionLogList.tsx:69
-#~ msgid "Changed citizenship"
-#~ msgstr "Зміна громадянства"
-
-#: src/components/_other/ActionLogList.tsx:73
-#~ msgid "Changed description"
-#~ msgstr "Зміна опису"
-
-#: src/components/_other/ActionLogList.tsx:66
-#~ msgid "Changed username"
-#~ msgstr "Зміна прізвиська"
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
 msgstr "Перевірте інвентар!"
@@ -1733,22 +1666,12 @@ msgstr "Громадяни отримують <0>{0}</0> бонусу під ч�
 msgid "Citizens get an additional <0>{0}</0> battle bonus fighting for allies."
 msgstr ""
 
-#: src/components/_political/party/party.frontConfig.tsx:86
-#: src/components/_political/party/party.frontConfig.tsx:100
-#~ msgid "Citizens get an additional <0>{0}</0> battle bonus."
-#~ msgstr ""
-
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-1'].defenseBattleBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-2'].defenseBattleBonus)
 #: src/components/_political/party/party.frontConfig.tsx:51
 #: src/components/_political/party/party.frontConfig.tsx:68
 msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
 msgstr ""
-
-#: src/components/_political/party/party.frontConfig.tsx:51
-#: src/components/_political/party/party.frontConfig.tsx:68
-#~ msgid "Citizens get an additional <0>{0}</0> production bonus."
-#~ msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:107
 msgid "Citizenship"
@@ -1766,14 +1689,6 @@ msgstr "Громадянська війна"
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:128
 msgid "Claim"
 msgstr "Отримати"
-
-#: src/components/_other/ActionLogList.tsx:78
-#~ msgid "Claim finished mission"
-#~ msgstr "Отримання нагороди за місії"
-
-#: src/components/_other/ActionLogList.tsx:75
-#~ msgid "Claim mission XP"
-#~ msgstr "Отримання досвіду за місію"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "Claim your rewards!"
@@ -2148,18 +2063,6 @@ msgstr "Потужне влучання"
 msgid "Crossbow"
 msgstr "Арбалет"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:8
-#~ msgid "Cupid Iron Arrow"
-#~ msgstr "Залізна стріла Купідона"
-
-#: src/components/_other/shop/skin.frontConfig.tsx:14
-#~ msgid "Cupid Steel Arrow"
-#~ msgstr "Стальна стріла Купідона"
-
-#: src/components/_other/shop/skin.frontConfig.tsx:11
-#~ msgid "Cupid Stone Arrow"
-#~ msgstr "Кам'яна стріла Купідона"
-
 #: src/pages/user/[userId]/index.tsx:162
 msgid "Current Military Unit"
 msgstr "Поточний військовий підрозділ"
@@ -2292,7 +2195,7 @@ msgstr "Оголосити війну іншій державі"
 msgid "Decline & Leave"
 msgstr "Відхилити та вийти"
 
-#: src/components/_military/hit/HitButton.tsx:286
+#: src/components/_military/hit/HitButton.tsx:289
 msgid "Defend"
 msgstr "Оборона"
 
@@ -2396,10 +2299,6 @@ msgstr "Дипломатія"
 msgid "Diplomatic"
 msgstr "Дипломатична"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:185
-#~ msgid "Direction"
-#~ msgstr "Спрямування"
-
 #: src/components/_economy/company/CompanyDropdown.tsx:189
 msgid "Disable company"
 msgstr "Зупинити фабрику"
@@ -2442,10 +2341,6 @@ msgstr "Ухилення"
 #: src/components/_user/mission/mission.frontConfig.tsx:274
 msgid "Dodge <0>{count}</0> attacks"
 msgstr "Ухиліться від <0>{count}</0> атак"
-
-#: src/components/_political/party/party.frontConfig.tsx:58
-#~ msgid "Does not gain development from conquered regions."
-#~ msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:58
 msgid "Does not gain development from non-core regions."
@@ -2575,14 +2470,6 @@ msgstr "Елітні штани"
 msgid "Email"
 msgstr "Електронна пошта"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:118
-#~ msgid "Embrace {0} on the {1} axis"
-#~ msgstr ""
-
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:112
-#~ msgid "Embrace ethic"
-#~ msgstr "Обрати етику"
-
 #: src/components/_economy/work/WorkChart.tsx:213
 msgid "Employee Production"
 msgstr "Виробіток працівника"
@@ -2635,10 +2522,6 @@ msgstr "Введіть ID статті"
 msgid "Enter the code we sent to your email."
 msgstr "Введіть код, який ми надіслали на вашу пошту."
 
-#: src/components/_political/government/NominateForm.tsx:60
-#~ msgid "Enter the username you want to nominate"
-#~ msgstr "Введіть прізвисько користувача для призначення"
-
 #: src/components/_user/user/skills.frontConfig.tsx:168
 #: src/components/_user/user/skills.frontConfig.tsx:169
 msgid "Entrepreneurship"
@@ -2650,17 +2533,9 @@ msgstr "Підприємливість"
 msgid "Equipment"
 msgstr "Спорядження"
 
-#: src/components/_user/UserEquipments.tsx:100
-#~ msgid "Equipment sets"
-#~ msgstr "Набори спорядження"
-
 #: src/components/_economy/market/MarketHeader.tsx:26
 msgid "Equipments"
 msgstr "Спорядження"
-
-#: src/pages/user/[userId]/index.tsx:48
-#~ msgid "Equipped Skins"
-#~ msgstr ""
 
 #: src/components/_political/law/LawStatus.tsx:47
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
@@ -2678,10 +2553,6 @@ msgstr "Етики"
 #: src/pages/party/[partyId]/index.tsx:51
 msgid "Ethics are bonuses from the party, applied when the president is a member of this party."
 msgstr ""
-
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:171
-#~ msgid "Ethics axis"
-#~ msgstr ""
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:83
 msgid "Ethics motions"
@@ -2787,10 +2658,6 @@ msgstr "У бій!"
 msgid "Fighter Jet"
 msgstr "Винищувач"
 
-#: src/components/_other/ActionLogList.tsx:120
-#~ msgid "Filter by action type"
-#~ msgstr "Фільтр за типом дії"
-
 #: src/components/_economy/transaction/TransactionList.tsx:104
 msgid "Filter by transaction type"
 msgstr "Фільтр за типом транзакції"
@@ -2815,21 +2682,9 @@ msgstr "Профінансувати повстанську битву, аби �
 msgid "Finance a revolt to liberate <0/>"
 msgstr "Профінансувати повстання, щоб звільнити </0>"
 
-#: src/components/_political/law/law.frontConfig.tsx:430
-#~ msgid "Finance a revolt to liberate <0/> for <1>{cost}</1>"
-#~ msgstr ""
-
-#: src/components/_political/law/law.frontConfig.tsx:412
-#~ msgid "Finance a revolt to liberate an occupied region"
-#~ msgstr ""
-
 #: src/components/_political/law/law.frontConfig.tsx:410
 msgid "Finance foreign resistance"
 msgstr "Профінансувати закордонний спротив"
-
-#: src/components/_political/law/law.frontConfig.tsx:411
-#~ msgid "Finance foreign revolt"
-#~ msgstr ""
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:121
 msgid "Finance local resistance"
@@ -2900,10 +2755,6 @@ msgstr "Розмір шрифту"
 #: src/components/_user/user/UserDropdown.tsx:207
 msgid "Font style"
 msgstr "Стиль шрифту"
-
-#: src/pages/country/[countryId]/index.tsx:415
-#~ msgid "for companies producing {0} located in <0/>."
-#~ msgstr "для фабрик, що виробляють {0} у <0/>."
 
 #. placeholder {0}: ts[country.specializedItem]
 #: src/pages/country/[countryId]/index.tsx:416
@@ -3165,10 +3016,6 @@ msgstr "Оголосити імпічмент президенту"
 msgid "Impeach the current president"
 msgstr "Оголосити імпічмент чинному президенту"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:19
-#~ msgid "Imperialism"
-#~ msgstr "Імперіалізм"
-
 #: src/components/_political/party/party.frontConfig.tsx:234
 msgid "Imperialism vs Republicanism"
 msgstr "Імперіалізм vs Республіканізм"
@@ -3218,10 +3065,6 @@ msgstr "Податок на дохід"
 msgid "Income Tax"
 msgstr "Податок на дохід"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:20
-#~ msgid "Industrialism"
-#~ msgstr ""
-
 #: src/components/_political/party/party.frontConfig.tsx:316
 msgid "Industrialism vs Agrarianism"
 msgstr "Індустріалізм vs Аграрність"
@@ -3252,10 +3095,6 @@ msgstr "Інвентар"
 #: src/utils/translations.tsx:49
 msgid "Iron"
 msgstr "Залізо"
-
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:18
-#~ msgid "Isolationism"
-#~ msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:153
 msgid "Isolationism vs Diplomacy"
@@ -3364,10 +3203,6 @@ msgstr "Завдайте <0>{count}</0> потужних ударів"
 #: src/components/_user/auth/WelcomeModal.tsx:131
 msgid "Language"
 msgstr "Мова"
-
-#: src/components/_social/ArticleList.tsx:127
-#~ msgid "Last"
-#~ msgstr "Останні"
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
@@ -3708,10 +3543,6 @@ msgstr "Члени"
 msgid "Mentioned in message"
 msgstr "Згадано у повідомленні"
 
-#: src/components/_other/ActionLogList.tsx:60
-#~ msgid "Mercenary contracts"
-#~ msgstr "Наймитські контракти"
-
 #: src/components/_other/shop/SkinPackModal.tsx:237
 msgid "Message (Optional)"
 msgstr "Повідомлення (за бажанням)"
@@ -4049,10 +3880,6 @@ msgstr "Гарно"
 msgid "Nice work!"
 msgstr "Гарна робота!"
 
-#: src/components/_other/ActionLogList.tsx:131
-#~ msgid "No action logs found"
-#~ msgstr "Дії не знайдені"
-
 #: src/components/_military/battle/ActiveBattlesList.tsx:193
 msgid "No active battles"
 msgstr "Активних битв немає"
@@ -4076,10 +3903,6 @@ msgstr "Без союзників"
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
 msgstr "API токенів немає. Створи якийсь, аби розпочати."
-
-#: src/components/_user/user/BanList.tsx:52
-#~ msgid "No bans yet"
-#~ msgstr "Поки обмежень не було"
 
 #: src/components/_military/battle/EndedBattlesList.tsx:115
 msgid "No battles yet"
@@ -4245,11 +4068,6 @@ msgstr "Ого, надпотужно"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:70
 msgid "One step away from legendary..."
 msgstr "За крок від легендарки..."
-
-#: src/components/_political/party/party.frontConfig.tsx:286
-#: src/components/_political/party/party.frontConfig.tsx:305
-#~ msgid "Only buffs and food deposits spawn (coca, grain, livestock and fish)."
-#~ msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:287
 #: src/components/_political/party/party.frontConfig.tsx:308
@@ -4525,10 +4343,6 @@ msgstr "Політичні закони"
 msgid "Political motions"
 msgstr "Політичні резолюції"
 
-#: src/components/_social/ArticleList.tsx:134
-#~ msgid "Popular"
-#~ msgstr "Популярне"
-
 #: src/components/_user/user/skills.frontConfig.tsx:128
 #: src/components/_user/user/skills.frontConfig.tsx:129
 msgid "Precision"
@@ -4749,14 +4563,6 @@ msgstr "Швидкий розбір"
 msgid "Quickly dismantle items"
 msgstr "Швидко розбирайте предмети"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:129
-#~ msgid "Radicalize ethic"
-#~ msgstr "Радикалізувати етику"
-
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:135
-#~ msgid "Radicalize the party's position on the {0} axis"
-#~ msgstr ""
-
 #: src/components/_military/damageRanking/DamageRankingList.tsx:251
 msgid "Ranking loot chance"
 msgstr "Шанс здобичі за рейтинг"
@@ -4848,10 +4654,6 @@ msgstr "Рецепт"
 #: src/components/_other/shop/SkinPackModal.tsx:232
 msgid "Recipient"
 msgstr ""
-
-#: src/components/_other/shop/SkinPackModal.tsx:242
-#~ msgid "Recipient Username"
-#~ msgstr "Прізвисько отримувача"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -5019,10 +4821,6 @@ msgstr "Прибрати опис"
 msgid "Remove enemy"
 msgstr "Прибрати ворога"
 
-#: src/components/_other/ActionLogList.tsx:64
-#~ msgid "Remove mercenary"
-#~ msgstr "Скасування контракту"
-
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:60
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:63
 msgid "Remove the current party leader from their position"
@@ -5040,14 +4838,6 @@ msgstr "Перейменувати"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
 msgstr "Перейменувати фабрику"
-
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:96
-#~ msgid "Repeal ethic"
-#~ msgstr ""
-
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:102
-#~ msgid "Repeal the party's position on the {0} axis"
-#~ msgstr ""
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:80
 msgid "Replace all party ethics with a new configuration"
@@ -5142,10 +4932,6 @@ msgstr "Відкликати API токен?"
 #: src/components/_user/notification/notification.frontConfig.tsx:1060
 msgid "Revolt started!"
 msgstr "Повстання розпочато!"
-
-#: src/components/_military/battle/BattleSystem.tsx:254
-#~ msgid "Revolution"
-#~ msgstr ""
 
 #: src/components/_political/event/EventList.tsx:77
 msgid "Revolution ended"
@@ -5267,10 +5053,6 @@ msgstr "Переглядайте статистику ваших робітни�
 msgid "See your spending and income breakdown"
 msgstr "Переглядайте розбір ваших доходів та витрат"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:186
-#~ msgid "Select a direction"
-#~ msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:120
 msgid "Select a location"
 msgstr "Виберіть локацію"
@@ -5282,10 +5064,6 @@ msgstr "Виберіть регіон"
 #: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Select all"
 msgstr "Вибрати все"
-
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
-#~ msgid "Select an axis"
-#~ msgstr ""
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
 msgid "Select an occupied region"
@@ -5412,10 +5190,6 @@ msgstr "Встановити колір країни"
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:88
 msgid "Set new party ethics configuration:"
 msgstr "Встановити нову конфігурацію партійних етик:"
-
-#: src/components/_other/ActionLogList.tsx:55
-#~ msgid "Set order"
-#~ msgstr "Дати наказ"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:79
 msgid "Set party ethics"
@@ -5604,7 +5378,7 @@ msgstr "Почати президентські вибори"
 msgid "Start revolution"
 msgstr "Розпочати революцію"
 
-#: src/components/_military/battle/BattleHeader.tsx:164
+#: src/components/_military/battle/BattleHeader.tsx:187
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6094,10 +5868,6 @@ msgstr ""
 msgid "Unselect all"
 msgstr "Скасувати вибір"
 
-#: src/components/_other/ActionLogList.tsx:56
-#~ msgid "Unset order"
-#~ msgstr "Скасування наказу"
-
 #: src/components/_political/law/law.frontConfig.tsx:277
 #: src/components/_political/law/law.frontConfig.tsx:279
 msgid "Unset the sworn enemy country"
@@ -6120,10 +5890,6 @@ msgstr "Оновити"
 msgid "Update infos"
 msgstr "Оновити інфо"
 
-#: src/components/_other/ActionLogList.tsx:57
-#~ msgid "Update order"
-#~ msgstr "Оновлення наказу"
-
 #: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "Оновити робітника"
@@ -6131,10 +5897,6 @@ msgstr "Оновити робітника"
 #: src/components/_user/mission/mission.frontConfig.tsx:370
 msgid "Upgrade a company"
 msgstr "Покращте фабрику"
-
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:130
-#~ msgid "Upgrade a moderate ethic to its fanatic version"
-#~ msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:369
 msgid "Upgrade Company"
@@ -6246,10 +6008,6 @@ msgstr ""
 #: src/components/_user/user/UserDropdown.tsx:124
 msgid "User blocked"
 msgstr "Користувача заблоковано"
-
-#: src/components/_other/shop/SkinPackModal.tsx:247
-#~ msgid "User not found"
-#~ msgstr "Користувача не знайдено"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "User participation to the ground points."
@@ -6772,10 +6530,6 @@ msgstr ""
 #: src/components/_user/notification/notification.frontConfig.tsx:1664
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1379
-#~ msgid "You successfully gifted a banner to <0/>!"
-#~ msgstr "Ви успішно подарували банер гравцю <0/>!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1141
 msgid "You successfully gifted a premium subscription to <0/>!"

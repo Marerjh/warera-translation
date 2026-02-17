@@ -100,6 +100,22 @@ msgstr "會從你給員工的薪資中扣除 {0}% 所得稅"
 msgid "{0}% of invested"
 msgstr "投資的 {0}%"
 
+#: src/components/_military/battle/BattleName.tsx:141
+msgid "{battleIcon}Resistance battle for {regionName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:146
+msgid "{battleIcon}Revolution battle {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:151
+msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:136
+msgid "{battleIcon}War battle for {regionName} {score}"
+msgstr ""
+
 #: src/components/_user/mission/MissionsList.tsx:162
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} 已完成"
@@ -124,14 +140,6 @@ msgstr ""
 #: src/components/_user/premium/PremiumFeatureList.tsx:143
 msgid "*May burn"
 msgstr "*可能會燒起來"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:120
-#~ msgid "+{0}% from deposit"
-#~ msgstr "因礦藏 +{0}%"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
-#~ msgid "+{0}% from strategic resources"
-#~ msgstr "因戰略資源 +{0}%"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:392
 #: src/components/_user/notification/notification.frontConfig.tsx:1218
@@ -392,10 +400,6 @@ msgstr ""
 #: src/components/_military/battle/BattleDamageBonuses.tsx:75
 msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> 來自於與 <1/> 聯盟"
-
-#: src/components/_military/battle/BattleDamageBonuses.tsx:65
-#~ msgid "<0>{0}</0> from defense of your country's core region"
-#~ msgstr "<0>{0}</0> 來自於防禦你國家的核心地區"
 
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
@@ -1231,10 +1235,6 @@ msgstr "文章"
 msgid "Articles by <0/>"
 msgstr "<0/> 的文章"
 
-#: src/components/_other/shop/ShopHeader.tsx:21
-#~ msgid "Assets"
-#~ msgstr "資產"
-
 #: src/components/_military/damageRanking/DamageRankingList.tsx:253
 msgid "At end of battle/rounds, <0>Top 30%</0> of the ranking, get <1>Loot chance</1> to get cases depending on total <2>Damages</2> of the side. "
 msgstr "在戰鬥/回合的最後，<0>前 30%</0> 排名的玩家會獲得基於單邊總<2>傷害</2>給予的<1>戰利品機率</1>。"
@@ -1251,7 +1251,11 @@ msgstr "至少你試過了"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
-#: src/components/_military/hit/HitButton.tsx:285
+#. js-lingui-explicit-id
+#: src/components/_military/hit/HitButton.tsx:286
+msgid "attackButtonAttacker"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
@@ -1604,18 +1608,6 @@ msgstr "更改國家顏色至 <0>{0}</0> ，並設定深淺為 <1>{1}</1>"
 msgid "Change the tax of {0} to"
 msgstr "將 {0} 的稅率更改為"
 
-#: src/components/_other/ActionLogList.tsx:69
-#~ msgid "Changed citizenship"
-#~ msgstr "更改了公民身分"
-
-#: src/components/_other/ActionLogList.tsx:73
-#~ msgid "Changed description"
-#~ msgstr "更改了個人描述"
-
-#: src/components/_other/ActionLogList.tsx:66
-#~ msgid "Changed username"
-#~ msgstr "更改了用戶名稱"
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
 msgstr "來看看你的戰利品！"
@@ -1697,14 +1689,6 @@ msgstr ""
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:128
 msgid "Claim"
 msgstr "領取"
-
-#: src/components/_other/ActionLogList.tsx:78
-#~ msgid "Claim finished mission"
-#~ msgstr "領取已完成任務"
-
-#: src/components/_other/ActionLogList.tsx:75
-#~ msgid "Claim mission XP"
-#~ msgstr "領取任務經驗值"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "Claim your rewards!"
@@ -2211,7 +2195,7 @@ msgstr "向其他國家宣戰"
 msgid "Decline & Leave"
 msgstr "拒絕並離開"
 
-#: src/components/_military/hit/HitButton.tsx:286
+#: src/components/_military/hit/HitButton.tsx:289
 msgid "Defend"
 msgstr "防禦"
 
@@ -2538,10 +2522,6 @@ msgstr "輸入文章ID"
 msgid "Enter the code we sent to your email."
 msgstr "輸入我們傳送至你電子郵件的驗證碼"
 
-#: src/components/_political/government/NominateForm.tsx:60
-#~ msgid "Enter the username you want to nominate"
-#~ msgstr "輸入你想指派的用戶名稱"
-
 #: src/components/_user/user/skills.frontConfig.tsx:168
 #: src/components/_user/user/skills.frontConfig.tsx:169
 msgid "Entrepreneurship"
@@ -2552,10 +2532,6 @@ msgstr "創業能力"
 #: src/pages/user/[userId]/inventory.tsx:58
 msgid "Equipment"
 msgstr "裝備"
-
-#: src/components/_user/UserEquipments.tsx:100
-#~ msgid "Equipment sets"
-#~ msgstr "裝備集"
 
 #: src/components/_economy/market/MarketHeader.tsx:26
 msgid "Equipments"
@@ -2682,10 +2658,6 @@ msgstr "出擊！"
 msgid "Fighter Jet"
 msgstr "戰鬥機"
 
-#: src/components/_other/ActionLogList.tsx:120
-#~ msgid "Filter by action type"
-#~ msgstr "依行動類型篩選"
-
 #: src/components/_economy/transaction/TransactionList.tsx:104
 msgid "Filter by transaction type"
 msgstr "依交易種類篩選"
@@ -2783,10 +2755,6 @@ msgstr ""
 #: src/components/_user/user/UserDropdown.tsx:207
 msgid "Font style"
 msgstr "字體"
-
-#: src/pages/country/[countryId]/index.tsx:379
-#~ msgid "for companies producing {0} located in <0/>."
-#~ msgstr "適用於位於<0/>，生產{0}的公司"
 
 #. placeholder {0}: ts[country.specializedItem]
 #: src/pages/country/[countryId]/index.tsx:416
@@ -3236,10 +3204,6 @@ msgstr "造成 <0>{count}</0> 次暴擊傷害"
 msgid "Language"
 msgstr "語言"
 
-#: src/components/_social/ArticleList.tsx:127
-#~ msgid "Last"
-#~ msgstr "最近的"
-
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
 msgstr "最近的禮物"
@@ -3579,10 +3543,6 @@ msgstr ""
 msgid "Mentioned in message"
 msgstr "在訊息中提及"
 
-#: src/components/_other/ActionLogList.tsx:60
-#~ msgid "Mercenary contracts"
-#~ msgstr "傭兵合約"
-
 #: src/components/_other/shop/SkinPackModal.tsx:237
 msgid "Message (Optional)"
 msgstr ""
@@ -3920,10 +3880,6 @@ msgstr "這個好"
 msgid "Nice work!"
 msgstr "做得好！"
 
-#: src/components/_other/ActionLogList.tsx:131
-#~ msgid "No action logs found"
-#~ msgstr "沒有找到行動日誌"
-
 #: src/components/_military/battle/ActiveBattlesList.tsx:193
 msgid "No active battles"
 msgstr "沒有進行中戰鬥"
@@ -3947,10 +3903,6 @@ msgstr "沒有盟友"
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
 msgstr "還沒有 API token。建立一個以開始。"
-
-#: src/components/_user/user/BanList.tsx:52
-#~ msgid "No bans yet"
-#~ msgstr "還沒有停權"
 
 #: src/components/_military/battle/EndedBattlesList.tsx:115
 msgid "No battles yet"
@@ -4391,10 +4343,6 @@ msgstr "政治法案"
 msgid "Political motions"
 msgstr ""
 
-#: src/components/_social/ArticleList.tsx:134
-#~ msgid "Popular"
-#~ msgstr "熱門"
-
 #: src/components/_user/user/skills.frontConfig.tsx:128
 #: src/components/_user/user/skills.frontConfig.tsx:129
 msgid "Precision"
@@ -4707,10 +4655,6 @@ msgstr "配方"
 msgid "Recipient"
 msgstr ""
 
-#: src/components/_other/shop/SkinPackModal.tsx:242
-#~ msgid "Recipient Username"
-#~ msgstr ""
-
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
 msgstr "推薦地區"
@@ -4876,10 +4820,6 @@ msgstr "移除描述"
 #: src/components/_political/law/law.frontConfig.tsx:276
 msgid "Remove enemy"
 msgstr "移除宿敵"
-
-#: src/components/_other/ActionLogList.tsx:64
-#~ msgid "Remove mercenary"
-#~ msgstr "移除傭兵合約"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:60
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:63
@@ -5251,10 +5191,6 @@ msgstr "設定國家顏色"
 msgid "Set new party ethics configuration:"
 msgstr ""
 
-#: src/components/_other/ActionLogList.tsx:55
-#~ msgid "Set order"
-#~ msgstr "設置命令"
-
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:79
 msgid "Set party ethics"
 msgstr ""
@@ -5442,7 +5378,7 @@ msgstr "開始總統選舉"
 msgid "Start revolution"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:164
+#: src/components/_military/battle/BattleHeader.tsx:187
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -5932,10 +5868,6 @@ msgstr ""
 msgid "Unselect all"
 msgstr "取消全選"
 
-#: src/components/_other/ActionLogList.tsx:56
-#~ msgid "Unset order"
-#~ msgstr "撤銷訂單"
-
 #: src/components/_political/law/law.frontConfig.tsx:277
 #: src/components/_political/law/law.frontConfig.tsx:279
 msgid "Unset the sworn enemy country"
@@ -5957,10 +5889,6 @@ msgstr "更新"
 #: src/pages/user/[userId]/settings.tsx:57
 msgid "Update infos"
 msgstr "更新資訊"
-
-#: src/components/_other/ActionLogList.tsx:57
-#~ msgid "Update order"
-#~ msgstr "更新命令"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
@@ -6080,10 +6008,6 @@ msgstr ""
 #: src/components/_user/user/UserDropdown.tsx:124
 msgid "User blocked"
 msgstr "用戶遭屏蔽"
-
-#: src/components/_other/shop/SkinPackModal.tsx:247
-#~ msgid "User not found"
-#~ msgstr ""
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "User participation to the ground points."
@@ -6606,10 +6530,6 @@ msgstr ""
 #: src/components/_user/notification/notification.frontConfig.tsx:1664
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr ""
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1379
-#~ msgid "You successfully gifted a banner to <0/>!"
-#~ msgstr "你成功向 <0/> 贈送了一張橫幅！"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1141
 msgid "You successfully gifted a premium subscription to <0/>!"

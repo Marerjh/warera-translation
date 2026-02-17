@@ -100,6 +100,22 @@ msgstr "İşçilerinizin maaşlarından {0}% gelir vergisi kesilecektir."
 msgid "{0}% of invested"
 msgstr "Yatırımın {0}% oranında"
 
+#: src/components/_military/battle/BattleName.tsx:141
+msgid "{battleIcon}Resistance battle for {regionName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:146
+msgid "{battleIcon}Revolution battle {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:151
+msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:136
+msgid "{battleIcon}War battle for {regionName} {score}"
+msgstr ""
+
 #: src/components/_user/mission/MissionsList.tsx:162
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} tamamlandı"
@@ -1235,7 +1251,11 @@ msgstr "En azından denedin"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Süre sonunda <0>{actualTickPoints}</0> en çok hasarı veren tarafa atanacak."
 
-#: src/components/_military/hit/HitButton.tsx:285
+#. js-lingui-explicit-id
+#: src/components/_military/hit/HitButton.tsx:286
+msgid "attackButtonAttacker"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
@@ -1587,18 +1607,6 @@ msgstr "Ülke renk şemasını <1>{1}</1> harita aksanıyla <0>{0}</0> olarak de
 #: src/components/_political/law/law.frontConfig.tsx:61
 msgid "Change the tax of {0} to"
 msgstr "{0} vergisini şu şekilde değiştir"
-
-#: src/components/_other/ActionLogList.tsx:69
-#~ msgid "Changed citizenship"
-#~ msgstr "Vatandaşlık değiştirildi"
-
-#: src/components/_other/ActionLogList.tsx:73
-#~ msgid "Changed description"
-#~ msgstr "Açıklama değiştirildi"
-
-#: src/components/_other/ActionLogList.tsx:66
-#~ msgid "Changed username"
-#~ msgstr "Kullanıcı adı değiştirildi"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
@@ -2187,7 +2195,7 @@ msgstr "Başka bir ülkeye savaş ilan et"
 msgid "Decline & Leave"
 msgstr "Reddet Ve Ayrıl"
 
-#: src/components/_military/hit/HitButton.tsx:286
+#: src/components/_military/hit/HitButton.tsx:289
 msgid "Defend"
 msgstr "Savun"
 
@@ -2513,10 +2521,6 @@ msgstr "Makale ID girin"
 #: src/components/_user/auth/ConnectFromModal.tsx:144
 msgid "Enter the code we sent to your email."
 msgstr "E-postanıza gönderdiğimiz kodu girin."
-
-#: src/components/_political/government/NominateForm.tsx:60
-#~ msgid "Enter the username you want to nominate"
-#~ msgstr "Aday göstermek istediğiniz kullanıcı adını girin"
 
 #: src/components/_user/user/skills.frontConfig.tsx:168
 #: src/components/_user/user/skills.frontConfig.tsx:169
@@ -4467,10 +4471,6 @@ msgstr "Üretim"
 msgid "Production bonus"
 msgstr "Üretim bonusu"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:133
-#~ msgid "Production bonus from deposit resources in this region."
-#~ msgstr "Bu bölgedeki maden kaynakları üretim bonusu."
-
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:156
 msgid "Production bonus:"
 msgstr "Ürün Bonusu"
@@ -4654,10 +4654,6 @@ msgstr "Tarif"
 #: src/components/_other/shop/SkinPackModal.tsx:232
 msgid "Recipient"
 msgstr ""
-
-#: src/components/_other/shop/SkinPackModal.tsx:242
-#~ msgid "Recipient Username"
-#~ msgstr "Alıcı Kullanıcı Adı"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -5382,7 +5378,7 @@ msgstr "Başkanlık seçimi başlat"
 msgid "Start revolution"
 msgstr "Bir devrim başlat"
 
-#: src/components/_military/battle/BattleHeader.tsx:164
+#: src/components/_military/battle/BattleHeader.tsx:187
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -5894,10 +5890,6 @@ msgstr "Güncelle"
 msgid "Update infos"
 msgstr "Bilgileri güncelle"
 
-#: src/components/_other/ActionLogList.tsx:57
-#~ msgid "Update order"
-#~ msgstr "Emri güncelle"
-
 #: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "İşçiyi güncelle"
@@ -6016,10 +6008,6 @@ msgstr "Kullanıcı zaten bütün görünümlere sahip"
 #: src/components/_user/user/UserDropdown.tsx:124
 msgid "User blocked"
 msgstr "Kullanıcı engellendi"
-
-#: src/components/_other/shop/SkinPackModal.tsx:247
-#~ msgid "User not found"
-#~ msgstr "Kullanıcı bulunamadı"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "User participation to the ground points."
@@ -6165,10 +6153,6 @@ msgstr "Maaş değişti"
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:119
 msgid "Wage cost ({productionPoints} pts):"
 msgstr ""
-
-#: src/components/_economy/workOffer/WorkOfferFormModal.tsx:133
-#~ msgid "Wage info"
-#~ msgstr "Maaş bilgisi"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
