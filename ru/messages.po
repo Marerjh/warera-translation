@@ -1773,7 +1773,7 @@ msgstr "Коммодор"
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:194
-#: src/pages/companies.tsx:107
+#: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Компании"
 
@@ -2701,7 +2701,7 @@ msgstr "Спонсировать иностранное сопротивлени
 msgid "Finance local resistance"
 msgstr "Спонсировать местное сопротивление"
 
-#: src/pages/companies.tsx:90
+#: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Найти работу"
@@ -3092,7 +3092,7 @@ msgstr "Новобранец"
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:154
-#: src/pages/companies.tsx:50
+#: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
@@ -3132,7 +3132,7 @@ msgstr "Предмет куплен"
 msgid "Item Market"
 msgstr "Рынок предметов"
 
-#: src/pages/companies.tsx:62
+#: src/pages/companies.tsx:32
 #: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Работа"
@@ -6260,7 +6260,7 @@ msgstr "Добро пожаловать в Вашу экономику!"
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Когда Ваше <0>Здоровье</0> закончится, откройте это меню, чтобы восстановить его с помощью еды."
 
-#: src/pages/companies.tsx:125
+#: src/pages/companies.tsx:102
 msgid "Whole Production"
 msgstr "Всё производство"
 
@@ -6365,7 +6365,7 @@ msgstr "Вы уже являетесь президентом другой ст�
 msgid "You are already vice president of another country. Resign first."
 msgstr "Вы уже являетесь вице-президентом другой страны. Сначала сложите полномочия."
 
-#: src/pages/companies.tsx:76
+#: src/pages/companies.tsx:45
 #: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Вы безработный"

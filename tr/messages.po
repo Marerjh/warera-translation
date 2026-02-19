@@ -1773,7 +1773,7 @@ msgstr "Komodor"
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:194
-#: src/pages/companies.tsx:107
+#: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Şirketler"
 
@@ -2701,7 +2701,7 @@ msgstr "Başka bir ülkede direniş mücadelesi finanse edin"
 msgid "Finance local resistance"
 msgstr "Yerel bir direniş hareketi finanse edin"
 
-#: src/pages/companies.tsx:90
+#: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "İş bul"
@@ -3092,7 +3092,7 @@ msgstr "Acemi"
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:154
-#: src/pages/companies.tsx:50
+#: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
@@ -3132,7 +3132,7 @@ msgstr "Eşya satın alındı"
 msgid "Item Market"
 msgstr "Eşya Pazarı"
 
-#: src/pages/companies.tsx:62
+#: src/pages/companies.tsx:32
 #: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "İş"
@@ -6260,7 +6260,7 @@ msgstr "Ekonomine hoş geldin!"
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "<0>Sağlığın</0> bittiğinde, yiyecekle yenilemek için bu menüyü aç."
 
-#: src/pages/companies.tsx:125
+#: src/pages/companies.tsx:102
 msgid "Whole Production"
 msgstr "Tüm üretim"
 
@@ -6365,7 +6365,7 @@ msgstr "Zaten başka bir ülkenin başkanısın. Önce istifa et."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Zaten başka bir ülkenin başkan yardımcısısın. Önce istifa et."
 
-#: src/pages/companies.tsx:76
+#: src/pages/companies.tsx:45
 #: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "İşsizsin"

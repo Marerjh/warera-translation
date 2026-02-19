@@ -100,6 +100,22 @@ msgstr "{0}% inkomsbelasting wordt afgetrokken van jouw werknemers hun lonen."
 msgid "{0}% of invested"
 msgstr "{0}% van geïnvesteerd"
 
+#: src/components/_military/battle/BattleName.tsx:141
+msgid "{battleIcon}Resistance battle for {regionName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:146
+msgid "{battleIcon}Revolution battle {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:151
+msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
+msgstr ""
+
+#: src/components/_military/battle/BattleName.tsx:136
+msgid "{battleIcon}War battle for {regionName} {score}"
+msgstr ""
+
 #: src/components/_user/mission/MissionsList.tsx:162
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} voltooid"
@@ -117,7 +133,7 @@ msgstr "{roundsToWin} Rondes om te winnen"
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Rondes"
 
-#: src/components/_other/shop/SkinPackModal.tsx:224
+#: src/components/_other/shop/SkinPackModal.tsx:214
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
 msgstr "*Wanneer de gebruiker onderdelen van de set bezit, zal de prijs gereduceerd worden"
 
@@ -149,6 +165,10 @@ msgstr "<0/> heeft een opmerking geplaatst op jouw artikel <1/>"
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/> heeft de regio in <1/> veroverd"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:74
+msgid "<0/> created the conversation"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:817
 msgid "<0/> defended in <1/>"
 msgstr "<0/> heeft zich verdedigd in <1/>"
@@ -163,6 +183,10 @@ msgstr "<0/> doneerde <1>{0}</1> aan <2/>"
 #: src/components/_user/notification/notification.frontConfig.tsx:546
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> heeft je ontslagen van jouw <1>{0}</1> salaris baan in <2/>"
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:45
+msgid "<0/> gifted a sub to <1/>"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
@@ -210,6 +234,10 @@ msgstr "<0/> valt je land aan in <1/>"
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> komt in <1/> in opstand tegen je land"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:16
+msgid "<0/> joined the conversation"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:686
 msgid "<0/> joined the game with your referral link!"
 msgstr "<0/> heeft met jouw verwijzingslink meegedaan aan het spel!"
@@ -219,10 +247,18 @@ msgstr "<0/> heeft met jouw verwijzingslink meegedaan aan het spel!"
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> bij jouw bedrijf begonnen <1/> voor <2>{0}</2> loon"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:34
+msgid "<0/> kicked <1/> from the conversation"
+msgstr ""
+
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> zijn baan bij jouw bedrijf opgezegd {0}"
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:25
+msgid "<0/> left the conversation"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:901
 msgid "<0/> liked your article <1/>"
@@ -273,6 +309,17 @@ msgstr "<0/> wil vrede sluiten met je land"
 #: src/components/_user/notification/notification.frontConfig.tsx:663
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> werd genomineerd als <1>{0}</1>"
+
+#. placeholder {0}: data.roundNumber
+#: src/components/_political/message/systemMessage.frontConfig.tsx:55
+msgid "<0/> won round {0}"
+msgstr ""
+
+#. placeholder {0}: data.attackerWonRoundsCount
+#. placeholder {1}: data.defenderWonRoundsCount
+#: src/components/_political/message/systemMessage.frontConfig.tsx:64
+msgid "<0/> won the battle ({0}-{1})"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:349
 msgid "<0/> won the primary election in <1/> and can now run for president!"
@@ -1036,7 +1083,7 @@ msgstr "Alle wetswijzigingen worden vermenigvuldigd met {0}."
 msgid "All Parties"
 msgstr "Alle partijen"
 
-#: src/components/_other/shop/SkinPackModal.tsx:300
+#: src/components/_other/shop/SkinPackModal.tsx:285
 msgid "All skins owned"
 msgstr "Alle skins zijn eigendom"
 
@@ -1219,7 +1266,7 @@ msgstr "Je hebt het tenminste geprobeerd"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Aan het einde van de timer wordt <0>{actualTickPoints}</0> toegewezen aan de kant met de meeste schade."
 
-#: src/components/_military/hit/HitButton.tsx:285
+#: src/components/_military/hit/HitButton.tsx:286
 #: src/components/_user/user/skills.frontConfig.tsx:42
 #: src/components/_user/user/skills.frontConfig.tsx:43
 msgid "Attack"
@@ -1726,7 +1773,7 @@ msgstr "Commodore"
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:194
-#: src/pages/companies.tsx:107
+#: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Bedrijven"
 
@@ -2159,7 +2206,7 @@ msgstr "Verklaar de oorlog aan een ander land"
 msgid "Decline & Leave"
 msgstr "Afwijzing & Vertrekken"
 
-#: src/components/_military/hit/HitButton.tsx:286
+#: src/components/_military/hit/HitButton.tsx:289
 msgid "Defend"
 msgstr "Verdedigen"
 
@@ -2486,10 +2533,6 @@ msgstr "Voer artikel-ID in"
 msgid "Enter the code we sent to your email."
 msgstr "Voer de code in die we naar je e-mail hebben gestuurd."
 
-#: src/components/_political/government/NominateForm.tsx:60
-msgid "Enter the username you want to nominate"
-msgstr "Voer de gebruikersnaam in die je wilt nomineren"
-
 #: src/components/_user/user/skills.frontConfig.tsx:168
 #: src/components/_user/user/skills.frontConfig.tsx:169
 msgid "Entrepreneurship"
@@ -2658,7 +2701,7 @@ msgstr "Financier buitenlandse weerstand"
 msgid "Finance local resistance"
 msgstr "Financier lokaal verzet"
 
-#: src/pages/companies.tsx:90
+#: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Zoek een baan"
@@ -2781,7 +2824,7 @@ msgstr "Haal een supporterplan"
 msgid "Gift from Vatou, don't tell anyone"
 msgstr "Cadeau van Vatou, vertel het aan niemand"
 
-#: src/components/_other/shop/SkinPackModal.tsx:99
+#: src/components/_other/shop/SkinPackModal.tsx:98
 msgid "Gift sent! Skin pack unlocked for recipient!"
 msgstr "Cadeau verzonden! Skinpack ontgrendeld voor ontvanger!"
 
@@ -2793,7 +2836,7 @@ msgstr "Cadeau verzonden! Bedankt voor het steunen van het spel <3"
 msgid "Gift Supporter Plan"
 msgstr "Gift Supporter Plan"
 
-#: src/components/_other/shop/SkinPackModal.tsx:235
+#: src/components/_other/shop/SkinPackModal.tsx:225
 msgid "Gift this pack to someone"
 msgstr "Geef dit pakket aan iemand anders"
 
@@ -3049,7 +3092,7 @@ msgstr "Ingelijde"
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:154
-#: src/pages/companies.tsx:50
+#: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
@@ -3089,7 +3132,7 @@ msgstr "Gekocht item"
 msgid "Item Market"
 msgstr "Item Markt"
 
-#: src/pages/companies.tsx:62
+#: src/pages/companies.tsx:32
 #: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Baan"
@@ -3511,7 +3554,7 @@ msgstr "Leden"
 msgid "Mentioned in message"
 msgstr "Genoemd in bericht"
 
-#: src/components/_other/shop/SkinPackModal.tsx:252
+#: src/components/_other/shop/SkinPackModal.tsx:237
 msgid "Message (Optional)"
 msgstr "Bericht (optioneel)"
 
@@ -3981,7 +4024,7 @@ msgid "No work offers"
 msgstr "Geen werkaanbiedingen"
 
 #: src/components/_political/government/Government.tsx:187
-#: src/components/_political/government/NominateForm.tsx:73
+#: src/components/_political/government/NominateForm.tsx:61
 msgid "Nominate"
 msgstr "Nominatie"
 
@@ -4137,7 +4180,7 @@ msgid "Overview"
 msgstr "Overzicht"
 
 #: src/components/_other/shop/SkinPackItem.tsx:136
-#: src/components/_other/shop/SkinPackModal.tsx:279
+#: src/components/_other/shop/SkinPackModal.tsx:264
 msgid "Owned"
 msgstr "Eigendom"
 
@@ -4619,9 +4662,9 @@ msgstr "Recente toepassingen"
 msgid "Recipe"
 msgstr "Recept"
 
-#: src/components/_other/shop/SkinPackModal.tsx:242
-msgid "Recipient Username"
-msgstr "Gebruikersnaam van de ontvanger"
+#: src/components/_other/shop/SkinPackModal.tsx:232
+msgid "Recipient"
+msgstr ""
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -5005,6 +5048,14 @@ msgstr "Maak een screenshot hiervan, anders gelooft niemand je"
 msgid "Search countries..."
 msgstr "Zoek landen..."
 
+#: src/components/_other/shop/SkinPackModal.tsx:234
+msgid "Search recipient username..."
+msgstr ""
+
+#: src/components/_political/government/NominateForm.tsx:49
+msgid "Search username to nominate..."
+msgstr ""
+
 #: src/components/_user/premium/PremiumFeatureList.tsx:44
 msgid "See all your workers and companies stats"
 msgstr "Bekijk alle statistieken van je werknemers en bedrijven"
@@ -5107,7 +5158,7 @@ msgstr "Stuur een bericht"
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Stuur een bericht om de tutorial te voltooien. Welkom in de community!"
 
-#: src/components/_other/shop/SkinPackModal.tsx:315
+#: src/components/_other/shop/SkinPackModal.tsx:300
 msgid "Send Gift"
 msgstr "Stuur Cadeau"
 
@@ -5204,6 +5255,8 @@ msgid "Show Inventory"
 msgstr "Toon inventaris"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:216
+#: src/components/_social/ArticleTags.tsx:235
+#: src/components/_social/ArticleTags.tsx:343
 msgid "Show more"
 msgstr "Laat meer zien"
 
@@ -5237,7 +5290,7 @@ msgstr "Skin-cadeau verzonden"
 msgid "Skin pack gift sent"
 msgstr "Skin pack cadeau verzonden"
 
-#: src/components/_other/shop/SkinPackModal.tsx:86
+#: src/components/_other/shop/SkinPackModal.tsx:85
 msgid "Skin pack unlocked! All skins equipped!"
 msgstr "Skinpack ontgrendeld! Alle skins zijn uitgerust met uitrusting!"
 
@@ -5250,7 +5303,7 @@ msgstr "Skin pakketten"
 msgid "Skins"
 msgstr "Skins"
 
-#: src/components/_other/shop/SkinPackModal.tsx:265
+#: src/components/_other/shop/SkinPackModal.tsx:250
 msgid "Skins in this pack"
 msgstr "Skins in dit pakket"
 
@@ -5336,7 +5389,7 @@ msgstr "Start presidentsverkiezingen"
 msgid "Start revolution"
 msgstr "Begin de revolutie"
 
-#: src/components/_military/battle/BattleHeader.tsx:164
+#: src/components/_military/battle/BattleHeader.tsx:187
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -5776,13 +5829,13 @@ msgstr "Niet gekoppeld"
 msgid "Unlinked to capital"
 msgstr "Niet gekoppeld aan het kapitaal"
 
-#: src/components/_other/shop/SkinPackModal.tsx:322
+#: src/components/_other/shop/SkinPackModal.tsx:307
 msgid "Unlock"
 msgstr "Ontgrendel"
 
 #. placeholder {0}: estimate.notOwnedCount
 #. placeholder {1}: estimate.notOwnedCount > 1 ? 's' : ''
-#: src/components/_other/shop/SkinPackModal.tsx:317
+#: src/components/_other/shop/SkinPackModal.tsx:302
 msgid "Unlock {0} skin{1}"
 msgstr "Ontgrendel {0} skin{1}"
 
@@ -5959,17 +6012,13 @@ msgstr "gebruiker"
 msgid "User Actions"
 msgstr "Gebruikersacties"
 
-#: src/components/_other/shop/SkinPackModal.tsx:298
+#: src/components/_other/shop/SkinPackModal.tsx:283
 msgid "User already owns all skins"
 msgstr "De gebruiker bezit al alle skins"
 
 #: src/components/_user/user/UserDropdown.tsx:124
 msgid "User blocked"
 msgstr "Gebruiker geblokkeerd"
-
-#: src/components/_other/shop/SkinPackModal.tsx:247
-msgid "User not found"
-msgstr "Gebruiker niet gevonden"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "User participation to the ground points."
@@ -5983,7 +6032,7 @@ msgstr "Gebruiker verwijderd uit de familiegroep"
 msgid "User unblocked"
 msgstr "Gebruiker gedeblokkeerd"
 
-#: src/components/_political/government/NominateForm.tsx:58
+#: src/components/_political/government/NominateForm.tsx:46
 #: src/components/_user/auth/WelcomeModal.tsx:142
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
@@ -6211,7 +6260,7 @@ msgstr "Welkom in je economie!"
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Wanneer je <0>Gezondheid</0> op is, open dan dit menu om het te herstellen met voedsel."
 
-#: src/pages/companies.tsx:125
+#: src/pages/companies.tsx:102
 msgid "Whole Production"
 msgstr "Hele productie"
 
@@ -6316,7 +6365,7 @@ msgstr "Je bent al president van een ander land. Neem eerst ontslag."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Je bent al vicepresident van een ander land. Neem eerst ontslag."
 
-#: src/pages/companies.tsx:76
+#: src/pages/companies.tsx:45
 #: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Je bent werkloos"

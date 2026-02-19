@@ -1773,7 +1773,7 @@ msgstr "Commodore"
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:194
-#: src/pages/companies.tsx:107
+#: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Entreprises"
 
@@ -2701,7 +2701,7 @@ msgstr "Financer la résistance étrangère"
 msgid "Finance local resistance"
 msgstr "Financer la résistance locale"
 
-#: src/pages/companies.tsx:90
+#: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Trouver un emploi"
@@ -3092,7 +3092,7 @@ msgstr "Initié"
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:154
-#: src/pages/companies.tsx:50
+#: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
@@ -3132,7 +3132,7 @@ msgstr "Objet acheté"
 msgid "Item Market"
 msgstr "Marché des objets"
 
-#: src/pages/companies.tsx:62
+#: src/pages/companies.tsx:32
 #: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Emploi"
@@ -4662,9 +4662,9 @@ msgstr "Candidatures Récentes"
 msgid "Recipe"
 msgstr "Recette"
 
-#: src/components/_other/shop/SkinPackModal.tsx:242
-msgid "Recipient Username"
-msgstr "Nom d'utilisateur du destinataire"
+#: src/components/_other/shop/SkinPackModal.tsx:232
+msgid "Recipient"
+msgstr ""
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -6020,10 +6020,6 @@ msgstr "L'utilisateur possède déjà tous les skins"
 msgid "User blocked"
 msgstr "Utilisateur bloqué"
 
-#: src/components/_other/shop/SkinPackModal.tsx:247
-msgid "User not found"
-msgstr "Utilisateur introuvable"
-
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "User participation to the ground points."
 msgstr "Participation des joueurs aux points de terrain."
@@ -6264,7 +6260,7 @@ msgstr "Bienvenue dans ton économie !"
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Quand ta <0>Santé</0> est épuisée, ouvre ce menu pour la restaurer avec de la nourriture."
 
-#: src/pages/companies.tsx:125
+#: src/pages/companies.tsx:102
 msgid "Whole Production"
 msgstr "Production complète"
 
@@ -6369,7 +6365,7 @@ msgstr "Vous êtes déjà président d'un autre pays. Démissionnez d'abord."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Vous êtes déjà vice-président d'un autre pays. Démissionnez d'abord."
 
-#: src/pages/companies.tsx:76
+#: src/pages/companies.tsx:45
 #: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Vous êtes au chômage"

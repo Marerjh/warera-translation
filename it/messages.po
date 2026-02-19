@@ -1773,7 +1773,7 @@ msgstr "Commodoro"
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:194
-#: src/pages/companies.tsx:107
+#: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Aziende"
 
@@ -2701,7 +2701,7 @@ msgstr ""
 msgid "Finance local resistance"
 msgstr ""
 
-#: src/pages/companies.tsx:90
+#: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Trova un lavoro"
@@ -3092,7 +3092,7 @@ msgstr "Iniziato"
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:154
-#: src/pages/companies.tsx:50
+#: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
@@ -3132,7 +3132,7 @@ msgstr "Oggetto acquistato"
 msgid "Item Market"
 msgstr "Mercato oggetti"
 
-#: src/pages/companies.tsx:62
+#: src/pages/companies.tsx:32
 #: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Lavoro"
@@ -6260,7 +6260,7 @@ msgstr "Benvenuto nella tua economia!"
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Quando la tua <0>Salute</0> finisce, apri questo menu per ripristinarla con del cibo."
 
-#: src/pages/companies.tsx:125
+#: src/pages/companies.tsx:102
 msgid "Whole Production"
 msgstr "Produzione totale"
 
@@ -6365,7 +6365,7 @@ msgstr "Sei già presidente di un altro paese. Dimettiti prima."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Sei già vicepresidente di un altro paese. Dimettiti prima."
 
-#: src/pages/companies.tsx:76
+#: src/pages/companies.tsx:45
 #: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Sei disoccupato"
