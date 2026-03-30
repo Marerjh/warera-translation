@@ -73,7 +73,7 @@ msgid "{0} proposed a law, check it out!"
 msgstr "{0} a propus o lege!"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
-#: src/components/_military/battle/RoundScore.tsx:54
+#: src/components/_military/battle/RoundScore.tsx:55
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} runde sunt necesare pentru a câștiga această luptă."
 
@@ -132,7 +132,7 @@ msgid "{roundsToWin} Rounds to win"
 msgstr "{roundsToWin} runde pentru victorie"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
-#: src/components/_military/battle/RoundScore.tsx:49
+#: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Runde"
 
@@ -144,7 +144,7 @@ msgstr ""
 msgid "*May burn"
 msgstr "*Posibil să ardă"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:197
 msgid "/day"
 msgstr ""
 
@@ -630,6 +630,16 @@ msgstr "<0>Debuff</0> se termină <1/>"
 msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emoticoane</0> în chat"
 
+#. placeholder {0}: ts.case2
+#: src/components/_military/damageRanking/BattleLoot.tsx:55
+msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
+msgstr ""
+
+#. placeholder {0}: ts.case2
+#: src/components/_military/damageRanking/BattleLoot.tsx:68
+msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
+msgstr ""
+
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
 #. placeholder {2}: 10
@@ -1107,7 +1117,7 @@ msgstr "Acceptă pace între țări"
 msgid "Accepted"
 msgstr "Acceptată"
 
-#: src/components/_military/battle/BattleHeader.tsx:95
+#: src/components/_military/battle/BattleHeader.tsx:96
 msgid "Access war"
 msgstr ""
 
@@ -1475,11 +1485,11 @@ msgstr "Articolele lui <0/>"
 msgid "At least you tried"
 msgstr "Măcar ai încercat"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:490
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "La sfârșitul timpului, partea cu cele mai multe daune cauzate va câștiga <0>{actualTickPoints}</0>."
 
-#: src/components/_military/hit/HitButton.tsx:380
+#: src/components/_military/hit/HitButton.tsx:408
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1489,7 +1499,7 @@ msgstr "Atac"
 msgid "Attacker"
 msgstr "Agresor"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:182
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:190
 msgid "Attackers"
 msgstr "Atacatori"
 
@@ -1614,8 +1624,12 @@ msgstr "Bătălia s-a încheiat"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:54
-msgid "Battle loots"
+#: src/components/_military/damageRanking/BattleLoot.tsx:53
+msgid "Battle loot"
+msgstr ""
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:83
+msgid "Battle loot pool"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:64
@@ -1694,11 +1708,11 @@ msgstr "Îmbunătățește-ți producția!"
 msgid "Boots"
 msgstr "Cizme"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:699
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:700
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -1889,7 +1903,7 @@ msgid "Catapult"
 msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:152
-msgid "Chance per hit to instantly loot:<0/><1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
+msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
 msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:138
@@ -2009,7 +2023,7 @@ msgstr "Cetățenie"
 msgid "Citizenship Applications"
 msgstr "Aplicații pentru cetățenie"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr ""
 
@@ -2492,11 +2506,11 @@ msgstr "Unitate Militară Actuală"
 msgid "Current round only"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:509
 msgid "Current tick:"
 msgstr "Valoare tic actual:"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:499
 msgid "Current total:"
 msgstr "Total până acum:"
 
@@ -2516,7 +2530,7 @@ msgstr "Întreținere zinlică"
 msgid "Daily Missions Reset"
 msgstr "Resetare Misiuni Zilnice"
 
-#: src/components/_political/government/Government.tsx:139
+#: src/components/_political/government/Government.tsx:174
 msgid "Daily wage paid from the country treasury."
 msgstr ""
 
@@ -2549,7 +2563,7 @@ msgstr "Daune"
 msgid "Damages for Mu"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:334
+#: src/components/_military/hit/HitButton.tsx:362
 msgid "Damages you did for this side in this round"
 msgstr "Daune cauzade de tine, de această parte, în această rundă"
 
@@ -2666,7 +2680,7 @@ msgstr ""
 msgid "Decrease unrest"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:383
+#: src/components/_military/hit/HitButton.tsx:411
 msgid "Defend"
 msgstr "Apără"
 
@@ -2674,7 +2688,7 @@ msgstr "Apără"
 msgid "Defender"
 msgstr "Apărător"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:179
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:187
 msgid "Defenders"
 msgstr "Apărători"
 
@@ -2820,6 +2834,10 @@ msgstr "Dezmembrează obiect"
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "Închide"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
+msgid "Distributed"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:10
 msgid "Do you even know what luck is?"
@@ -3007,7 +3025,7 @@ msgstr "Cost promulgare"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Ended"
 msgstr "Încheiată"
 
@@ -3091,11 +3109,6 @@ msgstr ""
 #: src/pages/country/[countryId]/index.tsx:349
 msgid "Events"
 msgstr "Noutăți"
-
-#. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:58
-msgid "Every <0/> total damage dealt across both sides rolls an <1>{0}</1> into the round loot pool.<2>Additionally, every <3/> total battle damage rolls an item into the battle-wide pool.</2><4>On round end, the loot pools are distributed by overall damage rank: rank 1 receives the most valuable item, rank 2 the next, and so on.</4>"
-msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
 msgid "Everyone participates automatically"
@@ -3289,12 +3302,12 @@ msgstr "Găsește o unitate militară"
 msgid "Find another job"
 msgstr "Găsește alt loc de muncă"
 
-#: src/components/_political/government/Government.tsx:216
+#: src/components/_political/government/Government.tsx:228
 #: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Concediază"
 
-#: src/components/_political/government/Government.tsx:225
+#: src/components/_political/government/Government.tsx:240
 msgid "Fire government member"
 msgstr "Demite un membru al guvernului"
 
@@ -3474,7 +3487,7 @@ msgstr "Guvern"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:680
 msgid "Government penalty"
 msgstr ""
 
@@ -3482,7 +3495,7 @@ msgstr ""
 msgid "Government Proposals"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:150
+#: src/components/_political/government/Government.tsx:185
 msgid "Government wage"
 msgstr ""
 
@@ -3506,7 +3519,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Teren"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:548
 msgid "ground per tick"
 msgstr "teren per tic"
 
@@ -3573,7 +3586,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Lovește de <0>{count}</0> ori în lupte"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:682
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -3700,7 +3713,7 @@ msgstr ""
 msgid "Industrialist"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:146
+#: src/components/_political/government/Government.tsx:181
 msgid "Initial development"
 msgstr ""
 
@@ -4078,7 +4091,7 @@ msgstr "Cutii găsite"
 msgid "Looted money"
 msgstr "Bani găsiți"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:110
 msgid "Loots"
 msgstr ""
 
@@ -4315,15 +4328,15 @@ msgstr ""
 msgid "Minimum reputation to accept"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:87
+#: src/components/_political/government/Government.tsx:82
 msgid "Minister of Defense"
 msgstr "Ministrul Apărării"
 
-#: src/components/_political/government/Government.tsx:95
+#: src/components/_political/government/Government.tsx:91
 msgid "Minister of Economy"
 msgstr "Ministrul Finanțelor"
 
-#: src/components/_political/government/Government.tsx:103
+#: src/components/_political/government/Government.tsx:100
 msgid "Minister of Foreign Affairs"
 msgstr "Ministrul Externelor"
 
@@ -4482,6 +4495,10 @@ msgstr ""
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
 msgstr ""
 
+#: src/components/_military/battle/LootSummaryCard.tsx:66
+msgid "My battle loot"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:247
 msgid "My Bot, Script, etc."
 msgstr "Botul meu, Script, etc."
@@ -4522,6 +4539,10 @@ msgstr "Mitic?! Contul tău e binecuvântat"
 #: src/components/_political/party/PartyFormModal.tsx:99
 msgid "Name"
 msgstr "Nume"
+
+#: src/components/_military/battle/BattleSystem.tsx:669
+msgid "National bounty"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
@@ -4646,11 +4667,6 @@ msgstr "Noi"
 msgid "News"
 msgstr "Știri"
 
-#. placeholder {0}: roundId ? 'round' : 'battle'
-#: src/components/_military/damageRanking/BattleLoot.tsx:77
-msgid "Next {0} case"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:18
 msgid "Next one will be a tank"
 msgstr "Următorul va fi un tanc"
@@ -4663,7 +4679,7 @@ msgstr "Următorul va fi tanc"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:485
 msgid "Next tick"
 msgstr "Următorul tic"
 
@@ -4775,7 +4791,7 @@ msgstr ""
 msgid "No offers found"
 msgstr "Nu s-au găsit oferte"
 
-#: src/components/_political/government/Government.tsx:160
+#: src/components/_political/government/Government.tsx:205
 msgid "No one nominated yet"
 msgstr ""
 
@@ -4823,12 +4839,12 @@ msgstr "Niciun război"
 msgid "No work offers"
 msgstr "Fără oferte de muncă"
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:219
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Numește în funcție"
 
-#: src/components/_political/government/Government.tsx:237
+#: src/components/_political/government/Government.tsx:257
 msgid "Nominate a {title}"
 msgstr "Numește în funcție: {title}"
 
@@ -4868,7 +4884,7 @@ msgstr "Număr de donatori:"
 msgid "Occupied region"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:144
+#: src/components/_political/government/Government.tsx:179
 msgid "of"
 msgstr ""
 
@@ -5288,7 +5304,7 @@ msgstr "Cadou Plan Susținător trimis"
 msgid "Premium has started working"
 msgstr "Planul Susținător a început să funcționeze"
 
-#: src/components/_political/government/Government.tsx:71
+#: src/components/_political/government/Government.tsx:64
 msgid "President"
 msgstr "Președinte"
 
@@ -5778,11 +5794,11 @@ msgstr "Redenumește"
 msgid "Rename company"
 msgstr "Redenumește companie"
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:219
 msgid "Replace"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:237
+#: src/components/_political/government/Government.tsx:257
 msgid "Replace {title}"
 msgstr ""
 
@@ -5855,7 +5871,7 @@ msgstr "Resetează Nume"
 msgid "Reshuffle in"
 msgstr "Redistribuire în"
 
-#: src/components/_military/hit/HitButton.tsx:378
+#: src/components/_military/hit/HitButton.tsx:406
 msgid "Resist"
 msgstr "Rezistă"
 
@@ -5916,7 +5932,7 @@ msgstr ""
 msgid "Rifle"
 msgstr "Pușcă"
 
-#: src/components/_political/government/Government.tsx:123
+#: src/components/_political/government/Government.tsx:154
 msgid "Rights"
 msgstr "Drepturi"
 
@@ -5944,6 +5960,10 @@ msgstr ""
 msgid "Round {0}"
 msgstr ""
 
+#: src/components/_military/damageRanking/BattleLoot.tsx:83
+msgid "Round {roundNumber} loot pool"
+msgstr ""
+
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
@@ -5966,6 +5986,10 @@ msgstr "Runda s-a încheiat"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
+msgstr ""
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:53
+msgid "Round loot"
 msgstr ""
 
 #: src/components/_military/battle/BattleTimeline.tsx:57
@@ -6402,7 +6426,7 @@ msgstr "Declanșează alegeri prezidențiale"
 msgid "Start revolution"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:171
+#: src/components/_military/battle/BattleHeader.tsx:172
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6682,6 +6706,10 @@ msgstr "Turneul s-a încheiat pentru echipa ta <0/>. Verifică rezultatele!"
 msgid "The universe owes you something big"
 msgstr "Universul îți datorează ceva mai bun"
 
+#: src/components/_military/battle/BattleSystem.tsx:670
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Compania este dezactivată deoarece patronul a atins limita de companii."
@@ -6697,6 +6725,10 @@ msgstr "Acest obiect e verde ca iarba"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:62
 msgid "This feels good, huh?"
 msgstr "Se simte bine, nu?"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:43
+msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
@@ -6715,7 +6747,7 @@ msgstr ""
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:226
+#: src/components/_political/government/Government.tsx:241
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr ""
 
@@ -6875,7 +6907,7 @@ msgstr "Top donatori ai lunii"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:539
 msgid "total"
 msgstr "total"
 
@@ -7321,7 +7353,7 @@ msgstr "Se verifică CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Viceamiral"
 
-#: src/components/_political/government/Government.tsx:79
+#: src/components/_political/government/Government.tsx:73
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Vicepreședinte"
@@ -7330,7 +7362,7 @@ msgstr "Vicepreședinte"
 msgid "View details"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:102
+#: src/components/_military/battle/BattleHeader.tsx:103
 msgid "View on map"
 msgstr ""
 
@@ -7997,7 +8029,7 @@ msgstr "Misiunile tale zilnice au fost resetate! Completează-le pentru a câșt
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "Limita ta zilnică de XP a fost resetată, poți acum să câștigi XP și să primești recompensa zilnică!"
 
-#: src/components/_military/hit/HitButton.tsx:333
+#: src/components/_military/hit/HitButton.tsx:361
 msgid "Your damages"
 msgstr "Daunele tale"
 
@@ -8028,6 +8060,11 @@ msgstr "Informațiile au fost salvate."
 #: src/components/_other/tour/tuto.frontConfig.tsx:85
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Inventarul tău conține toate obiectele tale. Să vedem ce ai în el!"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:42
+#: src/components/_military/battle/LootSummaryCard.tsx:46
+msgid "Your loot"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:48
 msgid "Your luck is just warming up, don't quit"

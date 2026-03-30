@@ -75,7 +75,7 @@ msgid "{0} proposed a law, check it out!"
 msgstr "{0} bir yasa sundu, göz at!"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
-#: src/components/_military/battle/RoundScore.tsx:54
+#: src/components/_military/battle/RoundScore.tsx:55
 msgid "{0} rounds are needed to win the battle."
 msgstr "Savaşı kazanmak için {0} tur gerekli."
 
@@ -134,7 +134,7 @@ msgid "{roundsToWin} Rounds to win"
 msgstr "Kazanmak için {roundsToWin} tur"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
-#: src/components/_military/battle/RoundScore.tsx:49
+#: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Tur"
 
@@ -146,7 +146,7 @@ msgstr "*Kullanıcı setin bazı parçalarına zaten sahipse, fiyat düşürüle
 msgid "*May burn"
 msgstr "*Alev alabilir"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:197
 msgid "/day"
 msgstr ""
 
@@ -632,6 +632,16 @@ msgstr "<0>Debuff</0> bitecek <1/>"
 msgid "<0>Emotes</0> in chat"
 msgstr "Sohbette <0>emojiler</0>"
 
+#. placeholder {0}: ts.case2
+#: src/components/_military/damageRanking/BattleLoot.tsx:55
+msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
+msgstr ""
+
+#. placeholder {0}: ts.case2
+#: src/components/_military/damageRanking/BattleLoot.tsx:68
+msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
+msgstr ""
+
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
 #. placeholder {2}: 10
@@ -1109,7 +1119,7 @@ msgstr "Başka bir ülkeyle barış yapmayı kabul et"
 msgid "Accepted"
 msgstr "Kabul Edildi"
 
-#: src/components/_military/battle/BattleHeader.tsx:95
+#: src/components/_military/battle/BattleHeader.tsx:96
 msgid "Access war"
 msgstr "Savaşa eriş"
 
@@ -1477,11 +1487,11 @@ msgstr "<0/> Tarafından Yazılan Makaleler"
 msgid "At least you tried"
 msgstr "En azından denedin"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:490
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Süre sonunda <0>{actualTickPoints}</0> en çok hasarı veren tarafa atanacak."
 
-#: src/components/_military/hit/HitButton.tsx:380
+#: src/components/_military/hit/HitButton.tsx:408
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1491,7 +1501,7 @@ msgstr "Saldırı"
 msgid "Attacker"
 msgstr "Saldıran"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:182
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:190
 msgid "Attackers"
 msgstr "Saldıranlar"
 
@@ -1616,8 +1626,12 @@ msgstr "Cephe sona erdi"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:54
-msgid "Battle loots"
+#: src/components/_military/damageRanking/BattleLoot.tsx:53
+msgid "Battle loot"
+msgstr ""
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:83
+msgid "Battle loot pool"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:64
@@ -1696,11 +1710,11 @@ msgstr "Üretimini artır!"
 msgid "Boots"
 msgstr "Botlar"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:699
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:700
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -1891,7 +1905,7 @@ msgid "Catapult"
 msgstr "Katapult"
 
 #: src/components/_user/user/skills.frontConfig.tsx:152
-msgid "Chance per hit to instantly loot:<0/><1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
+msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
 msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:138
@@ -2011,7 +2025,7 @@ msgstr "Vatandaşlık"
 msgid "Citizenship Applications"
 msgstr "Vatandaşlık Başvuruları"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "İç Savaş"
 
@@ -2494,11 +2508,11 @@ msgstr "Şuanki Askeri Birlik"
 msgid "Current round only"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:509
 msgid "Current tick:"
 msgstr "Mevcut tik:"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:499
 msgid "Current total:"
 msgstr "Mevcut toplam:"
 
@@ -2518,7 +2532,7 @@ msgstr "Günlük bakım ücreti"
 msgid "Daily Missions Reset"
 msgstr "Günlük Görevler Sıfırlandı"
 
-#: src/components/_political/government/Government.tsx:139
+#: src/components/_political/government/Government.tsx:174
 msgid "Daily wage paid from the country treasury."
 msgstr ""
 
@@ -2551,7 +2565,7 @@ msgstr "Hasar"
 msgid "Damages for Mu"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:334
+#: src/components/_military/hit/HitButton.tsx:362
 msgid "Damages you did for this side in this round"
 msgstr "Bu turda bu taraf için verdiğin hasar"
 
@@ -2668,7 +2682,7 @@ msgstr ""
 msgid "Decrease unrest"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:383
+#: src/components/_military/hit/HitButton.tsx:411
 msgid "Defend"
 msgstr "Savun"
 
@@ -2676,7 +2690,7 @@ msgstr "Savun"
 msgid "Defender"
 msgstr "Savunan"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:179
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:187
 msgid "Defenders"
 msgstr "Savunanlar"
 
@@ -2822,6 +2836,10 @@ msgstr "Eşyayı Parçala"
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "Kapat"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
+msgid "Distributed"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:10
 msgid "Do you even know what luck is?"
@@ -3009,7 +3027,7 @@ msgstr "Yürürlüğe koyma maliyeti"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Ended"
 msgstr "Sona Erdi"
 
@@ -3093,11 +3111,6 @@ msgstr "Etik Puanları"
 #: src/pages/country/[countryId]/index.tsx:349
 msgid "Events"
 msgstr "Etkinlik"
-
-#. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:58
-msgid "Every <0/> total damage dealt across both sides rolls an <1>{0}</1> into the round loot pool.<2>Additionally, every <3/> total battle damage rolls an item into the battle-wide pool.</2><4>On round end, the loot pools are distributed by overall damage rank: rank 1 receives the most valuable item, rank 2 the next, and so on.</4>"
-msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
 msgid "Everyone participates automatically"
@@ -3291,12 +3304,12 @@ msgstr "Askeri birlik bul"
 msgid "Find another job"
 msgstr "Başka iş bul"
 
-#: src/components/_political/government/Government.tsx:216
+#: src/components/_political/government/Government.tsx:228
 #: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Kov"
 
-#: src/components/_political/government/Government.tsx:225
+#: src/components/_political/government/Government.tsx:240
 msgid "Fire government member"
 msgstr "Hükümet üyesini kov"
 
@@ -3476,7 +3489,7 @@ msgstr "Hükümet"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:680
 msgid "Government penalty"
 msgstr ""
 
@@ -3484,7 +3497,7 @@ msgstr ""
 msgid "Government Proposals"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:150
+#: src/components/_political/government/Government.tsx:185
 msgid "Government wage"
 msgstr ""
 
@@ -3508,7 +3521,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Toprak"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:548
 msgid "ground per tick"
 msgstr "tik başına toprak"
 
@@ -3575,7 +3588,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Savaşlarda <0>{count}</0> kez vur"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:682
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -3702,7 +3715,7 @@ msgstr "Sanayicilik vs Tarımcılık"
 msgid "Industrialist"
 msgstr "Sanayici"
 
-#: src/components/_political/government/Government.tsx:146
+#: src/components/_political/government/Government.tsx:181
 msgid "Initial development"
 msgstr ""
 
@@ -4080,7 +4093,7 @@ msgstr "Yağmalanmış kasalar"
 msgid "Looted money"
 msgstr "Yağmalanan para"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:110
 msgid "Loots"
 msgstr ""
 
@@ -4317,15 +4330,15 @@ msgstr "Min. aktif vatandaş"
 msgid "Minimum reputation to accept"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:87
+#: src/components/_political/government/Government.tsx:82
 msgid "Minister of Defense"
 msgstr "Savunma Bakanı"
 
-#: src/components/_political/government/Government.tsx:95
+#: src/components/_political/government/Government.tsx:91
 msgid "Minister of Economy"
 msgstr "Ekonomi Bakanı"
 
-#: src/components/_political/government/Government.tsx:103
+#: src/components/_political/government/Government.tsx:100
 msgid "Minister of Foreign Affairs"
 msgstr "Dışişleri Bakanı"
 
@@ -4484,6 +4497,10 @@ msgstr ""
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
 msgstr ""
 
+#: src/components/_military/battle/LootSummaryCard.tsx:66
+msgid "My battle loot"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:247
 msgid "My Bot, Script, etc."
 msgstr "Botum, Script, vb."
@@ -4524,6 +4541,10 @@ msgstr "Mistik mi?! Hesabın kutsanmış"
 #: src/components/_political/party/PartyFormModal.tsx:99
 msgid "Name"
 msgstr "İsim"
+
+#: src/components/_military/battle/BattleSystem.tsx:669
+msgid "National bounty"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
@@ -4648,11 +4669,6 @@ msgstr "En Yeni"
 msgid "News"
 msgstr "Haberler"
 
-#. placeholder {0}: roundId ? 'round' : 'battle'
-#: src/components/_military/damageRanking/BattleLoot.tsx:77
-msgid "Next {0} case"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:18
 msgid "Next one will be a tank"
 msgstr "Sonraki tank olacak"
@@ -4665,7 +4681,7 @@ msgstr "Sonraki tank olacak"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:485
 msgid "Next tick"
 msgstr "Sonraki tik"
 
@@ -4777,7 +4793,7 @@ msgstr "Henüz önerge yok"
 msgid "No offers found"
 msgstr "Teklif bulunamadı"
 
-#: src/components/_political/government/Government.tsx:160
+#: src/components/_political/government/Government.tsx:205
 msgid "No one nominated yet"
 msgstr ""
 
@@ -4825,12 +4841,12 @@ msgstr "Savaş bulunamadı"
 msgid "No work offers"
 msgstr "İş teklifi yok"
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:219
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Aday Göster"
 
-#: src/components/_political/government/Government.tsx:237
+#: src/components/_political/government/Government.tsx:257
 msgid "Nominate a {title}"
 msgstr "Bir {title} aday göster"
 
@@ -4870,7 +4886,7 @@ msgstr "Bağışçı sayısı:"
 msgid "Occupied region"
 msgstr "İşgal edilmiş bölge"
 
-#: src/components/_political/government/Government.tsx:144
+#: src/components/_political/government/Government.tsx:179
 msgid "of"
 msgstr ""
 
@@ -5290,7 +5306,7 @@ msgstr "Premium hediyesi gönderildi"
 msgid "Premium has started working"
 msgstr "Premium çalışmaya başladı"
 
-#: src/components/_political/government/Government.tsx:71
+#: src/components/_political/government/Government.tsx:64
 msgid "President"
 msgstr "Başkan"
 
@@ -5780,11 +5796,11 @@ msgstr "Yeniden adlandır"
 msgid "Rename company"
 msgstr "Şirketi yeniden adlandır"
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:219
 msgid "Replace"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:237
+#: src/components/_political/government/Government.tsx:257
 msgid "Replace {title}"
 msgstr ""
 
@@ -5857,7 +5873,7 @@ msgstr "Kullanıcı Adını Sıfırla"
 msgid "Reshuffle in"
 msgstr "Yeniden dağıtım"
 
-#: src/components/_military/hit/HitButton.tsx:378
+#: src/components/_military/hit/HitButton.tsx:406
 msgid "Resist"
 msgstr "Diren"
 
@@ -5918,7 +5934,7 @@ msgstr ""
 msgid "Rifle"
 msgstr "Tüfek"
 
-#: src/components/_political/government/Government.tsx:123
+#: src/components/_political/government/Government.tsx:154
 msgid "Rights"
 msgstr "Haklar"
 
@@ -5946,6 +5962,10 @@ msgstr ""
 msgid "Round {0}"
 msgstr ""
 
+#: src/components/_military/damageRanking/BattleLoot.tsx:83
+msgid "Round {roundNumber} loot pool"
+msgstr ""
+
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
@@ -5968,6 +5988,10 @@ msgstr "Tur sona erdi"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
+msgstr ""
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:53
+msgid "Round loot"
 msgstr ""
 
 #: src/components/_military/battle/BattleTimeline.tsx:57
@@ -6404,7 +6428,7 @@ msgstr "Başkanlık seçimi başlat"
 msgid "Start revolution"
 msgstr "Bir devrim başlat"
 
-#: src/components/_military/battle/BattleHeader.tsx:171
+#: src/components/_military/battle/BattleHeader.tsx:172
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6684,6 +6708,10 @@ msgstr "Takımın <0/> için turnuva sona erdi. Sonuçları kontrol et!"
 msgid "The universe owes you something big"
 msgstr "Evren sana büyük bir şey borçlu"
 
+#: src/components/_military/battle/BattleSystem.tsx:670
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Bu şirket, sahibi şirket limitine ulaştığı için devre dışı."
@@ -6699,6 +6727,10 @@ msgstr "Bu ekipman yeşil ve çimen de öyle"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:62
 msgid "This feels good, huh?"
 msgstr "İyi hissettiriyor, değil mi?"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:43
+msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
@@ -6717,7 +6749,7 @@ msgstr "Bu yasanın değişebilen ek bir maliyeti vardır."
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Bu yasa, ülkede en az {minActiveCitizen} aktif vatandaş (level 10+) bulunmasını gerektirmektedir."
 
-#: src/components/_political/government/Government.tsx:226
+#: src/components/_political/government/Government.tsx:241
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr ""
 
@@ -6877,7 +6909,7 @@ msgstr "Ayın en iyi hediye verenleri"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:539
 msgid "total"
 msgstr "toplam"
 
@@ -7323,7 +7355,7 @@ msgstr "CAPTCHA doğrulanıyor..."
 msgid "Vice Admiral"
 msgstr "Koramiral"
 
-#: src/components/_political/government/Government.tsx:79
+#: src/components/_political/government/Government.tsx:73
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Başkan Yardımcısı"
@@ -7332,7 +7364,7 @@ msgstr "Başkan Yardımcısı"
 msgid "View details"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:102
+#: src/components/_military/battle/BattleHeader.tsx:103
 msgid "View on map"
 msgstr "Haritada göster"
 
@@ -7999,7 +8031,7 @@ msgstr "Günlük görevleriniz sıfırlandı! Ödüllerinizi almak için tamamla
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "Günlük XP limitin sıfırlandı, artık XP kazanabilir ve günlük ödülünü alabilirsin!"
 
-#: src/components/_military/hit/HitButton.tsx:333
+#: src/components/_military/hit/HitButton.tsx:361
 msgid "Your damages"
 msgstr "Verdiğin hasar"
 
@@ -8030,6 +8062,11 @@ msgstr "Bilgilerin kaydedildi."
 #: src/components/_other/tour/tuto.frontConfig.tsx:85
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Envanterin tüm eşyalarını içerir. Nelerin var bakalım!"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:42
+#: src/components/_military/battle/LootSummaryCard.tsx:46
+msgid "Your loot"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:48
 msgid "Your luck is just warming up, don't quit"
