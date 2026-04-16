@@ -142,7 +142,7 @@ msgstr "{score}/{0} 回合"
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
 msgstr "*如果用戶已經擁有一些造型包中的造型，價格會減少"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:144
+#: src/components/_user/premium/PremiumFeatureList.tsx:145
 msgid "*May burn"
 msgstr "*可能會燒起來"
 
@@ -622,7 +622,7 @@ msgstr "<0>加成</0> 結束於 <1/>"
 msgid "<0>Debuff</0> ends <1/>"
 msgstr "<0>減益</0> 結束於 <1/>"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:101
+#: src/components/_user/premium/PremiumFeatureList.tsx:102
 msgid "<0>Emotes</0> in chat"
 msgstr "在聊天中使用 <0>表情符號</0> "
 
@@ -1017,11 +1017,11 @@ msgstr "5★ 上將"
 msgid "5★ Lt. General"
 msgstr "5★ 中將"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:60
+#: src/components/_user/premium/PremiumFeatureList.tsx:61
 msgid "A <0>supporter badge</0>"
 msgstr "一個 <0>支持者勳章</0>"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:65
+#: src/components/_user/premium/PremiumFeatureList.tsx:66
 msgid "A beautiful colored username that will make you very popular"
 msgstr "一個漂亮的使用者名稱會讓你變得十分受歡迎"
 
@@ -1351,7 +1351,7 @@ msgstr "聯盟已被建立"
 msgid "An email with the verification code has been sent to {email}"
 msgstr "一封包含認證密碼的 email 已經送至 {email}"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:93
+#: src/components/_user/premium/PremiumFeatureList.tsx:94
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "把會動的 <0>GIF</0> 當作頭像"
 
@@ -1814,7 +1814,7 @@ msgstr "參選文章連結 (選填)"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:151
+#: src/components/_user/premium/PremiumFeatureList.tsx:152
 msgid "Cancel at any time"
 msgstr "可隨時取消"
 
@@ -2494,7 +2494,7 @@ msgstr "目前刻："
 msgid "Current total:"
 msgstr "目前總共："
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:83
+#: src/components/_user/premium/PremiumFeatureList.tsx:84
 msgid "Custom username font"
 msgstr "客製化用戶名稱字體"
 
@@ -3368,7 +3368,7 @@ msgstr "產生任務"
 msgid "Generates <0>{0}</0>/day"
 msgstr "產生 <0>{0}</0>/日"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:160
+#: src/components/_user/premium/PremiumFeatureList.tsx:161
 msgid "Get an exclusive <0>subscriber skin</0>!"
 msgstr ""
 
@@ -3600,7 +3600,7 @@ msgstr ""
 msgid "Help MU Members"
 msgstr "幫助軍團成員"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:42
+#: src/components/_user/premium/PremiumFeatureList.tsx:43
 msgid "Help the game to grow"
 msgstr "幫助遊戲發展"
 
@@ -4431,7 +4431,7 @@ msgstr ""
 msgid "More"
 msgstr "更多"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:148
+#: src/components/_user/premium/PremiumFeatureList.tsx:149
 msgid "More premium features coming soon!"
 msgstr "更多高級訂閱功能即將推出！"
 
@@ -4999,7 +4999,7 @@ msgstr "打開它來獲取一樣更好的隨機物品"
 msgid "Open it to get a random item"
 msgstr "打開它來獲取一樣隨機物品"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:48
+#: src/components/_user/premium/PremiumFeatureList.tsx:49
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "同時打開多個<0>箱子</0> "
 
@@ -5251,7 +5251,7 @@ msgstr "選擇一個戰鬥！"
 msgid "Pill"
 msgstr "藥丸"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:141
+#: src/components/_user/premium/PremiumFeatureList.tsx:142
 msgid "Plant a tree in the data center"
 msgstr "在資料中心種一棵樹"
 
@@ -5517,7 +5517,7 @@ msgstr ""
 msgid "Quick dismantle"
 msgstr "快速拆解"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:57
+#: src/components/_user/premium/PremiumFeatureList.tsx:58
 msgid "Quickly dismantle items"
 msgstr "快速拆解物品"
 
@@ -6067,11 +6067,11 @@ msgstr "搜尋接收者用戶名稱..."
 msgid "Search username to nominate..."
 msgstr "搜尋用戶名稱以指派..."
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:45
+#: src/components/_user/premium/PremiumFeatureList.tsx:46
 msgid "See all your workers and companies stats"
 msgstr "查看所有員工與公司的統計資料"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:117
+#: src/components/_user/premium/PremiumFeatureList.tsx:118
 msgid "See your spending and income breakdown"
 msgstr "查看你的支出與收入明細"
 
@@ -6185,7 +6185,7 @@ msgstr "匯錢給其他國家"
 msgid "Sergeant"
 msgstr "中士"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:132
+#: src/components/_user/premium/PremiumFeatureList.tsx:133
 msgid "Set a <0>description</0>"
 msgstr "設置 <0>描述</0>"
 
@@ -7075,11 +7075,11 @@ msgstr "解鎖"
 msgid "Unlock {0} skin{1}"
 msgstr "解鎖 {0} 造型{1}"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:90
+#: src/components/_user/premium/PremiumFeatureList.tsx:91
 msgid "Unlock Help all button"
 msgstr "解鎖一鍵幫助"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:87
+#: src/components/_user/premium/PremiumFeatureList.tsx:88
 msgid "Unlock Produce all button"
 msgstr "解鎖一鍵生產"
 
@@ -7117,7 +7117,7 @@ msgid "Unset the sworn enemy country"
 msgstr "清除宿敵國家"
 
 #. placeholder {0}: gameConfig?.user.equipmentSets.premiumMax
-#: src/components/_user/premium/PremiumFeatureList.tsx:123
+#: src/components/_user/premium/PremiumFeatureList.tsx:124
 msgid "Up to {0} equipment sets"
 msgstr "最多可擁有 {0} 個裝備集"
 

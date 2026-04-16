@@ -142,7 +142,7 @@ msgstr "{score}/{0} Meow"
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
 msgstr "*Meow meow meow meow meow meow meow meow meow meow, meow meow meow meow meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:144
+#: src/components/_user/premium/PremiumFeatureList.tsx:145
 msgid "*May burn"
 msgstr "*Meow meow"
 
@@ -622,7 +622,7 @@ msgstr "<0>Meow</0> meow <1/>"
 msgid "<0>Debuff</0> ends <1/>"
 msgstr "<0>Meow</0> meow <1/>"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:101
+#: src/components/_user/premium/PremiumFeatureList.tsx:102
 msgid "<0>Emotes</0> in chat"
 msgstr "<0>Meow</0> meow meow"
 
@@ -1017,11 +1017,11 @@ msgstr "5★ Meow"
 msgid "5★ Lt. General"
 msgstr "5★ Meow. Meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:60
+#: src/components/_user/premium/PremiumFeatureList.tsx:61
 msgid "A <0>supporter badge</0>"
 msgstr "Meow <0>meow meow</0>"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:65
+#: src/components/_user/premium/PremiumFeatureList.tsx:66
 msgid "A beautiful colored username that will make you very popular"
 msgstr "Meow meow meow meow meow meow meow meow meow meow"
 
@@ -1351,7 +1351,7 @@ msgstr "Meow meow meow meow meow"
 msgid "An email with the verification code has been sent to {email}"
 msgstr "Meow meow meow meow meow meow meow meow meow meow {email}"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:93
+#: src/components/_user/premium/PremiumFeatureList.tsx:94
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Meow <0>Meow</0> meow meow"
 
@@ -1814,7 +1814,7 @@ msgstr "Meow Meow Meow (meow)"
 msgid "Cancel"
 msgstr "Meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:151
+#: src/components/_user/premium/PremiumFeatureList.tsx:152
 msgid "Cancel at any time"
 msgstr "Meow meow meow meow"
 
@@ -2494,7 +2494,7 @@ msgstr "Meow meow:"
 msgid "Current total:"
 msgstr "Meow meow:"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:83
+#: src/components/_user/premium/PremiumFeatureList.tsx:84
 msgid "Custom username font"
 msgstr "Meow meow meow"
 
@@ -3368,7 +3368,7 @@ msgstr "Meow Meow"
 msgid "Generates <0>{0}</0>/day"
 msgstr "Meow <0>{0}</0>/meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:160
+#: src/components/_user/premium/PremiumFeatureList.tsx:161
 msgid "Get an exclusive <0>subscriber skin</0>!"
 msgstr ""
 
@@ -3600,7 +3600,7 @@ msgstr "Meow meow Meow"
 msgid "Help MU Members"
 msgstr "Meow Meow Meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:42
+#: src/components/_user/premium/PremiumFeatureList.tsx:43
 msgid "Help the game to grow"
 msgstr "Meow meow meow meow meow"
 
@@ -4431,7 +4431,7 @@ msgstr "Meow:"
 msgid "More"
 msgstr "Meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:148
+#: src/components/_user/premium/PremiumFeatureList.tsx:149
 msgid "More premium features coming soon!"
 msgstr "Meow meow meow meow meow!"
 
@@ -4999,7 +4999,7 @@ msgstr "Meow meow meow meow meow meow meow meow"
 msgid "Open it to get a random item"
 msgstr "Meow meow meow meow meow meow meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:48
+#: src/components/_user/premium/PremiumFeatureList.tsx:49
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "Meow meow <0>Meow</0> meow meow meow"
 
@@ -5251,7 +5251,7 @@ msgstr "Meow meow meow!"
 msgid "Pill"
 msgstr "Meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:141
+#: src/components/_user/premium/PremiumFeatureList.tsx:142
 msgid "Plant a tree in the data center"
 msgstr "Meow meow meow meow meow meow meow"
 
@@ -5517,7 +5517,7 @@ msgstr "Meow"
 msgid "Quick dismantle"
 msgstr "Meow meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:57
+#: src/components/_user/premium/PremiumFeatureList.tsx:58
 msgid "Quickly dismantle items"
 msgstr "Meow meow meow"
 
@@ -6067,11 +6067,11 @@ msgstr "Meow meow meow..."
 msgid "Search username to nominate..."
 msgstr "Meow meow meow meow..."
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:45
+#: src/components/_user/premium/PremiumFeatureList.tsx:46
 msgid "See all your workers and companies stats"
 msgstr "Meow meow meow meow meow meow meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:117
+#: src/components/_user/premium/PremiumFeatureList.tsx:118
 msgid "See your spending and income breakdown"
 msgstr "Meow meow meow meow meow meow"
 
@@ -6185,7 +6185,7 @@ msgstr "Meow meow meow meow meow"
 msgid "Sergeant"
 msgstr "Meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:132
+#: src/components/_user/premium/PremiumFeatureList.tsx:133
 msgid "Set a <0>description</0>"
 msgstr "Meow meow <0>meow</0>"
 
@@ -7075,11 +7075,11 @@ msgstr "Meow"
 msgid "Unlock {0} skin{1}"
 msgstr "Meow {0} meow{1}"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:90
+#: src/components/_user/premium/PremiumFeatureList.tsx:91
 msgid "Unlock Help all button"
 msgstr "Meow Meow meow meow"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:87
+#: src/components/_user/premium/PremiumFeatureList.tsx:88
 msgid "Unlock Produce all button"
 msgstr "Meow Meow meow meow"
 
@@ -7117,7 +7117,7 @@ msgid "Unset the sworn enemy country"
 msgstr "Meow meow meow meow meow"
 
 #. placeholder {0}: gameConfig?.user.equipmentSets.premiumMax
-#: src/components/_user/premium/PremiumFeatureList.tsx:123
+#: src/components/_user/premium/PremiumFeatureList.tsx:124
 msgid "Up to {0} equipment sets"
 msgstr "Meow meow {0} meow meow"
 

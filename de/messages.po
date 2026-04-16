@@ -142,7 +142,7 @@ msgstr "{score}/{0} Runden"
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
 msgstr "*Wenn der Benutzer bereits einige Teile des Sets besitzt, wird der Preis reduziert"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:144
+#: src/components/_user/premium/PremiumFeatureList.tsx:145
 msgid "*May burn"
 msgstr "*Kann brennen"
 
@@ -622,7 +622,7 @@ msgstr "<0>Buff</0> endet <1/>"
 msgid "<0>Debuff</0> ends <1/>"
 msgstr "<0>Debuff</0> endet <1/>"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:101
+#: src/components/_user/premium/PremiumFeatureList.tsx:102
 msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotes</0> im Chat"
 
@@ -1017,11 +1017,11 @@ msgstr "5★ General"
 msgid "5★ Lt. General"
 msgstr "5★ Generalleutnant"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:60
+#: src/components/_user/premium/PremiumFeatureList.tsx:61
 msgid "A <0>supporter badge</0>"
 msgstr "Ein <0>Unterstützer-Abzeichen</0>"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:65
+#: src/components/_user/premium/PremiumFeatureList.tsx:66
 msgid "A beautiful colored username that will make you very popular"
 msgstr "Ein schön farbiger Benutzername, der dich sehr beliebt machen wird"
 
@@ -1351,7 +1351,7 @@ msgstr "Ein Bündnis wurde geschlossen"
 msgid "An email with the verification code has been sent to {email}"
 msgstr "Eine E-Mail mit dem Bestätigungscode wurde an {email} gesendet"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:93
+#: src/components/_user/premium/PremiumFeatureList.tsx:94
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animiertes <0>GIF</0> als Avatar"
 
@@ -1814,7 +1814,7 @@ msgstr "Link zum Wahlkampfartikel (optional)"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:151
+#: src/components/_user/premium/PremiumFeatureList.tsx:152
 msgid "Cancel at any time"
 msgstr "Jederzeit kündbar"
 
@@ -2494,7 +2494,7 @@ msgstr "Aktueller Tick:"
 msgid "Current total:"
 msgstr "Aktuelle Gesamtsumme:"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:83
+#: src/components/_user/premium/PremiumFeatureList.tsx:84
 msgid "Custom username font"
 msgstr "Benutzerdefinierte Schriftart des Benutzernamens"
 
@@ -3368,7 +3368,7 @@ msgstr "Missionen generieren"
 msgid "Generates <0>{0}</0>/day"
 msgstr "Generiert <0>{0}</0>/Tag"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:160
+#: src/components/_user/premium/PremiumFeatureList.tsx:161
 msgid "Get an exclusive <0>subscriber skin</0>!"
 msgstr ""
 
@@ -3600,7 +3600,7 @@ msgstr "Hilfe für ME"
 msgid "Help MU Members"
 msgstr "ME-Mitgliedern helfen"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:42
+#: src/components/_user/premium/PremiumFeatureList.tsx:43
 msgid "Help the game to grow"
 msgstr "Hilf dem Spiel zu wachsen"
 
@@ -4431,7 +4431,7 @@ msgstr "Monatlich:"
 msgid "More"
 msgstr "Mehr"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:148
+#: src/components/_user/premium/PremiumFeatureList.tsx:149
 msgid "More premium features coming soon!"
 msgstr "Weitere Premium-Funktionen folgen bald!"
 
@@ -4999,7 +4999,7 @@ msgstr "Öffne es, um einen besseren zufälligen Gegenstand zu erhalten"
 msgid "Open it to get a random item"
 msgstr "Öffne es, um einen zufälligen Gegenstand zu erhalten"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:48
+#: src/components/_user/premium/PremiumFeatureList.tsx:49
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "Mehrere <0>Kisten</0> gleichzeitig öffnen"
 
@@ -5251,7 +5251,7 @@ msgstr "Such dir einen Kampf aus!"
 msgid "Pill"
 msgstr "Pille"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:141
+#: src/components/_user/premium/PremiumFeatureList.tsx:142
 msgid "Plant a tree in the data center"
 msgstr "Pflanze einen Baum im Rechenzentrum"
 
@@ -5517,7 +5517,7 @@ msgstr "Menge"
 msgid "Quick dismantle"
 msgstr "Schnellzerlegung"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:57
+#: src/components/_user/premium/PremiumFeatureList.tsx:58
 msgid "Quickly dismantle items"
 msgstr "Gegenstände schnell zerlegen"
 
@@ -6067,11 +6067,11 @@ msgstr "Benutzernamen des Empfängers suchen..."
 msgid "Search username to nominate..."
 msgstr "Benutzernamen zum Nominieren suchen..."
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:45
+#: src/components/_user/premium/PremiumFeatureList.tsx:46
 msgid "See all your workers and companies stats"
 msgstr "Sieh dir alle Statistiken deiner Arbeiter und Unternehmen an"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:117
+#: src/components/_user/premium/PremiumFeatureList.tsx:118
 msgid "See your spending and income breakdown"
 msgstr "Sieh dir deine Ausgaben- und Einnahmenaufschlüsselung an"
 
@@ -6185,7 +6185,7 @@ msgstr "Geld an ein anderes Land senden"
 msgid "Sergeant"
 msgstr "Sergeant"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:132
+#: src/components/_user/premium/PremiumFeatureList.tsx:133
 msgid "Set a <0>description</0>"
 msgstr "Eine <0>Beschreibung</0> festlegen"
 
@@ -7075,11 +7075,11 @@ msgstr "Freischalten"
 msgid "Unlock {0} skin{1}"
 msgstr "{0} Skin{1} freischalten"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:90
+#: src/components/_user/premium/PremiumFeatureList.tsx:91
 msgid "Unlock Help all button"
 msgstr "'Allen helfen'-Button freischalten"
 
-#: src/components/_user/premium/PremiumFeatureList.tsx:87
+#: src/components/_user/premium/PremiumFeatureList.tsx:88
 msgid "Unlock Produce all button"
 msgstr "'Alle produzieren'-Button freischalten"
 
@@ -7117,7 +7117,7 @@ msgid "Unset the sworn enemy country"
 msgstr "Erzfeind-Land entfernen"
 
 #. placeholder {0}: gameConfig?.user.equipmentSets.premiumMax
-#: src/components/_user/premium/PremiumFeatureList.tsx:123
+#: src/components/_user/premium/PremiumFeatureList.tsx:124
 msgid "Up to {0} equipment sets"
 msgstr "Bis zu {0} Ausrüstungs-Sets"
 
