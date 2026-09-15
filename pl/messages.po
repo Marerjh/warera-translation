@@ -9294,7 +9294,7 @@ msgstr "Odblokuj (pokaż treści)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:227
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
-msgstr "Niezebrane skrzynki oczekujące na mapie (maks {maxLoots}"
+msgstr "Niezebrane skrzynki oczekujące na mapie (maks {maxLoots})"
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
