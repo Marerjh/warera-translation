@@ -284,7 +284,7 @@ msgstr "<0/> ukończył kontrakt, otrzymujesz <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:667
 msgid "<0/> conquered the region in <1/>"
-msgstr "<0/> podbił region w <1/>"
+msgstr "<0/> zdobył region w <1/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:94
 msgid "<0/> created the conversation"
@@ -364,7 +364,7 @@ msgstr "<0/> został wykluczony z sojuszu <1/>"
 #. placeholder {0}: data.amount
 #: src/components/_political/event/event.frontConfig.tsx:216
 msgid "<0/> has bought <1/> from <2/> for <3>{0}</3>"
-msgstr "<0/> został zakupiony <1/> od <2/> za <3>{0}</3>"
+msgstr "<0/> zakupił <1/> od <2/> za <3>{0}</3>"
 
 #: src/components/_political/event/event.frontConfig.tsx:332
 msgid "<0/> has broken their alliance with <1/>"
@@ -376,7 +376,7 @@ msgstr "<0/> zerwał pakt obronny z <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:103
 msgid "<0/> has conquered <1/> against <2/>"
-msgstr "<0/> podbił <1/> przeciwko <2/>"
+msgstr "<0/> zdobył <1/> przeciwko <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:122
 msgid "<0/> has defended <1/> against <2/>"
@@ -793,7 +793,7 @@ msgstr "<0>Średni rozwój</0> jest średnią <1>Rdzennego rozwoju</1> i <2>Obec
 
 #: src/components/_political/country/CountryHeader.tsx:215
 msgid "<0>Core development</0> is calculated depending on the country's <1>Population</1> and average <2>Level</2>. then distributed equally among the country's <3>Core regions</3>."
-msgstr "Wartość <0>Rozwoju rdzennego</0> jest obliczana na podstawie krajowej <1>Populacji</1> i średniego <2>Poziomu</2>. Następnie jest rozdzielana pomiędzy <3>Regionów rdzennych</3>."
+msgstr "Wartość <0>Rozwoju rdzennego</0> jest obliczana na podstawie krajowej <1>Populacji</1> i średniego <2>Poziomu</2>. Następnie jest rozdzielana pomiędzy <3>Regiony rdzenne</3>."
 
 #: src/components/_political/country/CountryHeader.tsx:279
 msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
@@ -2199,7 +2199,7 @@ msgstr "Niebieski Drąg"
 
 #: src/components/_layout/LayoutOptions.tsx:167
 msgid "Blur"
-msgstr "Rozmycie"
+msgstr "Przeźroczystość"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:242
 msgid "Bone Club"
@@ -3295,19 +3295,19 @@ msgstr "Ciemna mapa"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:151
 msgid "Deal <0/> for allies or your country"
-msgstr "Zadaj <0/> dla sojuszników albo twojego kraju"
+msgstr "Zadaj <0/> obrażeń dla sojuszników albo twojego kraju"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:131
 msgid "Deal <0/> in battles"
-msgstr "Zadaj <0/> w bitwach"
+msgstr "Zadaj <0/> obrażeń w bitwach"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Deal <0/> on country/mu orders"
-msgstr "Zadaj <0/> na rozkaz kraju/jw"
+msgstr "Zadaj <0/> obrażeń na rozkaz kraju/jw"
 
 #: src/components/_user/user/MilitaryRank.tsx:97
 msgid "Deal <0>damages</0> in battles to climb the ranks!"
-msgstr "Zadaj <0>damages</0> w bitwach aby wspinać się w rankingach!"
+msgstr "Zadaj <0>obrażenia</0> w bitwach aby wspinać się w rankingach!"
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
@@ -8442,7 +8442,7 @@ msgstr "Zużycie podczas ruchu na mapie: 10 punktów za każdy pokonany region. 
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
-msgstr "Stabilna siła chroniąca przed podbojem. Służy do obliczania niepokojów, pensji rządowych i kosztów rewolucji. Inne koszty zależą od wskaźnika: <0>>Average developmen</0>"
+msgstr "Stabilna siła chroniąca przed podbojem. Służy do obliczania niepokojów, pensji rządowych i kosztów rewolucji. Inne koszty zależą od wskaźnika: <0>>Średni rozwój</0>"
 
 #: src/components/_user/user/SkillUpgrade.tsx:268
 msgid "Stage a prestige point on this skill (applied on save, reset on skill reset)"
