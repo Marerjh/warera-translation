@@ -263,7 +263,7 @@ msgstr "<0/> kupił twój baner{0}!"
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:443
 msgid "<0/> buys <1/> for <2>{0}</2>"
-msgstr "<0/> kupuje <1/> dla <2>{0}</2>"
+msgstr "<0/> kupuje <1/> za <2>{0}</2>"
 
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:454
