@@ -9461,7 +9461,7 @@ msgstr "Używane do <0>Pracy</0>"
 
 #: src/utils/translations.tsx:71
 msgid "Used to build companies and MUs"
-msgstr "Używana do budowy firm i JW"
+msgstr "Używany do budowy firm i JW"
 
 #: src/utils/translations.tsx:41
 msgid "Used to craft items"
@@ -9489,7 +9489,7 @@ msgstr "Używana do produkcji Gotowanej Ryby"
 
 #: src/utils/translations.tsx:85
 msgid "Used to produce Oil"
-msgstr "Używany do produkcji Oleju"
+msgstr "Używana do produkcji Oleju"
 
 #: src/utils/translations.tsx:89
 msgid "Used to produce Paper"
@@ -9501,11 +9501,11 @@ msgstr "Używana do produkcji Pigułek"
 
 #: src/utils/translations.tsx:54
 msgid "Used to produce Steel"
-msgstr "Używany do produkcji Stali"
+msgstr "Używane do produkcji Stali"
 
 #: src/utils/translations.tsx:129
 msgid "Used to upgrade companies, MUs and fortifications"
-msgstr "Używany do ulepszania firm, JW i fortyfikacji"
+msgstr "Używana do ulepszania firm, JW i fortyfikacji"
 
 #: src/components/_layout/LoadingScreenContent.tsx:25
 msgid "user"
