@@ -144,7 +144,7 @@ msgstr "{0}/{1} aktivnih"
 #. placeholder {0}: userMapLootConfig.lootChancePercent
 #: src/components/_layout/LayoutMapUserMenu.tsx:240
 msgid "{0}% base chance, plus your Luck skill"
-msgstr "{0}% osnovno šansa, plus tvoja vještina Sreće"
+msgstr "Zbroj osnovne šanse od {0}% i vrijednosti vještine sreće."
 
 #. placeholder {0}: companyCountry.taxes.income
 #: src/components/_economy/company/CompanyTags.tsx:50
@@ -1885,7 +1885,7 @@ msgstr "U ratu sa"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:271
 msgid "Atlas"
-msgstr "Atlas"
+msgstr "Kompas"
 
 #: src/components/_military/hit/HitButton.tsx:531
 #: src/components/_political/map/MapMenu.tsx:403
@@ -2907,7 +2907,7 @@ msgstr "Konzumirajte predmete"
 
 #: src/components/_user/user/skills.frontConfig.tsx:79
 msgid "Consumed when fighting in battles"
-msgstr "Troši se tijekom borbe u bitkama"
+msgstr "Troši se tijekom borbe u bitkama."
 
 #. placeholder {0}: staticGameConfig.items.cocain.flatStats?.buffDurationHours
 #. placeholder {1}: staticGameConfig.items.cocain.flatStats?.debuffDurationHours
@@ -3181,7 +3181,7 @@ msgstr "Kritični Udar"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
-msgstr "Pređite preko <0/> regija na mapi"
+msgstr "Prijeđite <0/> regija na mapi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
@@ -4874,7 +4874,7 @@ msgstr "Industriјalizam"
 
 #: src/components/_political/map/MapMenu.tsx:383
 msgid "Initial country"
-msgstr "Početna država"
+msgstr "Izvorna država"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
@@ -5312,7 +5312,7 @@ msgstr "Vapnenac"
 
 #: src/components/_user/user/skills.frontConfig.tsx:130
 msgid "Limit of food consumption"
-msgstr "Ograničenje konzumacije hrane"
+msgstr "Ograničava broj obroka koje možeš pojesti."
 
 #: src/components/_economy/company/CompanyList.tsx:181
 msgid "Limit reached"
@@ -6685,7 +6685,7 @@ msgstr "Naredbe od <0/>"
 
 #: src/components/_political/map/MapMenu.tsx:386
 msgid "Origin"
-msgstr "Podrijetlo"
+msgstr "Matica"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
@@ -6988,11 +6988,11 @@ msgstr "Popularan Članak"
 #: src/components/_political/region/RegionHeader.tsx:96
 #: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
-msgstr "Populacijska"
+msgstr "Populacija"
 
 #: src/components/_political/region/RegionHeader.tsx:98
 msgid "Population (currently here)"
-msgstr "Stanovnici (trenutno ovdje)"
+msgstr "Ukupan broj korisnika u ovoj regiji."
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
@@ -7825,7 +7825,7 @@ msgstr "Stanovnici"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
-msgstr "Stanovnici (s prebivalištem)"
+msgstr "Broj korisnika s prebivalištem u ovoj regiji."
 
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
@@ -8438,7 +8438,7 @@ msgstr "Troškovi"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
-msgstr "Kondicija se troši tijekom putovanja: 10 poena kondicije za svaku prijeđenu susjednu regiju. Put u regije koje ne može pokriti kondicija naplaćuje se petrolom. Kondicija se regenerira 10 poena svakog sata i ne može se povisiti kroz vještine."
+msgstr "Kondicija se troši tijekom putovanja: 10 poena kondicije za svaku prijeđenu regiju. Put u regije koje ne može pokriti kondicija naplaćuje se petrolom. Kondicija se regenerira 10 poena svakog sata i ne može se povisiti kroz vještine."
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
@@ -8960,7 +8960,7 @@ msgstr "Vrijeme je za proizvodnju!"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:249
 msgid "Time until the next case roll"
-msgstr "Vrijeme do sljedećeg pronalaska kutije"
+msgstr "Preostalo vrijeme do sljedećeg traženja kutije."
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:17
 msgid "Tiny Pixel"
@@ -9294,7 +9294,7 @@ msgstr "Deblokiraј (prikaži sadržaј)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:227
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
-msgstr "Iznos nepokupljenih kutija u svijetu od maksimalnih {maxLoots}"
+msgstr "Broj nepokupljenih drvenih kutija u svijetu od maksimalnih {maxLoots}."
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
@@ -9453,11 +9453,11 @@ msgstr "Koristi se za pucanje iz vatrenog oružјa. Povećava vaš <0>Napad</0>"
 
 #: src/components/_user/user/skills.frontConfig.tsx:188
 msgid "Used to <0>Self Work</0> in your own companies"
-msgstr "Koristi se za <0>Samostalni Rad</0> u vašim kompaniјama"
+msgstr "Koristi se za <0>rad</0> u vašim kompanijama."
 
 #: src/components/_user/user/skills.frontConfig.tsx:87
 msgid "Used to <0>Work</0>"
-msgstr "Koristi se za <0>Rad</0>"
+msgstr "Koristi se za <0>rad</0> u kompaniji poslodavca."
 
 #: src/utils/translations.tsx:71
 msgid "Used to build companies and MUs"
@@ -10039,7 +10039,7 @@ msgstr "Već si potpredsjednik druge države. Prvo podnesite ostavku na trenutno
 #: src/components/_political/map/MapMenu.tsx:655
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
-msgstr "Ti si ovdje"
+msgstr "Vi ste ovdje"
 
 #: src/pages/companies.tsx:45
 #: src/pages/user/[userId]/companies.tsx:64
@@ -10056,7 +10056,7 @@ msgstr "Ne sudjeluješ"
 
 #: src/components/_military/hit/HitButton.tsx:469
 msgid "You are standing in this region, so you can fight here."
-msgstr "Nalazite se u ovoj regiji, pa se možete boriti."
+msgstr "Nalazite se u ovoj regiji, pa se možete boriti za ovu državu."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
