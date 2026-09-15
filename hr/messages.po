@@ -144,7 +144,7 @@ msgstr "{0}/{1} aktivnih"
 #. placeholder {0}: userMapLootConfig.lootChancePercent
 #: src/components/_layout/LayoutMapUserMenu.tsx:240
 msgid "{0}% base chance, plus your Luck skill"
-msgstr "Zbroj osnovne šanse od {0}% i vrijednosti vještine sreće"
+msgstr "Zbroj osnovne šanse od {0}% i vrijednosti vještine sreće."
 
 #. placeholder {0}: companyCountry.taxes.income
 #: src/components/_economy/company/CompanyTags.tsx:50
@@ -8960,7 +8960,7 @@ msgstr "Vrijeme je za proizvodnju!"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:249
 msgid "Time until the next case roll"
-msgstr "Vrijeme do sljedećeg pronalaska kutije"
+msgstr "Preostalo vrijeme do sljedećeg traženja kutije."
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:17
 msgid "Tiny Pixel"
@@ -9294,7 +9294,7 @@ msgstr "Deblokiraј (prikaži sadržaј)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:227
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
-msgstr "{maxLoots} nepokupljenih drvenih kutija u svijetu"
+msgstr "Broj nepokupljenih drvenih kutija u svijetu od maksimalnih {maxLoots}."
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
