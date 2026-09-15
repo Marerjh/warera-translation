@@ -4874,7 +4874,7 @@ msgstr "Industriјalizam"
 
 #: src/components/_political/map/MapMenu.tsx:383
 msgid "Initial country"
-msgstr "Početna država"
+msgstr "Izvorna država"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
@@ -6685,7 +6685,7 @@ msgstr "Naredbe od <0/>"
 
 #: src/components/_political/map/MapMenu.tsx:386
 msgid "Origin"
-msgstr "Podrijetlo"
+msgstr "Matica"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
@@ -6988,11 +6988,11 @@ msgstr "Popularan Članak"
 #: src/components/_political/region/RegionHeader.tsx:96
 #: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
-msgstr "Populacijska"
+msgstr "Populacija"
 
 #: src/components/_political/region/RegionHeader.tsx:98
 msgid "Population (currently here)"
-msgstr "Stanovnici (trenutno ovdje)"
+msgstr "Populacija (trenutno ovdje)"
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
