@@ -144,7 +144,7 @@ msgstr "{0}/{1} aktivnih"
 #. placeholder {0}: userMapLootConfig.lootChancePercent
 #: src/components/_layout/LayoutMapUserMenu.tsx:240
 msgid "{0}% base chance, plus your Luck skill"
-msgstr "{0}% osnovna šansa plus vrijednost vještine sreće"
+msgstr "Zbroj osnovne šanse od {0}% i vrijednosti vještine sreće"
 
 #. placeholder {0}: companyCountry.taxes.income
 #: src/components/_economy/company/CompanyTags.tsx:50
@@ -8438,7 +8438,7 @@ msgstr "Troškovi"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
-msgstr "Kondicija se troši tijekom putovanja: 10 poena kondicije za svaku prijeđenu susjednu regiju. Put u regije koje ne može pokriti kondicija naplaćuje se petrolom. Kondicija se regenerira 10 poena svakog sata i ne može se povisiti kroz vještine."
+msgstr "Kondicija se troši tijekom putovanja: 10 poena kondicije za svaku prijeđenu regiju. Put u regije koje ne može pokriti kondicija naplaćuje se petrolom. Kondicija se regenerira 10 poena svakog sata i ne može se povisiti kroz vještine."
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
