@@ -10056,7 +10056,7 @@ msgstr "Ne sudjeluješ"
 
 #: src/components/_military/hit/HitButton.tsx:469
 msgid "You are standing in this region, so you can fight here."
-msgstr "Nalazite se u ovoj regiji, pa se možete boriti."
+msgstr "Nalazite se u ovoj regiji, pa se možete boriti za ovu državu."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
