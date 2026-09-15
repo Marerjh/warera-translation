@@ -652,7 +652,7 @@ msgstr "<0>{0}</0> przeciwko wrogowi <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr ""
+msgstr "<0>{0}</0> Bonusu do ataku gdy atakuje się z tego regionu.<1/>Obywatele otrzymują pełen bonus, państwa sojusznicze połowę."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -672,7 +672,7 @@ msgstr "<0>{0}</0> ponieważ <1/> okupuje przynajmniej jeden z regionów <2/>"
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
-msgstr ""
+msgstr "<0>{0}</0> Bonusu do obrony gdy broni się tego regionu.<1/>Obywatele otrzymują pełen bonus, państwa sojusznicze połowę. Partnerom paktu obronnego nie przysługuje."
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1629
@@ -2958,7 +2958,7 @@ msgstr "Wesprzyj opór <0/> razy"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:203
 msgid "Contribute to the resistance"
-msgstr ""
+msgstr "Wspomóż bunt"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -3035,7 +3035,7 @@ msgstr "Kraj"
 
 #: src/components/_user/user/SkillUpgradeBonusRows.tsx:46
 msgid "Country buildings:"
-msgstr ""
+msgstr "Budynki państwowe:"
 
 #: src/pages/country/[countryId]/index.tsx:395
 msgid "Country development income bonus"
@@ -3784,7 +3784,7 @@ msgstr "Edytuj rozkaz JW"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:88
 msgid "Edit resistance focus"
-msgstr ""
+msgstr "Zmień cel oporu"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -4294,11 +4294,11 @@ msgstr "Pokaż moją pozycję"
 #: src/components/_political/region/SetResistanceFocusModal.tsx:88
 #: src/components/_political/region/SetResistanceFocusModal.tsx:137
 msgid "Focus resistance"
-msgstr ""
+msgstr "Cel oporu"
 
 #: src/components/_political/region/RegionResistance.tsx:152
 msgid "Focus resistance here"
-msgstr ""
+msgstr "Ognisko oporu: tutaj"
 
 #: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
@@ -4412,7 +4412,7 @@ msgstr "Zostań supporterem"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:156
 msgid "Get to the front!"
-msgstr ""
+msgstr "Do boju!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
 msgid "Gift from Vatou, don't tell anyone"
@@ -6685,7 +6685,7 @@ msgstr "Rozkazy z <0/>"
 
 #: src/components/_political/map/MapMenu.tsx:386
 msgid "Origin"
-msgstr "Pochodzenie"
+msgstr "Macierz"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
@@ -6992,7 +6992,7 @@ msgstr "Populacja"
 
 #: src/components/_political/region/RegionHeader.tsx:98
 msgid "Population (currently here)"
-msgstr ""
+msgstr "Populacja (aktualnie tutaj)"
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
@@ -7271,11 +7271,11 @@ msgstr "Purpurowy Drąg"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:125
 msgid "Push the resistance here before they dig in..."
-msgstr ""
+msgstr "Zduś opór w tym miejscu, zanim się umocnią..."
 
 #: src/components/_political/region/RegionResistance.tsx:201
 msgid "Push the resistance here first."
-msgstr ""
+msgstr "Zduś ruch oporu najpierw w tym miejscu."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -7821,11 +7821,11 @@ msgstr "Przetasowanie za"
 
 #: src/components/_political/region/RegionHeader.tsx:88
 msgid "Residents"
-msgstr ""
+msgstr "Mieszkańcy"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
-msgstr ""
+msgstr "Mieszkańcy (dom tutaj)"
 
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
@@ -7844,11 +7844,11 @@ msgstr "Wspierający Ruch Oporu"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:229
 msgid "Resistance focus"
-msgstr ""
+msgstr "Cel oporu"
 
 #: src/components/_political/region/RegionResistance.tsx:190
 msgid "Resistance focused by <0/>"
-msgstr ""
+msgstr "Cel oporu wyznaczony przez <0/>"
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
@@ -8438,7 +8438,7 @@ msgstr "Wydatki"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
-msgstr ""
+msgstr "Zużycie podczas ruchu na mapie: 10 punktów za każdy pokonany region. Region, na który nie starczy wytrzymałości, jest opłacany w oleju. Wytrzymałość odnawia się w tempie 10 punktów na godzinę i nie można jej zwiększyć punktami umiejętności."
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
@@ -8740,7 +8740,7 @@ msgstr "Drużyny"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:121
 msgid "Tell your citizens why this region comes first"
-msgstr ""
+msgstr "Powiedz swoim obywatelom, dlaczego ten region stoi na pierwszym miejscu"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
@@ -9294,7 +9294,7 @@ msgstr "Odblokuj (pokaż treści)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:227
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
-msgstr "{maxLoots} Niezebranych skrzynek czeka na mapie"
+msgstr "Niezebrane skrzynki oczekujące na mapie (maks {maxLoots}"
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
@@ -10056,7 +10056,7 @@ msgstr "Nie uczestniczysz"
 
 #: src/components/_military/hit/HitButton.tsx:469
 msgid "You are standing in this region, so you can fight here."
-msgstr ""
+msgstr "Znajdujesz się w tym regionie, więc możesz tu walczyć."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
@@ -10093,7 +10093,7 @@ msgstr "Możesz demontować przedmioty z ekwipunku zaznaczając przedmiot."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
-msgstr ""
+msgstr "Możesz walczyć tylko tam, gdzie stoisz. Przejdź do regionu bitwy, kosztuje to <0>Wytrzymałość<0/>, poczym uderz, aby zadać <1>Obrażenia<1/>."
 
 #: src/components/_political/election/CandidateFormModal.tsx:62
 msgid "You can optionally link a campaign article to your candidacy."
@@ -10439,7 +10439,7 @@ msgstr "Twój buff zakończy się w ciągu 1 godziny. Faza debuffu zacznie się 
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:96
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
-msgstr ""
+msgstr "Obywatele zobaczą <0/> na swojej liście bitew wraz z tą wiadomością. Nie daje to żadnej premii: wskazuje jedynie, gdzie gracze mają kierować swoje wsparcie."
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
@@ -10452,7 +10452,7 @@ msgstr "Twój kraj"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:106
 msgid "Your country already focuses <0/>. Setting this one releases it."
-msgstr ""
+msgstr "Twoje państwo koncentruje się już na <0/>. Wybór tego celu go anuluje."
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
@@ -10508,7 +10508,7 @@ msgstr "Twoi wrogowie"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:233
 msgid "Your government asks you to push the resistance here."
-msgstr ""
+msgstr "Twój rząd prosi o przełamanie oporu tutaj."
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
@@ -10520,7 +10520,7 @@ msgstr "Twój ekwipunek zawiera wszystkie przedmioty. Zobaczmy, co masz!"
 
 #: src/components/_military/hit/HitButton.tsx:468
 msgid "Your location"
-msgstr ""
+msgstr "Twoja lokalizacja"
 
 #: src/components/_military/battle/LootSummaryCard.tsx:75
 #: src/components/_military/battle/LootSummaryCard.tsx:79

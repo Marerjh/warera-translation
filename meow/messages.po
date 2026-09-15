@@ -90,7 +90,7 @@ msgstr "{0} meow meow meow"
 #. placeholder {0}: formatKm(homeDistanceKm)
 #: src/components/_layout/LayoutMapUserMenu.tsx:151
 msgid "{0} away"
-msgstr ""
+msgstr "{0} meow"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:488
@@ -144,7 +144,7 @@ msgstr "{0}/{1} meow"
 #. placeholder {0}: userMapLootConfig.lootChancePercent
 #: src/components/_layout/LayoutMapUserMenu.tsx:240
 msgid "{0}% base chance, plus your Luck skill"
-msgstr ""
+msgstr "{0}% meow meow, meow meow meow"
 
 #. placeholder {0}: companyCountry.taxes.income
 #: src/components/_economy/company/CompanyTags.tsx:50
@@ -171,12 +171,12 @@ msgstr "{draftPrestigeCount} meow meow meow meow meow ({savedPrestigeCount} meow
 
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
-msgstr ""
+msgstr "{nextLevelSkillPoints} Meow Meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
 #: src/components/_political/map/MapMenu.tsx:570
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
-msgstr ""
+msgstr "{regionsAway, plural, one {# Meow Meow} other {# Meows Meow}}"
 
 #: src/pages/events/index.tsx:97
 msgid "{registeredCount} countries registered"
@@ -201,7 +201,7 @@ msgstr "{score}/{0} Meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
-msgstr ""
+msgstr "{value} meow"
 
 #: src/components/_common/GameRules.tsx:197
 msgid "* A gear merging scheme consists of buying items with very low durability at a relatively high price, merging them, and then reselling the result at a low price."
@@ -225,7 +225,7 @@ msgstr "+{hiddenBattles} meow meow"
 
 #: src/components/_user/user/Level.tsx:185
 msgid "+{xpBonusPercent}%"
-msgstr ""
+msgstr "+{xpBonusPercent}%"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:381
 #: src/components/_user/notification/notification.frontConfig.tsx:1095
@@ -652,7 +652,7 @@ msgstr "<0>{0}</0> meow meow meow <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr ""
+msgstr "<0>{0}</0> meow meow meow meow meow meow.<1/>meow meow meow, meow meow meow."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -672,7 +672,7 @@ msgstr "<0>{0}</0> meow <1/> meow meow meow meow meow <2/> meow"
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
-msgstr ""
+msgstr "<0>{0}</0> meow meow meow meow meow.<1/> meow meow meow meow, meow meow meow. meow meow meow meow meow."
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1629
@@ -1285,7 +1285,7 @@ msgstr "Meow meow <0>{0}</0> meow meow meow meow meow meow. Meow meow meow meow 
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:52
 msgid "A random resource stack"
-msgstr ""
+msgstr "meow meow meow meow meow"
 
 #: src/components/_political/event/event.frontConfig.tsx:143
 msgid "A revolution has started in <0/>"
@@ -1885,7 +1885,7 @@ msgstr "Meow meow meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:271
 msgid "Atlas"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_military/hit/HitButton.tsx:531
 #: src/components/_political/map/MapMenu.tsx:403
@@ -1957,7 +1957,7 @@ msgstr "Meow Meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:147
 msgid "Available in"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_user/mission/MissionsList.tsx:322
 msgid "Available now"
@@ -1984,7 +1984,7 @@ msgstr "Meow Meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:191
 msgid "Back to home region"
-msgstr ""
+msgstr "Meow meow meow"
 
 #: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
@@ -2680,19 +2680,19 @@ msgstr "Meow meow"
 
 #: src/components/_political/map/MapMenu.tsx:630
 msgid "Collect"
-msgstr ""
+msgstr "meow"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:586
 msgid "Collect <0/> on the map"
-msgstr ""
+msgstr "meow <0/> meow meow"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:584
 msgid "Collect Cases on the Map"
-msgstr ""
+msgstr "meow meow meow meow meow"
 
 #: src/components/_political/map/MapMenu.tsx:611
 msgid "Collect the wooden case lying on this region"
-msgstr ""
+msgstr "meow meow meow meow meow meow meow"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:106
 msgid "Colonel"
@@ -2958,7 +2958,7 @@ msgstr "Meow meow meow <0/> meow"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:203
 msgid "Contribute to the resistance"
-msgstr ""
+msgstr "meow meow meow meow meow"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -3035,7 +3035,7 @@ msgstr "Meow"
 
 #: src/components/_user/user/SkillUpgradeBonusRows.tsx:46
 msgid "Country buildings:"
-msgstr ""
+msgstr "Meow meow:"
 
 #: src/pages/country/[countryId]/index.tsx:395
 msgid "Country development income bonus"
@@ -3181,7 +3181,7 @@ msgstr "Meow Meow"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
-msgstr ""
+msgstr "meow <0/> meow meow meow"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
@@ -3776,7 +3776,7 @@ msgstr "Meow Meow"
 
 #: src/components/_political/region/RegionResistance.tsx:137
 msgid "Edit focus message"
-msgstr ""
+msgstr "meow meow meow"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
@@ -3784,7 +3784,7 @@ msgstr "Meow Meow meow"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:88
 msgid "Edit resistance focus"
-msgstr ""
+msgstr "Meow meow meow"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -4289,16 +4289,16 @@ msgstr "Meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:181
 msgid "Focus on you"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:88
 #: src/components/_political/region/SetResistanceFocusModal.tsx:137
 msgid "Focus resistance"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_political/region/RegionResistance.tsx:152
 msgid "Focus resistance here"
-msgstr ""
+msgstr "Meow meow meow"
 
 #: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
@@ -4327,7 +4327,7 @@ msgstr "Meow meow meow meow meow meow meow meow meow meow"
 
 #: src/utils/translations.tsx:115
 msgid "Found on the map. Open it to get random resources"
-msgstr ""
+msgstr "Meow meow meow, Meow meow meow meow"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:45
 msgid "Founding Father"
@@ -4412,7 +4412,7 @@ msgstr "Meow meow meow"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:156
 msgid "Get to the front!"
-msgstr ""
+msgstr "Meow meow!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
 msgid "Gift from Vatou, don't tell anyone"
@@ -5236,7 +5236,7 @@ msgstr "Meow Meow"
 #. placeholder {0}: leveling.level + 1
 #: src/components/_user/user/Level.tsx:123
 msgid "Level {0} reward"
-msgstr ""
+msgstr "Meow {0} meow"
 
 #: src/components/_military/mu/MuLevel.tsx:64
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:89
@@ -5639,7 +5639,7 @@ msgstr "Meow Meow"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:120
 msgid "Message"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_other/shop/SkinPackModal.tsx:236
 msgid "Message (Optional)"
@@ -5888,7 +5888,7 @@ msgstr "Meow"
 #: src/components/_political/region/MoveButton.tsx:103
 #: src/components/_political/region/MoveButton.tsx:115
 msgid "Move"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
@@ -5909,7 +5909,7 @@ msgstr "Meow meow meow"
 
 #: src/components/_political/map/MapMenu.tsx:612
 msgid "Move to this region to collect its wooden case"
-msgstr ""
+msgstr "Meow meow Meow meow Meow meow"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
@@ -6038,7 +6038,7 @@ msgstr "Meow meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:157
 msgid "Nearest wooden case"
-msgstr ""
+msgstr "Meow meow meow"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:57
 msgid "Need a job?"
@@ -6309,7 +6309,7 @@ msgstr "Meow meow meow meow."
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:142
 msgid "No home region set"
-msgstr ""
+msgstr "Meow meow meow"
 
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
@@ -6868,7 +6868,7 @@ msgstr "Meow meow meow meow meow meow meow, meow meow meow."
 
 #: src/components/_user/user/Level.tsx:189
 msgid "Paused"
-msgstr ""
+msgstr "Meow"
 
 #: src/pages/shop/index.tsx:45
 msgid "Payment successful! Thanks for supporting the game <3"
@@ -6988,11 +6988,11 @@ msgstr "Meow Meow"
 #: src/components/_political/region/RegionHeader.tsx:96
 #: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_political/region/RegionHeader.tsx:98
 msgid "Population (currently here)"
-msgstr ""
+msgstr "Meow (meow meow)"
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
@@ -7263,7 +7263,7 @@ msgstr "Meow"
 
 #: src/components/_common/GameRules.tsx:330
 msgid "Punishments, along with their reasoning, are visible on user profiles. Players may appeal through the official Discord server, where detailed explanations and evidence will be provided. Rule violations can be reported with supporting evidence."
-msgstr "Meow, meow meow meow meow, meow meow meow meow meow. Meow meow meow meow meow meow Meow meow, meow meow meow meow meow meow meow meow. Meow meow meow meow meow meow meow meow."
+msgstr "Meow, meow meow meow meow, Meow meow. Meow meow meow meow meow meow Meow meow, meow meow meow meow meow meow meow meow. Meow meow meow meow meow meow meow meow."
 
 #: src/components/_other/shop/skin.frontConfig.tsx:167
 msgid "Purple Staff"
@@ -7271,11 +7271,11 @@ msgstr "Meow Meow"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:125
 msgid "Push the resistance here before they dig in..."
-msgstr ""
+msgstr "meow meow meow meow meow meow..."
 
 #: src/components/_political/region/RegionResistance.tsx:201
 msgid "Push the resistance here first."
-msgstr ""
+msgstr "Meow meow meow meow meow meow"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -7571,7 +7571,7 @@ msgstr "Meow"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:595
 msgid "Regions Crossed"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_political/party/party.frontConfig.tsx:125
 msgid "Regions you occupy generate double the amount of resistance."
@@ -7699,7 +7699,7 @@ msgstr "Meow meow"
 
 #: src/components/_political/region/RegionResistance.tsx:143
 msgid "Remove focus"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:60
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:63
@@ -7821,11 +7821,11 @@ msgstr "Meow meow"
 
 #: src/components/_political/region/RegionHeader.tsx:88
 msgid "Residents"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
-msgstr ""
+msgstr "meow"
 
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
@@ -7844,11 +7844,11 @@ msgstr "Meow Meow"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:229
 msgid "Resistance focus"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_political/region/RegionResistance.tsx:190
 msgid "Resistance focused by <0/>"
-msgstr ""
+msgstr "Meow Meow Meow <0/>"
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
@@ -8382,7 +8382,7 @@ msgstr "Meow Meow"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:243
 msgid "Skipped"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:260
 msgid "Sling Stones"
@@ -8438,7 +8438,7 @@ msgstr "Meow"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
-msgstr ""
+msgstr "meow meow meow meow: 10 meow meow meow meow. meow meow meow meow meow meow meow meow. meow 10 meow meow meow meow meow meow meow"
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
@@ -8451,7 +8451,7 @@ msgstr "Meow meow meow meow meow meow (meow meow meow, meow meow meow meow)"
 #: src/components/_user/user/skills.frontConfig.tsx:104
 #: src/components/_user/user/skills.frontConfig.tsx:105
 msgid "Stamina"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_political/law/law.frontConfig.tsx:169
 #: src/components/_political/law/law.frontConfig.tsx:171
@@ -8740,7 +8740,7 @@ msgstr "Meow"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:121
 msgid "Tell your citizens why this region comes first"
-msgstr ""
+msgstr "Meow meow meow meow meow meow"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
@@ -8820,7 +8820,7 @@ msgstr "Meow meow meow meow <0/> meow meow meow <1/> meow meow meow <2>Meow</2>.
 
 #: src/components/_political/map/MapLibreErrorBoundary.tsx:67
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
-msgstr ""
+msgstr "Meow meow WebGL2, Meow meow meow meow. Meow meow meow"
 
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
@@ -8838,7 +8838,7 @@ msgstr "Meow meow meow <0/> meow meow! Meow meow meow meow meow."
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:239
 msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
-msgstr ""
+msgstr "Meow meow meow {maxLoots} Meow meow meow"
 
 #: src/pages/region/[regionId]/index.tsx:110
 msgid "The strategic resource will be reshuffled in the following amount of time."
@@ -8878,7 +8878,7 @@ msgstr "Meow meow meow Meow Meow: meow meow meow meow, meow meow meow meow meow 
 
 #: src/components/_political/map/MapLibreErrorBoundary.tsx:64
 msgid "This device can't display the map"
-msgstr ""
+msgstr "Meow meow meow meow"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
@@ -8960,7 +8960,7 @@ msgstr "Meow meow meow!"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:249
 msgid "Time until the next case roll"
-msgstr ""
+msgstr "Meow meow meow meow"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:17
 msgid "Tiny Pixel"
@@ -9150,7 +9150,7 @@ msgstr "Meow meow"
 
 #: src/components/_user/user/Level.tsx:143
 msgid "Total XP"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_user/mission/MissionsHeader.tsx:95
 msgid "Total XP earned from missions and milestones"
@@ -9254,11 +9254,11 @@ msgstr "Meow"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:574
 msgid "Travel"
-msgstr ""
+msgstr "Meow"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:576
 msgid "Travel to another region <0/> times"
-msgstr ""
+msgstr "Meow meow meow meow <0/> meow"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:95
 msgid "Trebuchet"
@@ -9294,7 +9294,7 @@ msgstr "Meow (meow meow)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:227
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
-msgstr ""
+msgstr "Meow meow meow meow, meow {maxLoots}"
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
@@ -9379,7 +9379,7 @@ msgstr "Meow"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:137
 msgid "Update focus"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/pages/user/[userId]/settings.tsx:77
 msgid "Update infos"
@@ -9914,11 +9914,11 @@ msgstr "Meow"
 
 #: src/utils/translations.tsx:113
 msgid "Wooden Case"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_political/map/MapMenu.tsx:152
 msgid "Wooden case collected!"
-msgstr ""
+msgstr "Meow meow meow!"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:251
 msgid "Wooden Self Bow"
@@ -10001,7 +10001,7 @@ msgstr "Meow"
 
 #: src/components/_user/user/Level.tsx:169
 msgid "XP bonus"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_user/mission/MissionsHeader.tsx:92
 msgid "XP earned"
@@ -10026,7 +10026,7 @@ msgstr "Meow meow meow meow meow meow meow meow. Meow meow."
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:144
 msgid "You are already home"
-msgstr ""
+msgstr "Meow meow meow"
 
 #: src/pages/country/[countryId]/index.tsx:107
 msgid "You are already president of another country. Resign first."
@@ -10056,7 +10056,7 @@ msgstr "Meow meow meow meow"
 
 #: src/components/_military/hit/HitButton.tsx:469
 msgid "You are standing in this region, so you can fight here."
-msgstr ""
+msgstr "Meow meow meow meow, meow meow meow."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
@@ -10093,7 +10093,7 @@ msgstr "Meow meow meow meow meow meow meow meow meow meow meow."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
-msgstr ""
+msgstr "Meow meow meow meow, Meow meow meow meow <0> Meow </0>, meow meow meow <1>Meow</1>"
 
 #: src/components/_political/election/CandidateFormModal.tsx:62
 msgid "You can optionally link a campaign article to your candidacy."
@@ -10439,7 +10439,7 @@ msgstr "Meow meow(s) meow meow meow meow meow 1 meow. Meow meow meow meow meow m
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:96
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
-msgstr ""
+msgstr "Meow meow meow meow <0/> Meow meow meow meow, Meow meow meow. Meow meow meow meow: Meow meow meow meow."
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
@@ -10452,7 +10452,7 @@ msgstr "Meow meow"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:106
 msgid "Your country already focuses <0/>. Setting this one releases it."
-msgstr ""
+msgstr "Meow meow meow meow <0/>. Meow meow meow meow."
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
@@ -10508,7 +10508,7 @@ msgstr "Meow meow"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:233
 msgid "Your government asks you to push the resistance here."
-msgstr ""
+msgstr "Meow meow meow meow meow meow"
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
@@ -10520,7 +10520,7 @@ msgstr "Meow meow meow meow meow meow. Meow'meow meow meow meow'meow meow!"
 
 #: src/components/_military/hit/HitButton.tsx:468
 msgid "Your location"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/components/_military/battle/LootSummaryCard.tsx:75
 #: src/components/_military/battle/LootSummaryCard.tsx:79
