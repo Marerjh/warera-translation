@@ -6992,7 +6992,7 @@ msgstr "Populacija"
 
 #: src/components/_political/region/RegionHeader.tsx:98
 msgid "Population (currently here)"
-msgstr "Populacija (trenutno ovdje)"
+msgstr "Ukupan broj korisnika u ovoj regiji."
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
@@ -7825,7 +7825,7 @@ msgstr "Stanovnici"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
-msgstr "Stanovnici (s prebivalištem)"
+msgstr "Broj korisnika s prebivalištem u ovoj regiji."
 
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
