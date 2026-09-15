@@ -6685,7 +6685,7 @@ msgstr "Rozkazy z <0/>"
 
 #: src/components/_political/map/MapMenu.tsx:386
 msgid "Origin"
-msgstr "Pochodzenie"
+msgstr "Macierz"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
