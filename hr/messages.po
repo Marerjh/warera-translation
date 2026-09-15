@@ -1885,7 +1885,7 @@ msgstr "U ratu sa"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:271
 msgid "Atlas"
-msgstr "Atlas"
+msgstr "Kompas"
 
 #: src/components/_military/hit/HitButton.tsx:531
 #: src/components/_political/map/MapMenu.tsx:403
@@ -9294,7 +9294,7 @@ msgstr "Deblokiraј (prikaži sadržaј)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:227
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
-msgstr "{maxLoots} nepokupljenih kutija u svijetu"
+msgstr "{maxLoots} nepokupljenih drvenih kutija u svijetu"
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
