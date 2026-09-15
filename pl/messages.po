@@ -4828,7 +4828,7 @@ msgstr "Dochód"
 
 #: src/pages/country/[countryId]/index.tsx:418
 msgid "income from <0>Development</0> in <1/>."
-msgstr "dochód z <0>Rozwoju</0> w <1/>."
+msgstr "dochodu z <0>Rozwoju</0> w <1/>."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.imperialism['-1'].developmentIncomeBonus, )
 #. placeholder {0}: formatPercent( ethicsBonuses.imperialism['-2'].developmentIncomeBonus, )
