@@ -3181,7 +3181,7 @@ msgstr "Kritični Udar"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
-msgstr "Pređite preko <0/> regija na mapi"
+msgstr "Prijeđite <0/> regija na mapi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
