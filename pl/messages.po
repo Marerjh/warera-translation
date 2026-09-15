@@ -2479,7 +2479,7 @@ msgstr "Szansa na trafienie celu.<0/>Pudła nie mogą być krytyczne i zadają p
 #. placeholder {0}: law.data.taxType
 #: src/components/_political/law/law.frontConfig.tsx:65
 msgid "Change {0} tax to <0/>"
-msgstr "Zamień {0} podatku na <0/>"
+msgstr "Zamień podatek {0} na <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:61
 msgid "Change a country tax"
