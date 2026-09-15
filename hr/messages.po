@@ -2907,7 +2907,7 @@ msgstr "Konzumirajte predmete"
 
 #: src/components/_user/user/skills.frontConfig.tsx:79
 msgid "Consumed when fighting in battles"
-msgstr "Troši se tijekom borbe u bitkama"
+msgstr "Troši se tijekom borbe u bitkama."
 
 #. placeholder {0}: staticGameConfig.items.cocain.flatStats?.buffDurationHours
 #. placeholder {1}: staticGameConfig.items.cocain.flatStats?.debuffDurationHours
@@ -5312,7 +5312,7 @@ msgstr "Vapnenac"
 
 #: src/components/_user/user/skills.frontConfig.tsx:130
 msgid "Limit of food consumption"
-msgstr "Ograničenje konzumacije hrane"
+msgstr "Ograničava broj obroka koje možeš pojesti."
 
 #: src/components/_economy/company/CompanyList.tsx:181
 msgid "Limit reached"
@@ -9453,11 +9453,11 @@ msgstr "Koristi se za pucanje iz vatrenog oružјa. Povećava vaš <0>Napad</0>"
 
 #: src/components/_user/user/skills.frontConfig.tsx:188
 msgid "Used to <0>Self Work</0> in your own companies"
-msgstr "Koristi se za <0>Samostalni Rad</0> u vašim kompaniјama"
+msgstr "Koristi se za <0>rad</0> u vašim kompanijama."
 
 #: src/components/_user/user/skills.frontConfig.tsx:87
 msgid "Used to <0>Work</0>"
-msgstr "Koristi se za <0>Rad</0>"
+msgstr "Koristi se za <0>rad</0> u kompaniji poslodavca."
 
 #: src/utils/translations.tsx:71
 msgid "Used to build companies and MUs"
