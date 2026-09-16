@@ -174,7 +174,7 @@ msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "Įgūdžių Taškai: {nextLevelSkillPoints}"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:570
+#: src/components/_political/map/MapMenu.tsx:605
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr "{regionsAway, plural, one {už # regiono} few {už # regionų} many {už # regiono} other {už # regionų}}"
 
@@ -629,7 +629,7 @@ msgstr "<0>-{0}%</0> pasipriešinimo augimas per valandą"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Darbuotojų"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/dieną"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr "<0>{activeCompaniesCount}/{0}</0> Įmonės"
 
@@ -1539,7 +1539,7 @@ msgstr "Visi tipai"
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:203
 #: src/components/_political/country/CountryHeader.tsx:183
 #: src/components/_political/country/CountryTooltip.tsx:109
-#: src/components/_political/map/MapMenu.tsx:395
+#: src/components/_political/map/MapMenu.tsx:430
 msgid "Alliance"
 msgstr "Aljansas"
 
@@ -1875,7 +1875,7 @@ msgstr "AT Taktinis Skydas"
 msgid "AT Tactical Vest"
 msgstr "AT Taktinė Liemenė"
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Pasibaigus laikui, <0>{actualTickPoints}</0> bus skirti pusei, padariusiai daugiausia žalos."
 
@@ -1888,7 +1888,7 @@ msgid "Atlas"
 msgstr "Atlasas"
 
 #: src/components/_military/hit/HitButton.tsx:531
-#: src/components/_political/map/MapMenu.tsx:403
+#: src/components/_political/map/MapMenu.tsx:438
 #: src/components/_user/user/skills.frontConfig.tsx:45
 #: src/components/_user/user/skills.frontConfig.tsx:46
 msgid "Attack"
@@ -2223,8 +2223,8 @@ msgstr "Batai"
 msgid "Bounty"
 msgstr "Premija"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "Premijos laukimo laikas"
 
@@ -2232,7 +2232,7 @@ msgstr "Premijos laukimo laikas"
 msgid "Bounty earned"
 msgstr "Uždirbta premijų"
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "Premija bus prieinama po"
 
@@ -2290,7 +2290,7 @@ msgstr "Buff'ai:"
 msgid "Bug finder"
 msgstr "Klaidų medžiotojas"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Kurti įmonę"
 
@@ -2599,7 +2599,7 @@ msgstr "Pilietybė"
 msgid "Citizenship Applications"
 msgstr "Pilietybės Prašymai"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Pilietinis karas"
 
@@ -2665,8 +2665,8 @@ msgstr "Spustelėk, kad pasirinktum pasiūlymą"
 msgid "Climate"
 msgstr "Klimatas"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
-#: src/components/_political/map/MapMenu.tsx:212
+#: ../__ui/src/components/Modal/Modal.tsx:302
+#: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Uždaryti"
 
@@ -2678,7 +2678,7 @@ msgstr "Kloviso Antgalis"
 msgid "Cold af"
 msgstr "Žiauriai šalta"
 
-#: src/components/_political/map/MapMenu.tsx:630
+#: src/components/_political/map/MapMenu.tsx:679
 msgid "Collect"
 msgstr "Surinkti"
 
@@ -2690,7 +2690,7 @@ msgstr "Surink žemėlapyje <0/>"
 msgid "Collect Cases on the Map"
 msgstr "Surinkti Dėžes Žemėlapyje"
 
-#: src/components/_political/map/MapMenu.tsx:611
+#: src/components/_political/map/MapMenu.tsx:665
 msgid "Collect the wooden case lying on this region"
 msgstr "Surink šiame regione gulinčią medinę dėžę"
 
@@ -2750,7 +2750,7 @@ msgstr "Įmonės"
 msgid "Companies limit"
 msgstr "Įmonių skaičiaus riba"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Pasiektas įmonių limitas"
 
@@ -2956,7 +2956,7 @@ msgstr "Prisidėk prie statybų — kartų: <0/>"
 msgid "Contribute to resistance <0/> times"
 msgstr "Prisidėk prie pasipriešinimo — kartų: <0/>"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr "Prisidėti prie pasipriešinimo"
 
@@ -3028,7 +3028,7 @@ msgstr "Šalys"
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
-#: src/components/_political/map/MapMenu.tsx:376
+#: src/components/_political/map/MapMenu.tsx:411
 #: src/components/_political/party/PartyHeader.tsx:84
 msgid "Country"
 msgstr "Šalis"
@@ -3205,7 +3205,7 @@ msgstr "Dabartinis Karinis Vienetas"
 msgid "Current nationality"
 msgstr "Dabartinė pilietybė"
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Dabartinis ciklas:"
 
@@ -3213,7 +3213,7 @@ msgstr "Dabartinis ciklas:"
 msgid "Current tier"
 msgstr "Dabartinė pakopa"
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Dabartinis iš viso:"
 
@@ -3888,7 +3888,7 @@ msgstr "Nutraukti esamą gynybinį paktą su kita šalimi"
 msgid "End the defensive pact with <0/>."
 msgstr "Nutraukti gynybinį paktą su <0/>."
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Klaida"
 msgid "Estimated benefit per"
 msgstr "Numatoma nauda per"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Numatomas minimalus laikas, per kurį ši pusė laimės dabartinį raundą, jei bus laimėti visi taktai (ticks)."
 
@@ -4463,6 +4463,10 @@ msgstr "Suteikia <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Gaublys (eksperimentinis)"
 
+#: src/components/_political/map/MapLibre.tsx:431
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Bėk pirkti loterijos bilieto dabar pat"
 msgid "Go to job market"
 msgstr "Eiti į darbo rinką"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Eiti į įgūdžius"
 
@@ -4501,7 +4505,7 @@ msgstr "Vyriausybės skelbimas"
 msgid "Government Member"
 msgstr "Vyriausybės Narys"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "Valdžios bauda"
 
@@ -4597,7 +4601,7 @@ msgstr "Grimdark Tankas"
 msgid "Ground"
 msgstr "Sausuma"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "sausumos taškai per ciklą"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr "Suduok mūšiuose — kartų: <0/>"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Kovodamas už savo šalį būdamas valdžioje gauni {0}% premijos efektyvumo."
 
@@ -4872,7 +4876,7 @@ msgstr "Industrializmas ir Agrarizmas"
 msgid "Industrialist"
 msgstr "Pramonininkas"
 
-#: src/components/_political/map/MapMenu.tsx:383
+#: src/components/_political/map/MapMenu.tsx:418
 msgid "Initial country"
 msgstr "Pradinė šalis"
 
@@ -5314,7 +5318,7 @@ msgstr "Kalkakmenis"
 msgid "Limit of food consumption"
 msgstr "Maisto suvartojimo limitas"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr "Pasiektas limitas"
 
@@ -5334,7 +5338,7 @@ msgstr "Mažos mielybės, iš kurių darė kepsnius :("
 msgid "Livestock"
 msgstr "Gyvuliai"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -5885,10 +5889,14 @@ msgstr "Siūlymas pateiktas"
 msgid "Motions"
 msgstr "Siūlymai"
 
-#: src/components/_political/region/MoveButton.tsx:103
-#: src/components/_political/region/MoveButton.tsx:115
+#: src/components/_political/region/MoveButton.tsx:118
+#: src/components/_political/region/MoveButton.tsx:130
 msgid "Move"
 msgstr "Vykti"
+
+#: src/components/_political/map/MapMenu.tsx:640
+msgid "Move & collect"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
@@ -5906,10 +5914,6 @@ msgstr "Perkelti Įmonę"
 #: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "Perkelti įmonę"
-
-#: src/components/_political/map/MapMenu.tsx:612
-msgid "Move to this region to collect its wooden case"
-msgstr "Nukeliauk į šį regioną, kad surinktum jo medinę dėžę"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
@@ -6024,7 +6028,7 @@ msgstr "Nacionaliniai kovos įsakymai kainuoja dvigubai."
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr "Nacionaliniai kovos įsakymai suteikia <0>dvigubą</0> prioriteto žalos bonusą (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "Valstybinė premija"
 
@@ -6202,7 +6206,7 @@ msgstr "Kito taško kaina"
 msgid "Next reward"
 msgstr "Kitas apdovanojimas"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Kitas atnaujinimas"
 
@@ -6597,7 +6601,7 @@ msgstr "Tik savininkas ir vadai gali pakeisti pilietybę."
 msgid "Only your core regions generate development income."
 msgstr "Tik tavo pagrindiniai regionai generuoja išsivystymo pajamas."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Atidaryti"
 
@@ -6605,8 +6609,8 @@ msgstr "Atidaryti"
 msgid "Open <0/>"
 msgstr "Atidaryk <0/>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Atidaryti dėžę"
 
@@ -6683,7 +6687,7 @@ msgstr "Užsakymai atšaukti"
 msgid "Orders of <0/>"
 msgstr "<0/> įsakymai"
 
-#: src/components/_political/map/MapMenu.tsx:386
+#: src/components/_political/map/MapMenu.tsx:421
 msgid "Origin"
 msgstr "Kilmė"
 
@@ -7083,7 +7087,7 @@ msgstr "Prestižas:"
 msgid "Prestige!"
 msgstr "Prestižas!"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr "Kaina automatiškai atitinka esamus užsakymus"
 
@@ -7529,7 +7533,7 @@ msgstr "Suvartojus atkuria <0>{0}</0>"
 
 #: src/components/_economy/company/CompanyHeader.tsx:46
 #: src/components/_military/mu/MuHeader.tsx:111
-#: src/components/_political/map/MapMenu.tsx:370
+#: src/components/_political/map/MapMenu.tsx:405
 #: src/components/_political/party/PartyFormModal.tsx:107
 #: src/components/_political/party/PartyHeader.tsx:90
 msgid "Region"
@@ -7832,7 +7836,7 @@ msgstr "Gyventojai (čia namai)"
 msgid "Resist"
 msgstr "Priešintis"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Pasipriešinimas"
 msgid "Resistance Contributors"
 msgstr "Pasipriešinimo Rėmėjai"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr "Pasipriešinimo prioritetas"
 
@@ -7961,8 +7965,8 @@ msgstr "Raundas netrukus baigsis"
 msgid "Round ended"
 msgstr "Raundas baigėsi"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "Raundo ETA"
 
@@ -8127,7 +8131,7 @@ msgstr "Pardavimo pavedimai"
 msgid "Sell price:"
 msgstr "Pardavimo kaina:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "parduoda"
 
@@ -8400,7 +8404,7 @@ msgstr "Snaiperis"
 msgid "Social & Messages"
 msgstr "Bendravimas ir Žinutės"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Kai kurios tavo įmonės yra išjungtos."
 
@@ -8661,6 +8665,10 @@ msgstr "Rėmėjo planas: iki {premiumMax} rinkinių"
 msgid "Supreme Commander"
 msgstr "Aukščiausiasis Vadas"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "Suvartotų Buff'ų poveikis baigėsi. Prasidėjo Debuff'o fazė, kuri tr
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr "Visas <0/> bonusas taikomas iki <1/> dalies pasaulinio <2>išsivystymo</2>. Viršijus šią ribą, bonusas mažėja po <3/> už kiekvieną dalies procentinį punktą virš ribos, kol nukrenta iki <4/>."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr "Žemėlapiui reikia WebGL2, kurio tavo naršyklė ar įrenginys nepalaiko. Visa kita žaidime veikia įprastai."
 
@@ -8860,7 +8868,7 @@ msgstr "Botų, skriptų ar bet kokios formos automatizacijos naudojimas siekiant
 msgid "This action will submit your MU bid for this contract."
 msgstr "Šis veiksmas pateiks tavo MU statymą šiam kontraktui."
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "Ši premija skirta tik šalies piliečiams."
 
@@ -8876,7 +8884,7 @@ msgstr "Ši šalis neturi prezidento ar aktyvaus kongreso nario, gali perimti jo
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "Ši šalis yra Fanatiška imperialistė: ji negali turėti ministrų, tik prezidentą ir viceprezidentą. Ministrų nominacijos bus atmestos."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr "Šis įrenginys negali parodyti žemėlapio"
 
@@ -9101,7 +9109,7 @@ msgstr "Daugiausia dovanų šį mėnesį padovanoję žaidėjai"
 msgid "Top of the hill"
 msgstr "Kalno viršūnėje"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "iš viso"
 
@@ -9120,7 +9128,7 @@ msgstr "iš viso"
 msgid "Total"
 msgstr "Iš viso"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "Iš viso atidaryta dėžių"
 
@@ -9136,7 +9144,7 @@ msgstr "Bendra žala"
 msgid "Total Donated:"
 msgstr "Iš Viso Paaukota:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr "Iš viso <0/>"
 
@@ -9751,7 +9759,7 @@ msgstr "Laukiama {0} lygio"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Laukiama, kol darbuotojas priims arba atmes atlyginimo sumažinimą. Negali keisti atlyginimo, kol jis neatsakys."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "nori"
 
@@ -9916,7 +9924,7 @@ msgstr "Mediena"
 msgid "Wooden Case"
 msgstr "Medinė Dėžė"
 
-#: src/components/_political/map/MapMenu.tsx:152
+#: src/components/_political/map/MapMenu.tsx:159
 msgid "Wooden case collected!"
 msgstr "Medinė dėžė surinkta!"
 
@@ -10036,7 +10044,7 @@ msgstr "Jau esi kitos šalies prezidentas. Pirmiausia atsistatydink."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Jau esi kitos šalies viceprezidentas. Pirmiausia atsistatydink."
 
-#: src/components/_political/map/MapMenu.tsx:655
+#: src/components/_political/map/MapMenu.tsx:698
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
 msgstr "Tu esi čia"
@@ -10478,7 +10486,7 @@ msgstr "Tavo šalis pradėjo sukilimą vietovėje <0/> prieš <1/>"
 msgid "Your current job"
 msgstr "Tavo dabartinis darbas"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Tavo dabartinis užsakymas"
 
@@ -10506,7 +10514,7 @@ msgstr "Tavo darbdavys nori sumažinti tavo atlyginimą įmonėje <0/> nuo <1>{0
 msgid "Your enemies"
 msgstr "Tavo priešai"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr "Tavo vyriausybė prašo kelti pasipriešinimą čia."
 

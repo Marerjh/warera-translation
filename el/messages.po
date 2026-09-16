@@ -174,7 +174,7 @@ msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:570
+#: src/components/_political/map/MapMenu.tsx:605
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr ""
 
@@ -629,7 +629,7 @@ msgstr "<0>-{0}%</0> Ανάπτυξη αντίστασης ανά ώρα"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Εργαζόμενοι"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/ημέρα"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr ""
 
@@ -1539,7 +1539,7 @@ msgstr "Όλοι οι τύποι"
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:203
 #: src/components/_political/country/CountryHeader.tsx:183
 #: src/components/_political/country/CountryTooltip.tsx:109
-#: src/components/_political/map/MapMenu.tsx:395
+#: src/components/_political/map/MapMenu.tsx:430
 msgid "Alliance"
 msgstr ""
 
@@ -1875,7 +1875,7 @@ msgstr ""
 msgid "AT Tactical Vest"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Στο τέλος του χρονοδιακόπτη <0>{actualTickPoints}</0> θα αποδοθούν στην πλευρά με τις περισσότερες ζημιές."
 
@@ -1888,7 +1888,7 @@ msgid "Atlas"
 msgstr ""
 
 #: src/components/_military/hit/HitButton.tsx:531
-#: src/components/_political/map/MapMenu.tsx:403
+#: src/components/_political/map/MapMenu.tsx:438
 #: src/components/_user/user/skills.frontConfig.tsx:45
 #: src/components/_user/user/skills.frontConfig.tsx:46
 msgid "Attack"
@@ -2223,8 +2223,8 @@ msgstr "Μπότες"
 msgid "Bounty"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr ""
 
@@ -2232,7 +2232,7 @@ msgstr ""
 msgid "Bounty earned"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr ""
 
@@ -2290,7 +2290,7 @@ msgstr "Buffs:"
 msgid "Bug finder"
 msgstr "Εντοπιστής σφαλμάτων"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Χτίσε μια εταιρεία"
 
@@ -2599,7 +2599,7 @@ msgstr "Υπηκοότητα"
 msgid "Citizenship Applications"
 msgstr "Αιτήσεις Υπηκοότητας"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Εμφύλιος πόλεμος"
 
@@ -2665,8 +2665,8 @@ msgstr "Κάνε κλικ για να επιλέξεις πρόταση"
 msgid "Climate"
 msgstr "Κλίμα"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
-#: src/components/_political/map/MapMenu.tsx:212
+#: ../__ui/src/components/Modal/Modal.tsx:302
+#: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Κλείσιμο"
 
@@ -2678,7 +2678,7 @@ msgstr ""
 msgid "Cold af"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:630
+#: src/components/_political/map/MapMenu.tsx:679
 msgid "Collect"
 msgstr ""
 
@@ -2690,7 +2690,7 @@ msgstr ""
 msgid "Collect Cases on the Map"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:611
+#: src/components/_political/map/MapMenu.tsx:665
 msgid "Collect the wooden case lying on this region"
 msgstr ""
 
@@ -2750,7 +2750,7 @@ msgstr "Εταιρείες"
 msgid "Companies limit"
 msgstr "Όριο εταιρειών"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Το όριο εταιρειών επετεύχθη"
 
@@ -2956,7 +2956,7 @@ msgstr ""
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3028,7 +3028,7 @@ msgstr "Χώρες"
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
-#: src/components/_political/map/MapMenu.tsx:376
+#: src/components/_political/map/MapMenu.tsx:411
 #: src/components/_political/party/PartyHeader.tsx:84
 msgid "Country"
 msgstr "Χώρα"
@@ -3205,7 +3205,7 @@ msgstr "Τρέχουσα Στρατιωτική Μονάδα"
 msgid "Current nationality"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Τρέχον tick:"
 
@@ -3213,7 +3213,7 @@ msgstr "Τρέχον tick:"
 msgid "Current tier"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Τρέχον σύνολο:"
 
@@ -3888,7 +3888,7 @@ msgstr ""
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Σφάλμα"
 msgid "Estimated benefit per"
 msgstr "Εκτιμώμενο όφελος ανά"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr ""
 
@@ -4463,6 +4463,10 @@ msgstr "Δίνει <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Σφαίρα (πειραματικό)"
 
+#: src/components/_political/map/MapLibre.tsx:431
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Πήγαινε να παίξεις λοταρία τώρα"
 msgid "Go to job market"
 msgstr "Πήγαινε στην αγορά εργασίας"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Πήγαινε στις ικανότητες"
 
@@ -4501,7 +4505,7 @@ msgstr ""
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr ""
 
@@ -4597,7 +4601,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Έδαφος"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "έδαφος ανά tick"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -4872,7 +4876,7 @@ msgstr "Βιομηχανισμός έναντι Αγροτισμού"
 msgid "Industrialist"
 msgstr "Βιομήχανος"
 
-#: src/components/_political/map/MapMenu.tsx:383
+#: src/components/_political/map/MapMenu.tsx:418
 msgid "Initial country"
 msgstr ""
 
@@ -5314,7 +5318,7 @@ msgstr "Ασβεστόλιθος"
 msgid "Limit of food consumption"
 msgstr "Όριο κατανάλωσης τροφίμων"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr ""
 
@@ -5334,7 +5338,7 @@ msgstr "Μικρά αξιαγάπητα που χρησιμοποιούνται 
 msgid "Livestock"
 msgstr "Κτηνοτροφία"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -5885,9 +5889,13 @@ msgstr "Πρόταση υποβλήθηκε"
 msgid "Motions"
 msgstr "Προτάσεις"
 
-#: src/components/_political/region/MoveButton.tsx:103
-#: src/components/_political/region/MoveButton.tsx:115
+#: src/components/_political/region/MoveButton.tsx:118
+#: src/components/_political/region/MoveButton.tsx:130
 msgid "Move"
+msgstr ""
+
+#: src/components/_political/map/MapMenu.tsx:640
+msgid "Move & collect"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
@@ -5906,10 +5914,6 @@ msgstr "Μετακίνηση Εταιρείας"
 #: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "Μετακίνηση της εταιρείας"
-
-#: src/components/_political/map/MapMenu.tsx:612
-msgid "Move to this region to collect its wooden case"
-msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
@@ -6024,7 +6028,7 @@ msgstr ""
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr ""
 
@@ -6202,7 +6206,7 @@ msgstr ""
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Επόμενο tick"
 
@@ -6597,7 +6601,7 @@ msgstr ""
 msgid "Only your core regions generate development income."
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Άνοιγμα"
 
@@ -6605,8 +6609,8 @@ msgstr "Άνοιγμα"
 msgid "Open <0/>"
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Άνοιγμα κουτιού"
 
@@ -6683,7 +6687,7 @@ msgstr "Οι εντολές ακυρώθηκαν"
 msgid "Orders of <0/>"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:386
+#: src/components/_political/map/MapMenu.tsx:421
 msgid "Origin"
 msgstr ""
 
@@ -7083,7 +7087,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7529,7 +7533,7 @@ msgstr ""
 
 #: src/components/_economy/company/CompanyHeader.tsx:46
 #: src/components/_military/mu/MuHeader.tsx:111
-#: src/components/_political/map/MapMenu.tsx:370
+#: src/components/_political/map/MapMenu.tsx:405
 #: src/components/_political/party/PartyFormModal.tsx:107
 #: src/components/_political/party/PartyHeader.tsx:90
 msgid "Region"
@@ -7832,7 +7836,7 @@ msgstr ""
 msgid "Resist"
 msgstr "Αντίσταση"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Αντίσταση"
 msgid "Resistance Contributors"
 msgstr "Συνεισφέροντες Αντίστασης"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7961,8 +7965,8 @@ msgstr "Ο γύρος πρόκειται να τελειώσει"
 msgid "Round ended"
 msgstr "Ο γύρος τέλειωσε"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr ""
 
@@ -8127,7 +8131,7 @@ msgstr "Εντολές πώλησης"
 msgid "Sell price:"
 msgstr "Τιμή πώλησης:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "πωλεί"
 
@@ -8400,7 +8404,7 @@ msgstr "Ελεύθερος Σκοπευτής"
 msgid "Social & Messages"
 msgstr ""
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Κάποιες εταιρείες σου είναι απενεργοποιημένες."
 
@@ -8661,6 +8665,10 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Ανώτατος Στρατηγός"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "Το αποτέλεσμα των buffs που κατανάλωσες τ�
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr ""
 
@@ -8860,7 +8868,7 @@ msgstr ""
 msgid "This action will submit your MU bid for this contract."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr ""
 
@@ -8876,7 +8884,7 @@ msgstr "Αυτή η χώρα δεν έχει πρόεδρο ή ενεργό μέ
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr ""
 
@@ -9101,7 +9109,7 @@ msgstr "Κορυφαίοι δωροδότες του μήνα"
 msgid "Top of the hill"
 msgstr "Κορυφή του λόφου"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "σύνολο"
 
@@ -9120,7 +9128,7 @@ msgstr "σύνολο"
 msgid "Total"
 msgstr "Σύνολο"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr ""
 
@@ -9136,7 +9144,7 @@ msgstr "Συνολικές ζημιές"
 msgid "Total Donated:"
 msgstr "Συνολικές Δωρεές:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr ""
 
@@ -9751,7 +9759,7 @@ msgstr "Αναμονή για επίπεδο {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Αναμονή για αποδοχή ή απόρριψη μείωσης μισθού. Δεν μπορείς να αλλάξεις τον μισθό μέχρι να απαντήσουν."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "θέλει"
 
@@ -9916,7 +9924,7 @@ msgstr ""
 msgid "Wooden Case"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:152
+#: src/components/_political/map/MapMenu.tsx:159
 msgid "Wooden case collected!"
 msgstr ""
 
@@ -10036,7 +10044,7 @@ msgstr "Είσαι ήδη πρόεδρος άλλης χώρας. Παραιτή
 msgid "You are already vice president of another country. Resign first."
 msgstr "Είσαι ήδη αντιπρόεδρος άλλης χώρας. Παραιτήσου πρώτα."
 
-#: src/components/_political/map/MapMenu.tsx:655
+#: src/components/_political/map/MapMenu.tsx:698
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
 msgstr ""
@@ -10478,7 +10486,7 @@ msgstr "Η χώρα σου ξεκίνησε εξέγερση στο <0/> ενα�
 msgid "Your current job"
 msgstr "Η τρέχουσα δουλειά σου"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Η τρέχουσα εντολή σου"
 
@@ -10506,7 +10514,7 @@ msgstr "Ο εργοδότης σου θέλει να μειώσει τον μι�
 msgid "Your enemies"
 msgstr "Οι εχθροί σου"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 

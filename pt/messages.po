@@ -174,7 +174,7 @@ msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} Pontos de Habilidade"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:570
+#: src/components/_political/map/MapMenu.tsx:605
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr "{regionsAway, plural, one {# region away} other {# regions away}}"
 
@@ -629,7 +629,7 @@ msgstr "<0>-{0}%</0> Aumento de resistência por hora"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Trabalhadores"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/dia"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr "<0>{activeCompaniesCount}/{0}</0> Empresas"
 
@@ -1539,7 +1539,7 @@ msgstr "Todos os tipos"
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:203
 #: src/components/_political/country/CountryHeader.tsx:183
 #: src/components/_political/country/CountryTooltip.tsx:109
-#: src/components/_political/map/MapMenu.tsx:395
+#: src/components/_political/map/MapMenu.tsx:430
 msgid "Alliance"
 msgstr "Aliança"
 
@@ -1875,7 +1875,7 @@ msgstr "Escudo Tático AT"
 msgid "AT Tactical Vest"
 msgstr "Colete AT"
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "No final do timer <0>{actualTickPoints}</0> serão atribuídos ao lado com mais dano."
 
@@ -1888,7 +1888,7 @@ msgid "Atlas"
 msgstr "Atlas"
 
 #: src/components/_military/hit/HitButton.tsx:531
-#: src/components/_political/map/MapMenu.tsx:403
+#: src/components/_political/map/MapMenu.tsx:438
 #: src/components/_user/user/skills.frontConfig.tsx:45
 #: src/components/_user/user/skills.frontConfig.tsx:46
 msgid "Attack"
@@ -2223,8 +2223,8 @@ msgstr "Botas"
 msgid "Bounty"
 msgstr "Recompensa(s)"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "Tempo de recarga de recompensa"
 
@@ -2232,7 +2232,7 @@ msgstr "Tempo de recarga de recompensa"
 msgid "Bounty earned"
 msgstr "Prémio por dano"
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "A recompensa estará disponível em"
 
@@ -2290,7 +2290,7 @@ msgstr "Buffs:"
 msgid "Bug finder"
 msgstr "Caçador de Bugs"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Criar empresa"
 
@@ -2599,7 +2599,7 @@ msgstr "Cidadania"
 msgid "Citizenship Applications"
 msgstr "Pedidos de cidadania"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Guerra Civil"
 
@@ -2665,8 +2665,8 @@ msgstr "Clique para selecionar a moção"
 msgid "Climate"
 msgstr "Clima"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
-#: src/components/_political/map/MapMenu.tsx:212
+#: ../__ui/src/components/Modal/Modal.tsx:302
+#: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Fechar"
 
@@ -2678,7 +2678,7 @@ msgstr "Ponta de Lança"
 msgid "Cold af"
 msgstr "Um frio do caraças"
 
-#: src/components/_political/map/MapMenu.tsx:630
+#: src/components/_political/map/MapMenu.tsx:679
 msgid "Collect"
 msgstr "Recolher"
 
@@ -2690,7 +2690,7 @@ msgstr "Recolha <0/> no mapa"
 msgid "Collect Cases on the Map"
 msgstr "Recolher caixas no mapa"
 
-#: src/components/_political/map/MapMenu.tsx:611
+#: src/components/_political/map/MapMenu.tsx:665
 msgid "Collect the wooden case lying on this region"
 msgstr "Recolher a caixa de madeira nesta região"
 
@@ -2750,7 +2750,7 @@ msgstr "Empresas"
 msgid "Companies limit"
 msgstr "Limite de empresas"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Limite de empresas atingido"
 
@@ -2956,7 +2956,7 @@ msgstr "Contribui para construções <0/> vezes"
 msgid "Contribute to resistance <0/> times"
 msgstr "Contribui para resistência <0/> vezes"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3028,7 +3028,7 @@ msgstr "Países"
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
-#: src/components/_political/map/MapMenu.tsx:376
+#: src/components/_political/map/MapMenu.tsx:411
 #: src/components/_political/party/PartyHeader.tsx:84
 msgid "Country"
 msgstr "País"
@@ -3205,7 +3205,7 @@ msgstr "Unidade Militar Atual"
 msgid "Current nationality"
 msgstr "Nacionalidade atual"
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Tick atual:"
 
@@ -3213,7 +3213,7 @@ msgstr "Tick atual:"
 msgid "Current tier"
 msgstr "Nível atual"
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Total atual:"
 
@@ -3888,7 +3888,7 @@ msgstr "Terminar pacto defensivo com outro país"
 msgid "End the defensive pact with <0/>."
 msgstr "Terminar pacto defensivo com <0/>."
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Erro"
 msgid "Estimated benefit per"
 msgstr "Benefício estimado por"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Tempo mínimo estimado para este lado vencer a ronda atual caso vença todos os ticks."
 
@@ -4463,6 +4463,10 @@ msgstr "Dá <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Globo (experimental)"
 
+#: src/components/_political/map/MapLibre.tsx:431
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Vá jogar na lotaria agora"
 msgid "Go to job market"
 msgstr "Ir para o mercado de trabalho"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Ir para habilidades"
 
@@ -4501,7 +4505,7 @@ msgstr "Comunicado do governo"
 msgid "Government Member"
 msgstr "Membro do governo"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "Penalidade do governo"
 
@@ -4597,7 +4601,7 @@ msgstr "Tanque Sombrio"
 msgid "Ground"
 msgstr "Terreno"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "terreno por tick"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr "Acerta <0/> vezes em batalhas"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Atacar pelo seu próprio país enquanto estiver no governo resulta em {0}% de eficiência de recompensa."
 
@@ -4872,7 +4876,7 @@ msgstr "Industrialismo vs Agrarianismo"
 msgid "Industrialist"
 msgstr "Industrialista"
 
-#: src/components/_political/map/MapMenu.tsx:383
+#: src/components/_political/map/MapMenu.tsx:418
 msgid "Initial country"
 msgstr "País inicial"
 
@@ -5314,7 +5318,7 @@ msgstr "Calcário"
 msgid "Limit of food consumption"
 msgstr "Limite de consumo de comida"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr "Limite atingido"
 
@@ -5334,7 +5338,7 @@ msgstr "Fofuras usadas para fazer bifes :("
 msgid "Livestock"
 msgstr "Gado"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -5885,10 +5889,14 @@ msgstr "Moção de Censura proposta"
 msgid "Motions"
 msgstr "Moções"
 
-#: src/components/_political/region/MoveButton.tsx:103
-#: src/components/_political/region/MoveButton.tsx:115
+#: src/components/_political/region/MoveButton.tsx:118
+#: src/components/_political/region/MoveButton.tsx:130
 msgid "Move"
 msgstr "Viajar"
+
+#: src/components/_political/map/MapMenu.tsx:640
+msgid "Move & collect"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
@@ -5906,10 +5914,6 @@ msgstr "Mover empresa"
 #: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "Mover a empresa"
-
-#: src/components/_political/map/MapMenu.tsx:612
-msgid "Move to this region to collect its wooden case"
-msgstr "Viaja até esta região para recolheres a caixa de madeira"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
@@ -6024,7 +6028,7 @@ msgstr "Ordens de batalha do país custam o dobro."
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr "Ordens de batalha do país dão <0>o dobro</0> do bónus de dano de prioridade (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "Recompensa nacional"
 
@@ -6202,7 +6206,7 @@ msgstr "Custo do próximo nível"
 msgid "Next reward"
 msgstr "Próxima Recompensa"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Próximo tick"
 
@@ -6597,7 +6601,7 @@ msgstr "Apenas o proprietário e comandantes podem alterar a nacionalidade."
 msgid "Only your core regions generate development income."
 msgstr "Apenas as regiões principais geram receita de desenvolvimento."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Abrir"
 
@@ -6605,8 +6609,8 @@ msgstr "Abrir"
 msgid "Open <0/>"
 msgstr "Abre <0/>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Abrir"
 
@@ -6683,7 +6687,7 @@ msgstr "Ordens canceladas"
 msgid "Orders of <0/>"
 msgstr "Ordens de <0/>"
 
-#: src/components/_political/map/MapMenu.tsx:386
+#: src/components/_political/map/MapMenu.tsx:421
 msgid "Origin"
 msgstr "Origem"
 
@@ -7083,7 +7087,7 @@ msgstr "Prestígio:"
 msgid "Prestige!"
 msgstr "Prestígio!"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr "Sincronizar com o preço de mercado"
 
@@ -7529,7 +7533,7 @@ msgstr "Restaura <0>{0}</0> ao consumir"
 
 #: src/components/_economy/company/CompanyHeader.tsx:46
 #: src/components/_military/mu/MuHeader.tsx:111
-#: src/components/_political/map/MapMenu.tsx:370
+#: src/components/_political/map/MapMenu.tsx:405
 #: src/components/_political/party/PartyFormModal.tsx:107
 #: src/components/_political/party/PartyHeader.tsx:90
 msgid "Region"
@@ -7832,7 +7836,7 @@ msgstr ""
 msgid "Resist"
 msgstr "Resistir"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Resistência"
 msgid "Resistance Contributors"
 msgstr "Contribuintes da resistência"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7961,8 +7965,8 @@ msgstr "Ronda prestes a terminar"
 msgid "Round ended"
 msgstr "Ronda terminada"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "ETA da ronda"
 
@@ -8127,7 +8131,7 @@ msgstr "Ordens de venda"
 msgid "Sell price:"
 msgstr "Preço de venda:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "vende"
 
@@ -8400,7 +8404,7 @@ msgstr "Sniper"
 msgid "Social & Messages"
 msgstr "Social & Mensagens"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Algumas das suas empresas estão desativadas."
 
@@ -8661,6 +8665,10 @@ msgstr "Plano de Apoiante: até {premiumMax} kits"
 msgid "Supreme Commander"
 msgstr "Comandante Supremo"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "O efeito dos teus buffs terminou. A fase de debuff começou e durará <0
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr "O bónus de <0/> aplica-se até <1/> do <2>Desenvolvimento</2> global. Acima disso, reduz-se <3/> por cada ponto percentual acima do limite, até <4/>."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr "O mapa precisa de WebGL2, que o teu navegador ou dispositivo não suporta. Tudo o resto no jogo funciona normalmente."
 
@@ -8860,7 +8868,7 @@ msgstr "É estritamente proibido o uso de bots, scripts ou qualquer forma de aut
 msgid "This action will submit your MU bid for this contract."
 msgstr "Esta ação vai submeter a licitação da sua UM para este contrato."
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "Esta recompensa está reservada para cidadãos."
 
@@ -8876,7 +8884,7 @@ msgstr "Este país não tem presidente ou membro do congresso ativo, você pode 
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "Este país é Imperialista Fanático: não pode ter ministros, apenas um presidente e um vice-presidente. Nomeações de ministros serão rejeitadas."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr "Este dispositivo não consegue exibir o mapa"
 
@@ -9101,7 +9109,7 @@ msgstr "Top ofertas do mês"
 msgid "Top of the hill"
 msgstr "Topo da colina"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "total"
 
@@ -9120,7 +9128,7 @@ msgstr "total"
 msgid "Total"
 msgstr "Total"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "Total de caixas abertas"
 
@@ -9136,7 +9144,7 @@ msgstr "Danos totais"
 msgid "Total Donated:"
 msgstr "Total doado:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr "Montante total <0/>"
 
@@ -9751,7 +9759,7 @@ msgstr "Aguardando nível {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "A aguardar que o trabalhador aceite ou rejeite a redução salarial. Não pode alterar o salário até obter resposta."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "compra"
 
@@ -9916,7 +9924,7 @@ msgstr "Madeira"
 msgid "Wooden Case"
 msgstr "Caixa de madeira"
 
-#: src/components/_political/map/MapMenu.tsx:152
+#: src/components/_political/map/MapMenu.tsx:159
 msgid "Wooden case collected!"
 msgstr "Caixa de madeira recolhida!"
 
@@ -10036,7 +10044,7 @@ msgstr "Já é presidente de outro país. Renuncie primeiro."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Já é vice-presidente de outro país. Renuncie primeiro."
 
-#: src/components/_political/map/MapMenu.tsx:655
+#: src/components/_political/map/MapMenu.tsx:698
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
 msgstr "Estás aqui"
@@ -10478,7 +10486,7 @@ msgstr "O teu país iniciou uma revolta em <0/> contra <1/>"
 msgid "Your current job"
 msgstr "Emprego atual"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Sua ordem atual"
 
@@ -10506,7 +10514,7 @@ msgstr "Seu empregador quer reduzir seu salário em <0/> de <1>{0}</1> para <2>{
 msgid "Your enemies"
 msgstr "Países inimigos"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 
