@@ -1651,11 +1651,11 @@ msgstr "Postavi animirani <0>GIF</0> kao avatar"
 
 #: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:63
 msgid "Announcement"
-msgstr ""
+msgstr "Objava"
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
-msgstr "Obavijesti"
+msgstr "Objave"
 
 #: src/components/_political/law/law.frontConfig.tsx:282
 msgid "Another country proposed a defensive pact to yours"
@@ -1765,7 +1765,7 @@ msgstr "Jeste li sigurni da želite ukloniti sve tendere za prodaјu?"
 
 #: src/components/_social/announcement/Announcement.tsx:133
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
-msgstr "Jeste li sigurni da želite ukloniti ovu obavijest? Komentari na istu će također biti uklonjeni."
+msgstr "Jeste li sigurni da želite ukloniti ovu objavu? Komentari na istu će također biti uklonjeni."
 
 #: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -4504,7 +4504,7 @@ msgstr "Vlada"
 #: src/components/_social/announcement/AnnouncementModal.tsx:46
 #: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:98
 msgid "Government announcement"
-msgstr "Obavijest vlade"
+msgstr "Objava vlade"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
 msgid "Government Member"
@@ -5375,7 +5375,7 @@ msgstr "Zaključano, resetiraj svoje vještine za prepraspodjelu"
 
 #: src/pages/index.tsx:159
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: src/components/_user/user/MyAvatar.tsx:59
 msgid "Logout"
@@ -5768,7 +5768,7 @@ msgstr "Voјna Јedinica"
 
 #: src/components/_social/announcement/AnnouncementModal.tsx:49
 msgid "Military unit announcement"
-msgstr "Obavijest vojnoj jedinici"
+msgstr "Objava vojnoj jedinici"
 
 #: src/components/_military/mu/MuFormModal.tsx:44
 msgid "Military unit created"
@@ -6270,7 +6270,7 @@ msgstr "Nema još savezničkih zakona"
 
 #: src/components/_social/announcement/AnnouncementList.tsx:57
 msgid "No announcement yet"
-msgstr "Još nema obavijesti"
+msgstr "Još nema objava"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
@@ -7007,7 +7007,7 @@ msgstr "Ukupan broj korisnika u ovoj regiji."
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
-msgstr "Objavi obavijest"
+msgstr "Objavite"
 
 #: src/components/_user/user/skills.frontConfig.tsx:144
 #: src/components/_user/user/skills.frontConfig.tsx:145
@@ -7589,7 +7589,7 @@ msgstr "Okupirane regije stvaraju duplo više otpora."
 
 #: src/pages/index.tsx:149
 msgid "Register"
-msgstr ""
+msgstr "Registracija"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
@@ -7688,7 +7688,7 @@ msgstr "Uklonite neaktivnog člana vlade sa poziciјe"
 #: src/components/_social/announcement/Announcement.tsx:125
 #: src/components/_social/announcement/Announcement.tsx:132
 msgid "Remove announcement"
-msgstr "Uklonite obavijest"
+msgstr "Uklonite objavu"
 
 #: src/components/_user/user/UserDropdown.tsx:442
 msgid "Remove Avatar"
@@ -10432,11 +10432,11 @@ msgstr "Mama će biti ponosna."
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:29
 msgid "Your announcement to the country..."
-msgstr "Vaša obavijest građanima države..."
+msgstr "Vaša objava građanima..."
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:30
 msgid "Your announcement to the unit..."
-msgstr "Vaša obavijest jedinici..."
+msgstr "Vaša objava jedinici..."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:368
 #: src/components/_user/notification/notification.frontConfig.tsx:1068
