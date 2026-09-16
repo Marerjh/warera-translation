@@ -169,9 +169,17 @@ msgstr "تم إكمال {completedCount}/{totalCount}"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} نقطة (نقاط) هيبة على هذه المهارة ({savedPrestigeCount} محفوظة، ومقفلة حتى إعادة التعيين)"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:193
+msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
+msgstr ""
+
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} نقاط مهارة"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:184
+msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
+msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
 #: src/components/_political/map/MapMenu.tsx:605
@@ -198,6 +206,14 @@ msgstr "{savedPrestigeCount} نقطة (نقاط) هيبة مفعلة على هذ
 #: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} جولات"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:175
+msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
+msgstr ""
+
+#: src/components/_economy/inventory/DismantleModal.tsx:280
+msgid "{selectedCount} selected"
+msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
@@ -1469,6 +1485,8 @@ msgstr "سراويل متطورة"
 msgid "Agrarian"
 msgstr "زراعي"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:119
+#: src/components/_economy/inventory/ItemGridFilters.tsx:147
 #: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
@@ -1577,6 +1595,12 @@ msgstr "اسم التحالف"
 #: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "الحلفاء"
+
+#. placeholder {0}: range.min
+#. placeholder {1}: range.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:120
+msgid "Allowed between {0} and {1}"
+msgstr ""
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:48
 msgid "Allowed wage range:"
@@ -2628,6 +2652,10 @@ msgstr "تمت المطالبة"
 msgid "Claimed so far"
 msgstr "المُستلمة حتى الآن"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:291
+msgid "Clear"
+msgstr ""
+
 #: src/components/_political/country/CountrySelectV2.tsx:278
 msgid "Clear selection"
 msgstr "مسح التحديد"
@@ -3633,6 +3661,10 @@ msgstr "تفكيك <0/> من المعدات"
 msgid "Dismantle Item"
 msgstr "التفكيك"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:172
+msgid "Dismantle items"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "تجاهل"
@@ -3917,6 +3949,10 @@ msgstr "الطاقة"
 msgid "Ensign"
 msgstr "ملازم"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:115
+msgid "Enter a price"
+msgstr ""
+
 #: src/components/_political/law/LawFormModal.tsx:244
 msgid "Enter article ID"
 msgstr "أدخل معرف المقال"
@@ -3932,6 +3968,7 @@ msgid "Entrepreneurship"
 msgstr "ريادة الأعمال"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
+#: src/components/_economy/inventory/ItemGridFilters.tsx:135
 #: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
@@ -3948,6 +3985,10 @@ msgstr "المعدات:"
 #: src/components/_economy/market/MarketHeader.tsx:20
 msgid "Equipments"
 msgstr "المعدات"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:243
+msgid "Equipped items are left out of select all."
+msgstr ""
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -4410,7 +4451,7 @@ msgstr "احصل على <0>مظهر حصري للمشتركين</0>!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "احصل على مظاهر متعددة دفعة واحدة بخصم 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:221
+#: src/components/_economy/inventory/DismantleModal.tsx:227
 msgid "Get supporter plan"
 msgstr "احصل على خطة الداعم"
 
@@ -4953,6 +4994,10 @@ msgstr "الأمور تتحسن فقط... ربما"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "لن يكتسب أي إنتاج ولن يتمكن عماله من العمل."
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:161
+msgid "Item"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "تم شراء العنصر"
@@ -5335,6 +5380,10 @@ msgstr "محدود"
 msgid "Line"
 msgstr "خط"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:246
+msgid "Listed at, taxes included"
+msgstr ""
+
 #: src/utils/translations.tsx:72
 msgid "Little cuties used to make steaks :("
 msgstr "كائنات لطيفة تُستخدم لصنع شرائح اللحم :("
@@ -5481,6 +5530,10 @@ msgstr "ايقونات الخريطة"
 #: src/pages/user/[userId]/account.tsx:26
 msgid "Market"
 msgstr "السوق"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:174
+msgid "Market average"
+msgstr ""
 
 #: src/components/_political/country/CountryTaxes.tsx:24
 #: src/components/_political/law/LawFormModal.tsx:258
@@ -6324,6 +6377,11 @@ msgstr "لا يوجد تصنيف بري بعد."
 msgid "No home region set"
 msgstr "لم يتم تعيين منطقة أم"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:260
+#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+msgid "No items found"
+msgstr ""
+
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
 msgstr "لا معدات محفوظة للان - اضف  واحدة الان لتستعمل العتاد بالكمال"
@@ -6433,6 +6491,10 @@ msgstr "لم يتم العثور على معاملات"
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
 msgstr "لم يتم العثور على حروب"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:236
+msgid "No weapons or equipment to dismantle"
+msgstr ""
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:182
 msgid "No work offers"
@@ -6939,6 +7001,10 @@ msgstr "التحقق من الهاتف مطلوب"
 msgid "Pick a fight!"
 msgstr "ابدأ قتالاً!"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:180
+msgid "Pick a weapon or equipment in perfect condition to sell."
+msgstr ""
+
 #: src/utils/translations.tsx:117
 msgid "Pill"
 msgstr "حبة دواء"
@@ -7092,6 +7158,10 @@ msgstr "الهيبة:"
 #: src/components/_user/notification/notification.frontConfig.tsx:2172
 msgid "Prestige!"
 msgstr "هيبة!"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
+msgid "Price"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
@@ -7287,12 +7357,16 @@ msgstr "عزز المقاومة هنا قبل أن يتحصنوا"
 msgid "Push the resistance here first."
 msgstr "عزز المقاومة هنا أولاً."
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:266
+msgid "Put on sale"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
 msgstr "ضع نفسك في العمل!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:198
-#: src/components/_economy/inventory/DismantleModal.tsx:288
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:303
 msgid "Quick dismantle"
 msgstr "تفكيك سريع"
 
@@ -8078,9 +8152,10 @@ msgstr "اختر موقعاً"
 msgid "Select a region"
 msgstr "اختر منطقة"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
-msgid "Select all"
-msgstr "تحديد الكل"
+#. placeholder {0}: bulkItems.length
+#: src/components/_economy/inventory/DismantleModal.tsx:255
+msgid "Select all ({0})"
+msgstr ""
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:141
 msgid "Select an occupied region"
@@ -8116,6 +8191,10 @@ msgstr "عمل ذاتي"
 #: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
 msgstr "اعمل ذاتياً <0/> من المرات في شركاتك"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+msgid "Sell an item"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
@@ -8621,11 +8700,16 @@ msgstr "تم تسجيل الدخول بنجاح"
 msgid "Sugar Daddy"
 msgstr "شوغار دادي"
 
+#. placeholder {0}: range.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:206
+msgid "Suggested price <0>{0}</0>"
+msgstr ""
+
 #: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "ادعم اللعبة"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:209
+#: src/components/_economy/inventory/DismantleModal.tsx:214
 msgid "Support the game and quickly dismantle items!"
 msgstr "ادعم اللعبة وقم بتفكيك العناصر بسرعة!"
 
@@ -8846,6 +8930,10 @@ msgstr "تتطلب الخريطة WebGL2 الذي لا يدعمه متصفحك �
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "سوف تسترد الوحدة العسكرية رسوم القبول، مع دفعة جزئية مقابل الضرر المُلحق، وغرامة بنسبة 10% قدرها <0>{0}</0>, هل أنت متأكد؟"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+msgid "The price must be positive"
+msgstr ""
 
 #: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
@@ -9383,7 +9471,7 @@ msgstr "اضطرابات"
 msgid "Unrest Contributors"
 msgstr "المساهمون في الاضطرابات"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
+#: src/components/_economy/inventory/DismantleModal.tsx:254
 msgid "Unselect all"
 msgstr "إلغاء تحديد الكل"
 
@@ -9428,7 +9516,7 @@ msgstr "ترقية المهارات"
 msgid "Upgrade storage"
 msgstr "تطوير المخزن"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:205
+#: src/components/_economy/inventory/DismantleModal.tsx:210
 msgid "Upgrade to supporter"
 msgstr "الترقية إلى داعم"
 
@@ -9813,6 +9901,7 @@ msgstr "سلاح"
 msgid "Weapon:"
 msgstr "سلاح:"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:127
 #: src/components/_user/user/WealthPanel.tsx:63
 msgid "Weapons"
 msgstr "اسلحة"
@@ -10106,7 +10195,7 @@ msgstr "لقد جلبت 10 لاعبين جدد للعالم (مستوى {0} او
 msgid "You can change it later."
 msgstr "يمكنك تغيير ذلك لاحقاً."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:211
+#: src/components/_economy/inventory/DismantleModal.tsx:216
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "يمكنك تفكيك العناصر من مخزونك عن طريق تحديد عنصر."
 
@@ -10256,6 +10345,10 @@ msgstr "يجب عليك إنفاق جميع نقاط الأخلاق الثلاث
 msgid "You need a country to take part"
 msgstr "تحتاج الى دولة لتستطيع المشاركة"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:149
+msgid "You need to be level {minLevel} to sell equipment"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "تحتاج إلى تجهيز سلاح أولاً"
@@ -10271,6 +10364,10 @@ msgstr "هديتك المميزة من <0/> قد انتهت! هل تفكر في 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "You prestiged and lost your levels"
 msgstr "لقد نفّذت الهيبة وفقدت مستوياتك"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
+msgid "You receive"
+msgstr ""
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267

@@ -169,8 +169,16 @@ msgstr "{completedCount}/{totalCount} selesai"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
+#: src/components/_economy/inventory/DismantleModal.tsx:193
+msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
+msgstr ""
+
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
+msgstr ""
+
+#: src/components/_economy/inventory/DismantleModal.tsx:184
+msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
@@ -198,6 +206,14 @@ msgstr ""
 #: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} ronde"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:175
+msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
+msgstr ""
+
+#: src/components/_economy/inventory/DismantleModal.tsx:280
+msgid "{selectedCount} selected"
+msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
@@ -1469,6 +1485,8 @@ msgstr "Celana Tingkat Lanjut"
 msgid "Agrarian"
 msgstr "Agraris"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:119
+#: src/components/_economy/inventory/ItemGridFilters.tsx:147
 #: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
@@ -1577,6 +1595,12 @@ msgstr ""
 #: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "Sekutu"
+
+#. placeholder {0}: range.min
+#. placeholder {1}: range.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:120
+msgid "Allowed between {0} and {1}"
+msgstr ""
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:48
 msgid "Allowed wage range:"
@@ -2628,6 +2652,10 @@ msgstr "Sudah diklaim"
 msgid "Claimed so far"
 msgstr ""
 
+#: src/components/_economy/inventory/DismantleModal.tsx:291
+msgid "Clear"
+msgstr ""
+
 #: src/components/_political/country/CountrySelectV2.tsx:278
 msgid "Clear selection"
 msgstr "Hapus pilihan"
@@ -3633,6 +3661,10 @@ msgstr ""
 msgid "Dismantle Item"
 msgstr "Bongkar item"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:172
+msgid "Dismantle items"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "Tutup"
@@ -3917,6 +3949,10 @@ msgstr "Energi"
 msgid "Ensign"
 msgstr "Ensign"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:115
+msgid "Enter a price"
+msgstr ""
+
 #: src/components/_political/law/LawFormModal.tsx:244
 msgid "Enter article ID"
 msgstr "Masukkan ID artikel"
@@ -3932,6 +3968,7 @@ msgid "Entrepreneurship"
 msgstr "Kewirausahaan"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
+#: src/components/_economy/inventory/ItemGridFilters.tsx:135
 #: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
@@ -3948,6 +3985,10 @@ msgstr "Perlengkapan:"
 #: src/components/_economy/market/MarketHeader.tsx:20
 msgid "Equipments"
 msgstr "Perlengkapan"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:243
+msgid "Equipped items are left out of select all."
+msgstr ""
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -4410,7 +4451,7 @@ msgstr "Dapatkan <0>skin pelanggan eksklusif</0>!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Dapatkan banyak skin sekaligus dengan diskon 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:221
+#: src/components/_economy/inventory/DismantleModal.tsx:227
 msgid "Get supporter plan"
 msgstr "Dapatkan paket supporter"
 
@@ -4953,6 +4994,10 @@ msgstr "Makin lama makin baik… mungkin"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Tidak akan menghasilkan produksi apa pun dan pekerjanya tidak bisa bekerja."
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:161
+msgid "Item"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Item dibeli"
@@ -5335,6 +5380,10 @@ msgstr "Terbatas:"
 msgid "Line"
 msgstr "Garis"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:246
+msgid "Listed at, taxes included"
+msgstr ""
+
 #: src/utils/translations.tsx:72
 msgid "Little cuties used to make steaks :("
 msgstr "Si imut-imut ini dipakai buat bikin steik :("
@@ -5481,6 +5530,10 @@ msgstr ""
 #: src/pages/user/[userId]/account.tsx:26
 msgid "Market"
 msgstr "Pasar"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:174
+msgid "Market average"
+msgstr ""
 
 #: src/components/_political/country/CountryTaxes.tsx:24
 #: src/components/_political/law/LawFormModal.tsx:258
@@ -6324,6 +6377,11 @@ msgstr "Belum ada peringkat wilayah."
 msgid "No home region set"
 msgstr ""
 
+#: src/components/_economy/inventory/DismantleModal.tsx:260
+#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+msgid "No items found"
+msgstr ""
+
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
 msgstr ""
@@ -6433,6 +6491,10 @@ msgstr "Tidak ada transaksi"
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
 msgstr "Tidak ada perang"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:236
+msgid "No weapons or equipment to dismantle"
+msgstr ""
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:182
 msgid "No work offers"
@@ -6939,6 +7001,10 @@ msgstr "Verifikasi ponsel diperlukan"
 msgid "Pick a fight!"
 msgstr "Cari gara-gara!"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:180
+msgid "Pick a weapon or equipment in perfect condition to sell."
+msgstr ""
+
 #: src/utils/translations.tsx:117
 msgid "Pill"
 msgstr "Pil"
@@ -7091,6 +7157,10 @@ msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2172
 msgid "Prestige!"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
+msgid "Price"
 msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
@@ -7287,12 +7357,16 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:266
+msgid "Put on sale"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
 msgstr "Ayo kerja!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:198
-#: src/components/_economy/inventory/DismantleModal.tsx:288
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:303
 msgid "Quick dismantle"
 msgstr "Bongkar cepat"
 
@@ -8078,9 +8152,10 @@ msgstr "Pilih lokasi"
 msgid "Select a region"
 msgstr "Pilih wilayah"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
-msgid "Select all"
-msgstr "Pilih semua"
+#. placeholder {0}: bulkItems.length
+#: src/components/_economy/inventory/DismantleModal.tsx:255
+msgid "Select all ({0})"
+msgstr ""
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:141
 msgid "Select an occupied region"
@@ -8115,6 +8190,10 @@ msgstr "Kerja mandiri"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+msgid "Sell an item"
 msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:332
@@ -8621,11 +8700,16 @@ msgstr "Berhasil masuk!"
 msgid "Sugar Daddy"
 msgstr "Sultan Dermawan"
 
+#. placeholder {0}: range.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:206
+msgid "Suggested price <0>{0}</0>"
+msgstr ""
+
 #: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "Dukung game"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:209
+#: src/components/_economy/inventory/DismantleModal.tsx:214
 msgid "Support the game and quickly dismantle items!"
 msgstr "Dukung game dan bongkar item dengan cepat!"
 
@@ -8846,6 +8930,10 @@ msgstr ""
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "MU akan menerima kembali biaya penerimaan, pembayaran sebagian atas kerusakan yang ditimbulkan, serta dikenakan penalti 10% sebesar <0>{0}</0>. Apakah Anda yakin?"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+msgid "The price must be positive"
+msgstr ""
 
 #: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
@@ -9383,7 +9471,7 @@ msgstr "Ketidakstabilan"
 msgid "Unrest Contributors"
 msgstr "Kontributor Kerusuhan"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
+#: src/components/_economy/inventory/DismantleModal.tsx:254
 msgid "Unselect all"
 msgstr "Batal pilih semua"
 
@@ -9428,7 +9516,7 @@ msgstr "Tingkatkan Skill"
 msgid "Upgrade storage"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:205
+#: src/components/_economy/inventory/DismantleModal.tsx:210
 msgid "Upgrade to supporter"
 msgstr "Upgrade ke Supporter"
 
@@ -9813,6 +9901,7 @@ msgstr "Senjata"
 msgid "Weapon:"
 msgstr "Senjata:"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:127
 #: src/components/_user/user/WealthPanel.tsx:63
 msgid "Weapons"
 msgstr "Senjata"
@@ -10106,7 +10195,7 @@ msgstr "Anda telah merekrut 10 pemain baru (>= lvl {0})"
 msgid "You can change it later."
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:211
+#: src/components/_economy/inventory/DismantleModal.tsx:216
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Kamu bisa membongkar item dari inventarismu dengan memilih sebuah item."
 
@@ -10256,6 +10345,10 @@ msgstr "Kamu harus menghabiskan semua 3 poin etika ({pointsRemaining} tersisa)"
 msgid "You need a country to take part"
 msgstr ""
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:149
+msgid "You need to be level {minLevel} to sell equipment"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "Kamu harus memasang senjata dulu"
@@ -10270,6 +10363,10 @@ msgstr "Hadiah premium-mu dari <0/> sudah kedaluwarsa! Mau pertimbangkan berlang
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "You prestiged and lost your levels"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
+msgid "You receive"
 msgstr ""
 
 #. placeholder {0}: data.rank

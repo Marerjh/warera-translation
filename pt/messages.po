@@ -169,9 +169,17 @@ msgstr "{completedCount}/{totalCount} completadas"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} ponto(s) de prestígio nesta habilidade ({savedPrestigeCount} atribuído(s), indisponível(eis) até redistribuir as habilidades)"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:193
+msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
+msgstr ""
+
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} Pontos de Habilidade"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:184
+msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
+msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
 #: src/components/_political/map/MapMenu.tsx:605
@@ -198,6 +206,14 @@ msgstr "{savedPrestigeCount} ponto(s) de prestígio atribuído(s) a esta habilid
 #: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Rondas"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:175
+msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
+msgstr ""
+
+#: src/components/_economy/inventory/DismantleModal.tsx:280
+msgid "{selectedCount} selected"
+msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
@@ -1469,6 +1485,8 @@ msgstr "Calças Avançadas"
 msgid "Agrarian"
 msgstr "Agrária"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:119
+#: src/components/_economy/inventory/ItemGridFilters.tsx:147
 #: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
@@ -1577,6 +1595,12 @@ msgstr "Nome da aliança"
 #: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "Aliados"
+
+#. placeholder {0}: range.min
+#. placeholder {1}: range.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:120
+msgid "Allowed between {0} and {1}"
+msgstr ""
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:48
 msgid "Allowed wage range:"
@@ -2628,6 +2652,10 @@ msgstr "Resgatado"
 msgid "Claimed so far"
 msgstr "Resgatado até agora"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:291
+msgid "Clear"
+msgstr ""
+
 #: src/components/_political/country/CountrySelectV2.tsx:278
 msgid "Clear selection"
 msgstr "Limpar seleção"
@@ -3633,6 +3661,10 @@ msgstr "Desmonta <0/> itens"
 msgid "Dismantle Item"
 msgstr "Equipamentos desmontados"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:172
+msgid "Dismantle items"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "Fechar"
@@ -3917,6 +3949,10 @@ msgstr "Energia"
 msgid "Ensign"
 msgstr "Alferes"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:115
+msgid "Enter a price"
+msgstr ""
+
 #: src/components/_political/law/LawFormModal.tsx:244
 msgid "Enter article ID"
 msgstr "Insira o ID do artigo"
@@ -3932,6 +3968,7 @@ msgid "Entrepreneurship"
 msgstr "Empreendedorismo"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
+#: src/components/_economy/inventory/ItemGridFilters.tsx:135
 #: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
@@ -3948,6 +3985,10 @@ msgstr "Equipamento:"
 #: src/components/_economy/market/MarketHeader.tsx:20
 msgid "Equipments"
 msgstr "Equipamentos"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:243
+msgid "Equipped items are left out of select all."
+msgstr ""
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -4410,7 +4451,7 @@ msgstr "Obtém uma <0>skin exclusiva</0>!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Obtenha várias skins de uma só vez com um desconto de 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:221
+#: src/components/_economy/inventory/DismantleModal.tsx:227
 msgid "Get supporter plan"
 msgstr "Obter subscrição"
 
@@ -4953,6 +4994,10 @@ msgstr "Só melhora… talvez"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Não vai ganhar nenhuma produção e os seus trabalhadores não poderão trabalhar."
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:161
+msgid "Item"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Item comprado"
@@ -5335,6 +5380,10 @@ msgstr "Limitado:"
 msgid "Line"
 msgstr "Linha"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:246
+msgid "Listed at, taxes included"
+msgstr ""
+
 #: src/utils/translations.tsx:72
 msgid "Little cuties used to make steaks :("
 msgstr "Fofuras usadas para fazer bifes :("
@@ -5481,6 +5530,10 @@ msgstr "Ícones no mapa"
 #: src/pages/user/[userId]/account.tsx:26
 msgid "Market"
 msgstr "Mercado"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:174
+msgid "Market average"
+msgstr ""
 
 #: src/components/_political/country/CountryTaxes.tsx:24
 #: src/components/_political/law/LawFormModal.tsx:258
@@ -6324,6 +6377,11 @@ msgstr "Nenhum ranking de terreno ainda"
 msgid "No home region set"
 msgstr "Região-base ainda não definida"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:260
+#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+msgid "No items found"
+msgstr ""
+
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
 msgstr "Ainda não tem kits — adicione um para equipar um conjunto completo de equipamento de uma só vez."
@@ -6433,6 +6491,10 @@ msgstr "Nenhuma transação encontrada"
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
 msgstr "Nenhuma guerra encontrada"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:236
+msgid "No weapons or equipment to dismantle"
+msgstr ""
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:182
 msgid "No work offers"
@@ -6939,6 +7001,10 @@ msgstr "Verificação de telemóvel necessária"
 msgid "Pick a fight!"
 msgstr "Escolha uma batalha!"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:180
+msgid "Pick a weapon or equipment in perfect condition to sell."
+msgstr ""
+
 #: src/utils/translations.tsx:117
 msgid "Pill"
 msgstr "Pílula"
@@ -7092,6 +7158,10 @@ msgstr "Prestígio:"
 #: src/components/_user/notification/notification.frontConfig.tsx:2172
 msgid "Prestige!"
 msgstr "Prestígio!"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
+msgid "Price"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
@@ -7287,12 +7357,16 @@ msgstr "Avança contra a resistência aqui antes que se entrinchem..."
 msgid "Push the resistance here first."
 msgstr "Avança contra a resistência aqui primeiro."
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:266
+msgid "Put on sale"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
 msgstr "Mãos à obra!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:198
-#: src/components/_economy/inventory/DismantleModal.tsx:288
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:303
 msgid "Quick dismantle"
 msgstr "Desmontar rápido"
 
@@ -8078,9 +8152,10 @@ msgstr "Selecione um local"
 msgid "Select a region"
 msgstr "Selecione uma região"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
-msgid "Select all"
-msgstr "Selecionar tudo"
+#. placeholder {0}: bulkItems.length
+#: src/components/_economy/inventory/DismantleModal.tsx:255
+msgid "Select all ({0})"
+msgstr ""
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:141
 msgid "Select an occupied region"
@@ -8116,6 +8191,10 @@ msgstr "Trabalho próprio"
 #: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
 msgstr "Trabalha <0/> vezes nas tuas empresas"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+msgid "Sell an item"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
@@ -8621,11 +8700,16 @@ msgstr "Iniciou sessão com sucesso!"
 msgid "Sugar Daddy"
 msgstr "Sugar Daddy"
 
+#. placeholder {0}: range.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:206
+msgid "Suggested price <0>{0}</0>"
+msgstr ""
+
 #: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "Apoiar o jogo"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:209
+#: src/components/_economy/inventory/DismantleModal.tsx:214
 msgid "Support the game and quickly dismantle items!"
 msgstr "Apoie o jogo e desmonte itens rapidamente!"
 
@@ -8846,6 +8930,10 @@ msgstr "O mapa precisa de WebGL2, que o teu navegador ou dispositivo não suport
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "A UM receberá de volta a caução, um pagamento parcial pelo dano dado, e uma penalização de 10% de <0>{0}</0>. Tem a certeza?"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+msgid "The price must be positive"
+msgstr ""
 
 #: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
@@ -9383,7 +9471,7 @@ msgstr "Instabilidade"
 msgid "Unrest Contributors"
 msgstr "Contribuidores"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
+#: src/components/_economy/inventory/DismantleModal.tsx:254
 msgid "Unselect all"
 msgstr "Desmarcar tudo"
 
@@ -9428,7 +9516,7 @@ msgstr "Melhorar habilidades"
 msgid "Upgrade storage"
 msgstr "Melhorar armazenamento"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:205
+#: src/components/_economy/inventory/DismantleModal.tsx:210
 msgid "Upgrade to supporter"
 msgstr "Seja um supporter"
 
@@ -9813,6 +9901,7 @@ msgstr "Arma"
 msgid "Weapon:"
 msgstr "Arma:"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:127
 #: src/components/_user/user/WealthPanel.tsx:63
 msgid "Weapons"
 msgstr "Armas"
@@ -10106,7 +10195,7 @@ msgstr "Trouxe 10 bebés ao mundo (>= nível {0})"
 msgid "You can change it later."
 msgstr "Pode alterá-lo mais tarde"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:211
+#: src/components/_economy/inventory/DismantleModal.tsx:216
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Podes desmontar itens do teu inventário ao selecionares um item."
 
@@ -10256,6 +10345,10 @@ msgstr "Tem de gastar todos os 3 pontos de ética (faltam {pointsRemaining})"
 msgid "You need a country to take part"
 msgstr "Tens de pertencer a um país para participar"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:149
+msgid "You need to be level {minLevel} to sell equipment"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "Tens de equipar uma arma primeiro"
@@ -10271,6 +10364,10 @@ msgstr "A sua subscrição premium de <0/> expirou! Consideraria subscrever e ap
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "You prestiged and lost your levels"
 msgstr "Entraste em prestígio e desceste de nível"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
+msgid "You receive"
+msgstr ""
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267

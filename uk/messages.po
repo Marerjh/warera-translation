@@ -169,8 +169,16 @@ msgstr "{completedCount}/{totalCount} завершено"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} бал(-ів) престижу у цій навичці ({savedPrestigeCount} збережено, заблоковано до наступного скидання)"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:193
+msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
+msgstr ""
+
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
+msgstr ""
+
+#: src/components/_economy/inventory/DismantleModal.tsx:184
+msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
@@ -198,6 +206,14 @@ msgstr "{savedPrestigeCount} бал(-ів) престижу у цій навич
 #: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} раундів"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:175
+msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
+msgstr ""
+
+#: src/components/_economy/inventory/DismantleModal.tsx:280
+msgid "{selectedCount} selected"
+msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
@@ -1469,6 +1485,8 @@ msgstr "Поліпшені штани"
 msgid "Agrarian"
 msgstr "Аграризм"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:119
+#: src/components/_economy/inventory/ItemGridFilters.tsx:147
 #: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
@@ -1577,6 +1595,12 @@ msgstr "Назва альянсу"
 #: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "Союзники"
+
+#. placeholder {0}: range.min
+#. placeholder {1}: range.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:120
+msgid "Allowed between {0} and {1}"
+msgstr ""
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:48
 msgid "Allowed wage range:"
@@ -2628,6 +2652,10 @@ msgstr "Отримано"
 msgid "Claimed so far"
 msgstr "Отримано"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:291
+msgid "Clear"
+msgstr ""
+
 #: src/components/_political/country/CountrySelectV2.tsx:278
 msgid "Clear selection"
 msgstr "Очистити вибір"
@@ -3633,6 +3661,10 @@ msgstr "Розберіть <0/> предметів"
 msgid "Dismantle Item"
 msgstr "Розбір предметів"
 
+#: src/components/_economy/inventory/DismantleModal.tsx:172
+msgid "Dismantle items"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "Скасувати"
@@ -3917,6 +3949,10 @@ msgstr "Енергія"
 msgid "Ensign"
 msgstr "Молодший лейтенант"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:115
+msgid "Enter a price"
+msgstr ""
+
 #: src/components/_political/law/LawFormModal.tsx:244
 msgid "Enter article ID"
 msgstr "Введіть ID статті"
@@ -3932,6 +3968,7 @@ msgid "Entrepreneurship"
 msgstr "Підприємливість"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
+#: src/components/_economy/inventory/ItemGridFilters.tsx:135
 #: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
@@ -3948,6 +3985,10 @@ msgstr "Спорядження:"
 #: src/components/_economy/market/MarketHeader.tsx:20
 msgid "Equipments"
 msgstr "Спорядження"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:243
+msgid "Equipped items are left out of select all."
+msgstr ""
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -4410,7 +4451,7 @@ msgstr "Отримайте ексклюзивний <0>скін підписни
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Отримайте відразу кілька скінів зі знижкою 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:221
+#: src/components/_economy/inventory/DismantleModal.tsx:227
 msgid "Get supporter plan"
 msgstr "Стати підписником"
 
@@ -4953,6 +4994,10 @@ msgstr "Далі буде краще… можливо"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Виробництво зупинено, працівники не зможуть працювати."
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:161
+msgid "Item"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Предмет придбано"
@@ -5335,6 +5380,10 @@ msgstr "Обмежено:"
 msgid "Line"
 msgstr "Лінії"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:246
+msgid "Listed at, taxes included"
+msgstr ""
+
 #: src/utils/translations.tsx:72
 msgid "Little cuties used to make steaks :("
 msgstr "Манюньки для приготування стейків :("
@@ -5481,6 +5530,10 @@ msgstr "Іконки на мапі"
 #: src/pages/user/[userId]/account.tsx:26
 msgid "Market"
 msgstr "Ринок"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:174
+msgid "Market average"
+msgstr ""
 
 #: src/components/_political/country/CountryTaxes.tsx:24
 #: src/components/_political/law/LawFormModal.tsx:258
@@ -6324,6 +6377,11 @@ msgstr "Рейтингу за балами контролю ще немає."
 msgid "No home region set"
 msgstr ""
 
+#: src/components/_economy/inventory/DismantleModal.tsx:260
+#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+msgid "No items found"
+msgstr ""
+
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
 msgstr "Наборів поки нема - додайте якийсь, щоб швидко одягнути повний боєкомплект."
@@ -6433,6 +6491,10 @@ msgstr "Транзакції не знайдено"
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
 msgstr "Війни не знайдено"
+
+#: src/components/_economy/inventory/DismantleModal.tsx:236
+msgid "No weapons or equipment to dismantle"
+msgstr ""
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:182
 msgid "No work offers"
@@ -6939,6 +7001,10 @@ msgstr "Потрібне підтвердження телефону"
 msgid "Pick a fight!"
 msgstr "Вривайся в бій!"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:180
+msgid "Pick a weapon or equipment in perfect condition to sell."
+msgstr ""
+
 #: src/utils/translations.tsx:117
 msgid "Pill"
 msgstr "Пігулка"
@@ -7092,6 +7158,10 @@ msgstr "Престиж:"
 #: src/components/_user/notification/notification.frontConfig.tsx:2172
 msgid "Prestige!"
 msgstr "Престиж!"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
+msgid "Price"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
@@ -7287,12 +7357,16 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:266
+msgid "Put on sale"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
 msgstr "Почни працювати!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:198
-#: src/components/_economy/inventory/DismantleModal.tsx:288
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:303
 msgid "Quick dismantle"
 msgstr "Швидкий розбір"
 
@@ -8078,9 +8152,10 @@ msgstr "Виберіть локацію"
 msgid "Select a region"
 msgstr "Виберіть регіон"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
-msgid "Select all"
-msgstr "Вибрати все"
+#. placeholder {0}: bulkItems.length
+#: src/components/_economy/inventory/DismantleModal.tsx:255
+msgid "Select all ({0})"
+msgstr ""
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:141
 msgid "Select an occupied region"
@@ -8116,6 +8191,10 @@ msgstr "Самостійна робота"
 #: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
 msgstr "Попрацюйте <0/> разів у своїй фабриці"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+msgid "Sell an item"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
@@ -8621,11 +8700,16 @@ msgstr "Успішний вхід!"
 msgid "Sugar Daddy"
 msgstr "Шугар дедді"
 
+#. placeholder {0}: range.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:206
+msgid "Suggested price <0>{0}</0>"
+msgstr ""
+
 #: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "Підтримати гру"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:209
+#: src/components/_economy/inventory/DismantleModal.tsx:214
 msgid "Support the game and quickly dismantle items!"
 msgstr "Підтримайте гру і швидко розбирайте предмети!"
 
@@ -8846,6 +8930,10 @@ msgstr ""
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "ВП отримає свій завдаток, часткову виплату за завдану шкоду та 10% штрафної компенсації (<0>{0}</0>). Ви впевнені?"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+msgid "The price must be positive"
+msgstr ""
 
 #: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
@@ -9383,7 +9471,7 @@ msgstr "Заворушення"
 msgid "Unrest Contributors"
 msgstr "Сприячі заворушенням"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:247
+#: src/components/_economy/inventory/DismantleModal.tsx:254
 msgid "Unselect all"
 msgstr "Скасувати вибір"
 
@@ -9428,7 +9516,7 @@ msgstr "Поліпшіть навички"
 msgid "Upgrade storage"
 msgstr "Поліпшити склад"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:205
+#: src/components/_economy/inventory/DismantleModal.tsx:210
 msgid "Upgrade to supporter"
 msgstr "Станьте підписником"
 
@@ -9813,6 +9901,7 @@ msgstr "Зброя"
 msgid "Weapon:"
 msgstr "Зброя:"
 
+#: src/components/_economy/inventory/ItemGridFilters.tsx:127
 #: src/components/_user/user/WealthPanel.tsx:63
 msgid "Weapons"
 msgstr "Зброя"
@@ -10106,7 +10195,7 @@ msgstr "Ви привели на світ 10 малюків (>= lvl {0})"
 msgid "You can change it later."
 msgstr "Ви можете змінити її пізніше."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:211
+#: src/components/_economy/inventory/DismantleModal.tsx:216
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Ви можете розібрати предмети у інвентарі вибираючи їх тут."
 
@@ -10256,6 +10345,10 @@ msgstr "Ви повинні витратити усі 3 бали принцип�
 msgid "You need a country to take part"
 msgstr "Вам потрібна держава, щоб долучитись"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:149
+msgid "You need to be level {minLevel} to sell equipment"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "Для початку вам потрібно екіпірувати зброю"
@@ -10271,6 +10364,10 @@ msgstr "Термін підписки, подарованої <0/>, сплив! 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "You prestiged and lost your levels"
 msgstr "Ви підвищили престиж та втратили свої рівні"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
+msgid "You receive"
+msgstr ""
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
