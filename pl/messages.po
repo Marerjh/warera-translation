@@ -5375,7 +5375,7 @@ msgstr "Zablokowane. Zresetuj umiejętności, aby przydzielić je na nowo"
 
 #: src/pages/index.tsx:159
 msgid "Login"
-msgstr "Login"
+msgstr "Zaloguj"
 
 #: src/components/_user/user/MyAvatar.tsx:59
 msgid "Logout"
