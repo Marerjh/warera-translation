@@ -1651,7 +1651,7 @@ msgstr "Animowany <0>GIF</0> jako awatar"
 
 #: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:63
 msgid "Announcement"
-msgstr ""
+msgstr "Ogłoszenie"
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
@@ -5375,7 +5375,7 @@ msgstr "Zablokowane. Zresetuj umiejętności, aby przydzielić je na nowo"
 
 #: src/pages/index.tsx:159
 msgid "Login"
-msgstr ""
+msgstr "Zaloguj"
 
 #: src/components/_user/user/MyAvatar.tsx:59
 msgid "Logout"
@@ -7589,7 +7589,7 @@ msgstr "Zajęte regiony generują dwukrotnie większy opór."
 
 #: src/pages/index.tsx:149
 msgid "Register"
-msgstr ""
+msgstr "Załóż konto"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
