@@ -1728,7 +1728,7 @@ msgid "Are you sure you want to demote this commander?"
 msgstr "Jesteś pewien, że chcesz zdegradować tego dowódcę?"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:113
-msgid "Are you sure you want to  this worker?"
+msgid "Are you sure you want to fire this worker?"
 msgstr "Czy na pewno chcesz zwolnić tego pracownika?"
 
 #: src/components/_military/mu/MuMemberList.tsx:140
