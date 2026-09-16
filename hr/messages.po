@@ -80,7 +80,7 @@ msgstr "(vlastiti razvoj)"
 #. placeholder {0}: Math.max(items.length, 1)
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
 msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
-msgstr ""
+msgstr "{0, plural, one {Stavite na prodaju} other {Stavite # predmeta na prodaju}}"
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -176,7 +176,7 @@ msgstr "{draftPrestigeCount} poen/a prestiža u ovoj vještini ({savedPrestigeCo
 
 #: src/components/_economy/inventory/DismantleModal.tsx:193
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
-msgstr ""
+msgstr "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
@@ -184,7 +184,7 @@ msgstr "{nextLevelSkillPoints} poena vještine"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:184
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
-msgstr ""
+msgstr "{rareCount, plural, one {# od njih je rijedak ili bolji} other {# od njih su rjeđi ili bolji}}"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
 #: src/components/_political/map/MapMenu.tsx:605
@@ -214,11 +214,11 @@ msgstr "{score}/{0} Rundi"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
-msgstr ""
+msgstr "{selectedCount, plural, one {Rastavite # predmet za} other {Rastavite # predmete za}}"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:280
 msgid "{selectedCount} selected"
-msgstr ""
+msgstr "{selectedCount} odabrano"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
@@ -1605,7 +1605,7 @@ msgstr "Saveznici"
 #. placeholder {1}: sharedRange.max
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:139
 msgid "Allowed between {0} and {1}"
-msgstr ""
+msgstr "Dozvoljeno između {0} i {1}"
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:48
 msgid "Allowed wage range:"
@@ -2660,7 +2660,7 @@ msgstr "Preuzeto do sad"
 #: src/components/_economy/inventory/DismantleModal.tsx:291
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:164
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: src/components/_political/country/CountrySelectV2.tsx:278
 msgid "Clear selection"
@@ -3669,7 +3669,7 @@ msgstr "Rastavljeni predmeti"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:172
 msgid "Dismantle items"
-msgstr ""
+msgstr "Rastavite predmete"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
@@ -3761,7 +3761,7 @@ msgstr "e. Sadržaj o trenutnim ratnim konfliktima (npr. sadržaj o ruskoj invaz
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
 msgid "Each item gets its own offer, all at the same price."
-msgstr ""
+msgstr "Svaki predmet"
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -3961,7 +3961,7 @@ msgstr "Potporučnik"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:133
 msgid "Enter a price"
-msgstr ""
+msgstr "Unesite cijenu"
 
 #: src/components/_political/law/LawFormModal.tsx:244
 msgid "Enter article ID"
@@ -3998,7 +3998,7 @@ msgstr "Oprema"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:243
 msgid "Equipped items are left out of select all."
-msgstr ""
+msgstr "Predmeti koje trenutačno koristite neće biti odabrani."
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -7913,7 +7913,7 @@ msgstr "Preraspodjela za"
 #: src/components/_layout/map.frontConfig.tsx:54
 #: src/components/_political/region/RegionHeader.tsx:88
 msgid "Residents"
-msgstr "Rezidenti"
+msgstr "Rezidenta"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
@@ -8197,7 +8197,7 @@ msgstr "Radite samostalno <0/> puta u vlastitim kompanijama"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:77
 msgid "Sell an item"
-msgstr ""
+msgstr "Prodajte predmet"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
@@ -8714,7 +8714,7 @@ msgstr "Podržite igru"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:214
 msgid "Support the game and quickly dismantle items!"
-msgstr "Podržite igru i brzo rastavi predmete!"
+msgstr "Podržite igru i brže rastavljajte predmete!"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:60
 msgid "Support us"
@@ -9525,7 +9525,7 @@ msgstr "Nadogradite skladište"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:210
 msgid "Upgrade to supporter"
-msgstr "Nadogradite na supportera"
+msgstr "Postanite Supporter"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:526
 msgid "Upgrade your skills <0/> times"
@@ -10204,7 +10204,7 @@ msgstr "Moguća je kasnija izmjena."
 
 #: src/components/_economy/inventory/DismantleModal.tsx:216
 msgid "You can dismantle items from your inventory by selecting an item."
-msgstr "Možete rastaviti predmete iz svog inventara odabirom predmeta."
+msgstr "Odaberite više predmeta iz inventara i rastavite ih odjednom."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
