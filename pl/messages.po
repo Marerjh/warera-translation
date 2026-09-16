@@ -171,7 +171,7 @@ msgstr "{draftPrestigeCount} punkt(y) prestiżu dla tej umiejętności ({savedPr
 
 #: src/components/_economy/inventory/DismantleModal.tsx:193
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
-msgstr ""
+msgstr ""{equippedCount, plural, one {# z nich znajduje się w użyciu} other {# z nich znajdują się w użyciu}}""
 
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
@@ -179,7 +179,7 @@ msgstr "{nextLevelSkillPoints} Punkty Umiejętności"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:184
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
-msgstr ""
+msgstr "{rareCount, plural, one {# z nich jest rzadki bądź lepszy} other {# z nich są rzadsze bądź lepsze}}"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
 #: src/components/_political/map/MapMenu.tsx:605
