@@ -80,7 +80,7 @@ msgstr "(własny rozwój)"
 #. placeholder {0}: Math.max(items.length, 1)
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
 msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
-msgstr ""
+msgstr "{0, plural, one {Wystaw na sprzedaż} other {Wystaw # przedmiotów na sprzedaż}}"
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -214,7 +214,7 @@ msgstr "{score}/{0} rund"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
-msgstr ""
+msgstr "{selectedCount, plural, one {Rozmontuj # przedmiot za} other {Rozmontuj # przedmiotów za}}"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:280
 msgid "{selectedCount} selected"
@@ -3761,7 +3761,7 @@ msgstr "e. Treści dotyczące trwających w rzeczywistym świecie wojen i konfli
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
 msgid "Each item gets its own offer, all at the same price."
-msgstr ""
+msgstr "Każdy przedmiot ma osobną ofertę, wszystkie w tej samej cenie."
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -7010,7 +7010,7 @@ msgstr "Wybierz bitwę!"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
 msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
-msgstr ""
+msgstr "Wybierz do {maxItemsPerListing} sztuk broni lub wyposażenia w idealnym stanie, aby sprzedać je w tej samej cenie."
 
 #: src/utils/translations.tsx:117
 msgid "Pill"
@@ -8968,7 +8968,7 @@ msgstr "Używanie botów, skryptów lub jakichkolwiek form automatyzacji w celu 
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
 msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
-msgstr ""
+msgstr "Dla tych przedmiotów brak jest wspólnej, zatwierdzonej ceny. Usuń przedmiot o najniższej lub najwyższej wartości."
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -10374,15 +10374,15 @@ msgstr "Osiągnąłeś prestiż i straciłeś swoje poziomy"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:288
 msgid "You receive"
-msgstr "Otrzymujesz"
+msgstr "Otrzymasz"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
 msgid "You receive if all sell"
-msgstr ""
+msgstr "Otrzymasz, jeśli sprzedasz wszystko"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
 msgid "You receive, per item"
-msgstr ""
+msgstr "Otrzymasz, na przedmiot"
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
