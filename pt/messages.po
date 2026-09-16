@@ -441,7 +441,7 @@ msgstr "<0/> está a atacar <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:895
 msgid "<0/> is attacking your country in <1/>"
-msgstr "<0/> está a atacar o seu país em <1/>"
+msgstr "<0/> está a atacar o teu país em <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:304
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
@@ -453,7 +453,7 @@ msgstr "<0/> iniciou uma revolta em <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:924
 msgid "<0/> is revolting in <1/> against your country"
-msgstr "<0/> iniciou uma revolta em <1/> contra o seu país"
+msgstr "<0/> está em revolta em <1/> contra o teu país"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> joined the conversation"
@@ -550,7 +550,7 @@ msgstr "<0/> respondeu à tua mensagem em <1/>{0}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:163
 msgid "<0/> started, vote for your favorite candidate"
-msgstr "<0/> começou, vote no seu candidato favorito"
+msgstr "<0/> começou, vota no teu candidato favorito"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:808
 msgid "<0/> subscribed to you on your article <1/>"
@@ -558,7 +558,7 @@ msgstr "<0/> passou a seguir-te pelo teu artigo<1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:789
 msgid "<0/> tipped your article <1/>"
-msgstr "<0/> deu gorjeta ao seu artigo <1/>"
+msgstr "<0/> deu uma gorjeta ao teu artigo <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:202
 msgid "<0/> took control of <1/>"
@@ -574,7 +574,7 @@ msgstr "<0/> propõe um acordo de paz"
 
 #: src/components/_political/law/law.frontConfig.tsx:104
 msgid "<0/> wants to make peace with your country"
-msgstr "<0/> propõe um tratado de paz com seu país"
+msgstr "<0/> quer fazer as pazes com o teu país"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1372
 msgid "<0/> was cancelled: not enough participants registered."
@@ -724,7 +724,7 @@ msgstr "<0>{0}</0> de ética Pacifista Fanático (revolta copia bunker inimigo)"
 #. placeholder {0}: sideBonus.patrioticBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:73
 msgid "<0>{0}</0> from fighting for your country"
-msgstr "<0>{0}</0> por lutar pelo seu país"
+msgstr "<0>{0}</0> por lutar pelo teu país"
 
 #. placeholder {0}: region.ethicSpecializationBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:118
@@ -836,7 +836,7 @@ msgstr "<0>Instabilidade</0> representa a tensão interna no país.<1/><2/>Os ci
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
-msgstr "<0>A sua conta requer verificação adicional. Por favor, verifique o seu número de telemóvel o mais rapidamente possível para continuar a usar a conta normalmente. As contas não verificadas terão acesso limitado após 48 horas e poderão ser suspensas permanentemente após 5 dias.</0><1>Os números de telemóvel são encriptados e não são visíveis para qualquer administrador.</1>"
+msgstr "<0>A tua conta requer verificação adicional. Por favor, verifica o teu número de telefone o mais rapidamente possível para continuares a usar a tua conta normalmente. Contas não verificadas terão acesso restrito após 48 horas e podem ser permanentemente suspensas após 5 dias.</0><1>Os números de telefone são encriptados e não são visíveis a nenhum administrador.</1>"
 
 #: src/components/_layout/LayoutOptions.tsx:103
 msgid "= consumes more power"
@@ -844,7 +844,7 @@ msgstr "= consome mais energia"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
-msgstr "1 lendário conseguido, faltam 5 para o set completo, continue jogando!"
+msgstr "1 lendário conseguido, faltam mais 5 para um equipamento completo, continua a apostar!"
 
 #: src/components/_common/GameRules.tsx:226
 msgid "1. English is the only allowed language in World/Global chat"
@@ -1256,7 +1256,7 @@ msgstr "Obtenha um <0>emblema de apoiante</0> exclusivo"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:85
 msgid "A beautiful colored username that will make you very popular"
-msgstr "Personalize o seu nome de utilizador com cores e efeitos exclusivos."
+msgstr "Um nome de utilizador colorido e bonito que te vai tornar muito popular"
 
 #: src/components/_political/event/event.frontConfig.tsx:478
 msgid "A civil war has started by <0/> in <1/>"
@@ -1293,7 +1293,7 @@ msgstr "Uma revolução começou em <0/>"
 
 #: src/pages/region/[regionId]/index.tsx:94
 msgid "A strategic resource has been found in this region, it gives its owner a production and development bonus."
-msgstr "Um recurso estratégico foi encontrado nesta região, dá ao seu proprietário um bónus de produção e desenvolvimento."
+msgstr "Foi encontrado um recurso estratégico nesta região, que dá ao seu proprietário um bónus de produção e desenvolvimento."
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:149
 msgid "A verification code has been sent to {phoneNumber}"
@@ -1635,7 +1635,7 @@ msgstr "Uma aliança foi formada"
 
 #: src/components/_political/law/law.frontConfig.tsx:379
 msgid "An alliance has invited your country to join"
-msgstr "Uma aliança convidou o seu país a aderir"
+msgstr "Uma aliança convidou o teu país a aderir"
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:46
 msgid "An alliance's battle <0>damage</0> bonus depends on its share of the world's total <1>Development</1>."
@@ -1769,7 +1769,7 @@ msgstr "Tem a certeza de que pretende remover este comunicado? Os comentários t
 
 #: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
-msgstr "Tem certeza que quer trocar esta missão? Seu progresso atual será perdido."
+msgstr "Tens a certeza de que queres voltar a sortear esta missão? O teu progresso atual será perdido."
 
 #. placeholder {0}: token.name
 #: src/components/_user/apiToken/ApiTokenList.tsx:218
@@ -2046,7 +2046,7 @@ msgstr "Banners"
 #: src/components/_user/user/UserHeader.tsx:207
 #: src/components/_user/user/UserHeader.tsx:273
 msgid "Bans"
-msgstr "Sanções"
+msgstr "Bans"
 
 #: src/components/_political/law/LawCostExplanation.tsx:38
 msgid "Base cost"
@@ -2340,7 +2340,7 @@ msgstr "Ao continuar, você concorda com os nossos <0>Termos de Serviço</0>."
 #. placeholder {0}: worker.fidelity ?? 0
 #: src/components/_user/worker/WageReductionAlert.tsx:56
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
-msgstr "Ao rejeitar a redução salarial, você deixará a empresa e perderá seu bónus de fidelidade de +{0}%."
+msgstr "Ao rejeitares a redução salarial, vais deixar a empresa e perder o teu bónus de fidelidade de +{0}%."
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:151
 msgid "By side"
@@ -2572,11 +2572,11 @@ msgstr "Escolher Tipo de Letra"
 
 #: src/components/_user/auth/WelcomeModal.tsx:145
 msgid "Choose your country"
-msgstr "Escolha seu país"
+msgstr "Escolhe o teu país"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:145
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
-msgstr "Escolha seu lado e clique para causar <0>Dano</0>! Continue atacando para ajudar seu time a vencer."
+msgstr "Escolhe o teu lado e clica para causares <0>Danos</0>! Continua a atacar para ajudares a tua equipa a vencer."
 
 #: src/components/_economy/inventory/CraftModal.tsx:374
 msgid "Choosing a specific item costs ×2 steel:"
@@ -2642,7 +2642,7 @@ msgstr "Clique numa batalha para ver o que está a acontecer e participar."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:226
 msgid "Click on your country's conversation to chat with fellow citizens."
-msgstr "Clique no chat do seu país para conversar com outros cidadãos."
+msgstr "Clica na conversa do teu país para conversares com outros cidadãos."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:68
 msgid "Click to apply and start earning money right away."
@@ -2688,7 +2688,7 @@ msgstr "Recolher"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:586
 msgid "Collect <0/> on the map"
-msgstr "Recolha <0/> no mapa"
+msgstr "Recolhe <0/> no mapa"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:584
 msgid "Collect Cases on the Map"
@@ -2899,7 +2899,7 @@ msgstr "Conquistador"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:69
 msgid "Consider giving it to your local moderator"
-msgstr "Considere dar para seu moderador local"
+msgstr "Considera dá-lo ao teu moderador local"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:554
 msgid "Construct"
@@ -3185,7 +3185,7 @@ msgstr "Golpe crítico"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
-msgstr "Atravesse <0/> regiões"
+msgstr "Atravessa <0/> regiões no mapa"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
@@ -3327,7 +3327,7 @@ msgstr "Causar dano"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:149
 msgid "Deal Damages for Allies or Country"
-msgstr "Cause dano por países aliados ou pelo seu país"
+msgstr "Causa Danos por Aliados ou País"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:139
 msgid "Deal Damages on Orders"
@@ -3512,7 +3512,7 @@ msgstr "Não podem surgir depósitos dentro das suas fronteiras."
 #: src/components/_political/party/PartyDescriptionModal.tsx:62
 #: src/components/_political/party/PartyFormModal.tsx:101
 msgid "Describe your party's goals and values"
-msgstr "Descreva os objetivos e valores do seu partido"
+msgstr "Descreve os objetivos e valores do teu partido"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:61
 #: src/components/_political/party/PartyFormModal.tsx:102
@@ -3924,7 +3924,7 @@ msgstr "Insira o ID do artigo"
 #: src/components/_user/auth/ConnectFromModal.tsx:177
 #: src/components/_user/auth/ConnectFromModal.tsx:182
 msgid "Enter the code we sent to your email."
-msgstr "Insira o código que enviamos para seu email."
+msgstr "Insere o código que enviámos para o teu email."
 
 #: src/components/_user/user/skills.frontConfig.tsx:193
 #: src/components/_user/user/skills.frontConfig.tsx:194
@@ -5578,7 +5578,7 @@ msgstr "Flecha de Pedra Medieval"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:217
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
-msgstr "Conheça outros jogadores no chat. Não seja tímido, apresente-se!"
+msgstr "Conhece outros jogadores no chat. Não sejas tímido, apresenta-te!"
 
 #: src/pages/party/[partyId]/applications.tsx:39
 msgid "Member Applications"
@@ -10012,7 +10012,7 @@ msgstr "Wtf isso é possível?"
 
 #: src/components/_common/GameRules.tsx:327
 msgid "X. Punishments and Appeals"
-msgstr "X. Sanções e Recursos"
+msgstr "X. Punições e Recursos"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
@@ -10144,7 +10144,7 @@ msgstr "Ganhou gems com a venda de um conjunto de skin!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:730
 msgid "You feel healthy, the debuff effect no longer affects you."
-msgstr "Sente-se saudável, o efeito de debuff já não o afeta."
+msgstr "Sentes-te saudável, o efeito de debuff já não te afeta."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
 msgid "You gifted a supporter plan subscription to someone <3"
