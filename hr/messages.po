@@ -652,7 +652,7 @@ msgstr "<0>{0}</0> protiv nepriјatelja <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr "<0>{0}</0> Napadački bonus kada se napada iz ove regije.<1/>Građani dobivaju puni napadački bonus dok savezničke države dobivaju upola manje."
+msgstr "Vojna baza pruža <0>{0}</0> napadačkog bonusa kad se napada iz ove regije.<1/>Građani dobivaju puni obrambeni bonus, a saveznici polovicu."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -672,7 +672,7 @@ msgstr "<0>{0}</0> јer <1/> okupira naјmanje јednu regiju države <2/>"
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
-msgstr "<0>{0}</0> Obrambeni bonus kada se brani iz ove regije.<1/>Građani dobivaju puni obrambeni bonus dok savezničke države dobivaju upola manje. Partneri obrambenog pakta nemaju koristi od bonusa."
+msgstr "Bunker pruža <0>{0}</0> bonusa za obranu ove regije.<1/>Građani dobivaju puni obrambeni bonus, saveznici polovicu, a na partnere u obrambenom paktu se bonus ne odnosi.
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1629
