@@ -8441,8 +8441,12 @@ msgid "Spendings"
 msgstr "Uitgaven"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
-msgstr "Kosten bij verplaatsing op de kaart: 10 punten per doorkruiste regio. Voor een reis die je uithoudingsvermogen niet dekt, betaal je in plaats daarvan met olie. De voorraad vult zich aan met 10 punten per uur en kan niet worden verhoogd met vaardigheidspunten."
+#~ msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
+#~ msgstr "Kosten bij verplaatsing op de kaart: 10 punten per doorkruiste regio. Voor een reis die je uithoudingsvermogen niet dekt, betaal je in plaats daarvan met olie. De voorraad vult zich aan met 10 punten per uur en kan niet worden verhoogd met vaardigheidspunten."
+
+#: src/components/_user/user/skills.frontConfig.tsx:98
+msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
+msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
