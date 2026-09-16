@@ -80,7 +80,7 @@ msgstr "(التطوير الخاص/الذاتي)"
 #. placeholder {0}: Math.max(items.length, 1)
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
 msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
-msgstr ""
+msgstr "{0, plural, one {عرض عنصر للبيع} other {عرض # عناصر للبيع}}"
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -3761,7 +3761,7 @@ msgstr "هـ. المحتوى المتعلق بالحروب والنزاعات ا
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
 msgid "Each item gets its own offer, all at the same price."
-msgstr ""
+msgstr "يحصل كل غرض على عرض خاص به، وجميعها بالسعر نفسه"
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -7010,7 +7010,7 @@ msgstr "ابدأ قتالاً!"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
 msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
-msgstr ""
+msgstr "اختر ما يصل إلى {maxItemsPerListing} من الأسلحة أو المعدات بحالة لم يتم استخدامها لبيعها بالسعر نفسه"
 
 #: src/utils/translations.tsx:117
 msgid "Pill"
@@ -8968,7 +8968,7 @@ msgstr "يُمنع منعاً باتاً استخدام البوتات، أو ا
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
 msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
-msgstr ""
+msgstr "ليس لهذه العناصر سعر محدد. أزل العنصر الأرخص أو الأعلى قيمة"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -10378,11 +10378,11 @@ msgstr "سوف تحصل على"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
 msgid "You receive if all sell"
-msgstr ""
+msgstr "ستحصل عليه إذا تم بيع الكل"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
 msgid "You receive, per item"
-msgstr ""
+msgstr "ستحصل عليه، لكل عنصر"
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
