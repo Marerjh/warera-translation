@@ -1534,7 +1534,7 @@ msgstr "所有条约的维护费用增加 <0>{0}</0>。"
 msgid "All types"
 msgstr "全部类型"
 
-#: src/components/_layout/map.frontConfig.tsx:31
+#: src/components/_layout/map.frontConfig.tsx:33
 #: src/components/_political/alliance/AllianceHeader.tsx:68
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:203
 #: src/components/_political/country/CountryHeader.tsx:183
@@ -1648,6 +1648,10 @@ msgstr "一封包含认证密码的 email 已经送至 {email}"
 #: src/components/_user/premium/PremiumFeatureList.tsx:113
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "把 <0>GIF</0> 当作头像"
+
+#: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:63
+msgid "Announcement"
+msgstr ""
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
@@ -2661,7 +2665,7 @@ msgstr "点击以选择法案"
 msgid "Click to select motion"
 msgstr "点击以选择提案"
 
-#: src/components/_layout/map.frontConfig.tsx:65
+#: src/components/_layout/map.frontConfig.tsx:78
 msgid "Climate"
 msgstr "气候"
 
@@ -2956,7 +2960,7 @@ msgstr ""
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:211
+#: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3493,7 +3497,7 @@ msgstr "在 <1/> 的 <0>{0}</0> 资源点已被耗尽"
 msgid "Deposit resource"
 msgstr "资源点"
 
-#: src/components/_layout/map.frontConfig.tsx:47
+#: src/components/_layout/map.frontConfig.tsx:60
 msgid "Deposit resources"
 msgstr "资源点"
 
@@ -3528,7 +3532,7 @@ msgstr "描述已更新！"
 msgid "Destruct"
 msgstr "拆除"
 
-#: src/components/_layout/map.frontConfig.tsx:37
+#: src/components/_layout/map.frontConfig.tsx:39
 #: src/components/_political/region/RegionHeader.tsx:83
 #: src/components/_political/region/RegionTooltip.tsx:79
 msgid "Development"
@@ -3774,7 +3778,7 @@ msgstr "编辑签名"
 msgid "Edit Description"
 msgstr "编辑描述"
 
-#: src/components/_political/region/RegionResistance.tsx:137
+#: src/components/_political/region/RegionResistance.tsx:148
 msgid "Edit focus message"
 msgstr ""
 
@@ -3782,7 +3786,7 @@ msgstr ""
 msgid "Edit MU order"
 msgstr ""
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+#: src/components/_political/region/SetResistanceFocusModal.tsx:94
 msgid "Edit resistance focus"
 msgstr ""
 
@@ -4291,12 +4295,12 @@ msgstr "Flail"
 msgid "Focus on you"
 msgstr ""
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:88
-#: src/components/_political/region/SetResistanceFocusModal.tsx:137
+#: src/components/_political/region/SetResistanceFocusModal.tsx:94
+#: src/components/_political/region/SetResistanceFocusModal.tsx:143
 msgid "Focus resistance"
 msgstr ""
 
-#: src/components/_political/region/RegionResistance.tsx:152
+#: src/components/_political/region/RegionResistance.tsx:167
 msgid "Focus resistance here"
 msgstr ""
 
@@ -4498,6 +4502,7 @@ msgid "Government"
 msgstr "政府"
 
 #: src/components/_social/announcement/AnnouncementModal.tsx:46
+#: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:98
 msgid "Government announcement"
 msgstr "政府公告"
 
@@ -5016,7 +5021,7 @@ msgstr "加入联盟"
 msgid "Join MU"
 msgstr "加入军团"
 
-#: src/pages/index.tsx:156
+#: src/pages/index.tsx:168
 msgid "Join the world"
 msgstr ""
 
@@ -5368,6 +5373,10 @@ msgstr "地点"
 msgid "Locked, reset your skills to reassign"
 msgstr ""
 
+#: src/pages/index.tsx:159
+msgid "Login"
+msgstr ""
+
 #: src/components/_user/user/MyAvatar.tsx:59
 msgid "Logout"
 msgstr "登出"
@@ -5641,7 +5650,7 @@ msgstr ""
 msgid "Mercenary Reputation"
 msgstr "雇佣兵声望"
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:120
+#: src/components/_political/region/SetResistanceFocusModal.tsx:126
 msgid "Message"
 msgstr ""
 
@@ -5889,8 +5898,8 @@ msgstr "提案已提出"
 msgid "Motions"
 msgstr "提案"
 
-#: src/components/_political/region/MoveButton.tsx:118
-#: src/components/_political/region/MoveButton.tsx:130
+#: src/components/_political/region/MoveButton.tsx:120
+#: src/components/_political/region/MoveButton.tsx:132
 msgid "Move"
 msgstr ""
 
@@ -6666,7 +6675,7 @@ msgstr "选项"
 msgid "or"
 msgstr ""
 
-#: src/components/_military/order/BattleOrderTags.tsx:25
+#: src/components/_military/order/BattleOrderTags.tsx:28
 msgid "Order"
 msgstr "法令"
 
@@ -6938,10 +6947,6 @@ msgstr "药丸"
 msgid "Plant a tree in the data center"
 msgstr "在数据中心种一棵树"
 
-#: src/pages/index.tsx:148
-msgid "Play now"
-msgstr ""
-
 #: src/components/_user/milestone/MilestoneItem.tsx:245
 msgid "Players"
 msgstr ""
@@ -6965,7 +6970,7 @@ msgstr "请完成 CAPTCHA"
 msgid "Please select a region"
 msgstr "请选择一个地区"
 
-#: src/components/_layout/map.frontConfig.tsx:25
+#: src/components/_layout/map.frontConfig.tsx:27
 msgid "Political"
 msgstr "政治"
 
@@ -6989,6 +6994,7 @@ msgstr "政治与政府"
 msgid "Popular Article"
 msgstr "热门文章"
 
+#: src/components/_layout/map.frontConfig.tsx:48
 #: src/components/_political/region/RegionHeader.tsx:96
 #: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
@@ -7273,11 +7279,11 @@ msgstr "处罚及其原因会显示在用户资料中。玩家可在官方 Disco
 msgid "Purple Staff"
 msgstr "Purple Staff"
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:125
+#: src/components/_political/region/SetResistanceFocusModal.tsx:131
 msgid "Push the resistance here before they dig in..."
 msgstr ""
 
-#: src/components/_political/region/RegionResistance.tsx:201
+#: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
 msgstr ""
 
@@ -7581,6 +7587,10 @@ msgstr ""
 msgid "Regions you occupy generate double the amount of resistance."
 msgstr "你占领的地区产生的抵抗度翻倍。"
 
+#: src/pages/index.tsx:149
+msgid "Register"
+msgstr ""
+
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
 msgstr ""
@@ -7701,7 +7711,7 @@ msgstr "移除描述"
 msgid "Remove enemy"
 msgstr "移除死敌"
 
-#: src/components/_political/region/RegionResistance.tsx:143
+#: src/components/_political/region/RegionResistance.tsx:154
 msgid "Remove focus"
 msgstr ""
 
@@ -7823,6 +7833,7 @@ msgstr ""
 msgid "Reshuffle in"
 msgstr "重置于"
 
+#: src/components/_layout/map.frontConfig.tsx:54
 #: src/components/_political/region/RegionHeader.tsx:88
 msgid "Residents"
 msgstr ""
@@ -7836,7 +7847,7 @@ msgstr ""
 msgid "Resist"
 msgstr "抵抗"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:100
+#: src/components/_political/region/ResistanceFocusItem.tsx:107
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7846,11 +7857,11 @@ msgstr "抵抗度"
 msgid "Resistance Contributors"
 msgstr "抵抗度贡献者"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:237
+#: src/components/_political/region/ResistanceFocusItem.tsx:244
 msgid "Resistance focus"
 msgstr ""
 
-#: src/components/_political/region/RegionResistance.tsx:190
+#: src/components/_political/region/RegionResistance.tsx:205
 msgid "Resistance focused by <0/>"
 msgstr ""
 
@@ -8416,7 +8427,7 @@ msgstr "音效"
 msgid "Specialist"
 msgstr "特战兵"
 
-#: src/components/_layout/map.frontConfig.tsx:53
+#: src/components/_layout/map.frontConfig.tsx:66
 msgid "Specialization"
 msgstr "特产"
 
@@ -8439,10 +8450,6 @@ msgstr "在此花费你的<0>能量</0>工作以赚取<1>金钱</1>。持续点�
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:137
 msgid "Spendings"
 msgstr "支出"
-
-#: src/components/_user/user/skills.frontConfig.tsx:98
-#~ msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
-#~ msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
@@ -8582,7 +8589,7 @@ msgstr "战略"
 msgid "Strategic resource"
 msgstr "战略资源"
 
-#: src/components/_layout/map.frontConfig.tsx:59
+#: src/components/_layout/map.frontConfig.tsx:72
 msgid "Strategic resources"
 msgstr "战略资源"
 
@@ -8750,7 +8757,7 @@ msgstr ""
 msgid "Teams"
 msgstr ""
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:121
+#: src/components/_political/region/SetResistanceFocusModal.tsx:127
 msgid "Tell your citizens why this region comes first"
 msgstr ""
 
@@ -9389,7 +9396,7 @@ msgstr "清除死敌国家"
 msgid "Update"
 msgstr "更新"
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:137
+#: src/components/_political/region/SetResistanceFocusModal.tsx:143
 msgid "Update focus"
 msgstr ""
 
@@ -10231,7 +10238,7 @@ msgstr "您必须至少达到 {0} 级才能成为候选人。"
 
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
-#: src/components/_political/region/RegionResistance.tsx:223
+#: src/components/_political/region/RegionResistance.tsx:238
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "你必须至少达到 {0} 级才能贡献"
@@ -10449,7 +10456,7 @@ msgstr "你的横幅 \"{0}\" 已被接受且现在已上架商店！它已向你
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "你的增益将在 1 小时内到期。减益阶段即将开始。"
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:96
+#: src/components/_political/region/SetResistanceFocusModal.tsx:102
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
 msgstr ""
 
@@ -10462,7 +10469,7 @@ msgstr "你将改变国籍"
 msgid "Your country"
 msgstr "你的国家"
 
-#: src/components/_political/region/SetResistanceFocusModal.tsx:106
+#: src/components/_political/region/SetResistanceFocusModal.tsx:112
 msgid "Your country already focuses <0/>. Setting this one releases it."
 msgstr ""
 
@@ -10518,7 +10525,7 @@ msgstr "你的雇主想要将你在 <0/> 的薪资从 <1>{0}</1> 减少至 <2>{1
 msgid "Your enemies"
 msgstr "你的敌人"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:241
+#: src/components/_political/region/ResistanceFocusItem.tsx:248
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 
