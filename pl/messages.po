@@ -174,7 +174,7 @@ msgstr "{completedCount}/{totalCount} ukończonych"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} punkt(y) prestiżu dla tej umiejętności ({savedPrestigeCount} zapisane, zablokowane aż do resetu)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:193
+#: src/components/_economy/inventory/DismantleModal.tsx:196
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr "\"{equippedCount, plural, one {# z nich znajduje się w użyciu} other {# z nich znajdują się w użyciu}}\""
 
@@ -182,7 +182,7 @@ msgstr "\"{equippedCount, plural, one {# z nich znajduje się w użyciu} other {
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} Punkty Umiejętności"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:184
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr "{rareCount, plural, one {# z nich jest rzadki bądź lepszy} other {# z nich są rzadsze bądź lepsze}}"
 
@@ -212,11 +212,11 @@ msgstr "{savedPrestigeCount} punktów prestiżu aktywnych dla tej umiejętności
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} rund"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:178
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr "{selectedCount, plural, one {Rozmontuj # przedmiot za} other {Rozmontuj # przedmiotów za}}"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:280
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 msgid "{selectedCount} selected"
 msgstr "{selectedCount} wybrano"
 
@@ -2657,8 +2657,8 @@ msgstr "Odebrano"
 msgid "Claimed so far"
 msgstr "Zebrano do tej pory"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:291
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:164
+#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr "Wyczyść"
 
@@ -2703,7 +2703,7 @@ msgstr "Kliknij, aby wybrać uchwałę"
 msgid "Climate"
 msgstr "Klimat"
 
-#: ../__ui/src/components/Modal/Modal.tsx:302
+#: ../__ui/src/components/Modal/Modal.tsx:316
 #: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Zamknij"
@@ -3667,7 +3667,7 @@ msgstr "Rozmontuj <0/> przedmiotów"
 msgid "Dismantle Item"
 msgstr "Rozmontuj przedmiot"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:172
+#: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "Dismantle items"
 msgstr "Rozmontuj przedmiot"
 
@@ -3996,7 +3996,7 @@ msgstr "Wyposażenie:"
 msgid "Equipments"
 msgstr "Wyposażenie"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:243
+#: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
 msgstr "Założone przedmioty są pomijane przy opcji „Zaznacz wszystko”"
 
@@ -4461,7 +4461,7 @@ msgstr "Zdobądź ekskluzywną <0>subscriber skin</0>!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Zdobądź wiele skórek jednocześnie z obniżką 30%"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:227
+#: src/components/_economy/inventory/DismantleModal.tsx:230
 msgid "Get supporter plan"
 msgstr "Zostań supporterem"
 
@@ -6384,8 +6384,8 @@ msgstr "Brak rankingu terenu."
 msgid "No home region set"
 msgstr "Nie ustawiono regionu domowego"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr "Nie znaloziono przedmiotów"
 
@@ -6499,7 +6499,7 @@ msgstr "Nie znaleziono transakcji"
 msgid "No wars found"
 msgstr "Nie znaleziono wojen"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:236
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "No weapons or equipment to dismantle"
 msgstr "Brak broni bądź wyposażenia do rozmotowania"
 
@@ -7368,8 +7368,8 @@ msgstr "Zduś ruch oporu najpierw w tym miejscu."
 msgid "Put yourself to work!"
 msgstr "Zabierz się do pracy!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:303
+#: src/components/_economy/inventory/DismantleModal.tsx:46
+#: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
 msgstr "Szybki demontaż"
 
@@ -8156,7 +8156,7 @@ msgid "Select a region"
 msgstr "Wybierz region"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:255
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Select all ({0})"
 msgstr "Wybierz wszystko ({0})"
 
@@ -8712,7 +8712,7 @@ msgstr "Sugerowana cena <0>{0}</0>"
 msgid "Support the game"
 msgstr "Wesprzyj grę"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:214
+#: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "Support the game and quickly dismantle items!"
 msgstr "Wspieraj grę i szybko demontuj przedmioty!"
 
@@ -9478,7 +9478,7 @@ msgstr "Niezadowolenie"
 msgid "Unrest Contributors"
 msgstr "Podżegacze"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:254
+#: src/components/_economy/inventory/DismantleModal.tsx:257
 msgid "Unselect all"
 msgstr "Odznacz wszystko"
 
@@ -9523,7 +9523,7 @@ msgstr "Ulepsz umiejętności"
 msgid "Upgrade storage"
 msgstr "Ulepsz magazyn"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:210
+#: src/components/_economy/inventory/DismantleModal.tsx:213
 msgid "Upgrade to supporter"
 msgstr "Zostań wspierającym"
 
@@ -10202,7 +10202,7 @@ msgstr "Sprowadziłeś 10 maluchów na świat (>= lvl {0})"
 msgid "You can change it later."
 msgstr "Możesz zmienić to potem"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:216
+#: src/components/_economy/inventory/DismantleModal.tsx:219
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Możesz demontować przedmioty z ekwipunku zaznaczając przedmiot."
 
