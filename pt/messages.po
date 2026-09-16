@@ -10450,7 +10450,7 @@ msgstr "O teu artigo alcançou 2% da população ativa em pontuação (mínimo 1
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1552
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
-msgstr "O teu banner "{0}" foi aceite e já está disponível na loja! Foi automaticamente desbloqueado para ti."
+msgstr "O teu banner \"{0}\" foi aceite e já está disponível na loja! Foi automaticamente desbloqueado para ti."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:699
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
