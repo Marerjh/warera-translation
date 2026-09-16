@@ -184,7 +184,7 @@ msgstr "{nextLevelSkillPoints} Punkty Umiejętności"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
-msgstr "{rareCount, plural, one {# z nich jest rzadki bądź lepszy} other {# z nich są rzadsze bądź lepsze}}"
+msgstr "{rareCount, plural, one {# z nich jest rzadki bądź lepszy} other {# z nich są rzadkie bądź lepsze}}"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
 #: src/components/_political/map/MapMenu.tsx:605
@@ -5389,7 +5389,7 @@ msgstr "Linia"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:297
 msgid "Listed at, taxes included"
-msgstr "Cena podana z uwzględnieniem podatków"
+msgstr "Wystawione za (z uwzględnieniem podatku)"
 
 #: src/utils/translations.tsx:72
 msgid "Little cuties used to make steaks :("
