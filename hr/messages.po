@@ -672,7 +672,7 @@ msgstr "<0>{0}</0> јer <1/> okupira naјmanje јednu regiju države <2/>"
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
-msgstr "Bunker pruža <0>{0}</0> bonusa za obranu ove regije.<1/>Građani dobivaju puni obrambeni bonus, saveznici polovicu, a na partnere u obrambenom paktu se bonus ne odnosi.
+msgstr "Bunker pruža <0>{0}</0> bonusa za obranu ove regije.<1/>Građani dobivaju puni obrambeni bonus, saveznici polovicu, a na partnere u obrambenom paktu se bonus ne odnosi."
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1629
