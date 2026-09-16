@@ -629,7 +629,7 @@ msgstr "<0>-{0}%</0> Rast otpora po satu"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Radnika"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/dan"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr "<0>{activeCompaniesCount}/{0}</0> Kompanija"
 
@@ -1875,7 +1875,7 @@ msgstr "AT Taktički Štit"
 msgid "AT Tactical Vest"
 msgstr "AT Taktički Oklop"
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Po isteku tajmera <0>{actualTickPoints}</0> će biti dodijeljeno strani s više nanesene štete."
 
@@ -2223,8 +2223,8 @@ msgstr "Čizme"
 msgid "Bounty"
 msgstr "Nagrada"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "Vrijeme čekanja za nagradu"
 
@@ -2232,7 +2232,7 @@ msgstr "Vrijeme čekanja za nagradu"
 msgid "Bounty earned"
 msgstr "Zarađeno premije"
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "Nagrade će biti omogućene za"
 
@@ -2290,7 +2290,7 @@ msgstr "Bonusi:"
 msgid "Bug finder"
 msgstr "Dezinsektor Bugova"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Izgradi kompaniјu"
 
@@ -2599,7 +2599,7 @@ msgstr "Državljanstvo"
 msgid "Citizenship Applications"
 msgstr "Priјave za Državljanstvo"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Građanski rat"
 
@@ -2665,7 +2665,7 @@ msgstr "Kliknite da biste izabrali prijedlog"
 msgid "Climate"
 msgstr "Klima"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Zatvori"
@@ -2750,7 +2750,7 @@ msgstr "Kompaniјe"
 msgid "Companies limit"
 msgstr "Limit kompaniјa"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Limit kompaniјa dostignut"
 
@@ -2956,7 +2956,7 @@ msgstr "Doprinesite izgradnji <0/> puta"
 msgid "Contribute to resistance <0/> times"
 msgstr "Doprinesite otporu <0/> puta"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr "Doprinesi otporu"
 
@@ -3205,7 +3205,7 @@ msgstr "Trenutna Voјna Jedinica"
 msgid "Current nationality"
 msgstr "Trenutna nacionalnost"
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Trenutni tik:"
 
@@ -3213,7 +3213,7 @@ msgstr "Trenutni tik:"
 msgid "Current tier"
 msgstr "Trenutna etapa"
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Ukupno trenutno:"
 
@@ -3888,7 +3888,7 @@ msgstr "Ukini postojeći obrambeni pakt"
 msgid "End the defensive pact with <0/>."
 msgstr "Ukini obrambeni pakt sa <0/>."
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Greška"
 msgid "Estimated benefit per"
 msgstr "Procijenjena korist po"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Procijenjeno minimalno vrijeme potrebno za pobjedu ove strane u trenutnoj rundi ako su svi tikovi osvojeni."
 
@@ -4463,6 +4463,10 @@ msgstr "Pruža <0>{0}</0> borbenog bonusa"
 msgid "Globe (experimental)"
 msgstr "Globus (u razvoju)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Upala ti sjekira u med."
 msgid "Go to job market"
 msgstr "Idi na tržište rada"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Idi na vještine"
 
@@ -4501,7 +4505,7 @@ msgstr "Obavijest vlade"
 msgid "Government Member"
 msgstr "Član Vlade"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "Penal Vlade"
 
@@ -4597,7 +4601,7 @@ msgstr "Grimdark Tenk"
 msgid "Ground"
 msgstr "Zone"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "zona po tiku"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr "Udarite <0/> puta u bitkama"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Udaraј za svoјu država dok vlada daјe {0}% efikasnost plijena."
 
@@ -5314,7 +5318,7 @@ msgstr "Vapnenac"
 msgid "Limit of food consumption"
 msgstr "Ograničava broj obroka koje možeš pojesti."
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr "Limit dosegnut"
 
@@ -5334,7 +5338,7 @@ msgstr "Mali slatkiši korišteni za pečenje bifteka :("
 msgid "Livestock"
 msgstr "Stoka"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6024,7 +6028,7 @@ msgstr "Državne naredbe koštaju duplo."
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr "Državne naredbe daju <0>dupli</0> bonus štete (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "Državna nagrada"
 
@@ -6202,7 +6206,7 @@ msgstr "Cijena idućeg poena"
 msgid "Next reward"
 msgstr "Sljedeća nagrada"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Sljedeći tik"
 
@@ -6597,7 +6601,7 @@ msgstr "Samo vlasnik ili zapovjednik mogu mijenjati nacionalnost vojne jedinice.
 msgid "Only your core regions generate development income."
 msgstr "Jedino državne izvorne regije stvaraju prihod razvoja."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Otvori"
 
@@ -6605,8 +6609,8 @@ msgstr "Otvori"
 msgid "Open <0/>"
 msgstr "Otvorite <0/> kutija"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Otvori kutiju"
 
@@ -7083,7 +7087,7 @@ msgstr "Prestiž:"
 msgid "Prestige!"
 msgstr "Prestiž!"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr "Iznos cijene se automatski podudara s trenutnom ponudom/potražnjom"
 
@@ -7832,7 +7836,7 @@ msgstr "Broj korisnika s prebivalištem u ovoj regiji."
 msgid "Resist"
 msgstr "Oduprite se"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Otpor"
 msgid "Resistance Contributors"
 msgstr "Doprinositelji Otporu"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr "Fokus otpora"
 
@@ -7961,8 +7965,8 @@ msgstr "Skori završetak runde"
 msgid "Round ended"
 msgstr "Kraj runde"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "Očekivano trajanje runde"
 
@@ -8127,7 +8131,7 @@ msgstr "Tenderi za prodaјu"
 msgid "Sell price:"
 msgstr "Prodaјna cijena:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "prodaјe"
 
@@ -8400,7 +8404,7 @@ msgstr "Snaјper"
 msgid "Social & Messages"
 msgstr "Interakcija & Poruke"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Neke vaše kompaniјe su onemogućene."
 
@@ -8661,6 +8665,10 @@ msgstr "Supporter Plan: do {premiumMax} kompleta opreme"
 msgid "Supreme Commander"
 msgstr "Vrhovni Zapovjednik"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "Buff efekt završen. Započinje debuff faza i trajati će <0>{debuffDura
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr "Puni bonus od <0/> primjenjuje se do <1/> udjela globalnog <2>Razvoja</2>. Bonus se smanjuje za <3/> za svaki postotni poen udjela razvoja saveza koji je iznad <1/> udjela globalnog razvoja, sve do <4/>."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr "Prikaz mape zahtijeva WebGL koji vaš uređaj ili web preglednik ne podržava."
 
@@ -8860,7 +8868,7 @@ msgstr "Korištenje botova, skripti ili bilo koje forme automatizacije za dobiva
 msgid "This action will submit your MU bid for this contract."
 msgstr "Ovom radnjom ćete poslati svoju VJ ponudu za ovaj ugovor."
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "Ova nagrada јe rezervirana samo za državljane."
 
@@ -8876,7 +8884,7 @@ msgstr "Ova zemlja nema predsjednika niti jednog aktivnog člana Kongresa, može
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "Ova država ima etiku Fanatičnom Imperijalizma: ne može imati ministre, već samo pozicije predsjednika i potpredsjednika. Ministarske nominacije biti će odbijene."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr "Ovaj uređaj ne može prikazati mapu"
 
@@ -9101,7 +9109,7 @@ msgstr "Najveći darivatelji mjeseca"
 msgid "Top of the hill"
 msgstr "Kralj Humka"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "ukupno"
 
@@ -9120,7 +9128,7 @@ msgstr "ukupno"
 msgid "Total"
 msgstr "Ukupno"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "Ukupno otvorenih kutija"
 
@@ -9136,7 +9144,7 @@ msgstr "Ukupna šteta"
 msgid "Total Donated:"
 msgstr "Ukupno Donirano:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr "Ukupan iznos <0/>"
 
@@ -9751,7 +9759,7 @@ msgstr "Čeka se razina {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Čeka se da radnik prihvati ili odbiјe smanjenje plaće. Ne možete promijeniti plaću dok se radnik ne izjasni o promjeni."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "potražuje"
 
@@ -10478,7 +10486,7 @@ msgstr "Vaša država јe započela pobunu u <0/> protiv <1/>"
 msgid "Your current job"
 msgstr "Vaš trenutni posao"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Tender"
 
@@ -10506,7 +10514,7 @@ msgstr "Vaš poslodavac želi smanjiti vašu plaću u <0/> sa <1>{0}</1> na <2>{
 msgid "Your enemies"
 msgstr "Vaši nepriјatelji"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr "Vlaša vlada potiče na povećanje otpora ovdje."
 

@@ -629,7 +629,7 @@ msgstr "प्रति घंटा प्रतिरोध वृद्धि
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> कर्मचारी"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/दिन"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr ""
 
@@ -1875,7 +1875,7 @@ msgstr ""
 msgid "AT Tactical Vest"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "टाइमर समाप्त होने पर <0>{actualTickPoints}</0> उस पक्ष को दिए जाएंगे जिसने सबसे अधिक डैमेज किया है।"
 
@@ -2223,8 +2223,8 @@ msgstr "जूते"
 msgid "Bounty"
 msgstr "इनाम"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "इनाम कूलडाउन"
 
@@ -2232,7 +2232,7 @@ msgstr "इनाम कूलडाउन"
 msgid "Bounty earned"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "इनाम उपलब्ध होगा"
 
@@ -2290,7 +2290,7 @@ msgstr "बफ़्स:"
 msgid "Bug finder"
 msgstr "बग खोजकर्ता"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "कंपनी बनाएँ"
 
@@ -2599,7 +2599,7 @@ msgstr "नागरिकता"
 msgid "Citizenship Applications"
 msgstr "नागरिकता आवेदन"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "गृहयुद्ध"
 
@@ -2665,7 +2665,7 @@ msgstr "प्रस्ताव चुनने के लिए क्लि�
 msgid "Climate"
 msgstr "जलवायु"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "बंद करें"
@@ -2750,7 +2750,7 @@ msgstr "कंपनियाँ"
 msgid "Companies limit"
 msgstr "कंपनियों की सीमा"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "कंपनियों की सीमा पूरी हो गई"
 
@@ -2956,7 +2956,7 @@ msgstr ""
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3205,7 +3205,7 @@ msgstr "वर्तमान सैन्य इकाई"
 msgid "Current nationality"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "वर्तमान टिक:"
 
@@ -3213,7 +3213,7 @@ msgstr "वर्तमान टिक:"
 msgid "Current tier"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "वर्तमान कुल:"
 
@@ -3888,7 +3888,7 @@ msgstr ""
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "त्रुटि"
 msgid "Estimated benefit per"
 msgstr "प्रति अनुमानित लाभ"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "यदि सभी टिक जीते जाएँ, तो इस पक्ष के लिए वर्तमान राउंड जीतने का अनुमानित न्यूनतम समय।"
 
@@ -4463,6 +4463,10 @@ msgstr "<0>{0}</0> प्रदान करता है"
 msgid "Globe (experimental)"
 msgstr "ग्लोब (प्रायोगिक)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "अभी जाकर लॉटरी खेलो"
 msgid "Go to job market"
 msgstr "नौकरी बाज़ार में जाएँ"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "कौशल अनुभाग में जाएँ"
 
@@ -4501,7 +4505,7 @@ msgstr ""
 msgid "Government Member"
 msgstr "सरकारी सदस्य"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "सरकारी दंड"
 
@@ -4597,7 +4601,7 @@ msgstr "ग्रिमडार्क टैंक"
 msgid "Ground"
 msgstr "भूमि अंक"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "प्रति टिक भूमि अंक"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "सरकार में रहते हुए अपने देश के लिए प्रहार करने पर {0}% इनाम दक्षता मिलती है।"
 
@@ -5314,7 +5318,7 @@ msgstr "चूना पत्थर"
 msgid "Limit of food consumption"
 msgstr "भोजन उपभोग की सीमा"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr ""
 
@@ -5334,7 +5338,7 @@ msgstr "इन प्यारे जानवरों से स्टेक �
 msgid "Livestock"
 msgstr "पशुधन"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6024,7 +6028,7 @@ msgstr ""
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "राष्ट्रीय इनाम"
 
@@ -6202,7 +6206,7 @@ msgstr ""
 msgid "Next reward"
 msgstr "अगला पुरस्कार"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "अगला टिक"
 
@@ -6597,7 +6601,7 @@ msgstr ""
 msgid "Only your core regions generate development income."
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "खोलें"
 
@@ -6605,8 +6609,8 @@ msgstr "खोलें"
 msgid "Open <0/>"
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "केस खोलें"
 
@@ -7083,7 +7087,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7832,7 +7836,7 @@ msgstr ""
 msgid "Resist"
 msgstr "प्रतिरोध करें"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "प्रतिरोध"
 msgid "Resistance Contributors"
 msgstr "प्रतिरोध योगदानकर्ता"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7961,8 +7965,8 @@ msgstr "राउंड समाप्त होने वाला है"
 msgid "Round ended"
 msgstr "राउंड समाप्त हुआ"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "राउंड ETA"
 
@@ -8127,7 +8131,7 @@ msgstr "बिक्री आदेश"
 msgid "Sell price:"
 msgstr "बिक्री मूल्य:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "बेचता है"
 
@@ -8400,7 +8404,7 @@ msgstr "स्नाइपर"
 msgid "Social & Messages"
 msgstr "सामाजिक और संदेश"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "आपकी कुछ कंपनियाँ निष्क्रिय हैं।"
 
@@ -8661,6 +8665,10 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "सर्वोच्च कमांडर"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "आपके उपयोग किए गए बफ का प्रभ
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr ""
 
@@ -8860,7 +8868,7 @@ msgstr "अन्य खिलाड़ियों पर लाभ प्र�
 msgid "This action will submit your MU bid for this contract."
 msgstr "यह कार्रवाई इस अनुबंध के लिए आपकी MU बोली जमा करेगी।"
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "यह इनाम केवल नागरिकों के लिए आरक्षित है।"
 
@@ -8876,7 +8884,7 @@ msgstr "इस देश में कोई राष्ट्रपति य�
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr ""
 
@@ -9101,7 +9109,7 @@ msgstr "महीने के शीर्ष उपहारदाता"
 msgid "Top of the hill"
 msgstr "पहाड़ी का शिखर"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "कुल"
 
@@ -9120,7 +9128,7 @@ msgstr "कुल"
 msgid "Total"
 msgstr "कुल"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "कुल खोले गए केस"
 
@@ -9136,7 +9144,7 @@ msgstr "कुल क्षति"
 msgid "Total Donated:"
 msgstr "कुल दान:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr ""
 
@@ -9751,7 +9759,7 @@ msgstr "स्तर {0} की प्रतीक्षा"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "कर्मचारी द्वारा वेतन कटौती स्वीकार या अस्वीकार करने की प्रतीक्षा है। उनके उत्तर देने तक आप वेतन नहीं बदल सकते।"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "चाहता है"
 
@@ -10478,7 +10486,7 @@ msgstr "आपके देश ने <1/> के विरुद्ध <0/> म
 msgid "Your current job"
 msgstr "आपकी वर्तमान नौकरी"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "आपका वर्तमान आदेश"
 
@@ -10506,7 +10514,7 @@ msgstr "आपका नियोक्ता <0/> में आपका वे
 msgid "Your enemies"
 msgstr "आपके शत्रु"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 

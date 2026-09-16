@@ -629,7 +629,7 @@ msgstr "每小時改變 <0>-{0}%</0> 反抗度"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> 員工"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/日"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr "<0>{activeCompaniesCount}/{0}</0> 公司"
 
@@ -1875,7 +1875,7 @@ msgstr "AT戰術盾牌"
 msgid "AT Tactical Vest"
 msgstr "AT戰術背心"
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
@@ -2223,8 +2223,8 @@ msgstr "靴子"
 msgid "Bounty"
 msgstr "賞金"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "賞金冷卻"
 
@@ -2232,7 +2232,7 @@ msgstr "賞金冷卻"
 msgid "Bounty earned"
 msgstr "已賺取的賞金"
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "賞金可獲得於"
 
@@ -2290,7 +2290,7 @@ msgstr "加成："
 msgid "Bug finder"
 msgstr "漏洞發現者"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "建造一個公司"
 
@@ -2599,7 +2599,7 @@ msgstr "公民身分"
 msgid "Citizenship Applications"
 msgstr "公民身分申請"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "內戰"
 
@@ -2665,7 +2665,7 @@ msgstr "點擊以選擇提案"
 msgid "Climate"
 msgstr "氣候"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "關閉"
@@ -2750,7 +2750,7 @@ msgstr "公司"
 msgid "Companies limit"
 msgstr "公司上限"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "達到公司上限"
 
@@ -2956,7 +2956,7 @@ msgstr "參與建造 <0/> 次"
 msgid "Contribute to resistance <0/> times"
 msgstr "參與反抗 <0/> 次"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3205,7 +3205,7 @@ msgstr "目前所處的軍團"
 msgid "Current nationality"
 msgstr "目前國籍"
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "目前刻："
 
@@ -3213,7 +3213,7 @@ msgstr "目前刻："
 msgid "Current tier"
 msgstr "目前級別"
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "目前總共："
 
@@ -3888,7 +3888,7 @@ msgstr "終止一個與他國的共同防禦條約"
 msgid "End the defensive pact with <0/>."
 msgstr "終止與 <0/> 的共同防禦條約。"
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "錯誤"
 msgid "Estimated benefit per"
 msgstr "預估收益每個"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "預計此方最短贏得此回合所需時間，若贏得所有刻。"
 
@@ -4463,6 +4463,10 @@ msgstr "給予 <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "球體 (試驗性)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "現在就去買彩券"
 msgid "Go to job market"
 msgstr "去工作市場"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "去點技能"
 
@@ -4501,7 +4505,7 @@ msgstr "政府公告"
 msgid "Government Member"
 msgstr "政府成員"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "政府懲罰"
 
@@ -4597,7 +4601,7 @@ msgstr "暗黑奇幻坦克"
 msgid "Ground"
 msgstr "優勢點"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "每刻優勢點"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr "在戰鬥中攻擊 <0/> 次"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "幫你的國家攻擊，同時位於政府內的話，獲得之獎金為 {0}%。"
 
@@ -5314,7 +5318,7 @@ msgstr "石灰岩"
 msgid "Limit of food consumption"
 msgstr "食物使用上限"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr "已達到上限"
 
@@ -5334,7 +5338,7 @@ msgstr "用來做成牛排的小可愛們 :("
 msgid "Livestock"
 msgstr "牲畜"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6024,7 +6028,7 @@ msgstr "國家戰鬥命令花費翻倍。"
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr "國家戰鬥命令給予 <0>雙倍</0> 優先傷害紅利（<1>+10%</1> / <2>+20%</2> / <3>+30%</3>）。"
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "國家賞金"
 
@@ -6202,7 +6206,7 @@ msgstr "下個花費點數"
 msgid "Next reward"
 msgstr "下個獎賞"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "下刻"
 
@@ -6597,7 +6601,7 @@ msgstr "只有擁有者及指揮官可以更改國籍。"
 msgid "Only your core regions generate development income."
 msgstr "只有你的核心區域產生發展度收入。"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "開啟"
 
@@ -6605,8 +6609,8 @@ msgstr "開啟"
 msgid "Open <0/>"
 msgstr "開啟 <0/>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "開啟箱子"
 
@@ -7083,7 +7087,7 @@ msgstr "聲望："
 msgid "Prestige!"
 msgstr "飛升！"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr "價格自動配對已存在的訂單"
 
@@ -7832,7 +7836,7 @@ msgstr ""
 msgid "Resist"
 msgstr "抵抗"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "抵抗度"
 msgid "Resistance Contributors"
 msgstr "抵抗度貢獻者"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7961,8 +7965,8 @@ msgstr "回合即將結束"
 msgid "Round ended"
 msgstr "回合已結束"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "回合預計結束時間"
 
@@ -8127,7 +8131,7 @@ msgstr "賣單"
 msgid "Sell price:"
 msgstr "賣出價格："
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "賣出"
 
@@ -8400,7 +8404,7 @@ msgstr "狙擊槍"
 msgid "Social & Messages"
 msgstr "社群＆訊息"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "你有一些公司被停用。"
 
@@ -8661,6 +8665,10 @@ msgstr "支持者計畫：最多 {premiumMax} 套裝"
 msgid "Supreme Commander"
 msgstr "最高指揮官"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "你的食用增益效果已結束，接下來將獲取減益效果，持
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr "<0/> 的完整紅利適用於全球 <2>發展度</2>的占比 <1/>。在此之上，超出高原期的每個百分點使紅利下降 <3/>，最低至 <4/>。"
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr ""
 
@@ -8860,7 +8868,7 @@ msgstr "使用機器人、腳本、或任何形式的自動化以獲得利益影
 msgid "This action will submit your MU bid for this contract."
 msgstr "這會提交你的軍團隊這個合約的出價。"
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "這個賞金是為國民保留的。"
 
@@ -8876,7 +8884,7 @@ msgstr "該國家沒有在任總統或活躍中的國會議員，你可以接管
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "這個國家是極端帝國主義：它不能擁有政府成員，只能有總統以及副總統。政府成員提名會被否決。"
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr ""
 
@@ -9101,7 +9109,7 @@ msgstr "本月送禮數最多者"
 msgid "Top of the hill"
 msgstr "山頂"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "總共"
 
@@ -9120,7 +9128,7 @@ msgstr "總共"
 msgid "Total"
 msgstr "總計"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "總計開啟的箱子"
 
@@ -9136,7 +9144,7 @@ msgstr "總傷害"
 msgid "Total Donated:"
 msgstr "總捐款："
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr "總計 <0/>"
 
@@ -9751,7 +9759,7 @@ msgstr "等待達到等級 {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "在員工同意或拒絕接受降薪之前，你無法更改其薪資。"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "需求"
 
@@ -10478,7 +10486,7 @@ msgstr "你的國家在<0/>開始反抗<1/>"
 msgid "Your current job"
 msgstr "你當前的工作"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "你當前的訂單"
 
@@ -10506,7 +10514,7 @@ msgstr "你的雇主想要將你在 <0/> 的薪資從 <1>{0}</1> 減少至 <2>{1
 msgid "Your enemies"
 msgstr "你的敵人"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 
