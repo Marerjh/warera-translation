@@ -213,7 +213,7 @@ msgstr ""
 
 #: src/components/_economy/inventory/DismantleModal.tsx:280
 msgid "{selectedCount} selected"
-msgstr ""
+msgstr "{selectedCount} wybrano"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
@@ -1600,7 +1600,7 @@ msgstr "Sojusznicy"
 #. placeholder {1}: range.max
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
 msgid "Allowed between {0} and {1}"
-msgstr ""
+msgstr "Dozwolone pomiędzy {0} i {1}"
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:48
 msgid "Allowed wage range:"
@@ -2654,7 +2654,7 @@ msgstr "Zebrano do tej pory"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:291
 msgid "Clear"
-msgstr ""
+msgstr "Wyczyść"
 
 #: src/components/_political/country/CountrySelectV2.tsx:278
 msgid "Clear selection"
@@ -3663,7 +3663,7 @@ msgstr "Rozmontuj przedmiot"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:172
 msgid "Dismantle items"
-msgstr ""
+msgstr "Rozmontuj przedmiot"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
@@ -3951,7 +3951,7 @@ msgstr "Chorąży"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
 msgid "Enter a price"
-msgstr ""
+msgstr "Wpisz cenę"
 
 #: src/components/_political/law/LawFormModal.tsx:244
 msgid "Enter article ID"
@@ -3988,7 +3988,7 @@ msgstr "Wyposażenie"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:243
 msgid "Equipped items are left out of select all."
-msgstr ""
+msgstr "Założone przedmioty są pomijane przy opcji „Zaznacz wszystko”"
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -4996,7 +4996,7 @@ msgstr "Nie będzie zyskiwać żadnej produkcji, a jej pracownicy nie będą mog
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
 msgid "Item"
-msgstr ""
+msgstr "Przedmiot"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
@@ -5382,7 +5382,7 @@ msgstr "Linia"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
 msgid "Listed at, taxes included"
-msgstr ""
+msgstr "Cena podana z uwzględnieniem podatków"
 
 #: src/utils/translations.tsx:72
 msgid "Little cuties used to make steaks :("
@@ -5533,7 +5533,7 @@ msgstr "Rynek"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "Market average"
-msgstr ""
+msgstr "Średnia rynkowa"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
 #: src/components/_political/law/LawFormModal.tsx:258
@@ -6380,7 +6380,7 @@ msgstr "Nie ustawiono regionu domowego"
 #: src/components/_economy/inventory/DismantleModal.tsx:260
 #: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
 msgid "No items found"
-msgstr ""
+msgstr "Nie znaloziono przedmiotów"
 
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
@@ -6494,7 +6494,7 @@ msgstr "Nie znaleziono wojen"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:236
 msgid "No weapons or equipment to dismantle"
-msgstr ""
+msgstr "Brak broni bądź wyposażenia do rozmotowania"
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:182
 msgid "No work offers"
@@ -7003,7 +7003,7 @@ msgstr "Wybierz bitwę!"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
 msgid "Pick a weapon or equipment in perfect condition to sell."
-msgstr ""
+msgstr "Wybierz nieuszkodzoną broń lub wyposażenie na sprzedaż"
 
 #: src/utils/translations.tsx:117
 msgid "Pill"
@@ -7161,7 +7161,7 @@ msgstr "Prestiż!"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
 msgid "Price"
-msgstr ""
+msgstr "Cena"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
@@ -7359,7 +7359,7 @@ msgstr "Zduś ruch oporu najpierw w tym miejscu."
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
 msgid "Put on sale"
-msgstr ""
+msgstr "Wystaw na sprzedaż"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -8155,7 +8155,7 @@ msgstr "Wybierz region"
 #. placeholder {0}: bulkItems.length
 #: src/components/_economy/inventory/DismantleModal.tsx:255
 msgid "Select all ({0})"
-msgstr ""
+msgstr "Wybierz wszystko ({0})"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:141
 msgid "Select an occupied region"
@@ -8194,7 +8194,7 @@ msgstr "Wykonaj pracę własną <0/> razy we własnych firmach"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
 msgid "Sell an item"
-msgstr ""
+msgstr "Sprzedaj przedmiot"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
@@ -8703,7 +8703,7 @@ msgstr "Sugar Daddy"
 #. placeholder {0}: range.estimatedValue
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
 msgid "Suggested price <0>{0}</0>"
-msgstr ""
+msgstr "Sugerowana cena <0>{0}</0>"
 
 #: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
@@ -8933,7 +8933,7 @@ msgstr "Jednostka wojskowa otrzyma z powrotem opłatę wstępną, częściową w
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
 msgid "The price must be positive"
-msgstr ""
+msgstr "Kwota musi być wyższa od zera"
 
 #: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
@@ -10347,7 +10347,7 @@ msgstr "Potrzebujesz kraju, aby wziąc udział"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
 msgid "You need to be level {minLevel} to sell equipment"
-msgstr ""
+msgstr "Musisz mieć przynajmniej {minLevel} poziom, aby sprzedać wyposażenie"
 
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
@@ -10367,7 +10367,7 @@ msgstr "Osiągnąłeś prestiż i straciłeś swoje poziomy"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
 msgid "You receive"
-msgstr ""
+msgstr "Otrzymujesz"
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
