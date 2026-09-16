@@ -652,7 +652,7 @@ msgstr "<0>{0}</0> contra inimigo de <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr ""
+msgstr "<0>{0}</0> de bónus de ataque ao atacar a partir desta região.<1/>Os cidadãos recebem o bónus completo, os países aliados recebem metade."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -672,7 +672,7 @@ msgstr "<0>{0}</0> porque <1/> ocupa pelo menos uma região de <2/>"
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
-msgstr ""
+msgstr "<0>{0}</0> de bónus de defesa ao defender esta região.<1/>Os cidadãos recebem o bónus completo, os países aliados recebem metade. Os parceiros de pacto defensivo não beneficiam."
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1629
@@ -1651,7 +1651,7 @@ msgstr "<0>GIF</0> animado como avatar"
 
 #: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:63
 msgid "Announcement"
-msgstr ""
+msgstr "Anúncio"
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
@@ -2962,7 +2962,7 @@ msgstr "Contribui para resistência <0/> vezes"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
-msgstr ""
+msgstr "Contribui para a resistência"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -3788,7 +3788,7 @@ msgstr "Editar ordem da UM"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 msgid "Edit resistance focus"
-msgstr ""
+msgstr "Editar foco de resistência"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -4298,11 +4298,11 @@ msgstr "Focar em ti"
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 #: src/components/_political/region/SetResistanceFocusModal.tsx:143
 msgid "Focus resistance"
-msgstr ""
+msgstr "Foco de resistência"
 
 #: src/components/_political/region/RegionResistance.tsx:167
 msgid "Focus resistance here"
-msgstr ""
+msgstr "Focar resistência aqui"
 
 #: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
@@ -4416,7 +4416,7 @@ msgstr "Obter subscrição"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:156
 msgid "Get to the front!"
-msgstr ""
+msgstr "Vai para a linha da frente!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
 msgid "Gift from Vatou, don't tell anyone"
@@ -4448,7 +4448,7 @@ msgstr "Dar Propriedade"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:251
 msgid "Give your token a descriptive name so you can identify it later."
-msgstr "Dê um nome ao seu token para poder identificá-lo mais tarde."
+msgstr "Dá um nome descritivo ao teu token para o conseguires identificar mais tarde."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:199
 msgid "Giveaway Winner"
@@ -4469,7 +4469,7 @@ msgstr "Globo (experimental)"
 
 #: src/components/_political/map/MapLibre.tsx:431
 msgid "Globe view isn't supported on this device"
-msgstr ""
+msgstr "A vista de globo não é suportada neste dispositivo"
 
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
@@ -4482,7 +4482,7 @@ msgstr "Brilho"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:95
 msgid "Go play lottery right now"
-msgstr "Vá jogar na lotaria agora"
+msgstr "Vai jogar à lotaria agora"
 
 #: src/components/_economy/company/CompanyProduce.tsx:117
 msgid "Go to job market"
@@ -5375,7 +5375,7 @@ msgstr "Bloqueado, redistribua os pontos de habilidade para voltar a atribuir"
 
 #: src/pages/index.tsx:159
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: src/components/_user/user/MyAvatar.tsx:59
 msgid "Logout"
@@ -5905,7 +5905,7 @@ msgstr "Viajar"
 
 #: src/components/_political/map/MapMenu.tsx:640
 msgid "Move & collect"
-msgstr ""
+msgstr "Move-te e recolhe"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
@@ -7002,7 +7002,7 @@ msgstr "População"
 
 #: src/components/_political/region/RegionHeader.tsx:98
 msgid "Population (currently here)"
-msgstr ""
+msgstr "População (atualmente aqui)"
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
@@ -7281,11 +7281,11 @@ msgstr "Cajado Roxo"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:131
 msgid "Push the resistance here before they dig in..."
-msgstr ""
+msgstr "Avança contra a resistência aqui antes que se entrinchem..."
 
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
-msgstr ""
+msgstr "Avança contra a resistência aqui primeiro."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -7589,7 +7589,7 @@ msgstr "Regiões ocupadas geram o dobro de resistência."
 
 #: src/pages/index.tsx:149
 msgid "Register"
-msgstr ""
+msgstr "Registar"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
@@ -7836,11 +7836,11 @@ msgstr "Redistribuição em"
 #: src/components/_layout/map.frontConfig.tsx:54
 #: src/components/_political/region/RegionHeader.tsx:88
 msgid "Residents"
-msgstr ""
+msgstr "Residentes"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
-msgstr ""
+msgstr "Residentes (moram aqui)"
 
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
@@ -7859,11 +7859,11 @@ msgstr "Contribuintes da resistência"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:244
 msgid "Resistance focus"
-msgstr ""
+msgstr "Foco de resistência"
 
 #: src/components/_political/region/RegionResistance.tsx:205
 msgid "Resistance focused by <0/>"
-msgstr ""
+msgstr "Resistência focada por <0/>"
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
@@ -8445,7 +8445,7 @@ msgstr "Luvas de feiticeiro"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:75
 msgid "Spend your <0>Energy</0> working here to earn <1>Money</1>. Keep clicking to work more!"
-msgstr "Gaste sua <0>Energia</0> trabalhando aqui para ganhar <1>Dinheiro</1>. Continue clicando para trabalhar mais!"
+msgstr "Gasta a tua <0>Energia</0> a trabalhar aqui para ganhares <1>Dinheiro</1>. Continua a clicar para trabalhar mais!"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:137
 msgid "Spendings"
@@ -8453,7 +8453,7 @@ msgstr "Custos"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
-msgstr ""
+msgstr "Gasto ao mover-te no mapa: 10 pontos por região atravessada. As regiões que a tua stamina não consegue cobrir são pagas em petróleo. Recupera 10 pontos por hora e não pode ser aumentada com pontos de habilidade."
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
@@ -8678,7 +8678,7 @@ msgstr "Comandante Supremo"
 
 #: src/components/_political/map/MapLibre.tsx:432
 msgid "Switched back to the flat map."
-msgstr ""
+msgstr "Voltaste ao mapa plano."
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
@@ -8759,7 +8759,7 @@ msgstr "Equipas"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:127
 msgid "Tell your citizens why this region comes first"
-msgstr ""
+msgstr "Diz aos teus cidadãos porque é que esta região vem primeiro"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
@@ -10075,7 +10075,7 @@ msgstr "Não está a participar"
 
 #: src/components/_military/hit/HitButton.tsx:469
 msgid "You are standing in this region, so you can fight here."
-msgstr ""
+msgstr "Estás nesta região, por isso podes lutar aqui."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
@@ -10112,11 +10112,11 @@ msgstr "Pode desmontar itens do seu inventário selecionando-os."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
-msgstr ""
+msgstr "Só podes lutar onde estiveres. Move-te para a região da batalha, isso custa <0>Stamina</0>, e depois ataca para causares <1>Danos</1>."
 
 #: src/components/_political/election/CandidateFormModal.tsx:62
 msgid "You can optionally link a campaign article to your candidacy."
-msgstr "Pode opcionalmente vincular um artigo de campanha à sua candidatura."
+msgstr "Podes, opcionalmente, associar um artigo de campanha à tua candidatura."
 
 #: src/components/_user/user/Level.tsx:102
 msgid "You can upgrade your skills!"
@@ -10450,15 +10450,15 @@ msgstr "O teu artigo alcançou 2% da população ativa em pontuação (mínimo 1
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1552
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
-msgstr "O seu banner \"{0}\" foi aceite e está agora disponível na loja! Foi automaticamente desbloqueado por si."
+msgstr "O teu banner "{0}" foi aceite e já está disponível na loja! Foi automaticamente desbloqueado para ti."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:699
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
-msgstr "O teu buff expira em menos de 1 hora. A fase de debuff começará em breve."
+msgstr "O(s) teu(s) bónus vai(vão) expirar em menos de 1 hora. A fase de penalização vai começar em breve."
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:102
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
-msgstr ""
+msgstr "Os teus cidadãos vão ver <0/> na sua lista de batalhas, com esta mensagem. Não dá nenhum bónus: apenas indica às pessoas onde gastar as suas contribuições."
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
@@ -10467,11 +10467,11 @@ msgstr "A sua cidadania irá mudar"
 #: src/components/_military/battle/ActiveBattlesList.tsx:141
 #: src/pages/index.tsx:135
 msgid "Your country"
-msgstr "Seu país"
+msgstr "O teu país"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:112
 msgid "Your country already focuses <0/>. Setting this one releases it."
-msgstr ""
+msgstr "O teu país já tem foco em <0/>. Definir esta liberta-a."
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
@@ -10527,7 +10527,7 @@ msgstr "Países inimigos"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:248
 msgid "Your government asks you to push the resistance here."
-msgstr ""
+msgstr "O teu governo pede-te para avançares contra a resistência aqui."
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
@@ -10539,16 +10539,16 @@ msgstr "Seu inventário guarda todos os seus itens. Vamos ver o que você tem!"
 
 #: src/components/_military/hit/HitButton.tsx:468
 msgid "Your location"
-msgstr ""
+msgstr "A tua localização"
 
 #: src/components/_military/battle/LootSummaryCard.tsx:75
 #: src/components/_military/battle/LootSummaryCard.tsx:79
 msgid "Your loot"
-msgstr "As suas recompensas"
+msgstr "As tuas recompensas"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:48
 msgid "Your luck is just warming up, don't quit"
-msgstr "Sua sorte está aquecendo, não desista"
+msgstr "A tua sorte está só a aquecer, não desistas"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:24
 msgid "Your luck is on vacation"
