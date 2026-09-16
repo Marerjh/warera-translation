@@ -652,7 +652,7 @@ msgstr "<0>{0}</0> prieš <1/> priešą"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr ""
+msgstr "<0>{0}</0> atakos bonusas atakuojant iš šio regiono.<1/>Piliečiai gauna visą bonusą, sąjungininkų šalys — pusę."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -672,7 +672,7 @@ msgstr "<0>{0}</0>, nes <1/> okupuoja bent vieną iš <2/> regionų"
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
-msgstr ""
+msgstr "<0>{0}</0> gynybos bonusas ginant šį regioną.<1/>Piliečiai gauna visą bonusą, sąjungininkų šalys — pusę. Gynybinio pakto partneriai bonuso negauna."
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1629
@@ -1651,7 +1651,7 @@ msgstr "Animuotas <0>GIF</0> avataras"
 
 #: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:63
 msgid "Announcement"
-msgstr ""
+msgstr "Skelbimas"
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
@@ -2962,7 +2962,7 @@ msgstr "Prisidėk prie pasipriešinimo — kartų: <0/>"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
-msgstr ""
+msgstr "Prisidėti prie pasipriešinimo"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -3788,7 +3788,7 @@ msgstr "Redaguoti MU įsakymą"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 msgid "Edit resistance focus"
-msgstr ""
+msgstr "Keisti pasipriešinimo prioritetą"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -4298,11 +4298,11 @@ msgstr "Centruoti ties tavimi"
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 #: src/components/_political/region/SetResistanceFocusModal.tsx:143
 msgid "Focus resistance"
-msgstr ""
+msgstr "Nustatyti pasipriešinimo prioritetą"
 
 #: src/components/_political/region/RegionResistance.tsx:167
 msgid "Focus resistance here"
-msgstr ""
+msgstr "Nustatyti prioritetą čia"
 
 #: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
@@ -4416,7 +4416,7 @@ msgstr "Įsigyk rėmėjo planą"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:156
 msgid "Get to the front!"
-msgstr ""
+msgstr "Pirmyn į frontą!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
 msgid "Gift from Vatou, don't tell anyone"
@@ -4469,7 +4469,7 @@ msgstr "Gaublys (eksperimentinis)"
 
 #: src/components/_political/map/MapLibre.tsx:431
 msgid "Globe view isn't supported on this device"
-msgstr ""
+msgstr "Gaublio vaizdas šiame įrenginyje nepalaikomas"
 
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
@@ -5375,7 +5375,7 @@ msgstr "Užrakinta – atstatyk įgūdžius, kad perskirstytum"
 
 #: src/pages/index.tsx:159
 msgid "Login"
-msgstr ""
+msgstr "Prisijungti"
 
 #: src/components/_user/user/MyAvatar.tsx:59
 msgid "Logout"
@@ -5905,7 +5905,7 @@ msgstr "Vykti"
 
 #: src/components/_political/map/MapMenu.tsx:640
 msgid "Move & collect"
-msgstr ""
+msgstr "Vykti ir surinkti"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
@@ -7002,7 +7002,7 @@ msgstr "Populiacija"
 
 #: src/components/_political/region/RegionHeader.tsx:98
 msgid "Population (currently here)"
-msgstr ""
+msgstr "Populiacija (šiuo metu čia)"
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
@@ -7281,11 +7281,11 @@ msgstr "Purpurinė Lazda"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:131
 msgid "Push the resistance here before they dig in..."
-msgstr ""
+msgstr "Kelkime pasipriešinimą čia, kol jie neįsitvirtino..."
 
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
-msgstr ""
+msgstr "Pirmiausia kelkime pasipriešinimą čia."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -7589,7 +7589,7 @@ msgstr "Tavo okupuoti regionai generuoja dvigubai didesnį pasipriešinimą."
 
 #: src/pages/index.tsx:149
 msgid "Register"
-msgstr ""
+msgstr "Registruotis"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
@@ -7836,11 +7836,11 @@ msgstr "Permainos"
 #: src/components/_layout/map.frontConfig.tsx:54
 #: src/components/_political/region/RegionHeader.tsx:88
 msgid "Residents"
-msgstr ""
+msgstr "Gyventojai"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
-msgstr ""
+msgstr "Gyventojai (čia namai)"
 
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
@@ -7859,11 +7859,11 @@ msgstr "Pasipriešinimo Rėmėjai"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:244
 msgid "Resistance focus"
-msgstr ""
+msgstr "Pasipriešinimo prioritetas"
 
 #: src/components/_political/region/RegionResistance.tsx:205
 msgid "Resistance focused by <0/>"
-msgstr ""
+msgstr "Pasipriešinimo prioritetą nustatė <0/>"
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
@@ -8453,7 +8453,7 @@ msgstr "Išlaidos"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
-msgstr ""
+msgstr "Naudojama judant žemėlapyje: 10 taškų už kiekvieną kirstą regioną. Regionai, kuriems neužtenka ištvermės, apmokami kuru. Atsistato po 10 taškų per valandą ir įgūdžių taškais nedidinama."
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
@@ -8678,7 +8678,7 @@ msgstr "Aukščiausiasis Vadas"
 
 #: src/components/_political/map/MapLibre.tsx:432
 msgid "Switched back to the flat map."
-msgstr ""
+msgstr "Grąžintas plokščias žemėlapis."
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
@@ -8759,7 +8759,7 @@ msgstr "Komandos"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:127
 msgid "Tell your citizens why this region comes first"
-msgstr ""
+msgstr "Paaiškink piliečiams, kodėl šis regionas svarbiausias"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
@@ -10075,7 +10075,7 @@ msgstr "Nedalyvauji"
 
 #: src/components/_military/hit/HitButton.tsx:469
 msgid "You are standing in this region, so you can fight here."
-msgstr ""
+msgstr "Stovi šiame regione, todėl gali čia kautis."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
@@ -10112,7 +10112,7 @@ msgstr "Įrangą iš savo inventoriaus gali išardyti ją pasirinkęs."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
-msgstr ""
+msgstr "Kautis gali tik ten, kur stovi. Persikelk į mūšio regioną — tai kainuoja <0>Ištvermės</0> — ir suduok, kad padarytum <1>Žalos</1>."
 
 #: src/components/_political/election/CandidateFormModal.tsx:62
 msgid "You can optionally link a campaign article to your candidacy."
@@ -10458,7 +10458,7 @@ msgstr "Tavo Buff'ai baigs galioti greičiau nei po 1 valandos. Netrukus prasid�
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:102
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
-msgstr ""
+msgstr "Tavo piliečiai savo mūšių sąraše matys <0/> su šia žinute. Bonuso tai neduoda — tik parodo žmonėms, kur skirti savo įnašus."
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
@@ -10471,7 +10471,7 @@ msgstr "Tavo šalis"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:112
 msgid "Your country already focuses <0/>. Setting this one releases it."
-msgstr ""
+msgstr "Tavo šalis jau teikia prioritetą <0/>. Nustačius šį, ankstesnis bus atšauktas."
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
@@ -10527,7 +10527,7 @@ msgstr "Tavo priešai"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:248
 msgid "Your government asks you to push the resistance here."
-msgstr ""
+msgstr "Tavo vyriausybė prašo kelti pasipriešinimą čia."
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
@@ -10539,7 +10539,7 @@ msgstr "Tavo inventoriuje yra visi tavo daiktai. Pažiūrėkime, ką turi!"
 
 #: src/components/_military/hit/HitButton.tsx:468
 msgid "Your location"
-msgstr ""
+msgstr "Tavo buvimo vieta"
 
 #: src/components/_military/battle/LootSummaryCard.tsx:75
 #: src/components/_military/battle/LootSummaryCard.tsx:79
