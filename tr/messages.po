@@ -629,7 +629,7 @@ msgstr "<0>-{0}%</0> Saatlik direniş artışı"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> İşçi"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/gün"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr ""
 
@@ -1875,7 +1875,7 @@ msgstr "AT Taktik Kalkan"
 msgid "AT Tactical Vest"
 msgstr "AT Taktik Yelek"
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Süre sonunda <0>{actualTickPoints}</0> en çok hasarı veren tarafa atanacak."
 
@@ -2223,8 +2223,8 @@ msgstr "Botlar"
 msgid "Bounty"
 msgstr "Ödül"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "Ödül bekleme süresi"
 
@@ -2232,7 +2232,7 @@ msgstr "Ödül bekleme süresi"
 msgid "Bounty earned"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "Ödül şu süre sonra kullanıma sunulacak"
 
@@ -2290,7 +2290,7 @@ msgstr "Güçlendirmeler:"
 msgid "Bug finder"
 msgstr "Hata Bulucu"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Şirket kur"
 
@@ -2599,7 +2599,7 @@ msgstr "Vatandaşlık"
 msgid "Citizenship Applications"
 msgstr "Vatandaşlık Başvuruları"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "İç Savaş"
 
@@ -2665,7 +2665,7 @@ msgstr "Önerge seçmek için tıkla"
 msgid "Climate"
 msgstr "İklim"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Kapat"
@@ -2750,7 +2750,7 @@ msgstr "Şirketler"
 msgid "Companies limit"
 msgstr "Şirket limiti"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Şirket limitine ulaşıldı"
 
@@ -2956,7 +2956,7 @@ msgstr ""
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3205,7 +3205,7 @@ msgstr "Şuanki Askeri Birlik"
 msgid "Current nationality"
 msgstr "Mevcut milliyet"
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Mevcut tik:"
 
@@ -3213,7 +3213,7 @@ msgstr "Mevcut tik:"
 msgid "Current tier"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Mevcut toplam:"
 
@@ -3888,7 +3888,7 @@ msgstr "Başka bir ülkeyle mevcut bir savunma paktını sonlandır"
 msgid "End the defensive pact with <0/>."
 msgstr "<0/> ile savunma paktını sonlandır."
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Hata"
 msgid "Estimated benefit per"
 msgstr "Tahmini yüzdelik kâr"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Tüm tikler kazanılırsa bu tarafın mevcut turu kazanması için tahmini minimum süre."
 
@@ -4463,6 +4463,10 @@ msgstr "<0>{0}</0> verir"
 msgid "Globe (experimental)"
 msgstr "Küre (deneysel)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Hemen piyango oyna"
 msgid "Go to job market"
 msgstr "İş piyasasına git"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Becerilere git"
 
@@ -4501,7 +4505,7 @@ msgstr "Hükümet duyurusu"
 msgid "Government Member"
 msgstr "Hükümet Üyesi"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "Hükümet cezası"
 
@@ -4597,7 +4601,7 @@ msgstr "Grimdark Tank"
 msgid "Ground"
 msgstr "Toprak"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "tik başına toprak"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Hükümetteyken kendi ülken için vurmak %{0} ödül verimliliği sağlar."
 
@@ -5314,7 +5318,7 @@ msgstr "Kireçtaşı"
 msgid "Limit of food consumption"
 msgstr "Yiyecek tüketim limiti"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr ""
 
@@ -5334,7 +5338,7 @@ msgstr "Biftek yapmak için kullanılan minik tatlışlar :("
 msgid "Livestock"
 msgstr "Çiftlik Hayvanı"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6024,7 +6028,7 @@ msgstr "Ulusal savaş emirleri iki kat maliyetlidir."
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr "Ulusal savaş emirleri <0>iki kat</0> öncelikli hasar bonusu verir (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "Ulusal ödül"
 
@@ -6202,7 +6206,7 @@ msgstr ""
 msgid "Next reward"
 msgstr "Sonraki ödül"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Sonraki tik"
 
@@ -6597,7 +6601,7 @@ msgstr "Yalnızca sahip ve komutanlar milliyeti değiştirebilir."
 msgid "Only your core regions generate development income."
 msgstr "Yalnızca çekirdek bölgeleriniz gelişim geliri üretir."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Aç"
 
@@ -6605,8 +6609,8 @@ msgstr "Aç"
 msgid "Open <0/>"
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Kasa aç"
 
@@ -7083,7 +7087,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7832,7 +7836,7 @@ msgstr ""
 msgid "Resist"
 msgstr "Diren"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Direniş"
 msgid "Resistance Contributors"
 msgstr "Huzursuzluğa Katkıda Bulunanlar"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7961,8 +7965,8 @@ msgstr "Tur bitmek üzere"
 msgid "Round ended"
 msgstr "Tur sona erdi"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "Tur tahmini süresi"
 
@@ -8127,7 +8131,7 @@ msgstr "Satış emirleri"
 msgid "Sell price:"
 msgstr "Satış fiyatı:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "satıyor"
 
@@ -8400,7 +8404,7 @@ msgstr "Keskin Nişancı"
 msgid "Social & Messages"
 msgstr "Sosyal ve Mesajlar"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Bazı şirketlerin devre dışı."
 
@@ -8661,6 +8665,10 @@ msgstr "Destekçi Planı: en fazla {premiumMax} set"
 msgid "Supreme Commander"
 msgstr "Başkomutan"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "Tükettiğin buffların etkisi sona erdi. Debuff aşaması başladı ve 
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr "<0/> bonusunun tamamı, küresel <2>Gelişim</2>'in <1/> payına kadar uygulanır. Bunun üzerinde, bonus, platonun üzerindeki her pay yüzdesi puanı için <3/> oranında düşer ve <4/> seviyesine kadar iner."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr ""
 
@@ -8860,7 +8868,7 @@ msgstr "Botların, komut dosyalarının veya diğer oyunculara karşı avantaj e
 msgid "This action will submit your MU bid for this contract."
 msgstr "Bu işlem, AB teklifinizi bu sözleşme için gönderecektir."
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "Bu ödül yalnızca vatandaşlara ayrılmıştır."
 
@@ -8876,7 +8884,7 @@ msgstr "Bu ülkenin cumhurbaşkanı veya aktif meclis üyesi yok, kontrolü ele 
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "Bu ülke Fanatik Emperyalist: bakanları olamaz, yalnızca bir cumhurbaşkanı ve başkan yardımcısı olabilir. Bakan adaylıkları reddedilecektir."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr ""
 
@@ -9101,7 +9109,7 @@ msgstr "Ayın en iyi hediye verenleri"
 msgid "Top of the hill"
 msgstr "Zirveye Çıktın"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "toplam"
 
@@ -9120,7 +9128,7 @@ msgstr "toplam"
 msgid "Total"
 msgstr "Toplam"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "Toplam açılan sandık"
 
@@ -9136,7 +9144,7 @@ msgstr "Toplam hasar"
 msgid "Total Donated:"
 msgstr "Toplam bağış:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr "<0/>'in Toplamı"
 
@@ -9751,7 +9759,7 @@ msgstr "{0}. seviye bekleniyor"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Çalışanın maaş indirimini kabul veya reddetmesi bekleniyor. Yanıt verene kadar maaşı değiştiremezsiniz."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "istiyor"
 
@@ -10478,7 +10486,7 @@ msgstr "Ülken <1/>'a karşı <0/>'da isyan başlattı"
 msgid "Your current job"
 msgstr "Şuanki işin"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Mevcut market emrin"
 
@@ -10506,7 +10514,7 @@ msgstr "İşvereniniz <0/>'daki maaşınızı <1>{0}</1>'dan <2>{1}</2>'e düş�
 msgid "Your enemies"
 msgstr "Düşmanların"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 

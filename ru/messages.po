@@ -629,7 +629,7 @@ msgstr ""
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Рабочих"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/день"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr ""
 
@@ -1875,7 +1875,7 @@ msgstr ""
 msgid "AT Tactical Vest"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "По истечении таймера <0>{actualTickPoints}</0> будут зачислены стороне с наибольшим уроном."
 
@@ -2223,8 +2223,8 @@ msgstr "Берцы"
 msgid "Bounty"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr ""
 
@@ -2232,7 +2232,7 @@ msgstr ""
 msgid "Bounty earned"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr ""
 
@@ -2290,7 +2290,7 @@ msgstr ""
 msgid "Bug finder"
 msgstr ""
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Построить компанию"
 
@@ -2599,7 +2599,7 @@ msgstr "Гражданство"
 msgid "Citizenship Applications"
 msgstr "Запросы гражданства"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Гражданская война"
 
@@ -2665,7 +2665,7 @@ msgstr "Кликните, чтобы выбрать постановление"
 msgid "Climate"
 msgstr "Климат"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Закрыть"
@@ -2750,7 +2750,7 @@ msgstr "Компании"
 msgid "Companies limit"
 msgstr "Лимит компаний"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Достигнут лимит компаний"
 
@@ -2956,7 +2956,7 @@ msgstr ""
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3205,7 +3205,7 @@ msgstr "Текущий Военный Отряд"
 msgid "Current nationality"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Текущий тик:"
 
@@ -3213,7 +3213,7 @@ msgstr "Текущий тик:"
 msgid "Current tier"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Текущее кол-во:"
 
@@ -3888,7 +3888,7 @@ msgstr ""
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Ошибка"
 msgid "Estimated benefit per"
 msgstr "Ожидаемая прибыль на"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr ""
 
@@ -4463,6 +4463,10 @@ msgstr ""
 msgid "Globe (experimental)"
 msgstr "Глобус (в разработке)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Срочно купи лотерейный билет"
 msgid "Go to job market"
 msgstr "Перейти на рынок труда"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Перейти к навыкам"
 
@@ -4501,7 +4505,7 @@ msgstr ""
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr ""
 
@@ -4597,7 +4601,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Высоты"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "высот за тик"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -5314,7 +5318,7 @@ msgstr "Известняк"
 msgid "Limit of food consumption"
 msgstr "Ограничивает потребление еды"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr ""
 
@@ -5334,7 +5338,7 @@ msgstr "Милые крошки, из которых делают стейки :
 msgid "Livestock"
 msgstr "Скот"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6024,7 +6028,7 @@ msgstr ""
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr ""
 
@@ -6202,7 +6206,7 @@ msgstr ""
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Следующий тик"
 
@@ -6597,7 +6601,7 @@ msgstr ""
 msgid "Only your core regions generate development income."
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Открыть"
 
@@ -6605,8 +6609,8 @@ msgstr "Открыть"
 msgid "Open <0/>"
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Открыть кейс"
 
@@ -7083,7 +7087,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7832,7 +7836,7 @@ msgstr ""
 msgid "Resist"
 msgstr "Бороться"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Сопротивление"
 msgid "Resistance Contributors"
 msgstr "Участники сопротивления"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7961,8 +7965,8 @@ msgstr "Раунд скоро завершится"
 msgid "Round ended"
 msgstr "Раунд завершен"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr ""
 
@@ -8127,7 +8131,7 @@ msgstr "Заявки на продажу"
 msgid "Sell price:"
 msgstr "Рыночная цена:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "продает"
 
@@ -8400,7 +8404,7 @@ msgstr "Снайперка"
 msgid "Social & Messages"
 msgstr ""
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Некоторые ваши компании выключены."
 
@@ -8661,6 +8665,10 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Верховный главнокомандующий"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "Усиление от таблетки закончилось. Нача�
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr ""
 
@@ -8860,7 +8868,7 @@ msgstr ""
 msgid "This action will submit your MU bid for this contract."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr ""
 
@@ -8876,7 +8884,7 @@ msgstr "Страна не имеет президента или действу�
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr ""
 
@@ -9101,7 +9109,7 @@ msgstr "Топ меценатов месяца"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "всего"
 
@@ -9120,7 +9128,7 @@ msgstr "всего"
 msgid "Total"
 msgstr "Всего"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr ""
 
@@ -9136,7 +9144,7 @@ msgstr "Всего урона"
 msgid "Total Donated:"
 msgstr "Всего внесено:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr ""
 
@@ -9751,7 +9759,7 @@ msgstr "Ожидание уровня {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Ожидайте, пока работник примет или отклонит снижение зарплаты. Вы не можете изменить зарплату, пока он не ответит."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "покупает"
 
@@ -10478,7 +10486,7 @@ msgstr "Ваша страна начала восстание в <0/> проти
 msgid "Your current job"
 msgstr "Ваша текущая работа"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Ваш текущий ордер"
 
@@ -10506,7 +10514,7 @@ msgstr "Ваш работодатель хочет сократить вашу �
 msgid "Your enemies"
 msgstr "Ваши враги"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 

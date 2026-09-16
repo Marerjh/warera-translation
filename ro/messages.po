@@ -627,7 +627,7 @@ msgstr "<0>-{0}%</0> Rezistență pe oră"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Muncitori"
@@ -760,7 +760,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/zi"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr ""
 
@@ -1873,7 +1873,7 @@ msgstr ""
 msgid "AT Tactical Vest"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "La sfârșitul timpului, partea cu cele mai multe daune cauzate va câștiga <0>{actualTickPoints}</0>."
 
@@ -2221,8 +2221,8 @@ msgstr "Cizme"
 msgid "Bounty"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "Timp de așteptare recompensă"
 
@@ -2230,7 +2230,7 @@ msgstr "Timp de așteptare recompensă"
 msgid "Bounty earned"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "Recompensă disponibilă în"
 
@@ -2288,7 +2288,7 @@ msgstr "Buffuri:"
 msgid "Bug finder"
 msgstr "Bug finder"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Construiește o companie"
 
@@ -2597,7 +2597,7 @@ msgstr "Cetățenie"
 msgid "Citizenship Applications"
 msgstr "Aplicații pentru cetățenie"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Război civil"
 
@@ -2663,7 +2663,7 @@ msgstr "Click pentru a selecta o moțiune"
 msgid "Climate"
 msgstr "Climă"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Închide"
@@ -2748,7 +2748,7 @@ msgstr "Companii"
 msgid "Companies limit"
 msgstr "Limită companii"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Limită companii atinsă"
 
@@ -2954,7 +2954,7 @@ msgstr ""
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3203,7 +3203,7 @@ msgstr "Unitate Militară Actuală"
 msgid "Current nationality"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Valoare tic actual:"
 
@@ -3211,7 +3211,7 @@ msgstr "Valoare tic actual:"
 msgid "Current tier"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Total până acum:"
 
@@ -3886,7 +3886,7 @@ msgstr ""
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3951,8 +3951,8 @@ msgstr "Eroare"
 msgid "Estimated benefit per"
 msgstr "Beneficiu estimat per"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Timp minim estimat ca această parte să câștige runda, dacă păstrează dominanța câștigând tot terenul."
 
@@ -4461,6 +4461,10 @@ msgstr "Oferă <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Glob (experimental)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4478,7 +4482,7 @@ msgstr "Du-te repede și joacă la loto"
 msgid "Go to job market"
 msgstr "Mergi la piața muncii"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Către Competențe"
 
@@ -4499,7 +4503,7 @@ msgstr ""
 msgid "Government Member"
 msgstr "Membru guvern"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "Penalizare guvern"
 
@@ -4595,7 +4599,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Teren"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "teren per tic"
 
@@ -4718,7 +4722,7 @@ msgid "Hit <0/> times in battles"
 msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Loviturile pentru țara ta, cât timp ești membru al guvernului, sunt răsplătite la un factor de {0}%"
 
@@ -5312,7 +5316,7 @@ msgstr "Calcar"
 msgid "Limit of food consumption"
 msgstr "Limită pentru consum alimentar"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr ""
 
@@ -5332,7 +5336,7 @@ msgstr "Drăguțele mici folosite la friptură :("
 msgid "Livestock"
 msgstr "Animale"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6022,7 +6026,7 @@ msgstr ""
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "Răsplată națională"
 
@@ -6200,7 +6204,7 @@ msgstr ""
 msgid "Next reward"
 msgstr "Următorul premiu"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Următorul tic"
 
@@ -6595,7 +6599,7 @@ msgstr ""
 msgid "Only your core regions generate development income."
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Deschide"
 
@@ -6603,8 +6607,8 @@ msgstr "Deschide"
 msgid "Open <0/>"
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Deschide cutia"
 
@@ -7081,7 +7085,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7830,7 +7834,7 @@ msgstr ""
 msgid "Resist"
 msgstr "Rezistă"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7840,7 +7844,7 @@ msgstr "Rezistență"
 msgid "Resistance Contributors"
 msgstr "Contribuții rezistență"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7959,8 +7963,8 @@ msgstr "Runda pe cale să se termine"
 msgid "Round ended"
 msgstr "Runda s-a încheiat"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "Timp rămas estimat"
 
@@ -8125,7 +8129,7 @@ msgstr "Comenzi de vânzare"
 msgid "Sell price:"
 msgstr "Preț vânzare:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "vinde"
 
@@ -8398,7 +8402,7 @@ msgstr "Pușcă cu lunetă"
 msgid "Social & Messages"
 msgstr "Social & Mesaje"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Ai companii dezactivate."
 
@@ -8659,6 +8663,10 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Comandant Suprem"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8816,7 +8824,7 @@ msgstr "Efectul buffurilor tale consumate s-a încheiat. Faza de debuff a încep
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr ""
 
@@ -8858,7 +8866,7 @@ msgstr ""
 msgid "This action will submit your MU bid for this contract."
 msgstr "Această acțiune trimite oferta UM tale pentru acest contract."
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "Răsplată doar pentru cetățenii țării."
 
@@ -8874,7 +8882,7 @@ msgstr "Această țară nu are președinte sau parlament activ, deci poți prelu
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr ""
 
@@ -9099,7 +9107,7 @@ msgstr "Top donatori ai lunii"
 msgid "Top of the hill"
 msgstr "Top of the hill"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "total"
 
@@ -9118,7 +9126,7 @@ msgstr "total"
 msgid "Total"
 msgstr "Total"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "Total cutii deschise"
 
@@ -9134,7 +9142,7 @@ msgstr "Daune totale"
 msgid "Total Donated:"
 msgstr "Total donat:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr ""
 
@@ -9749,7 +9757,7 @@ msgstr "Se așteaptă nivel {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Se așteaptă ca angajatul să accepte sau să respingă reducerea salarială. Nu poți modifica salariul până când nu răspunde."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "vrea"
 
@@ -10476,7 +10484,7 @@ msgstr "Țara ta a început o revoltă în <0/> împotriva <1/>"
 msgid "Your current job"
 msgstr "Locul tău de muncă actual"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Comanda ta actuală"
 
@@ -10504,7 +10512,7 @@ msgstr "Angajatorul tău dorește să îți reducă salariul în <0/> de la <1>{
 msgid "Your enemies"
 msgstr "Inamicii tăi"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 

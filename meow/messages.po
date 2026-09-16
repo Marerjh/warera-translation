@@ -629,7 +629,7 @@ msgstr "<0>-{0}%</0> Meow meow meow meow"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Meow"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/meow"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr "<0>{activeCompaniesCount}/{0}</0> Meow"
 
@@ -1875,7 +1875,7 @@ msgstr "Meow Meow Meow"
 msgid "AT Tactical Vest"
 msgstr "Meow Meow Meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Meow meow meow meow meow meow <0>{actualTickPoints}</0> meow meow meow meow meow meow meow meow meow meow."
 
@@ -2223,8 +2223,8 @@ msgstr "Meow"
 msgid "Bounty"
 msgstr "Meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "Meow meow"
 
@@ -2232,7 +2232,7 @@ msgstr "Meow meow"
 msgid "Bounty earned"
 msgstr "Meow Meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "Meow meow meow meow meow"
 
@@ -2290,7 +2290,7 @@ msgstr "Meow:"
 msgid "Bug finder"
 msgstr "Meow meow"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Meow meow meow"
 
@@ -2599,7 +2599,7 @@ msgstr "Meow"
 msgid "Citizenship Applications"
 msgstr "Meow Meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Meow meow"
 
@@ -2665,7 +2665,7 @@ msgstr "Meow meow meow meow"
 msgid "Climate"
 msgstr "Meow"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Meow"
@@ -2750,7 +2750,7 @@ msgstr "Meow"
 msgid "Companies limit"
 msgstr "Meow meow"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Meow meow meow"
 
@@ -2956,7 +2956,7 @@ msgstr "Meow meow meow <0/> meow"
 msgid "Contribute to resistance <0/> times"
 msgstr "Meow meow meow <0/> meow"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr "meow meow meow meow meow"
 
@@ -3205,7 +3205,7 @@ msgstr "Meow Meow Meow"
 msgid "Current nationality"
 msgstr "Meow meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Meow meow:"
 
@@ -3213,7 +3213,7 @@ msgstr "Meow meow:"
 msgid "Current tier"
 msgstr "Meow meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Meow meow:"
 
@@ -3888,7 +3888,7 @@ msgstr "Meow meow meow meow meow meow meow meow"
 msgid "End the defensive pact with <0/>."
 msgstr "Meow meow meow meow meow <0/>."
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Meow"
 msgid "Estimated benefit per"
 msgstr "Meow meow meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Meow meow meow meow meow meow meow meow meow meow meow meow meow meow."
 
@@ -4463,6 +4463,10 @@ msgstr "Meow <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Meow (meow)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Meow meow meow meow meow"
 msgid "Go to job market"
 msgstr "Meow meow meow meow"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Meow meow meow"
 
@@ -4501,7 +4505,7 @@ msgstr "Meow meow"
 msgid "Government Member"
 msgstr "Meow Meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "Meow meow"
 
@@ -4597,7 +4601,7 @@ msgstr "Meow Meow"
 msgid "Ground"
 msgstr "Meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "meow meow meow"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr "Meow <0/> meow meow meow"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Meow meow meow meow meow meow meow meow meow {0}% meow meow."
 
@@ -5314,7 +5318,7 @@ msgstr "Meow"
 msgid "Limit of food consumption"
 msgstr "Meow meow meow meow"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr "Meow meow"
 
@@ -5334,7 +5338,7 @@ msgstr "Meow meow meow meow meow meow :("
 msgid "Livestock"
 msgstr "Meow"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6024,7 +6028,7 @@ msgstr "Meow meow meow meow meow."
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr "Meow meow meow meow <0>meow</0> meow meow meow meow (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "Meow meow"
 
@@ -6202,7 +6206,7 @@ msgstr "Meow meow meow"
 msgid "Next reward"
 msgstr "Meow meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Meow meow"
 
@@ -6597,7 +6601,7 @@ msgstr "Meow meow meow meow meow meow meow meow meow."
 msgid "Only your core regions generate development income."
 msgstr "Meow meow meow meow meow meow meow."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Meow"
 
@@ -6605,8 +6609,8 @@ msgstr "Meow"
 msgid "Open <0/>"
 msgstr "Meow <0/>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Meow meow"
 
@@ -7083,7 +7087,7 @@ msgstr "Meow:"
 msgid "Prestige!"
 msgstr "Meow!"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr "Meow meow-meow meow meow"
 
@@ -7832,7 +7836,7 @@ msgstr "meow"
 msgid "Resist"
 msgstr "Meow"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Meow"
 msgid "Resistance Contributors"
 msgstr "Meow Meow"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr "Meow meow"
 
@@ -7961,8 +7965,8 @@ msgstr "Meow meow meow meow"
 msgid "Round ended"
 msgstr "Meow meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "Meow Meow"
 
@@ -8127,7 +8131,7 @@ msgstr "Meow meow"
 msgid "Sell price:"
 msgstr "Meow meow:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "meow"
 
@@ -8400,7 +8404,7 @@ msgstr "Meow"
 msgid "Social & Messages"
 msgstr "Meow & Meow"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Meow meow meow meow meow meow."
 
@@ -8661,6 +8665,10 @@ msgstr "Meow Meow: meow meow {premiumMax} meow"
 msgid "Supreme Commander"
 msgstr "Meow Meow"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "Meow meow meow meow meow meow meow meow. Meow meow meow meow meow meow m
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr "Meow meow meow meow <0/> meow meow meow <1/> meow meow meow <2>Meow</2>. Meow meow, meow meow meow meow <3/> meow meow meow meow meow meow meow meow, meow meow <4/>."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr "Meow meow WebGL2, Meow meow meow meow. Meow meow meow"
 
@@ -8860,7 +8868,7 @@ msgstr "Meow meow meow meow, meow, meow meow meow meow meow meow meow meow meow 
 msgid "This action will submit your MU bid for this contract."
 msgstr "Meow meow meow meow meow Meow meow meow meow meow."
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "Meow meow meow meow meow meow meow."
 
@@ -8876,7 +8884,7 @@ msgstr "Meow meow meow meow meow meow meow meow meow, meow meow meow meow meow m
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "Meow meow meow Meow Meow: meow meow meow meow, meow meow meow meow meow meow. Meow meow meow meow meow."
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr "Meow meow meow meow"
 
@@ -9101,7 +9109,7 @@ msgstr "Meow meow meow meow meow meow"
 msgid "Top of the hill"
 msgstr "Meow meow meow meow"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "meow"
 
@@ -9120,7 +9128,7 @@ msgstr "meow"
 msgid "Total"
 msgstr "Meow"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "Meow meow meow"
 
@@ -9136,7 +9144,7 @@ msgstr "Meow meow"
 msgid "Total Donated:"
 msgstr "Meow Meow:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr "Meow meow <0/>"
 
@@ -9751,7 +9759,7 @@ msgstr "Meow meow meow {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Meow meow meow meow meow meow meow meow meow meow meow. Meow meow meow meow meow meow meow meow."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "meow"
 
@@ -10478,7 +10486,7 @@ msgstr "Meow meow meow meow meow meow <0/> meow <1/>"
 msgid "Your current job"
 msgstr "Meow meow meow"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Meow meow meow"
 
@@ -10506,7 +10514,7 @@ msgstr "Meow meow meow meow meow meow meow meow <0/> meow <1>{0}</1> meow <2>{1}
 msgid "Your enemies"
 msgstr "Meow meow"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr "Meow meow meow meow meow meow"
 

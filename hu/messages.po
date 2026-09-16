@@ -629,7 +629,7 @@ msgstr "<0>-{0}%</0> Ellenállás növekedés óránként"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:134
+#: src/components/_economy/company/CompanyList.tsx:133
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Dolgozók"
@@ -762,7 +762,7 @@ msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/nap"
 
 #. placeholder {0}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:117
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr ""
 
@@ -1875,7 +1875,7 @@ msgstr ""
 msgid "AT Tactical Vest"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:623
+#: src/components/_military/battle/BattleSystem.tsx:646
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Az időzítő végén <0>{actualTickPoints}</0> kerül kiosztásra a legtöbb sebzéssel rendelkező oldalnak."
 
@@ -2223,8 +2223,8 @@ msgstr "Csizma"
 msgid "Bounty"
 msgstr "Fejvadászdíj"
 
-#: src/components/_military/battle/BattleSystem.tsx:858
-#: src/components/_military/battle/BattleSystem.tsx:868
+#: src/components/_military/battle/BattleSystem.tsx:881
+#: src/components/_military/battle/BattleSystem.tsx:891
 msgid "Bounty cooldown"
 msgstr "Fejvadászdíj újratöltés"
 
@@ -2232,7 +2232,7 @@ msgstr "Fejvadászdíj újratöltés"
 msgid "Bounty earned"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:844
+#: src/components/_military/battle/BattleSystem.tsx:867
 msgid "Bounty will be available in"
 msgstr "Fejvadászdíj elérhető lesz"
 
@@ -2290,7 +2290,7 @@ msgstr "Bónuszok:"
 msgid "Bug finder"
 msgstr "Hibakereső"
 
-#: src/components/_economy/company/CompanyList.tsx:178
+#: src/components/_economy/company/CompanyList.tsx:177
 msgid "Build a company"
 msgstr "Cég létrehozása"
 
@@ -2599,7 +2599,7 @@ msgstr "Állampolgárság"
 msgid "Citizenship Applications"
 msgstr "Állampolgársági kérelmek"
 
-#: src/components/_military/battle/BattleSystem.tsx:355
+#: src/components/_military/battle/BattleSystem.tsx:378
 msgid "Civil war"
 msgstr "Polgárháború"
 
@@ -2665,7 +2665,7 @@ msgstr "Kattints az indítvány kiválasztásához"
 msgid "Climate"
 msgstr "Klíma"
 
-#: ../__ui/src/components/Modal/Modal.tsx:424
+#: ../__ui/src/components/Modal/Modal.tsx:302
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Bezárás"
@@ -2750,7 +2750,7 @@ msgstr "Vállalatok"
 msgid "Companies limit"
 msgstr "Vállalat limit"
 
-#: src/components/_economy/company/CompanyList.tsx:91
+#: src/components/_economy/company/CompanyList.tsx:90
 msgid "Companies limit reached"
 msgstr "Vállalat limit elérve"
 
@@ -2956,7 +2956,7 @@ msgstr ""
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:203
+#: src/components/_political/region/ResistanceFocusItem.tsx:211
 msgid "Contribute to the resistance"
 msgstr ""
 
@@ -3205,7 +3205,7 @@ msgstr "Jelenlegi katonai egység"
 msgid "Current nationality"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:642
+#: src/components/_military/battle/BattleSystem.tsx:665
 msgid "Current tick:"
 msgstr "Jelenlegi tik:"
 
@@ -3213,7 +3213,7 @@ msgstr "Jelenlegi tik:"
 msgid "Current tier"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:632
+#: src/components/_military/battle/BattleSystem.tsx:655
 msgid "Current total:"
 msgstr "Jelenlegi összeg:"
 
@@ -3888,7 +3888,7 @@ msgstr ""
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:751
+#: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
@@ -3953,8 +3953,8 @@ msgstr "Hiba"
 msgid "Estimated benefit per"
 msgstr "Becsült haszon per"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:498
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Becsült minimális idő, amíg ez az oldal megnyeri az aktuális kört, ha minden tick-et nyer."
 
@@ -4463,6 +4463,10 @@ msgstr "Ad <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Glóbusz (kísérleti)"
 
+#: src/components/_political/map/MapLibre.tsx:432
+msgid "Globe view isn't supported on this device"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
 msgid "Gloves"
@@ -4480,7 +4484,7 @@ msgstr "Menj és játssz most lottót"
 msgid "Go to job market"
 msgstr "Menj a munkaerőpiacra"
 
-#: src/components/_economy/company/CompanyList.tsx:105
+#: src/components/_economy/company/CompanyList.tsx:104
 msgid "Go to skills"
 msgstr "Menj a képességekhez"
 
@@ -4501,7 +4505,7 @@ msgstr ""
 msgid "Government Member"
 msgstr "Kormánytag"
 
-#: src/components/_military/battle/BattleSystem.tsx:818
+#: src/components/_military/battle/BattleSystem.tsx:841
 msgid "Government penalty"
 msgstr "Kormánybüntetés"
 
@@ -4597,7 +4601,7 @@ msgstr "Grimdark tank"
 msgid "Ground"
 msgstr "Terep"
 
-#: src/components/_military/battle/BattleSystem.tsx:681
+#: src/components/_military/battle/BattleSystem.tsx:704
 msgid "ground per tick"
 msgstr "terep körönként"
 
@@ -4720,7 +4724,7 @@ msgid "Hit <0/> times in battles"
 msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:820
+#: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "A saját országod melletti harcolás kormánytagként {0}% jutalom hatékonyságot ad."
 
@@ -5314,7 +5318,7 @@ msgstr "Mészkő"
 msgid "Limit of food consumption"
 msgstr "Élelemfogyasztás korlátja"
 
-#: src/components/_economy/company/CompanyList.tsx:181
+#: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
 msgstr ""
 
@@ -5334,7 +5338,7 @@ msgstr "Kis cukik, akikből steak lesz :("
 msgid "Livestock"
 msgstr "Haszonállat"
 
-#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:33
 #: src/components/_social/announcement/AnnouncementComments.tsx:43
 #: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
@@ -6024,7 +6028,7 @@ msgstr ""
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:829
 msgid "National bounty"
 msgstr "Nemzeti vérdíj"
 
@@ -6202,7 +6206,7 @@ msgstr ""
 msgid "Next reward"
 msgstr "Következő jutalom"
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:641
 msgid "Next tick"
 msgstr "Következő tick"
 
@@ -6597,7 +6601,7 @@ msgstr ""
 msgid "Only your core regions generate development income."
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
 msgid "Open"
 msgstr "Megnyitás"
 
@@ -6605,8 +6609,8 @@ msgstr "Megnyitás"
 msgid "Open <0/>"
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
 msgid "Open case"
 msgstr "Láda megnyitása"
 
@@ -7083,7 +7087,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:454
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:558
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7832,7 +7836,7 @@ msgstr ""
 msgid "Resist"
 msgstr "Ellenállj"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusItem.tsx:100
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
@@ -7842,7 +7846,7 @@ msgstr "Ellenállás"
 msgid "Resistance Contributors"
 msgstr "Ellenállás támogatói"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:229
+#: src/components/_political/region/ResistanceFocusItem.tsx:237
 msgid "Resistance focus"
 msgstr ""
 
@@ -7961,8 +7965,8 @@ msgstr "A kör hamarosan véget ér"
 msgid "Round ended"
 msgstr "A kör véget ért"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:496
+#: src/components/_military/battle/BattleSystem.tsx:533
 msgid "Round ETA"
 msgstr "Kör becsült idő"
 
@@ -8127,7 +8131,7 @@ msgstr "Eladási megbízások"
 msgid "Sell price:"
 msgstr "Eladási ár:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "sells"
 msgstr "elad"
 
@@ -8400,7 +8404,7 @@ msgstr "Mesterlövész"
 msgid "Social & Messages"
 msgstr "Közösségi és üzenetek"
 
-#: src/components/_economy/company/CompanyList.tsx:96
+#: src/components/_economy/company/CompanyList.tsx:95
 msgid "Some of your companies are disabled."
 msgstr "Néhány vállalatod le van tiltva."
 
@@ -8661,6 +8665,10 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Legfelsőbb Parancsnok"
 
+#: src/components/_political/map/MapLibre.tsx:433
+msgid "Switched back to the flat map."
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
@@ -8818,7 +8826,7 @@ msgstr "Az elfogyasztott buffaid hatása véget ért. A debuff fázis elkezdőd�
 msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:67
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:69
 msgid "The map needs WebGL2, which your browser or device doesn't support. Everything else in the game works normally."
 msgstr ""
 
@@ -8860,7 +8868,7 @@ msgstr "A botok, scriptek vagy bármilyen automatizálás használata más ját�
 msgid "This action will submit your MU bid for this contract."
 msgstr "Ez a művelet elküldi a KE-d ajánlatát erre a szerződésre."
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:830
 msgid "This bounty is reserved for nationals only."
 msgstr "Ez a fejvadászdíj csak állampolgárok számára elérhető."
 
@@ -8876,7 +8884,7 @@ msgstr "Ennek az országnak nincs elnöke vagy aktív kongresszusi tagja, átveh
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr ""
 
-#: src/components/_political/map/MapLibreErrorBoundary.tsx:64
+#: src/components/_political/map/MapLibreErrorBoundary.tsx:66
 msgid "This device can't display the map"
 msgstr ""
 
@@ -9101,7 +9109,7 @@ msgstr "A hónap legjobb ajándékozói"
 msgid "Top of the hill"
 msgstr "A domb teteje"
 
-#: src/components/_military/battle/BattleSystem.tsx:672
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "total"
 msgstr "összesen"
 
@@ -9120,7 +9128,7 @@ msgstr "összesen"
 msgid "Total"
 msgstr "Összesen"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
 msgid "Total cases opened"
 msgstr "Összes kinyitott láda"
 
@@ -9136,7 +9144,7 @@ msgstr "Összes sebzés"
 msgid "Total Donated:"
 msgstr "Összesen adományozott:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:508
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:612
 msgid "Total of <0/>"
 msgstr ""
 
@@ -9751,7 +9759,7 @@ msgstr "Várakozás a(z) {0}. szintre"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Várakozás arra, hogy a munkás elfogadja vagy elutasítsa a bércsökkentést. Nem változtathatod meg a bért, amíg nem válaszol."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:161
 msgid "wants"
 msgstr "szeretne"
 
@@ -10478,7 +10486,7 @@ msgstr "Az országod felkelést kezdett <0/> területén <1/> ellen"
 msgid "Your current job"
 msgstr "Jelenlegi munkád"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "Your current order"
 msgstr "Jelenlegi megrendelésed"
 
@@ -10506,7 +10514,7 @@ msgstr "A munkáltatód csökkenteni szeretné a béredet a(z) <0/> vállalatban
 msgid "Your enemies"
 msgstr "Ellenségeid"
 
-#: src/components/_political/region/ResistanceFocusItem.tsx:233
+#: src/components/_political/region/ResistanceFocusItem.tsx:241
 msgid "Your government asks you to push the resistance here."
 msgstr ""
 
