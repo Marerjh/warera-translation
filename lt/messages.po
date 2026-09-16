@@ -1651,7 +1651,7 @@ msgstr "Animuotas <0>GIF</0> avataras"
 
 #: src/components/_social/announcement/GovernmentAnnouncementCard.tsx:63
 msgid "Announcement"
-msgstr ""
+msgstr "Skelbimas"
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
@@ -4469,7 +4469,7 @@ msgstr "Gaublys (eksperimentinis)"
 
 #: src/components/_political/map/MapLibre.tsx:431
 msgid "Globe view isn't supported on this device"
-msgstr ""
+msgstr "Gaublio vaizdas šiame įrenginyje nepalaikomas"
 
 #: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:216
@@ -5375,7 +5375,7 @@ msgstr "Užrakinta – atstatyk įgūdžius, kad perskirstytum"
 
 #: src/pages/index.tsx:159
 msgid "Login"
-msgstr ""
+msgstr "Prisijungti"
 
 #: src/components/_user/user/MyAvatar.tsx:59
 msgid "Logout"
@@ -5905,7 +5905,7 @@ msgstr "Vykti"
 
 #: src/components/_political/map/MapMenu.tsx:640
 msgid "Move & collect"
-msgstr ""
+msgstr "Vykti ir surinkti"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
@@ -7589,7 +7589,7 @@ msgstr "Tavo okupuoti regionai generuoja dvigubai didesnį pasipriešinimą."
 
 #: src/pages/index.tsx:149
 msgid "Register"
-msgstr ""
+msgstr "Registruotis"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
@@ -8678,7 +8678,7 @@ msgstr "Aukščiausiasis Vadas"
 
 #: src/components/_political/map/MapLibre.tsx:432
 msgid "Switched back to the flat map."
-msgstr ""
+msgstr "Grąžintas plokščias žemėlapis."
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 #: src/components/_political/country/CountryTooltip.tsx:118
