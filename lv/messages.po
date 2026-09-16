@@ -1598,7 +1598,7 @@ msgstr "Sabiedrotie"
 
 #. placeholder {0}: range.min
 #. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:120
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
 msgid "Allowed between {0} and {1}"
 msgstr ""
 
@@ -3949,7 +3949,7 @@ msgstr "Enerģija"
 msgid "Ensign"
 msgstr "Jaunākais leitnants"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:115
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
 msgid "Enter a price"
 msgstr ""
 
@@ -4994,7 +4994,7 @@ msgstr "Būs tikai labāk… laikam"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Tas neradīs ražošanas punktus un tā strādnieki nevarēs pastrādāt."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:161
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
 msgid "Item"
 msgstr ""
 
@@ -5380,7 +5380,7 @@ msgstr "Limits:"
 msgid "Line"
 msgstr "Līnijas"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:246
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
 msgid "Listed at, taxes included"
 msgstr ""
 
@@ -5531,7 +5531,7 @@ msgstr ""
 msgid "Market"
 msgstr "Tirgus"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:174
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "Market average"
 msgstr ""
 
@@ -7001,7 +7001,7 @@ msgstr "Nepieciešama tālruņa verifikācija"
 msgid "Pick a fight!"
 msgstr "Izvēlies kauju!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:180
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
 msgid "Pick a weapon or equipment in perfect condition to sell."
 msgstr ""
 
@@ -7159,7 +7159,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
 msgid "Price"
 msgstr ""
 
@@ -7357,7 +7357,7 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:266
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
 msgid "Put on sale"
 msgstr ""
 
@@ -8701,7 +8701,7 @@ msgid "Sugar Daddy"
 msgstr "Cukurtētiņš"
 
 #. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:206
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
 msgid "Suggested price <0>{0}</0>"
 msgstr ""
 
@@ -8931,7 +8931,7 @@ msgstr ""
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "MV saņems atpakaļ iemaksu, daļēju izmaksu par nodarītajiem bojājumiem, un 10% soda maksu <0>{0}</0>. Vai esi pārliecināts?"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
 msgid "The price must be positive"
 msgstr ""
 
@@ -10345,7 +10345,7 @@ msgstr "Tev jāizmanto visi 3 vērtību punkti (atlikuši {pointsRemaining})"
 msgid "You need a country to take part"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:149
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
@@ -10365,7 +10365,7 @@ msgstr "Premium dāvanas termiņš no <0/> ir iztecējis! Varbūt tu vēlies atb
 msgid "You prestiged and lost your levels"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
 msgid "You receive"
 msgstr ""
 

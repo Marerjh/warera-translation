@@ -1599,7 +1599,7 @@ msgstr "בעלות ברית"
 
 #. placeholder {0}: range.min
 #. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:120
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
 msgid "Allowed between {0} and {1}"
 msgstr ""
 
@@ -3950,7 +3950,7 @@ msgstr "אנרגיה"
 msgid "Ensign"
 msgstr "אנסיין"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:115
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
 msgid "Enter a price"
 msgstr ""
 
@@ -4995,7 +4995,7 @@ msgstr "זה רק משתפר... אולי"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "היא לא תרוויח שום ייצור ועובדיה לא יוכלו לעבוד."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:161
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
 msgid "Item"
 msgstr ""
 
@@ -5381,7 +5381,7 @@ msgstr "מוגבל:"
 msgid "Line"
 msgstr "קו"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:246
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
 msgid "Listed at, taxes included"
 msgstr ""
 
@@ -5532,7 +5532,7 @@ msgstr "סמלי מפה"
 msgid "Market"
 msgstr "שוק"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:174
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "Market average"
 msgstr ""
 
@@ -7002,7 +7002,7 @@ msgstr "נדרש אימות טלפוני"
 msgid "Pick a fight!"
 msgstr "בחר קרב!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:180
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
 msgid "Pick a weapon or equipment in perfect condition to sell."
 msgstr ""
 
@@ -7160,7 +7160,7 @@ msgstr "פרסטיז׳:"
 msgid "Prestige!"
 msgstr "פרסטיז׳!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
 msgid "Price"
 msgstr ""
 
@@ -7358,7 +7358,7 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:266
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
 msgid "Put on sale"
 msgstr ""
 
@@ -8702,7 +8702,7 @@ msgid "Sugar Daddy"
 msgstr "מאהב זקן"
 
 #. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:206
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
 msgid "Suggested price <0>{0}</0>"
 msgstr ""
 
@@ -8932,7 +8932,7 @@ msgstr ""
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "ה-MU תקבל בחזרה את דמי הקבלה, תשלום חלקי עבור נזק שנגרם ועמלת קנס של 10% בסך <0>{0}</0>. אתה בטוח?"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
 msgid "The price must be positive"
 msgstr ""
 
@@ -10346,7 +10346,7 @@ msgstr "עליך להוציא את כל 3 נקודות האתיקה ({pointsRema
 msgid "You need a country to take part"
 msgstr "אתה צריך מדינה כדי להשתתף"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:149
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
@@ -10366,7 +10366,7 @@ msgstr "פג תוקף מתנת הפרימיום שלך מ-<0/>! האם היית 
 msgid "You prestiged and lost your levels"
 msgstr "ביצעת פרסטיז׳ ואיבדת את הרמות שלך"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
 msgid "You receive"
 msgstr ""
 
