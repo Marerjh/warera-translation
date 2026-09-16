@@ -174,7 +174,7 @@ msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:570
+#: src/components/_political/map/MapMenu.tsx:605
 msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr ""
 
@@ -1539,7 +1539,7 @@ msgstr "全部类型"
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:203
 #: src/components/_political/country/CountryHeader.tsx:183
 #: src/components/_political/country/CountryTooltip.tsx:109
-#: src/components/_political/map/MapMenu.tsx:395
+#: src/components/_political/map/MapMenu.tsx:430
 msgid "Alliance"
 msgstr "联盟"
 
@@ -1888,7 +1888,7 @@ msgid "Atlas"
 msgstr ""
 
 #: src/components/_military/hit/HitButton.tsx:531
-#: src/components/_political/map/MapMenu.tsx:403
+#: src/components/_political/map/MapMenu.tsx:438
 #: src/components/_user/user/skills.frontConfig.tsx:45
 #: src/components/_user/user/skills.frontConfig.tsx:46
 msgid "Attack"
@@ -2666,7 +2666,7 @@ msgid "Climate"
 msgstr "气候"
 
 #: ../__ui/src/components/Modal/Modal.tsx:302
-#: src/components/_political/map/MapMenu.tsx:212
+#: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "关闭"
 
@@ -2678,7 +2678,7 @@ msgstr "Clovis Point"
 msgid "Cold af"
 msgstr "Cold af"
 
-#: src/components/_political/map/MapMenu.tsx:630
+#: src/components/_political/map/MapMenu.tsx:679
 msgid "Collect"
 msgstr ""
 
@@ -2690,7 +2690,7 @@ msgstr ""
 msgid "Collect Cases on the Map"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:611
+#: src/components/_political/map/MapMenu.tsx:665
 msgid "Collect the wooden case lying on this region"
 msgstr ""
 
@@ -3028,7 +3028,7 @@ msgstr "国家"
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
-#: src/components/_political/map/MapMenu.tsx:376
+#: src/components/_political/map/MapMenu.tsx:411
 #: src/components/_political/party/PartyHeader.tsx:84
 msgid "Country"
 msgstr "国家"
@@ -4463,7 +4463,7 @@ msgstr "给予 <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "地球仪模式(实验性功能)"
 
-#: src/components/_political/map/MapLibre.tsx:432
+#: src/components/_political/map/MapLibre.tsx:431
 msgid "Globe view isn't supported on this device"
 msgstr ""
 
@@ -4876,7 +4876,7 @@ msgstr "工业主义 vs 农业主义"
 msgid "Industrialist"
 msgstr "工业主义"
 
-#: src/components/_political/map/MapMenu.tsx:383
+#: src/components/_political/map/MapMenu.tsx:418
 msgid "Initial country"
 msgstr ""
 
@@ -5889,9 +5889,13 @@ msgstr "提案已提出"
 msgid "Motions"
 msgstr "提案"
 
-#: src/components/_political/region/MoveButton.tsx:103
-#: src/components/_political/region/MoveButton.tsx:115
+#: src/components/_political/region/MoveButton.tsx:118
+#: src/components/_political/region/MoveButton.tsx:130
 msgid "Move"
+msgstr ""
+
+#: src/components/_political/map/MapMenu.tsx:640
+msgid "Move & collect"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:519
@@ -5910,10 +5914,6 @@ msgstr "搬迁公司"
 #: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "搬迁公司"
-
-#: src/components/_political/map/MapMenu.tsx:612
-msgid "Move to this region to collect its wooden case"
-msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
@@ -6687,7 +6687,7 @@ msgstr "订单取消"
 msgid "Orders of <0/>"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:386
+#: src/components/_political/map/MapMenu.tsx:421
 msgid "Origin"
 msgstr ""
 
@@ -7533,7 +7533,7 @@ msgstr "使用后回复 <0>{0}</0>"
 
 #: src/components/_economy/company/CompanyHeader.tsx:46
 #: src/components/_military/mu/MuHeader.tsx:111
-#: src/components/_political/map/MapMenu.tsx:370
+#: src/components/_political/map/MapMenu.tsx:405
 #: src/components/_political/party/PartyFormModal.tsx:107
 #: src/components/_political/party/PartyHeader.tsx:90
 msgid "Region"
@@ -8665,7 +8665,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "最高统帅"
 
-#: src/components/_political/map/MapLibre.tsx:433
+#: src/components/_political/map/MapLibre.tsx:432
 msgid "Switched back to the flat map."
 msgstr ""
 
@@ -9924,7 +9924,7 @@ msgstr "木材"
 msgid "Wooden Case"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:152
+#: src/components/_political/map/MapMenu.tsx:159
 msgid "Wooden case collected!"
 msgstr ""
 
@@ -10044,7 +10044,7 @@ msgstr "你已是其他国家的总统了，请先卸任。"
 msgid "You are already vice president of another country. Resign first."
 msgstr "你已是其他国家的副总统了，请先卸任。"
 
-#: src/components/_political/map/MapMenu.tsx:655
+#: src/components/_political/map/MapMenu.tsx:698
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
 msgstr ""
