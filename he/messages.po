@@ -175,7 +175,7 @@ msgstr "{completedCount}/{totalCount} הושלם"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} נקודות פרסטיז׳ במיומנות זו ({savedPrestigeCount} נשמרו, נעולות עד לאיפוס)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:193
+#: src/components/_economy/inventory/DismantleModal.tsx:196
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr ""
 
@@ -183,7 +183,7 @@ msgstr ""
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:184
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
@@ -213,11 +213,11 @@ msgstr "{savedPrestigeCount} נקודות פרסטיז׳ פעילות במיומ
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} סיבובים"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:178
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:280
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 msgid "{selectedCount} selected"
 msgstr ""
 
@@ -2658,8 +2658,8 @@ msgstr "נלקח"
 msgid "Claimed so far"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:291
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:164
+#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr ""
 
@@ -2704,7 +2704,7 @@ msgstr "לחץ כדי לבחור הצעה"
 msgid "Climate"
 msgstr "אקלים"
 
-#: ../__ui/src/components/Modal/Modal.tsx:302
+#: ../__ui/src/components/Modal/Modal.tsx:316
 #: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "לסגור"
@@ -3668,7 +3668,7 @@ msgstr ""
 msgid "Dismantle Item"
 msgstr "לפרק פריט"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:172
+#: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "Dismantle items"
 msgstr ""
 
@@ -3997,7 +3997,7 @@ msgstr "ציוד:"
 msgid "Equipments"
 msgstr "ציוד"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:243
+#: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
 msgstr ""
 
@@ -4462,7 +4462,7 @@ msgstr "קבל <0>סקין מנוי</0> בלעדי!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "קבל מספר סקינים בבת אחת עם 30% הנחה!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:227
+#: src/components/_economy/inventory/DismantleModal.tsx:230
 msgid "Get supporter plan"
 msgstr "קבל תוכנית תומכים"
 
@@ -6385,8 +6385,8 @@ msgstr "עדיין אין דירוג קרקע."
 msgid "No home region set"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
 
@@ -6500,7 +6500,7 @@ msgstr "לא נמצאו עסקאות"
 msgid "No wars found"
 msgstr "לא נמצאו מלחמות"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:236
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -7369,8 +7369,8 @@ msgstr ""
 msgid "Put yourself to work!"
 msgstr "שים את עצמך לעבודה!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:303
+#: src/components/_economy/inventory/DismantleModal.tsx:46
+#: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
 msgstr "פירוק מהיר"
 
@@ -8157,7 +8157,7 @@ msgid "Select a region"
 msgstr "בחר אזור"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:255
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Select all ({0})"
 msgstr ""
 
@@ -8713,7 +8713,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "תמכו במשחק"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:214
+#: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "Support the game and quickly dismantle items!"
 msgstr "תמכו במשחק ופרקו במהירות פריטים!"
 
@@ -9479,7 +9479,7 @@ msgstr "אי שקט"
 msgid "Unrest Contributors"
 msgstr "תורמים לתסיסה"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:254
+#: src/components/_economy/inventory/DismantleModal.tsx:257
 msgid "Unselect all"
 msgstr "בטל את הבחירה בכולם"
 
@@ -9524,7 +9524,7 @@ msgstr "שדרוג מיומנויות"
 msgid "Upgrade storage"
 msgstr "שדרג אחסון"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:210
+#: src/components/_economy/inventory/DismantleModal.tsx:213
 msgid "Upgrade to supporter"
 msgstr "שדרג לתומך"
 
@@ -10203,7 +10203,7 @@ msgstr "הבאת 10 תינוקות לעולם (>= רמה {0})"
 msgid "You can change it later."
 msgstr "תוכל לשנות זאת מאוחר יותר."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:216
+#: src/components/_economy/inventory/DismantleModal.tsx:219
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "אתה יכול לפרק פריטים מהמלאי שלך על ידי בחירת פריט."
 

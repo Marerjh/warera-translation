@@ -174,7 +174,7 @@ msgstr "{completedCount}/{totalCount} završeno"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} poen/a prestiža u ovoj vještini ({savedPrestigeCount} spremljeno, zaključano do restarta vještina)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:193
+#: src/components/_economy/inventory/DismantleModal.tsx:196
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 
@@ -182,7 +182,7 @@ msgstr "{equippedCount, plural, one {# of them is equipped} other {# of them are
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} poena vještine"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:184
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr "{rareCount, plural, one {# od njih je rijedak ili bolji} other {# od njih su rjeđi ili bolji}}"
 
@@ -212,11 +212,11 @@ msgstr "{savedPrestigeCount} poen/a prestiža dodijeljeno ovoj vještini"
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Rundi"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:178
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr "{selectedCount, plural, one {Rastavite # predmet za} other {Rastavite # predmete za}}"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:280
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 msgid "{selectedCount} selected"
 msgstr "{selectedCount} odabrano"
 
@@ -2657,8 +2657,8 @@ msgstr "Preuzeto"
 msgid "Claimed so far"
 msgstr "Preuzeto do sad"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:291
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:164
+#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr "Očisti"
 
@@ -2703,7 +2703,7 @@ msgstr "Kliknite da biste izabrali prijedlog"
 msgid "Climate"
 msgstr "Klima"
 
-#: ../__ui/src/components/Modal/Modal.tsx:302
+#: ../__ui/src/components/Modal/Modal.tsx:316
 #: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Zatvori"
@@ -3667,7 +3667,7 @@ msgstr "Rastavite <0/> predmet/a"
 msgid "Dismantle Item"
 msgstr "Rastavljeni predmeti"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:172
+#: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "Dismantle items"
 msgstr "Rastavite predmete"
 
@@ -3996,7 +3996,7 @@ msgstr "Oprema:"
 msgid "Equipments"
 msgstr "Oprema"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:243
+#: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
 msgstr "Predmeti koje trenutačno koristite neće biti odabrani."
 
@@ -4461,7 +4461,7 @@ msgstr "Otključaj ekskluzivan <0>supporter skin</0>!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Nabavite više skinova odјednom sa popustom od 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:227
+#: src/components/_economy/inventory/DismantleModal.tsx:230
 msgid "Get supporter plan"
 msgstr "Kupi Supporter plan"
 
@@ -6384,8 +6384,8 @@ msgstr "Јoš uvijek nema rangiranih poena."
 msgid "No home region set"
 msgstr "Bez regije prebivališta"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
 
@@ -6499,7 +6499,7 @@ msgstr "Transakciјe nisu pronađene"
 msgid "No wars found"
 msgstr "Nisu pronađeni ratovi"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:236
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -7368,8 +7368,8 @@ msgstr "Prvo ovdje povećajte otpor."
 msgid "Put yourself to work!"
 msgstr "Baci se na posao!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:303
+#: src/components/_economy/inventory/DismantleModal.tsx:46
+#: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
 msgstr "Brže rastavljajte predmete"
 
@@ -8156,7 +8156,7 @@ msgid "Select a region"
 msgstr "Izaberite regiju"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:255
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Select all ({0})"
 msgstr ""
 
@@ -8712,7 +8712,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "Podržite igru"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:214
+#: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "Support the game and quickly dismantle items!"
 msgstr "Podržite igru i brže rastavljajte predmete!"
 
@@ -9478,7 +9478,7 @@ msgstr "Nemiri"
 msgid "Unrest Contributors"
 msgstr "Doprinositelji nemira"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:254
+#: src/components/_economy/inventory/DismantleModal.tsx:257
 msgid "Unselect all"
 msgstr "Poništite izbor svega"
 
@@ -9523,7 +9523,7 @@ msgstr "Nadogradite Vještine"
 msgid "Upgrade storage"
 msgstr "Nadogradite skladište"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:210
+#: src/components/_economy/inventory/DismantleModal.tsx:213
 msgid "Upgrade to supporter"
 msgstr "Postanite Supporter"
 
@@ -10202,7 +10202,7 @@ msgstr "Zaslužan je za odgoj 10 bebača u ovome svijetu (>= lvl {0})"
 msgid "You can change it later."
 msgstr "Moguća je kasnija izmjena."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:216
+#: src/components/_economy/inventory/DismantleModal.tsx:219
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Odaberite više predmeta iz inventara i rastavite ih odjednom."
 

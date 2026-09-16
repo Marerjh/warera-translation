@@ -174,7 +174,7 @@ msgstr "{completedCount}/{totalCount} completed"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:193
+#: src/components/_economy/inventory/DismantleModal.tsx:196
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 
@@ -182,7 +182,7 @@ msgstr "{equippedCount, plural, one {# of them is equipped} other {# of them are
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} Skill Points"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:184
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 
@@ -212,11 +212,11 @@ msgstr "{savedPrestigeCount} prestige point(s) active on this skill"
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Rounds"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:178
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:280
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 msgid "{selectedCount} selected"
 msgstr "{selectedCount} selected"
 
@@ -2657,8 +2657,8 @@ msgstr "Claimed"
 msgid "Claimed so far"
 msgstr "Claimed so far"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:291
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:164
+#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr "Clear"
 
@@ -2703,7 +2703,7 @@ msgstr "Click to select motion"
 msgid "Climate"
 msgstr "Climate"
 
-#: ../__ui/src/components/Modal/Modal.tsx:302
+#: ../__ui/src/components/Modal/Modal.tsx:316
 #: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Close"
@@ -3667,7 +3667,7 @@ msgstr "Dismantle <0/> items"
 msgid "Dismantle Item"
 msgstr "Dismantle Item"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:172
+#: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "Dismantle items"
 msgstr "Dismantle items"
 
@@ -3996,7 +3996,7 @@ msgstr "Equipment:"
 msgid "Equipments"
 msgstr "Equipments"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:243
+#: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
 msgstr "Equipped items are left out of select all."
 
@@ -4461,7 +4461,7 @@ msgstr "Get an exclusive <0>subscriber skin</0>!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Get multiple skins at once with a 30% discount!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:227
+#: src/components/_economy/inventory/DismantleModal.tsx:230
 msgid "Get supporter plan"
 msgstr "Get supporter plan"
 
@@ -6384,8 +6384,8 @@ msgstr "No ground ranking yet."
 msgid "No home region set"
 msgstr "No home region set"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr "No items found"
 
@@ -6499,7 +6499,7 @@ msgstr "No transactions found"
 msgid "No wars found"
 msgstr "No wars found"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:236
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "No weapons or equipment to dismantle"
 msgstr "No weapons or equipment to dismantle"
 
@@ -7368,8 +7368,8 @@ msgstr "Push the resistance here first."
 msgid "Put yourself to work!"
 msgstr "Put yourself to work!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:303
+#: src/components/_economy/inventory/DismantleModal.tsx:46
+#: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
 msgstr "Quick dismantle"
 
@@ -8156,7 +8156,7 @@ msgid "Select a region"
 msgstr "Select a region"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:255
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Select all ({0})"
 msgstr "Select all ({0})"
 
@@ -8712,7 +8712,7 @@ msgstr "Suggested price <0>{0}</0>"
 msgid "Support the game"
 msgstr "Support the game"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:214
+#: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "Support the game and quickly dismantle items!"
 msgstr "Support the game and quickly dismantle items!"
 
@@ -9478,7 +9478,7 @@ msgstr "Unrest"
 msgid "Unrest Contributors"
 msgstr "Unrest Contributors"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:254
+#: src/components/_economy/inventory/DismantleModal.tsx:257
 msgid "Unselect all"
 msgstr "Unselect all"
 
@@ -9523,7 +9523,7 @@ msgstr "Upgrade Skills"
 msgid "Upgrade storage"
 msgstr "Upgrade storage"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:210
+#: src/components/_economy/inventory/DismantleModal.tsx:213
 msgid "Upgrade to supporter"
 msgstr "Upgrade to supporter"
 
@@ -10202,7 +10202,7 @@ msgstr "You brought 10 babies to the world (>= lvl {0})"
 msgid "You can change it later."
 msgstr "You can change it later."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:216
+#: src/components/_economy/inventory/DismantleModal.tsx:219
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "You can dismantle items from your inventory by selecting an item."
 
