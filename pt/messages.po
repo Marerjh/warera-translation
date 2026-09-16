@@ -77,6 +77,11 @@ msgstr "(desenvolvimento médio dos países membros)"
 msgid "(own development)"
 msgstr "(desenvolvimento próprio)"
 
+#. placeholder {0}: Math.max(items.length, 1)
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
+msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
+msgstr ""
+
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
 msgid "{0} & allies"
@@ -1596,9 +1601,9 @@ msgstr "Nome da aliança"
 msgid "Allies"
 msgstr "Aliados"
 
-#. placeholder {0}: range.min
-#. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
+#. placeholder {0}: sharedRange.min
+#. placeholder {1}: sharedRange.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:139
 msgid "Allowed between {0} and {1}"
 msgstr ""
 
@@ -2653,6 +2658,7 @@ msgid "Claimed so far"
 msgstr "Resgatado até agora"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:291
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:164
 msgid "Clear"
 msgstr ""
 
@@ -3753,6 +3759,10 @@ msgstr "Dragão"
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "e. Referências a guerras e conflitos armados atuais fora do jogo (nomeadamente o conflito entre a Rússia e a Ucrânia e o conflito entre Israel e a Palestina)."
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
+msgid "Each item gets its own offer, all at the same price."
+msgstr ""
+
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
 msgstr "Cada ponto de prestígio equivale a {skillBonusLevels} nível(is) adicional(is)"
@@ -3949,7 +3959,7 @@ msgstr "Energia"
 msgid "Ensign"
 msgstr "Alferes"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:133
 msgid "Enter a price"
 msgstr ""
 
@@ -4994,10 +5004,6 @@ msgstr "Só melhora… talvez"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Não vai ganhar nenhuma produção e os seus trabalhadores não poderão trabalhar."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
-msgid "Item"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Item comprado"
@@ -5006,6 +5012,7 @@ msgstr "Item comprado"
 msgid "Item Market"
 msgstr "Equipamentos"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
 msgstr "Itens"
@@ -5380,7 +5387,7 @@ msgstr "Limitado:"
 msgid "Line"
 msgstr "Linha"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:297
 msgid "Listed at, taxes included"
 msgstr ""
 
@@ -5531,7 +5538,7 @@ msgstr "Ícones no mapa"
 msgid "Market"
 msgstr "Mercado"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:205
 msgid "Market average"
 msgstr ""
 
@@ -6378,7 +6385,7 @@ msgid "No home region set"
 msgstr "Região-base ainda não definida"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:196
 msgid "No items found"
 msgstr ""
 
@@ -7001,8 +7008,8 @@ msgstr "Verificação de telemóvel necessária"
 msgid "Pick a fight!"
 msgstr "Escolha uma batalha!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
-msgid "Pick a weapon or equipment in perfect condition to sell."
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
+msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
 msgstr ""
 
 #: src/utils/translations.tsx:117
@@ -7159,7 +7166,7 @@ msgstr "Prestígio:"
 msgid "Prestige!"
 msgstr "Prestígio!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
 msgid "Price"
 msgstr ""
 
@@ -7356,10 +7363,6 @@ msgstr "Avança contra a resistência aqui antes que se entrinchem..."
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
 msgstr "Avança contra a resistência aqui primeiro."
-
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
-msgid "Put on sale"
-msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -8192,7 +8195,7 @@ msgstr "Trabalho próprio"
 msgid "Self work <0/> times in your companies"
 msgstr "Trabalha <0/> vezes nas tuas empresas"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:77
 msgid "Sell an item"
 msgstr ""
 
@@ -8700,8 +8703,8 @@ msgstr "Iniciou sessão com sucesso!"
 msgid "Sugar Daddy"
 msgstr "Sugar Daddy"
 
-#. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
+#. placeholder {0}: sharedRange.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:253
 msgid "Suggested price <0>{0}</0>"
 msgstr ""
 
@@ -8931,7 +8934,7 @@ msgstr "O mapa precisa de WebGL2, que o teu navegador ou dispositivo não suport
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "A UM receberá de volta a caução, um pagamento parcial pelo dano dado, e uma penalização de 10% de <0>{0}</0>. Tem a certeza?"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:136
 msgid "The price must be positive"
 msgstr ""
 
@@ -8962,6 +8965,10 @@ msgstr "Já merecias que a vida te sorrisse."
 #: src/components/_common/GameRules.tsx:117
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
 msgstr "É estritamente proibido o uso de bots, scripts ou qualquer forma de automatização para obter vantagem sobre outros jogadores. Isto inclui, entre outros, web scraping e a criação de scripts que contornem a funcionalidade ou as limitações do jogo."
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
+msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -10345,7 +10352,7 @@ msgstr "Tem de gastar todos os 3 pontos de ética (faltam {pointsRemaining})"
 msgid "You need a country to take part"
 msgstr "Tens de pertencer a um país para participar"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
@@ -10365,8 +10372,16 @@ msgstr "A sua subscrição premium de <0/> expirou! Consideraria subscrever e ap
 msgid "You prestiged and lost your levels"
 msgstr "Entraste em prestígio e desceste de nível"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:288
 msgid "You receive"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
+msgid "You receive if all sell"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
+msgid "You receive, per item"
 msgstr ""
 
 #. placeholder {0}: data.rank

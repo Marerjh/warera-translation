@@ -77,6 +77,11 @@ msgstr "(prosječni razvoj člana saveza)"
 msgid "(own development)"
 msgstr "(vlastiti razvoj)"
 
+#. placeholder {0}: Math.max(items.length, 1)
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
+msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
+msgstr ""
+
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
 msgid "{0} & allies"
@@ -1596,9 +1601,9 @@ msgstr "Naziv saveza"
 msgid "Allies"
 msgstr "Saveznici"
 
-#. placeholder {0}: range.min
-#. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
+#. placeholder {0}: sharedRange.min
+#. placeholder {1}: sharedRange.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:139
 msgid "Allowed between {0} and {1}"
 msgstr ""
 
@@ -2653,6 +2658,7 @@ msgid "Claimed so far"
 msgstr "Preuzeto do sad"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:291
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:164
 msgid "Clear"
 msgstr ""
 
@@ -3753,6 +3759,10 @@ msgstr "Zmaј"
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "e. Sadržaj o trenutnim ratnim konfliktima (npr. sadržaj o ruskoj invaziji na ukrajinu i sukobima na bliskom istoku)"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
+msgid "Each item gets its own offer, all at the same price."
+msgstr ""
+
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
 msgstr "Svaki poen prestiža daje ekvivalent {skillBonusLevels} razine odabrane vještine"
@@ -3949,7 +3959,7 @@ msgstr "Energiјa"
 msgid "Ensign"
 msgstr "Potporučnik"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:133
 msgid "Enter a price"
 msgstr ""
 
@@ -4994,10 +5004,6 @@ msgstr "Ide nabolje... možda"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Neće ništa proizvesti i njeni radnici neće moći raditi."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
-msgid "Item"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Kupovina predmeta"
@@ -5006,6 +5012,7 @@ msgstr "Kupovina predmeta"
 msgid "Item Market"
 msgstr "Transakcije predmeta"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
 msgstr "Predmeti"
@@ -5380,7 +5387,7 @@ msgstr "Ograničeno:"
 msgid "Line"
 msgstr "Liniјe"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:297
 msgid "Listed at, taxes included"
 msgstr ""
 
@@ -5531,7 +5538,7 @@ msgstr "Ikone mape"
 msgid "Market"
 msgstr "Tržište"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:205
 msgid "Market average"
 msgstr ""
 
@@ -6378,7 +6385,7 @@ msgid "No home region set"
 msgstr "Bez regije prebivališta"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:196
 msgid "No items found"
 msgstr ""
 
@@ -7001,8 +7008,8 @@ msgstr "Potrebna јe verifikaciјa telefona"
 msgid "Pick a fight!"
 msgstr "Izaberite bitku!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
-msgid "Pick a weapon or equipment in perfect condition to sell."
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
+msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
 msgstr ""
 
 #: src/utils/translations.tsx:117
@@ -7159,7 +7166,7 @@ msgstr "Prestiž:"
 msgid "Prestige!"
 msgstr "Prestiž!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
 msgid "Price"
 msgstr ""
 
@@ -7356,10 +7363,6 @@ msgstr "Povećajte otpor ovdje prije nego što utvrde rovove..."
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
 msgstr "Prvo ovdje povećajte otpor."
-
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
-msgid "Put on sale"
-msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -8192,7 +8195,7 @@ msgstr "Samostalni Rad"
 msgid "Self work <0/> times in your companies"
 msgstr "Radite samostalno <0/> puta u vlastitim kompanijama"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:77
 msgid "Sell an item"
 msgstr ""
 
@@ -8700,8 +8703,8 @@ msgstr "Uspješna prijava!"
 msgid "Sugar Daddy"
 msgstr "Bogati Tatica"
 
-#. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
+#. placeholder {0}: sharedRange.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:253
 msgid "Suggested price <0>{0}</0>"
 msgstr ""
 
@@ -8931,7 +8934,7 @@ msgstr "Prikaz mape zahtijeva WebGL koji vaš uređaj ili web preglednik ne podr
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "VJ će dobit povrat od naknade za prihvaćanje, djelomičnu isplatu za nanesenu štetu i 10% penalizacije od <0>{0}</0>. Jeste li sigurni?"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:136
 msgid "The price must be positive"
 msgstr ""
 
@@ -8962,6 +8965,10 @@ msgstr "Univerzum ti duguјe nešto veliko.."
 #: src/components/_common/GameRules.tsx:117
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
 msgstr "Korištenje botova, skripti ili bilo koje forme automatizacije za dobivanje prednosti nad drugim igračima je striktno zabranjeno. Ovo uključuje, ali nije ograničeno na web-scraping i stvaranje skripti koje zaobilaze zamišljene restrikcije ili funkcije igre."
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
+msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -10345,7 +10352,7 @@ msgstr "Moraš potrošiti sva 3 poena etike (preostalo {pointsRemaining})"
 msgid "You need a country to take part"
 msgstr "Za sudjelovanje vam je potrebna država"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
@@ -10365,8 +10372,16 @@ msgstr "Tvoј premium poklon od <0/> јe istekao! Jesi li razmislio o pretplati 
 msgid "You prestiged and lost your levels"
 msgstr "Žrtvovao je dio stečenog iskustva za prestiž i moć."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:288
 msgid "You receive"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
+msgid "You receive if all sell"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
+msgid "You receive, per item"
 msgstr ""
 
 #. placeholder {0}: data.rank

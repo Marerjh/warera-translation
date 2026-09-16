@@ -77,6 +77,11 @@ msgstr "(member average development)"
 msgid "(own development)"
 msgstr "(own development)"
 
+#. placeholder {0}: Math.max(items.length, 1)
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
+msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
+msgstr "{0, plural, one {Put on sale} other {Put # items on sale}}"
+
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
 msgid "{0} & allies"
@@ -1596,9 +1601,9 @@ msgstr "Alliance name"
 msgid "Allies"
 msgstr "Allies"
 
-#. placeholder {0}: range.min
-#. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
+#. placeholder {0}: sharedRange.min
+#. placeholder {1}: sharedRange.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:139
 msgid "Allowed between {0} and {1}"
 msgstr "Allowed between {0} and {1}"
 
@@ -2653,6 +2658,7 @@ msgid "Claimed so far"
 msgstr "Claimed so far"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:291
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:164
 msgid "Clear"
 msgstr "Clear"
 
@@ -3753,6 +3759,10 @@ msgstr "Dragon"
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
+msgid "Each item gets its own offer, all at the same price."
+msgstr "Each item gets its own offer, all at the same price."
+
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
 msgstr "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -3949,7 +3959,7 @@ msgstr "Energy"
 msgid "Ensign"
 msgstr "Ensign"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:133
 msgid "Enter a price"
 msgstr "Enter a price"
 
@@ -4994,10 +5004,6 @@ msgstr "It only gets better… maybe"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "It will not gain any production and its workers will not be able to work."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
-msgid "Item"
-msgstr "Item"
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Item bought"
@@ -5006,6 +5012,7 @@ msgstr "Item bought"
 msgid "Item Market"
 msgstr "Item Market"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
 msgstr "Items"
@@ -5380,7 +5387,7 @@ msgstr "Limited:"
 msgid "Line"
 msgstr "Line"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:297
 msgid "Listed at, taxes included"
 msgstr "Listed at, taxes included"
 
@@ -5531,7 +5538,7 @@ msgstr "Map icons"
 msgid "Market"
 msgstr "Market"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:205
 msgid "Market average"
 msgstr "Market average"
 
@@ -6378,7 +6385,7 @@ msgid "No home region set"
 msgstr "No home region set"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:196
 msgid "No items found"
 msgstr "No items found"
 
@@ -7001,9 +7008,9 @@ msgstr "Phone verification required"
 msgid "Pick a fight!"
 msgstr "Pick a fight!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
-msgid "Pick a weapon or equipment in perfect condition to sell."
-msgstr "Pick a weapon or equipment in perfect condition to sell."
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
+msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
+msgstr "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
 
 #: src/utils/translations.tsx:117
 msgid "Pill"
@@ -7159,7 +7166,7 @@ msgstr "Prestige:"
 msgid "Prestige!"
 msgstr "Prestige!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
 msgid "Price"
 msgstr "Price"
 
@@ -7356,10 +7363,6 @@ msgstr "Push the resistance here before they dig in..."
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
 msgstr "Push the resistance here first."
-
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
-msgid "Put on sale"
-msgstr "Put on sale"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -8192,7 +8195,7 @@ msgstr "Self Work"
 msgid "Self work <0/> times in your companies"
 msgstr "Self work <0/> times in your companies"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:77
 msgid "Sell an item"
 msgstr "Sell an item"
 
@@ -8700,8 +8703,8 @@ msgstr "Successfully logged in!"
 msgid "Sugar Daddy"
 msgstr "Sugar Daddy"
 
-#. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
+#. placeholder {0}: sharedRange.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:253
 msgid "Suggested price <0>{0}</0>"
 msgstr "Suggested price <0>{0}</0>"
 
@@ -8931,7 +8934,7 @@ msgstr "The map needs WebGL2, which your browser or device doesn't support. Ever
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:136
 msgid "The price must be positive"
 msgstr "The price must be positive"
 
@@ -8962,6 +8965,10 @@ msgstr "The universe owes you something big"
 #: src/components/_common/GameRules.tsx:117
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
 msgstr "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
+msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
+msgstr "These items have no authorized price in common. Remove the cheapest or the most valuable one."
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -10345,7 +10352,7 @@ msgstr "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgid "You need a country to take part"
 msgstr "You need a country to take part"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr "You need to be level {minLevel} to sell equipment"
 
@@ -10365,9 +10372,17 @@ msgstr "Your premium gift from <0/> has expired! Would you consider subscribing 
 msgid "You prestiged and lost your levels"
 msgstr "You prestiged and lost your levels"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:288
 msgid "You receive"
 msgstr "You receive"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
+msgid "You receive if all sell"
+msgstr "You receive if all sell"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
+msgid "You receive, per item"
+msgstr "You receive, per item"
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
