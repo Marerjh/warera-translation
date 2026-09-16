@@ -77,6 +77,11 @@ msgstr "(üye ortalama gelişimi)"
 msgid "(own development)"
 msgstr "(kendi gelişimi)"
 
+#. placeholder {0}: Math.max(items.length, 1)
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
+msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
+msgstr ""
+
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
 msgid "{0} & allies"
@@ -169,7 +174,7 @@ msgstr "{completedCount}/{totalCount} tamamlandı"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:193
+#: src/components/_economy/inventory/DismantleModal.tsx:196
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr ""
 
@@ -177,7 +182,7 @@ msgstr ""
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:184
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
@@ -207,11 +212,11 @@ msgstr ""
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Tur"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:178
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:280
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 msgid "{selectedCount} selected"
 msgstr ""
 
@@ -1596,9 +1601,9 @@ msgstr "İttifak adı"
 msgid "Allies"
 msgstr "Müttefikler"
 
-#. placeholder {0}: range.min
-#. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
+#. placeholder {0}: sharedRange.min
+#. placeholder {1}: sharedRange.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:139
 msgid "Allowed between {0} and {1}"
 msgstr ""
 
@@ -2652,7 +2657,8 @@ msgstr "Talep Edildi"
 msgid "Claimed so far"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:291
+#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr ""
 
@@ -2697,7 +2703,7 @@ msgstr "Önerge seçmek için tıkla"
 msgid "Climate"
 msgstr "İklim"
 
-#: ../__ui/src/components/Modal/Modal.tsx:302
+#: ../__ui/src/components/Modal/Modal.tsx:316
 #: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Kapat"
@@ -3661,7 +3667,7 @@ msgstr ""
 msgid "Dismantle Item"
 msgstr "Eşyayı Parçala"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:172
+#: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "Dismantle items"
 msgstr ""
 
@@ -3752,6 +3758,10 @@ msgstr "Ejderha"
 #: src/components/_common/GameRules.tsx:262
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "e. Devam eden gerçek dünya savaşları ve silahlı çatışmalar hakkında içerik (özellikle Rusya-Ukrayna savaşı ve İsrail-Filistin çatışması)"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
+msgid "Each item gets its own offer, all at the same price."
+msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -3949,7 +3959,7 @@ msgstr "Enerji"
 msgid "Ensign"
 msgstr "Teğmen"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:133
 msgid "Enter a price"
 msgstr ""
 
@@ -3986,7 +3996,7 @@ msgstr "Ekipman:"
 msgid "Equipments"
 msgstr "Ekipmanlar"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:243
+#: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
 msgstr ""
 
@@ -4451,7 +4461,7 @@ msgstr "Özel bir <0>abone kostümü</0> alın!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Birden fazla kostümü aynı anda %30 indirimle alın!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:227
+#: src/components/_economy/inventory/DismantleModal.tsx:230
 msgid "Get supporter plan"
 msgstr "Destekçi planı al"
 
@@ -4994,10 +5004,6 @@ msgstr "Herşey güzel olacak… belki"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Herhangi bir üretim kazanmayacak ve işçileri çalışamayacak."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
-msgid "Item"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Eşya satın alındı"
@@ -5006,6 +5012,7 @@ msgstr "Eşya satın alındı"
 msgid "Item Market"
 msgstr "Eşya Pazarı"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
 msgstr "Eşyalar"
@@ -5380,7 +5387,7 @@ msgstr "Sınırlı:"
 msgid "Line"
 msgstr "Çizgi"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:297
 msgid "Listed at, taxes included"
 msgstr ""
 
@@ -5531,7 +5538,7 @@ msgstr ""
 msgid "Market"
 msgstr "Pazar"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:205
 msgid "Market average"
 msgstr ""
 
@@ -6377,8 +6384,8 @@ msgstr "Henüz zemin sıralaması yok."
 msgid "No home region set"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
 
@@ -6492,7 +6499,7 @@ msgstr "İşlem bulunamadı"
 msgid "No wars found"
 msgstr "Savaş bulunamadı"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:236
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -7001,8 +7008,8 @@ msgstr "Telefon doğrulama gerekli"
 msgid "Pick a fight!"
 msgstr "Bir savaş seç!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
-msgid "Pick a weapon or equipment in perfect condition to sell."
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
+msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
 msgstr ""
 
 #: src/utils/translations.tsx:117
@@ -7159,7 +7166,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
 msgid "Price"
 msgstr ""
 
@@ -7357,16 +7364,12 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
-msgid "Put on sale"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
 msgstr "İşe başla!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:303
+#: src/components/_economy/inventory/DismantleModal.tsx:46
+#: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
 msgstr "Hızlı parçala"
 
@@ -8153,7 +8156,7 @@ msgid "Select a region"
 msgstr "Bir bölge seçin"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:255
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Select all ({0})"
 msgstr ""
 
@@ -8192,7 +8195,7 @@ msgstr "Kendi İşin"
 msgid "Self work <0/> times in your companies"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:77
 msgid "Sell an item"
 msgstr ""
 
@@ -8700,8 +8703,8 @@ msgstr "Başarıyla giriş yapıldı!"
 msgid "Sugar Daddy"
 msgstr "Sugar Daddy"
 
-#. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
+#. placeholder {0}: sharedRange.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:253
 msgid "Suggested price <0>{0}</0>"
 msgstr ""
 
@@ -8709,7 +8712,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "Oyunu destekle"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:214
+#: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "Support the game and quickly dismantle items!"
 msgstr "Oyunu destekle ve eşyaları hızlıca parçala!"
 
@@ -8931,7 +8934,7 @@ msgstr ""
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "AB, kabul ücretini, yapılan hasar için kısmi ödemeyi ve <0>{0}</0> tutarında %10 ceza ücretini geri alacak. Emin misiniz?"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:136
 msgid "The price must be positive"
 msgstr ""
 
@@ -8962,6 +8965,10 @@ msgstr "Evren sana büyük bir şey borçlu"
 #: src/components/_common/GameRules.tsx:117
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
 msgstr "Botların, komut dosyalarının veya diğer oyunculara karşı avantaj elde etmek için her türlü otomasyonun kullanılması kesinlikle yasaktır. Bu, web kazıma ve oyunun amaçlanan işlevselliğini veya kısıtlamalarını atlayan komut dosyaları oluşturmayı içerir ancak bunlarla sınırlı değildir."
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
+msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -9471,7 +9478,7 @@ msgstr "Huzursuzluk"
 msgid "Unrest Contributors"
 msgstr "Huzursuzluğa Katkıda Bulunanlar"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:254
+#: src/components/_economy/inventory/DismantleModal.tsx:257
 msgid "Unselect all"
 msgstr "Seçimi kaldır"
 
@@ -9516,7 +9523,7 @@ msgstr "Becerileri Yükselt"
 msgid "Upgrade storage"
 msgstr "Depolamayı yükselt"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:210
+#: src/components/_economy/inventory/DismantleModal.tsx:213
 msgid "Upgrade to supporter"
 msgstr "Destekçi ol"
 
@@ -10195,7 +10202,7 @@ msgstr "Dünyaya 10 bebek getirdin (>= seviye {0})"
 msgid "You can change it later."
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:216
+#: src/components/_economy/inventory/DismantleModal.tsx:219
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Bir eşya seçerek envanterindeki eşyaları parçalayabilirsin."
 
@@ -10345,7 +10352,7 @@ msgstr "3 ilke puanınızın tamamını harcamanız gerekiyor ({pointsRemaining}
 msgid "You need a country to take part"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
@@ -10365,8 +10372,16 @@ msgstr "<0/>'dan premium hediyen sona erdi! Abone olup oyunu desteklemeyi düş�
 msgid "You prestiged and lost your levels"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:288
 msgid "You receive"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
+msgid "You receive if all sell"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
+msgid "You receive, per item"
 msgstr ""
 
 #. placeholder {0}: data.rank

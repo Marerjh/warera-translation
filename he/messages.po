@@ -78,6 +78,11 @@ msgstr "(ממוצע ההתפתחות של החבר)"
 msgid "(own development)"
 msgstr "(התפתחות עצמית)"
 
+#. placeholder {0}: Math.max(items.length, 1)
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
+msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
+msgstr ""
+
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
 msgid "{0} & allies"
@@ -170,7 +175,7 @@ msgstr "{completedCount}/{totalCount} הושלם"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} נקודות פרסטיז׳ במיומנות זו ({savedPrestigeCount} נשמרו, נעולות עד לאיפוס)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:193
+#: src/components/_economy/inventory/DismantleModal.tsx:196
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr ""
 
@@ -178,7 +183,7 @@ msgstr ""
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:184
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
@@ -208,11 +213,11 @@ msgstr "{savedPrestigeCount} נקודות פרסטיז׳ פעילות במיומ
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} סיבובים"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:178
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:280
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 msgid "{selectedCount} selected"
 msgstr ""
 
@@ -1597,9 +1602,9 @@ msgstr "שם הברית"
 msgid "Allies"
 msgstr "בעלות ברית"
 
-#. placeholder {0}: range.min
-#. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
+#. placeholder {0}: sharedRange.min
+#. placeholder {1}: sharedRange.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:139
 msgid "Allowed between {0} and {1}"
 msgstr ""
 
@@ -2653,7 +2658,8 @@ msgstr "נלקח"
 msgid "Claimed so far"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:291
+#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr ""
 
@@ -2698,7 +2704,7 @@ msgstr "לחץ כדי לבחור הצעה"
 msgid "Climate"
 msgstr "אקלים"
 
-#: ../__ui/src/components/Modal/Modal.tsx:302
+#: ../__ui/src/components/Modal/Modal.tsx:316
 #: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "לסגור"
@@ -3662,7 +3668,7 @@ msgstr ""
 msgid "Dismantle Item"
 msgstr "לפרק פריט"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:172
+#: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "Dismantle items"
 msgstr ""
 
@@ -3753,6 +3759,10 @@ msgstr "דרקון"
 #: src/components/_common/GameRules.tsx:262
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "ה. תוכן על מלחמות מתמשכות בעולם האמיתי וסכסוכים מזוינים (בעיקר מלחמת רוסיה-אוקראינה והסכסוך הישראלי-פלסטיני)"
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
+msgid "Each item gets its own offer, all at the same price."
+msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -3950,7 +3960,7 @@ msgstr "אנרגיה"
 msgid "Ensign"
 msgstr "אנסיין"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:133
 msgid "Enter a price"
 msgstr ""
 
@@ -3987,7 +3997,7 @@ msgstr "ציוד:"
 msgid "Equipments"
 msgstr "ציוד"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:243
+#: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
 msgstr ""
 
@@ -4452,7 +4462,7 @@ msgstr "קבל <0>סקין מנוי</0> בלעדי!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "קבל מספר סקינים בבת אחת עם 30% הנחה!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:227
+#: src/components/_economy/inventory/DismantleModal.tsx:230
 msgid "Get supporter plan"
 msgstr "קבל תוכנית תומכים"
 
@@ -4995,10 +5005,6 @@ msgstr "זה רק משתפר... אולי"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "היא לא תרוויח שום ייצור ועובדיה לא יוכלו לעבוד."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
-msgid "Item"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "פריט נקנה"
@@ -5007,6 +5013,7 @@ msgstr "פריט נקנה"
 msgid "Item Market"
 msgstr "שוק פריטים"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
 msgstr "פריטים"
@@ -5381,7 +5388,7 @@ msgstr "מוגבל:"
 msgid "Line"
 msgstr "קו"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:297
 msgid "Listed at, taxes included"
 msgstr ""
 
@@ -5532,7 +5539,7 @@ msgstr "סמלי מפה"
 msgid "Market"
 msgstr "שוק"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:205
 msgid "Market average"
 msgstr ""
 
@@ -6378,8 +6385,8 @@ msgstr "עדיין אין דירוג קרקע."
 msgid "No home region set"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
 
@@ -6493,7 +6500,7 @@ msgstr "לא נמצאו עסקאות"
 msgid "No wars found"
 msgstr "לא נמצאו מלחמות"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:236
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -7002,8 +7009,8 @@ msgstr "נדרש אימות טלפוני"
 msgid "Pick a fight!"
 msgstr "בחר קרב!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
-msgid "Pick a weapon or equipment in perfect condition to sell."
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
+msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
 msgstr ""
 
 #: src/utils/translations.tsx:117
@@ -7160,7 +7167,7 @@ msgstr "פרסטיז׳:"
 msgid "Prestige!"
 msgstr "פרסטיז׳!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
 msgid "Price"
 msgstr ""
 
@@ -7358,16 +7365,12 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
-msgid "Put on sale"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
 msgstr "שים את עצמך לעבודה!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:303
+#: src/components/_economy/inventory/DismantleModal.tsx:46
+#: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
 msgstr "פירוק מהיר"
 
@@ -8154,7 +8157,7 @@ msgid "Select a region"
 msgstr "בחר אזור"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:255
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Select all ({0})"
 msgstr ""
 
@@ -8193,7 +8196,7 @@ msgstr "עבודה עצמית"
 msgid "Self work <0/> times in your companies"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:77
 msgid "Sell an item"
 msgstr ""
 
@@ -8701,8 +8704,8 @@ msgstr "התחבר בהצלחה!"
 msgid "Sugar Daddy"
 msgstr "מאהב זקן"
 
-#. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
+#. placeholder {0}: sharedRange.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:253
 msgid "Suggested price <0>{0}</0>"
 msgstr ""
 
@@ -8710,7 +8713,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "תמכו במשחק"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:214
+#: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "Support the game and quickly dismantle items!"
 msgstr "תמכו במשחק ופרקו במהירות פריטים!"
 
@@ -8932,7 +8935,7 @@ msgstr ""
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "ה-MU תקבל בחזרה את דמי הקבלה, תשלום חלקי עבור נזק שנגרם ועמלת קנס של 10% בסך <0>{0}</0>. אתה בטוח?"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:136
 msgid "The price must be positive"
 msgstr ""
 
@@ -8963,6 +8966,10 @@ msgstr "היקום חייב לך משהו גדול"
 #: src/components/_common/GameRules.tsx:117
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
 msgstr "השימוש בבוטים, סקריפטים או כל צורה של אוטומציה כדי להשיג יתרון על פני שחקנים אחרים אסור בהחלט. זה כולל, אך לא מוגבל, גירוד אינטרנט ויצירת סקריפטים שעוקפים את הפונקציונליות או ההגבלות המיועדות למשחק."
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
+msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -9472,7 +9479,7 @@ msgstr "אי שקט"
 msgid "Unrest Contributors"
 msgstr "תורמים לתסיסה"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:254
+#: src/components/_economy/inventory/DismantleModal.tsx:257
 msgid "Unselect all"
 msgstr "בטל את הבחירה בכולם"
 
@@ -9517,7 +9524,7 @@ msgstr "שדרוג מיומנויות"
 msgid "Upgrade storage"
 msgstr "שדרג אחסון"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:210
+#: src/components/_economy/inventory/DismantleModal.tsx:213
 msgid "Upgrade to supporter"
 msgstr "שדרג לתומך"
 
@@ -10196,7 +10203,7 @@ msgstr "הבאת 10 תינוקות לעולם (>= רמה {0})"
 msgid "You can change it later."
 msgstr "תוכל לשנות זאת מאוחר יותר."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:216
+#: src/components/_economy/inventory/DismantleModal.tsx:219
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "אתה יכול לפרק פריטים מהמלאי שלך על ידי בחירת פריט."
 
@@ -10346,7 +10353,7 @@ msgstr "עליך להוציא את כל 3 נקודות האתיקה ({pointsRema
 msgid "You need a country to take part"
 msgstr "אתה צריך מדינה כדי להשתתף"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
@@ -10366,8 +10373,16 @@ msgstr "פג תוקף מתנת הפרימיום שלך מ-<0/>! האם היית 
 msgid "You prestiged and lost your levels"
 msgstr "ביצעת פרסטיז׳ ואיבדת את הרמות שלך"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:288
 msgid "You receive"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
+msgid "You receive if all sell"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
+msgid "You receive, per item"
 msgstr ""
 
 #. placeholder {0}: data.rank

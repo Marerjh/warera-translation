@@ -78,6 +78,11 @@ msgstr ""
 msgid "(own development)"
 msgstr ""
 
+#. placeholder {0}: Math.max(items.length, 1)
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
+msgid "{0, plural, one {Put on sale} other {Put # items on sale}}"
+msgstr ""
+
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
 msgid "{0} & allies"
@@ -170,7 +175,7 @@ msgstr "{completedCount}/{totalCount} suoritettu"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:193
+#: src/components/_economy/inventory/DismantleModal.tsx:196
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr ""
 
@@ -178,7 +183,7 @@ msgstr ""
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:184
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
@@ -208,11 +213,11 @@ msgstr ""
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} kierrosta"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:178
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:280
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 msgid "{selectedCount} selected"
 msgstr ""
 
@@ -1597,9 +1602,9 @@ msgstr ""
 msgid "Allies"
 msgstr "Liittolaisia"
 
-#. placeholder {0}: range.min
-#. placeholder {1}: range.max
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:123
+#. placeholder {0}: sharedRange.min
+#. placeholder {1}: sharedRange.max
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:139
 msgid "Allowed between {0} and {1}"
 msgstr ""
 
@@ -2653,7 +2658,8 @@ msgstr "Lunastettu"
 msgid "Claimed so far"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:291
+#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr ""
 
@@ -2698,7 +2704,7 @@ msgstr "Valitse liike napsauttamalla"
 msgid "Climate"
 msgstr "Ilmasto"
 
-#: ../__ui/src/components/Modal/Modal.tsx:302
+#: ../__ui/src/components/Modal/Modal.tsx:316
 #: src/components/_political/map/MapMenu.tsx:247
 msgid "Close"
 msgstr "Sulje"
@@ -3662,7 +3668,7 @@ msgstr ""
 msgid "Dismantle Item"
 msgstr "Pura kohde"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:172
+#: src/components/_economy/inventory/DismantleModal.tsx:175
 msgid "Dismantle items"
 msgstr ""
 
@@ -3752,6 +3758,10 @@ msgstr "Lohikäärme"
 
 #: src/components/_common/GameRules.tsx:262
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
+msgid "Each item gets its own offer, all at the same price."
 msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
@@ -3950,7 +3960,7 @@ msgstr "Energiaa"
 msgid "Ensign"
 msgstr "Lippuri"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:118
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:133
 msgid "Enter a price"
 msgstr ""
 
@@ -3987,7 +3997,7 @@ msgstr "Laitteet:"
 msgid "Equipments"
 msgstr "Varusteet"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:243
+#: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
 msgstr ""
 
@@ -4452,7 +4462,7 @@ msgstr ""
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Hanki useita skinejä kerralla 30% alennuksella!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:227
+#: src/components/_economy/inventory/DismantleModal.tsx:230
 msgid "Get supporter plan"
 msgstr "Hanki tukisuunnitelma"
 
@@ -4995,10 +5005,6 @@ msgstr "Se vain paranee… ehkä"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Se ei saa tuotantoa eivätkä sen työntekijät pysty työskentelemään."
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:164
-msgid "Item"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
 msgstr "Ostettu tuote"
@@ -5007,6 +5013,7 @@ msgstr "Ostettu tuote"
 msgid "Item Market"
 msgstr "Tuotemarkkinat"
 
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
 msgstr "Tuotteet"
@@ -5381,7 +5388,7 @@ msgstr "Rajoitettu:"
 msgid "Line"
 msgstr "Linja"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:249
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:297
 msgid "Listed at, taxes included"
 msgstr ""
 
@@ -5532,7 +5539,7 @@ msgstr ""
 msgid "Market"
 msgstr "Markkinat"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:205
 msgid "Market average"
 msgstr ""
 
@@ -6378,8 +6385,8 @@ msgstr "Ei vielä maasijaa."
 msgid "No home region set"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:260
-#: src/components/_economy/inventory/ItemSelectorPopover.tsx:136
+#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
 
@@ -6493,7 +6500,7 @@ msgstr "Tapahtumia ei löytynyt"
 msgid "No wars found"
 msgstr "Sotia ei löytynyt"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:236
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -7002,8 +7009,8 @@ msgstr "Puhelinvahvistus vaaditaan"
 msgid "Pick a fight!"
 msgstr "Haastaa riitaa!"
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:183
-msgid "Pick a weapon or equipment in perfect condition to sell."
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
+msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
 msgstr ""
 
 #: src/utils/translations.tsx:117
@@ -7160,7 +7167,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:194
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:238
 msgid "Price"
 msgstr ""
 
@@ -7358,16 +7365,12 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:269
-msgid "Put on sale"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
 msgstr "Laita itsesi töihin!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:303
+#: src/components/_economy/inventory/DismantleModal.tsx:46
+#: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
 msgstr "Nopea purkaminen"
 
@@ -8154,7 +8157,7 @@ msgid "Select a region"
 msgstr "Valitse alue"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:255
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Select all ({0})"
 msgstr ""
 
@@ -8193,7 +8196,7 @@ msgstr "Itsetyö"
 msgid "Self work <0/> times in your companies"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:74
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:77
 msgid "Sell an item"
 msgstr ""
 
@@ -8701,8 +8704,8 @@ msgstr "Sisäänkirjautuminen onnistui!"
 msgid "Sugar Daddy"
 msgstr "Rikas tukija"
 
-#. placeholder {0}: range.estimatedValue
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:209
+#. placeholder {0}: sharedRange.estimatedValue
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:253
 msgid "Suggested price <0>{0}</0>"
 msgstr ""
 
@@ -8710,7 +8713,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "Tue peliä"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:214
+#: src/components/_economy/inventory/DismantleModal.tsx:217
 msgid "Support the game and quickly dismantle items!"
 msgstr "Tue peliä ja pura esineet nopeasti!"
 
@@ -8932,7 +8935,7 @@ msgstr ""
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:121
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:136
 msgid "The price must be positive"
 msgstr ""
 
@@ -8962,6 +8965,10 @@ msgstr "Universumi on sinulle jotain suurta velkaa"
 
 #: src/components/_common/GameRules.tsx:117
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
+msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
@@ -9472,7 +9479,7 @@ msgstr "Levottomuus"
 msgid "Unrest Contributors"
 msgstr "Levottomuuksien avustajat"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:254
+#: src/components/_economy/inventory/DismantleModal.tsx:257
 msgid "Unselect all"
 msgstr "Poista kaikki valinnat"
 
@@ -9517,7 +9524,7 @@ msgstr "Päivitä taitoja"
 msgid "Upgrade storage"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:210
+#: src/components/_economy/inventory/DismantleModal.tsx:213
 msgid "Upgrade to supporter"
 msgstr "Päivitä tukijaksi"
 
@@ -10196,7 +10203,7 @@ msgstr ""
 msgid "You can change it later."
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:216
+#: src/components/_economy/inventory/DismantleModal.tsx:219
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Voit purkaa esineitä varastostasi valitsemalla tuotteen."
 
@@ -10346,7 +10353,7 @@ msgstr "Sinun on käytettävä kaikki 3 eettistä pistettä ({pointsRemaining} j
 msgid "You need a country to take part"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:152
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
@@ -10366,8 +10373,16 @@ msgstr "Premium-lahjasi käyttäjältä <0/> on vanhentunut! Harkitsisitko tilau
 msgid "You prestiged and lost your levels"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:241
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:288
 msgid "You receive"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:306
+msgid "You receive if all sell"
+msgstr ""
+
+#: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:286
+msgid "You receive, per item"
 msgstr ""
 
 #. placeholder {0}: data.rank
