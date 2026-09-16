@@ -1799,7 +1799,7 @@ msgstr "Članak laјkan"
 
 #: src/components/_economy/transaction/TransactionList.tsx:86
 msgid "Article Tip"
-msgstr "Transakcije napojnica"
+msgstr "Napojnice"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2020
 #: src/components/_user/notification/notification.frontConfig.tsx:2021
@@ -3686,7 +3686,7 @@ msgstr "Donirajte <0/> novca VJ ili državi"
 
 #: src/components/_economy/transaction/TransactionList.tsx:83
 msgid "Donation"
-msgstr "Transakcije donacija"
+msgstr "Donacije"
 
 #: src/components/_economy/donation/DonationList.tsx:60
 msgid "Donation Summary"
@@ -4331,7 +4331,7 @@ msgstr "Oformi novi savez sa svojom državom kao državom osnivačicom"
 
 #: src/utils/translations.tsx:115
 msgid "Found on the map. Open it to get random resources"
-msgstr "Pronađena u dalekim krajevima svijeta. Otvorite je i otkrijte nasumični resurs!"
+msgstr "Pronađena u dalekim krajevima svijeta. Otvorite je i otkrijte nasumični resurs"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:45
 msgid "Founding Father"
@@ -5321,7 +5321,7 @@ msgstr "Vapnenac"
 
 #: src/components/_user/user/skills.frontConfig.tsx:130
 msgid "Limit of food consumption"
-msgstr "Ograničava broj obroka koje možeš pojesti."
+msgstr "Ograničava broj obroka koje možete pojesti."
 
 #: src/components/_economy/company/CompanyList.tsx:180
 msgid "Limit reached"
@@ -6507,7 +6507,7 @@ msgstr "Nije postavljeno"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:170
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
-msgstr "Ne sudjelujete u bitkama. Priključite se aktivnim bitkama i nanesite što više štete kako bi ostvarili najbolji rang za plijen u bitki/rundi."
+msgstr "Trenutno ne sudjelujete u bitkama. Priključite se aktivnim bitkama i nanesite što više štete kako bi osvojili plijen."
 
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:135
@@ -6641,11 +6641,11 @@ msgstr "Otvorite Email"
 
 #: src/utils/translations.tsx:112
 msgid "Open it to get a better random item"
-msgstr "Osvojena u najtežim bitkama. Otvorite ju i otkrijte rijetku opremu!"
+msgstr "Osvojena u najtežim bitkama. Otvorite ju i otkrijte rijetku opremu"
 
 #: src/utils/translations.tsx:109
 msgid "Open it to get a random item"
-msgstr "Osvojena na bojištu. Otvorite ju i otkrijte vrijednu opremu!"
+msgstr "Osvojena na bojištu. Otvorite ju i otkrijte vrijednu opremu"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:68
 msgid "Open multiple <0>Cases</0> at same time"
@@ -7079,7 +7079,7 @@ msgstr "Predsjednički izbori"
 #: src/components/_user/user/Level.tsx:156
 #: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
-msgstr "Prekaljeni"
+msgstr "Prestiž"
 
 #: src/components/_user/user/Level.tsx:172
 msgid "Prestige to drop levels and re-activate your XP bonus."
@@ -7836,7 +7836,7 @@ msgstr "Preraspodjela za"
 #: src/components/_layout/map.frontConfig.tsx:54
 #: src/components/_political/region/RegionHeader.tsx:88
 msgid "Residents"
-msgstr "Stanovnici"
+msgstr "Rezidenti"
 
 #: src/components/_political/region/RegionHeader.tsx:90
 msgid "Residents (home here)"
@@ -8607,7 +8607,7 @@ msgstr "Pretplaćen"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:142
 msgid "Subscribed and supported the game <3"
-msgstr "Pretplatio se i podržao igru"
+msgstr "Pretplatio se i podržao igru."
 
 #: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
@@ -9086,19 +9086,19 @@ msgstr "Najboljih {0}%"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:74
 msgid "Top 1 damage in a battle"
-msgstr "Pružao je najviše štete u bitki"
+msgstr "Pružao je najviše štete u bitki."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:80
 msgid "Top 1 damage in a round"
-msgstr "Izazvao je najviše štete u rundi"
+msgstr "Izazvao je najviše štete u rundi."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:92
 msgid "Top 1 ground points in a battle"
-msgstr "Osvojio je naјviše zona u bitki"
+msgstr "Osvojio je naјviše zona u bitki."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:98
 msgid "Top 1 ground points in a round"
-msgstr "Zadržao je najviše zona u jednoj rundi"
+msgstr "Zadržao je najviše zona u jednoj rundi."
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:84
 msgid "Top 3 offers"
@@ -9232,7 +9232,7 @@ msgstr "Razmjena"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2015
 msgid "Trading transaction"
-msgstr "Transakcija razmjene"
+msgstr "Tržišna transakcija"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:16
 msgid "Trainee"
@@ -9734,7 +9734,7 @@ msgstr "Protiv"
 #: src/components/_economy/transaction/TransactionList.tsx:77
 #: src/components/_economy/work/WorkChart.tsx:245
 msgid "Wage"
-msgstr "Plaća"
+msgstr "Plaće"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2008
 msgid "Wage changed"
@@ -10083,11 +10083,11 @@ msgstr "Tko ima sreće u kocki, nema u ljubavi!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:149
 msgid "You are/were a part of the staff and helped the game to grow <3"
-msgstr "Bili ste ili јeste dio tima osoblja i pridonio je razvoju igre"
+msgstr "Bili ste ili јeste dio tima osoblja i pridonio je razvoju igre."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:110
 msgid "You bought a coffee for the dev <3"
-msgstr "Kupio je kavu developeru"
+msgstr "Kupio je kavu developeru."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:594
 msgid "You bought items."
@@ -10148,7 +10148,7 @@ msgstr "Osjećate se bolje, debuff efekt više ne djeluje."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
 msgid "You gifted a supporter plan subscription to someone <3"
-msgstr "Poklonio je Supporter pretplatu"
+msgstr "Poklonio je Supporter pretplatu."
 
 #: src/pages/country/[countryId]/citizenship.tsx:48
 msgid "You gonna be automatically approved because the country population is below"
@@ -10207,15 +10207,15 @@ msgstr "Moraš sačekati {0} dana prije ponovnog preuzimanja kontrole nad držav
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:124
 msgid "You helped the dev find a bug, ty <3"
-msgstr "Pridonio je pronalasku greške u igri"
+msgstr "Pridonio je pronalasku greške u igri."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:224
 msgid "You helped the dev find an exploit, ty <3"
-msgstr "Pridonio je pronalasku ranjivosti igre"
+msgstr "Pridonio je pronalasku ranjivosti igre."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:217
 msgid "You helped translate the game into another language"
-msgstr "Pomogao je u prijevodu igre na drugi јezik"
+msgstr "Pomogao je u prijevodu igre na drugi јezik."
 
 #. placeholder {0}: staticGameConfig.referral.levelNeededForBadge
 #. placeholder {1}: staticGameConfig.referral.lifeTimeBadgeMoneySharePercent
@@ -10262,7 +10262,7 @@ msgstr "Moraš prvo koristiti oružje"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:167
 msgid "You paid the dev's bills <3 (top 3 in monthly supporter gifts ranking)"
-msgstr "Platio je račune developera (top 3 na rang listi mjesečnih darivatelja)"
+msgstr "Platio je račune developera (top 3 na rang listi mjesečnih darivatelja)."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1053
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
@@ -10270,7 +10270,7 @@ msgstr "Tvoј premium poklon od <0/> јe istekao! Jesi li razmislio o pretplati 
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "You prestiged and lost your levels"
-msgstr "Žrtvovao je dio stečenog iskustva za prestiž i moć"
+msgstr "Žrtvovao je dio stečenog iskustva za prestiž i moć."
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
@@ -10310,15 +10310,15 @@ msgstr "Uspješno si poklonio \"{skinPackTitle}\" <0/>!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:130
 msgid "You survived the big reset"
-msgstr "Preživio je veliki reset"
+msgstr "Preživio je veliki reset."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:20
 msgid "You very lucky"
-msgstr "Nešto te oće sreća.."
+msgstr "Nešto te ide.."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:104
 msgid "You voted in a major election"
-msgstr "Glasao je na izborima"
+msgstr "Glasao je na izborima."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:539
 msgid "You was fired from the government by <0/>"
@@ -10335,23 +10335,23 @@ msgstr "Izabrani ste"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:59
 msgid "You were elected as a congress member of your country"
-msgstr "Izabran je za člana kongresa države"
+msgstr "Izabran je za člana kongresa države."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:52
 msgid "You were elected as president of your country"
-msgstr "Izabran je za predsjednika države"
+msgstr "Izabran je za predsjednika države."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:46
 msgid "You were here at the beginning of War Era"
-msgstr "Bio je na samom začetku War Ere"
+msgstr "Bio je na samom začetku War Ere."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "You were nominated as a government member of a country"
-msgstr "Nominiran je za člana vlade države"
+msgstr "Nominiran je za člana vlade države."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:67
 msgid "You were nominated as vice president of your country"
-msgstr "Nominiran je za potpredsjednika države"
+msgstr "Nominiran je za potpredsjednika države."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:21
 msgid "You were so close"
@@ -10368,19 +10368,19 @@ msgstr "Osvajate novac za značku +{0}% prihoda značke od svih vaših preporuč
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:188
 msgid "You won a country tournament"
-msgstr "Osvojio je turnir država"
+msgstr "Osvojio je turnir država."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:200
 msgid "You won a giveaway"
-msgstr "Osvoјio je nagradnu igru"
+msgstr "Osvoјio je nagradnu igru."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:194
 msgid "You won a MU tournament"
-msgstr "Osvojio je turnir vojnih jedinica"
+msgstr "Osvojio je turnir vojnih jedinica."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:86
 msgid "You worked 100 times"
-msgstr "Radio je 100 puta"
+msgstr "Radio je 100 puta."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:233
 msgid "You're all set!"
@@ -10445,7 +10445,7 @@ msgstr "Vaša priјava za <0/> јe odbiјena"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:207
 msgid "Your article reached 2% of the active population in score (min 10)"
-msgstr "Vaš članak je pozitivno ocjenilo 2% aktivnih korisnika (min. 10)"
+msgstr "Vaš članak pozitivno je ocijenilo barem 2% aktivnih korisnika."
 
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1552
@@ -10458,7 +10458,7 @@ msgstr "Vaš buff ističe za manje od 1 sata. Debuff faza će uskoro započeti."
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:102
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
-msgstr "Vaši građani će vidjeti <0/> na njihvoj listi bitaka, sa ovom porukom. Ne daje nikakav bonus već obavještava stanovnike gdje da fokusiraju svoje doprinose"
+msgstr "Vaši građani će vidjeti <0/> na njihvoj listi bitaka, sa ovom porukom. Ne daje nikakav bonus već obavještava građane gdje da fokusiraju svoje doprinose"
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
