@@ -161,7 +161,7 @@ msgstr "{0}% inkomstenbelasting wordt afgetrokken van de lonen van je werknemers
 msgid "{0}% of invested"
 msgstr "{0}% van geïnvesteerde hoeveelheid"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} voltooid"
 
@@ -1963,7 +1963,7 @@ msgstr "Geautomatiseerde aandrijving"
 msgid "Available in"
 msgstr "Beschikbaar in"
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr "Nu beschikbaar"
 
@@ -3233,7 +3233,7 @@ msgstr "Aangepaste lettertype voor gebruikersnaam"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. Elke vorm van discriminatie, racisme, xenofobie, antisemitisme, homofobie, transfobie en haatzaaien"
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "Dagelijks"
 
@@ -4393,7 +4393,7 @@ msgstr "Gekochte edelstenen"
 msgid "General"
 msgstr "Generaal"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "Genereer Missies"
 
@@ -5811,7 +5811,7 @@ msgid "Mission tags"
 msgstr "Missietags"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Missies"
@@ -5854,7 +5854,7 @@ msgid "Money Won"
 msgstr "Verdiende geld"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "Maandelijks"
 
@@ -5862,7 +5862,7 @@ msgstr "Maandelijks"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Maandelijkse schade: <0>{monthlyDamages}</0>"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr "Maandelijkse missies zijn nog niet beschikbaar"
 
@@ -6361,7 +6361,7 @@ msgstr "Geen mijlpalen beschikbaar"
 msgid "No military units found"
 msgstr "Geen militaire eenheden gevonden"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Geen missies beschikbaar"
 
@@ -8525,7 +8525,7 @@ msgstr "Begonnen <0/>"
 msgid "Started<0/><1/>"
 msgstr "Begonnen<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "Start"
 
@@ -9826,7 +9826,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Wapens, munitie en uitrusting van een hogere zeldzaamheidsgraad dan deze mogen niet worden gebruikt in de gevechten van dit toernooi."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "Wekelijks"
 

@@ -162,7 +162,7 @@ msgstr "{0}% tulovero vähennetään työntekijöidesi palkoista."
 msgid "{0}% of invested"
 msgstr "{0}% sijoitetusta"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} suoritettu"
 
@@ -1964,7 +1964,7 @@ msgstr "Automatisoitu Moottori"
 msgid "Available in"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr ""
 
@@ -3234,7 +3234,7 @@ msgstr "Mukautettu käyttäjänimen fontti"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "Päivittäin"
 
@@ -4394,7 +4394,7 @@ msgstr ""
 msgid "General"
 msgstr "Kenraali"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "Luo tehtäviä"
 
@@ -5812,7 +5812,7 @@ msgid "Mission tags"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Tehtävät"
@@ -5855,7 +5855,7 @@ msgid "Money Won"
 msgstr "Rahaa voitettu"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "Kuukausittain"
 
@@ -5863,7 +5863,7 @@ msgstr "Kuukausittain"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Kuukausittaiset vahingot: <0>{monthlyDamages}</0>"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr ""
 
@@ -6362,7 +6362,7 @@ msgstr ""
 msgid "No military units found"
 msgstr "Sotilasyksiköitä ei löytynyt"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Ei tehtäviä saatavilla"
 
@@ -8526,7 +8526,7 @@ msgstr "Alkoi <0/>"
 msgid "Started<0/><1/>"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "Alkaa"
 
@@ -9827,7 +9827,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "Viikoittain"
 

@@ -161,7 +161,7 @@ msgstr "{0}% зарплати робітників буде відрахован
 msgid "{0}% of invested"
 msgstr "{0}% інвестицій"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} завершено"
 
@@ -1963,7 +1963,7 @@ msgstr "Автоматичний двигун"
 msgid "Available in"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr "Доступно зараз"
 
@@ -3233,7 +3233,7 @@ msgstr "Власний шрифт імені користувача"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. Будь-які форми дискримінації, расизму, ксенофобії, антисемітизму, гомофобії, трансфобії та мови ненависті"
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "Щоденні"
 
@@ -4393,7 +4393,7 @@ msgstr "Самоцвітів куплено"
 msgid "General"
 msgstr "Генерал"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "Згенерувати місії"
 
@@ -5811,7 +5811,7 @@ msgid "Mission tags"
 msgstr "Ярлики місій"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Місії"
@@ -5854,7 +5854,7 @@ msgid "Money Won"
 msgstr "Монет отримано"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "За місяць"
 
@@ -5862,7 +5862,7 @@ msgstr "За місяць"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Місячна шкода:"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr "Щомісячні місії ще недоступні"
 
@@ -6361,7 +6361,7 @@ msgstr "Немає доступних відзнак"
 msgid "No military units found"
 msgstr "Підрозділи не знайдено"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Немає доступних місій"
 
@@ -8525,7 +8525,7 @@ msgstr "Почалась <0/>"
 msgid "Started<0/><1/>"
 msgstr "Розпочалась<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "Початкові"
 
@@ -9826,7 +9826,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Зброя, набої та спорядження, рідкість яких вища за цю, не можуть бути використані у битвах цього турніру."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "Щотижневі"
 

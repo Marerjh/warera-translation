@@ -161,7 +161,7 @@ msgstr "{0}% jövedelemadó kerül levonásra a dolgozóid fizetéséből."
 msgid "{0}% of invested"
 msgstr "{0}% a befektetésből"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} teljesítve"
 
@@ -1963,7 +1963,7 @@ msgstr "Automatizált Motor"
 msgid "Available in"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr ""
 
@@ -3233,7 +3233,7 @@ msgstr "Egyéni felhasználónév betűtípus"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. A diszkrimináció, rasszizmus, idegengylőlet, antiszemitizmus, homofóbia, transzfóbia és gyűlöletbeszéd bármilyen formája"
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "Napi"
 
@@ -4393,7 +4393,7 @@ msgstr ""
 msgid "General"
 msgstr "Tábornok"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "Küldetések generálása"
 
@@ -5811,7 +5811,7 @@ msgid "Mission tags"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Küldetések"
@@ -5854,7 +5854,7 @@ msgid "Money Won"
 msgstr "Nyert pénz"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "Havi"
 
@@ -5862,7 +5862,7 @@ msgstr "Havi"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Havi sebzés: <0>{monthlyDamages}</0>"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr ""
 
@@ -6361,7 +6361,7 @@ msgstr ""
 msgid "No military units found"
 msgstr "Nem található katonai egység"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Nincs elérhető küldetés"
 
@@ -8525,7 +8525,7 @@ msgstr "Elindítva <0/>"
 msgid "Started<0/><1/>"
 msgstr "Elindítva<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "Indítás alatt"
 
@@ -9826,7 +9826,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "Heti"
 

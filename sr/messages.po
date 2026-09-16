@@ -161,7 +161,7 @@ msgstr "{0}% пореза на приход ће бити одузето од п
 msgid "{0}% of invested"
 msgstr "{0}% од уложеног"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} завршено"
 
@@ -1963,7 +1963,7 @@ msgstr "Аутоматизовани механизам"
 msgid "Available in"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr "Доступно сада"
 
@@ -3233,7 +3233,7 @@ msgstr "Прилагођен фонт корисничког имена"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "д. Сваки облик дискриминације, расизма, ксенофобије, антисемитизма, хомофобије, трансфобије и говора мржње"
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "Дневне"
 
@@ -4393,7 +4393,7 @@ msgstr "Купљени драгуљи"
 msgid "General"
 msgstr "Генерал"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "Генериши мисије"
 
@@ -5811,7 +5811,7 @@ msgid "Mission tags"
 msgstr "Ознаке мисија"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Мисије"
@@ -5854,7 +5854,7 @@ msgid "Money Won"
 msgstr "Новац освојен"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "Месечно"
 
@@ -5862,7 +5862,7 @@ msgstr "Месечно"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Месечна штета: <0>{monthlyDamages}</0>"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr "Месечне мисије још нису доступне"
 
@@ -6361,7 +6361,7 @@ msgstr "Нема доступних прекретница"
 msgid "No military units found"
 msgstr "Нису пронађене војне јединице"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Нема доступних мисија"
 
@@ -8525,7 +8525,7 @@ msgstr "Започето <0/>"
 msgid "Started<0/><1/>"
 msgstr "Почело<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "Почетничке"
 
@@ -9826,7 +9826,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Оружје, муниција и опрема изнад ове реткости не могу се користити у биткама овог турнира."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "Недељне"
 

@@ -161,7 +161,7 @@ msgstr "سيتم خصم {0}% ضريبة دخل من أجور عمالك."
 msgid "{0}% of invested"
 msgstr "{0}% من الاستثمار"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "تم إكمال {completedCount}/{totalCount}"
 
@@ -1963,7 +1963,7 @@ msgstr "محرك آلي"
 msgid "Available in"
 msgstr "متاح في"
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr "متاح الآن"
 
@@ -3233,7 +3233,7 @@ msgstr "خط اسم مستخدم مخصص"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "د.  أي شكل من أشكال التمييز، أو العنصرية، أو كره الأجانب، أو معاداة السامية، أو رهاب المثلية، أو رهاب التحول الجنسي، أو خطاب الكراهية ضد اي فئة"
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "يومي"
 
@@ -4393,7 +4393,7 @@ msgstr "الجواهر المشتراة"
 msgid "General"
 msgstr "جنرال"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "توليد المهام"
 
@@ -5811,7 +5811,7 @@ msgid "Mission tags"
 msgstr "أيقونات المهام"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "المهام"
@@ -5854,7 +5854,7 @@ msgid "Money Won"
 msgstr "الأموال التي تم ربحها"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "شهري"
 
@@ -5862,7 +5862,7 @@ msgstr "شهري"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "الأضرار الشهرية: <0>{monthlyDamages}</0>"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr "المهام الشهرية غير متوفرة حالياً"
 
@@ -6361,7 +6361,7 @@ msgstr "لا تتوفر إنجازات"
 msgid "No military units found"
 msgstr "لم يتم العثور على وحدات عسكرية"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "لا توجد مهام متاحة"
 
@@ -8525,7 +8525,7 @@ msgstr "بدأ <0/>"
 msgid "Started<0/><1/>"
 msgstr "بدأت<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "البداية"
 
@@ -9826,7 +9826,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "لا يمكن استخدام الأسلحة والذخيرة والعتاد التي تتجاوز هذه الندرة في معارك هذه البطولة."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "أسبوعي"
 

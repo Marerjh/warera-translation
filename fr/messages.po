@@ -161,7 +161,7 @@ msgstr "{0}% d'impôt sur le revenu sera déduit des salaires de tes travailleur
 msgid "{0}% of invested"
 msgstr "{0}% de l'investissement"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} terminées"
 
@@ -1963,7 +1963,7 @@ msgstr "Machine automatisée"
 msgid "Available in"
 msgstr "Disponible dans"
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr "Disponible maintenant"
 
@@ -3233,7 +3233,7 @@ msgstr "Police de nom d'utilisateur personnalisée"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. Toute forme de discrimination, racisme, xénophobie, antisémitisme, homophobie, transphobie et discours de haine"
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "Quotidiennes"
 
@@ -4393,7 +4393,7 @@ msgstr "Gemmes achetées"
 msgid "General"
 msgstr "Général d'armée"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "Générer des missions"
 
@@ -5811,7 +5811,7 @@ msgid "Mission tags"
 msgstr "Étiquettes de mission"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Missions"
@@ -5854,7 +5854,7 @@ msgid "Money Won"
 msgstr "Argent gagné"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "Mensuelles"
 
@@ -5862,7 +5862,7 @@ msgstr "Mensuelles"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Dégâts mensuels : <0>{monthlyDamages}</0>"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr "Les missions mensuelles ne sont pas encore disponibles"
 
@@ -6361,7 +6361,7 @@ msgstr "Pas de paliers disponible"
 msgid "No military units found"
 msgstr "Aucune unité militaire trouvée"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Aucune mission disponible"
 
@@ -8525,7 +8525,7 @@ msgstr "A commencé il y a <0/>"
 msgid "Started<0/><1/>"
 msgstr "A commencé il y a <0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "Démarrage"
 
@@ -9826,7 +9826,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Les armes, les munitions et l'équipement dépassant ce niveau de rareté ne peuvent pas être utilisés lors des combats de ce tournoi."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "Hebdomadaires"
 

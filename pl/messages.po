@@ -161,7 +161,7 @@ msgstr "{0}% podatku dochodowego zostanie potrącone z wynagrodzeń twoich praco
 msgid "{0}% of invested"
 msgstr "{0}% zainwestowanej kwoty"
 
-#: src/components/_user/mission/MissionsList.tsx:235
+#: src/components/_user/mission/MissionsList.tsx:250
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} ukończonych"
 
@@ -1963,7 +1963,7 @@ msgstr "Linie Produkcyjne"
 msgid "Available in"
 msgstr "Dostępne za"
 
-#: src/components/_user/mission/MissionsList.tsx:322
+#: src/components/_user/mission/MissionsList.tsx:339
 msgid "Available now"
 msgstr "Dostępny teraz"
 
@@ -3233,7 +3233,7 @@ msgstr "Niestandardowa czcionka nazwy użytkownika"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. Wszelkie formy dyskryminacji, rasizmu, ksenofobii, antysemityzmu, homofobii, transfobii oraz mowy nienawiści"
 
-#: src/components/_user/mission/MissionsList.tsx:253
+#: src/components/_user/mission/MissionsList.tsx:268
 msgid "Daily"
 msgstr "Dzienne"
 
@@ -4393,7 +4393,7 @@ msgstr "Kupione Klejnoty"
 msgid "General"
 msgstr "Generał"
 
-#: src/components/_user/mission/MissionsList.tsx:334
+#: src/components/_user/mission/MissionsList.tsx:351
 msgid "Generate Missions"
 msgstr "Generuj misje"
 
@@ -5811,7 +5811,7 @@ msgid "Mission tags"
 msgstr "Etykiety misji"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:247
 #: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Misje"
@@ -5854,7 +5854,7 @@ msgid "Money Won"
 msgstr "Wygrana Gotówka"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:279
+#: src/components/_user/mission/MissionsList.tsx:294
 msgid "Monthly"
 msgstr "Miesięczne"
 
@@ -5862,7 +5862,7 @@ msgstr "Miesięczne"
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Miesięczne obrażenia: <0>{monthlyDamages}</0>"
 
-#: src/components/_user/mission/MissionsList.tsx:311
+#: src/components/_user/mission/MissionsList.tsx:328
 msgid "Monthly missions are not available yet"
 msgstr "Miesięczne misje nie są jeszcze dostępne"
 
@@ -6361,7 +6361,7 @@ msgstr "Brak dostępncyh kamieni milowych"
 msgid "No military units found"
 msgstr "Nie znaleziono jednostek wojskowych"
 
-#: src/components/_user/mission/MissionsList.tsx:313
+#: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Brak dostępnych misji"
 
@@ -8525,7 +8525,7 @@ msgstr "Rozpoczęto <0/>"
 msgid "Started<0/><1/>"
 msgstr "Rozpoczęto <0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:292
+#: src/components/_user/mission/MissionsList.tsx:308
 msgid "Starting"
 msgstr "Na początek"
 
@@ -9826,7 +9826,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Bronie, amunicja i sprzęt tej rzadkości nie mogą być użyte w bitwach turniejowych."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:266
+#: src/components/_user/mission/MissionsList.tsx:281
 msgid "Weekly"
 msgstr "Tygodniowe"
 
