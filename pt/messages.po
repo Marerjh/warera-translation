@@ -276,7 +276,7 @@ msgstr "<0/> cancelou o contrato."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:774
 msgid "<0/> commented on your article <1/>"
-msgstr "<0/> comentou no seu artigo <1/>"
+msgstr "<0/> comentou o teu artigo <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1583
 msgid "<0/> completed a contract, you earned <1/>"
@@ -4217,7 +4217,7 @@ msgstr "Financiar uma batalha de resistência em <0/>"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:123
 msgid "Finance a resistance battle in an occupied region of your country"
-msgstr "Financiar uma batalha de resistência numa região ocupada do seu país"
+msgstr "Financia uma batalha de resistência numa região ocupada do teu país"
 
 #: src/components/_political/law/law.frontConfig.tsx:614
 msgid "Finance a resistance to liberate an occupied region"
@@ -4327,7 +4327,7 @@ msgstr "na produção de <0>{0}</0> para empresas localizadas em <1/>."
 
 #: src/components/_political/law/law.frontConfig.tsx:333
 msgid "Found a new alliance with your country as founding member"
-msgstr "Forme uma nova aliança com o seu país como membro fundador"
+msgstr "Forma uma nova aliança com o teu país como membro fundador"
 
 #: src/utils/translations.tsx:115
 msgid "Found on the map. Open it to get random resources"
@@ -4532,7 +4532,7 @@ msgstr "Retícula"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:189
 msgid "Great job! Hit a few more times to help your side win the battle."
-msgstr "Ótimo trabalho! Ataque mais algumas vezes para ajudar seu lado a vencer."
+msgstr "Bom trabalho! Ataca mais algumas vezes para ajudares o teu lado a vencer a batalha."
 
 #: src/components/_other/shop/skin.frontConfig.tsx:161
 msgid "Green Staff"
@@ -4731,7 +4731,7 @@ msgstr "Acerta <0/> vezes em batalhas"
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
 #: src/components/_military/battle/BattleSystem.tsx:843
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
-msgstr "Atacar pelo seu próprio país enquanto estiver no governo resulta em {0}% de eficiência de recompensa."
+msgstr "Atacar pelo teu próprio país enquanto estás no governo dá {0}% de eficiência na recompensa."
 
 #: src/components/_economy/company/CompanyHeader.tsx:68
 #: src/components/_military/mu/MuHeader.tsx:150
@@ -4777,11 +4777,11 @@ msgstr "Se for negativo, terá de pagar <0/> por <1/> (uma vez por dia)."
 
 #: src/components/_political/government/NominateForm.tsx:65
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
-msgstr "Se o novo indicado já fizer parte do governo, seus cargos serão trocados. Caso contrário, o membro atual será destituído e não poderá ser indicado novamente por {cooldownDays} dias."
+msgstr "Se o novo nomeado já estiver no governo, as posições serão trocadas. Caso contrário, o membro atual será despedido e não poderá ser nomeado novamente durante {cooldownDays} dias."
 
 #: src/components/_political/party/party.frontConfig.tsx:428
 msgid "If your capital is occupied, national orders give only the regular bonus and the capital automatically revolts at full resistance."
-msgstr "Se a sua capital estiver ocupada, as ordens do país dão apenas o bónus normal e a capital revolta-se automaticamente com instabilidade máxima."
+msgstr "Se a tua capital estiver ocupada, as ordens nacionais dão apenas o bónus regular e a capital entra automaticamente em revolta com resistência máxima."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:51
 msgid "Imagine if you stop right before the Mythic"
@@ -4789,7 +4789,7 @@ msgstr "Imagina se você para antes do Mítico"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:7
 msgid "Imagine wasting your click on this"
-msgstr "Imagina desperdiçar seu clique nisso"
+msgstr "Imagina desperdiçar o teu clique nisto"
 
 #: src/components/_political/law/law.frontConfig.tsx:190
 msgid "Impeach <0/>"
@@ -4951,7 +4951,7 @@ msgstr "Só melhora… talvez"
 
 #: src/components/_economy/company/CompanyTags.tsx:72
 msgid "It will not gain any production and its workers will not be able to work."
-msgstr "Não terá qualquer produção e os seus trabalhadores não poderão trabalhar."
+msgstr "Não vai ganhar nenhuma produção e os seus trabalhadores não poderão trabalhar."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Item bought"
@@ -5216,7 +5216,7 @@ msgstr "Sair do governo"
 
 #: src/components/_political/law/law.frontConfig.tsx:354
 msgid "Leave the alliance your country belongs to"
-msgstr "Sai da aliança a que o seu país pertence"
+msgstr "Sai da aliança à qual o teu país pertence"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
@@ -5271,7 +5271,7 @@ msgstr "Liberar <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:507
 msgid "Liberate <0/> and return it to its original country"
-msgstr "Libertar <0/> e devolvê-la ao seu país original"
+msgstr "Liberta <0/> e devolve-o ao seu país de origem"
 
 #: src/components/_political/law/law.frontConfig.tsx:493
 #: src/components/_political/law/lawNames.tsx:32
@@ -5424,7 +5424,7 @@ msgstr "Ten. General"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:59
 msgid "Luck is finally on payroll"
-msgstr "A sorte finalmente está do seu lado"
+msgstr "A sorte finalmente está do teu lado"
 
 #: src/components/_military/mu/MuTooltip.tsx:63
 msgid "Lvl"
@@ -6262,7 +6262,7 @@ msgstr "Sem bónus de aliança: o bónus do país está suspenso por falta de pa
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:96
 msgid "No alliance bonus: your country's membership is suspended for unpaid alliance maintenance."
-msgstr "Sem bónus de aliança: o seu bónus está suspenso por falta de pagamento de manutenção da aliança."
+msgstr "Sem bónus de aliança: a adesão do teu país está suspensa por manutenção da aliança não paga."
 
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:50
 msgid "No alliance laws yet"
@@ -6877,7 +6877,7 @@ msgstr "A votação para as eleições primárias dos partidos está aberta em <
 
 #: src/components/_political/election/CandidateFormModal.tsx:72
 msgid "Paste a link to your campaign article, or leave empty."
-msgstr "Cole um link para o seu artigo de campanha, ou deixe vazio."
+msgstr "Cola um link para o teu artigo de campanha, ou deixa em branco."
 
 #: src/components/_user/user/Level.tsx:189
 msgid "Paused"
@@ -7893,7 +7893,7 @@ msgstr "Restaure sua saúde!"
 
 #: src/components/_political/law/law.frontConfig.tsx:494
 msgid "Return a region to its original country"
-msgstr "Devolver uma região ao seu país original"
+msgstr "Devolve uma região ao seu país de origem"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:217
 msgid "Revoke API token?"
@@ -8024,11 +8024,11 @@ msgstr "Guardar"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Save your progress!"
-msgstr "Guarde o seu progresso!"
+msgstr "Guarda o teu progresso!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:215
 msgid "Say hello!"
-msgstr "Diga olá!"
+msgstr "Diz olá!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:14
 msgid "Scammed"
@@ -8060,7 +8060,7 @@ msgstr "Procurar username para nomear..."
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:65
 msgid "See all your workers and companies stats"
-msgstr "Veja todas as estatísticas de seus trabalhadores e empresas"
+msgstr "Vê as estatísticas de todos os teus trabalhadores e empresas"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:137
 msgid "See your spending and income breakdown"
@@ -8194,11 +8194,11 @@ msgstr "Definir um indicador"
 
 #: src/components/_political/law/law.frontConfig.tsx:518
 msgid "Set a welcome article for your country"
-msgstr "Definir um artigo de boas-vindas para seu país"
+msgstr "Define um artigo de boas-vindas para o teu país"
 
 #: src/components/_political/law/law.frontConfig.tsx:523
 msgid "Set a welcome article for your country<0/>"
-msgstr "Definir um artigo de boas-vindas para seu país<0/>"
+msgstr "Define um artigo de boas-vindas para o teu país<0/>"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
@@ -8255,11 +8255,11 @@ msgstr "Definir artigo de boas-vindas"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:445
 msgid "Set your profile picture"
-msgstr "Adicione uma foto de perfil"
+msgstr "Define a tua imagem de perfil"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:439
 msgid "Set your username"
-msgstr "Mude o seu nome de utilizador"
+msgstr "Define o teu nome de utilizador"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:53
@@ -8815,7 +8815,7 @@ msgstr "O contrato foi revertido. <0>{0}</0> devolvido a <1/>."
 
 #: src/components/_political/law/LawCostExplanation.tsx:32
 msgid "The cost is the law's base cost scaled by your country's average development."
-msgstr "Corresponde ao custo base da lei, ajustado ao desenvolvimento médio do seu país."
+msgstr "O custo é o custo base da lei, ajustado pelo desenvolvimento médio do teu país."
 
 #: src/components/_user/user/skills.frontConfig.tsx:60
 msgid "The damage factor increase of critical hits over normal hits"
@@ -8917,7 +8917,7 @@ msgstr "Valor utilizado para calcular a maioria dos custos: ordens de batalha, a
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:28
 msgid "This is your company hub. Here you can produce items and build your empire."
-msgstr "Este é seu centro de empresas. Aqui você pode produzir itens e construir seu império."
+msgstr "Este é o teu centro de empresas. Aqui podes produzir itens e construir o teu império."
 
 #: src/components/_military/tournament/TournamentTeamTooltip.tsx:88
 msgid "This is your team"
@@ -8942,7 +8942,7 @@ msgstr "Este membro não poderá ser indicado novamente por {cooldownDays} dias.
 
 #: src/pages/region/[regionId]/index.tsx:177
 msgid "This region is not linked to it's owner's capital."
-msgstr "Esta região não está conectada à capital do seu proprietário."
+msgstr "Esta região não está ligada à capital do seu proprietário."
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:203
 msgid "This round only"
@@ -8962,7 +8962,7 @@ msgstr "Se consumir, causará mais dano durante {cocainBuffHours}h, mas depois f
 
 #: src/components/_user/user/UserDropdown.tsx:370
 msgid "This will require the user to verify their mobile phone number."
-msgstr "Isto exigirá que o utilizador verifique o seu número de telemóvel."
+msgstr "Isto vai exigir que o utilizador verifique o seu número de telemóvel."
 
 #. placeholder {0}: milestone.tier
 #: src/components/_user/milestone/MilestoneItem.tsx:132
@@ -8971,7 +8971,7 @@ msgstr "Nível {0}"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:131
 msgid "Time to fight for your country! Let's join the action."
-msgstr "Hora de lutar pelo seu país! Vamos entrar na ação."
+msgstr "É hora de lutar pelo teu país! Vamos entrar em ação."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:46
 msgid "Time to produce!"
@@ -9458,11 +9458,11 @@ msgstr "Usar Pílulas"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:38
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
-msgstr "Use seu <0>Empreendedorismo</0> para trabalhar em sua própria empresa e encher a barra de produção."
+msgstr "Usa o teu <0>Empreendedorismo</0> para trabalhares na tua própria empresa e encheres a sua barra de produção."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:179
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
-msgstr "Use sua <0>Fome</0> para comer e restaurar sua <1>Saúde</1>. Depois volte a lutar!"
+msgstr "Usa a tua <0>Fome</0> para comeres comida e recuperares a tua <1>Vida</1>. Depois volta a lutar!"
 
 #: src/utils/translations.tsx:94
 #: src/utils/translations.tsx:100
@@ -9784,7 +9784,7 @@ msgstr "Guerra terminada"
 
 #: src/components/_user/modals/PremiumModal.tsx:39
 msgid "War Era is 100% free to play and has no <0>ads</0> or <1>pay-to-win</1>, If you enjoy the game, you can support its development by subscribing to the Supporter Plan <3"
-msgstr "O War Era é 100% grátis e não tem <0>anúncios</0> nem elementos <1>pay-to-win</1>. Se gostares do jogo, podes apoiar o seu desenvolvimento ao subscrever o Plano de Apoiante <3"
+msgstr "O War Era é 100% gratuito e não tem <0>anúncios</0> nem <1>pay-to-win</1>. Se gostas do jogo, podes apoiar o seu desenvolvimento subscrevendo o Plano de Apoiante <3"
 
 #: src/components/_user/userReports/ReportFormModal.tsx:83
 msgid "Warning"
@@ -10108,7 +10108,7 @@ msgstr "Pode alterá-lo mais tarde"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:211
 msgid "You can dismantle items from your inventory by selecting an item."
-msgstr "Pode desmontar itens do seu inventário selecionando-os."
+msgstr "Podes desmontar itens do teu inventário ao selecionares um item."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
@@ -10364,7 +10364,7 @@ msgstr "Voltarás no nível 25 (perdendo 65,000 XP), mas ganharás um bónus per
 #. placeholder {0}: gameConfig?.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/referral/ReferralList.tsx:117
 msgid "You win money for the badge + {0}% of the badge income of all your referrals"
-msgstr "Recebe +{0}% por cada referido dos seus referidos que alcancem o nível 15"
+msgstr "Ganhas dinheiro pelo emblema + {0}% do rendimento do emblema de todos os teus referenciados"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:188
 msgid "You won a country tournament"
@@ -10432,7 +10432,7 @@ msgstr "Os teus antepassados estão orgulhosos"
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:29
 msgid "Your announcement to the country..."
-msgstr "O seu comunicado ao país..."
+msgstr "O teu comunicado ao país..."
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:30
 msgid "Your announcement to the unit..."
@@ -10513,13 +10513,13 @@ msgstr "Email"
 #. placeholder {1}: worker.wage
 #: src/components/_user/worker/WageReductionAlert.tsx:68
 msgid "Your employer wants to reduce your wage from <0>{0}</0> to <1>{1}</1>."
-msgstr "O seu empregador quer reduzir o seu salário de <0>{0}</0> para <1>{1}</1>."
+msgstr "O teu empregador quer reduzir o teu salário de <0>{0}</0> para <1>{1}</1>."
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
 #: src/components/_user/notification/notification.frontConfig.tsx:473
 msgid "Your employer wants to reduce your wage in <0/> from <1>{0}</1> to <2>{1}</2>. Accept or reject this change."
-msgstr "Seu empregador quer reduzir seu salário em <0/> de <1>{0}</1> para <2>{1}</2>. Aceite ou rejeite esta mudança."
+msgstr "O teu empregador quer reduzir o teu salário em <0/> de <1>{0}</1> para <2>{1}</2>. Aceita ou rejeita esta alteração."
 
 #: src/components/_military/battle/EndedBattlesList.tsx:84
 msgid "Your enemies"
@@ -10531,11 +10531,11 @@ msgstr "O teu governo pede-te para avançares contra a resistência aqui."
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
-msgstr "Os seus dados foram guardados."
+msgstr "As tuas informações foram guardadas."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:85
 msgid "Your inventory holds all your items. Let's see what you've got!"
-msgstr "Seu inventário guarda todos os seus itens. Vamos ver o que você tem!"
+msgstr "O teu inventário guarda todos os teus itens. Vamos ver o que tens!"
 
 #: src/components/_military/hit/HitButton.tsx:468
 msgid "Your location"
@@ -10584,23 +10584,23 @@ msgstr "Para poder licitar, a tua MU tem de ter dinheiro suficiente para cobrir 
 
 #: src/components/_economy/market/MarketHeader.tsx:14
 msgid "Your offers"
-msgstr "Suas ofertas"
+msgstr "As tuas ofertas"
 
 #: src/components/_political/party/PartyFormModal.tsx:96
 msgid "Your party name"
-msgstr "O nome do seu partido"
+msgstr "Nome do teu partido"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1000
 msgid "Your premium subscription has been activated!"
-msgstr "A sua subscrição premium foi ativada!"
+msgstr "A tua subscrição premium foi ativada!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1009
 msgid "Your premium subscription has expired!"
-msgstr "A sua subscrição premium expirou!"
+msgstr "A tua subscrição premium expirou!"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
-msgstr "O seu rank"
+msgstr "O teu rank"
 
 #: src/pages/user/[userId]/referrals.tsx:94
 msgid "Your referral link"
@@ -10608,34 +10608,34 @@ msgstr "O teu link de referência"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1385
 msgid "Your team <0/> has been eliminated from the <1/>"
-msgstr "A sua equipa <0/> foi eliminada do <1/>"
+msgstr "A tua equipa <0/> foi eliminada do <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1283
 msgid "Your team <0/> won a round in <1/>!"
-msgstr "A sua equipa <0/> venceu uma ronda em <1/>!"
+msgstr "A tua equipa <0/> venceu uma ronda em <1/>!"
 
 #: src/pages/events/index.tsx:102
 msgid "Your team:"
-msgstr "A sua equipa:"
+msgstr "A tua equipa:"
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
 #: src/components/_user/notification/notification.frontConfig.tsx:458
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
-msgstr "O seu salário em <0/> mudou de <1>{0}</1> para <2>{1}</2>"
+msgstr "O teu salário em <0/> mudou de <1>{0}</1> para <2>{1}</2>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1713
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
-msgstr "As suas missões semanais foram reiniciadas! Complete-as para ganhar recompensas."
+msgstr "As tuas missões semanais foram reiniciadas! Completa-as para ganhares recompensas."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "your@email.com"
-msgstr "seu@email.com"
+msgstr "oteuemail@email.com"
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:152
 #: src/components/_social/ArticleList.tsx:223
 msgid "Yours"
-msgstr "Seus"
+msgstr "Teus"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:147
 msgid "Zoom in"
