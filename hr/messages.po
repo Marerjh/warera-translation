@@ -2735,7 +2735,7 @@ msgstr "Komodor"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:147
 msgid "Community"
-msgstr "Zaјednica"
+msgstr "Stup Zajednice"
 
 #: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:47
@@ -4026,7 +4026,7 @@ msgstr "Ističe za"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:223
 msgid "Exploit Finder"
-msgstr "Lovac Ranjivosti"
+msgstr "Bijeli Šešir"
 
 #: src/components/_common/GameRules.tsx:190
 msgid "Exploited accounts will be permanently banned and the boosted account will receive a temporary ban, fine, or permanent ban if repeated."
@@ -4371,7 +4371,7 @@ msgstr "<0>XP</0> Steknite rješavanjem misiјa!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:109
 msgid "Game supporter"
-msgstr "Podržavatelj Igre"
+msgstr "Pokrovitelj Igre"
 
 #: src/pages/shop/index.tsx:141
 msgid "Gems"
@@ -4448,7 +4448,7 @@ msgstr "Tokenu dodajte opisno ime za lakšu identifikaciju."
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:199
 msgid "Giveaway Winner"
-msgstr "Prvak Tombole"
+msgstr "Srećković"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2162
 msgid "Giveaway Won!"
@@ -6983,7 +6983,7 @@ msgstr "Politika & Vlada"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:205
 msgid "Popular Article"
-msgstr "Popularan Članak"
+msgstr "Zlatno Pero"
 
 #: src/components/_political/region/RegionHeader.tsx:96
 #: src/components/_political/region/RegionTooltip.tsx:89
@@ -7069,7 +7069,7 @@ msgstr "Predsjednički izbori"
 #: src/components/_user/user/Level.tsx:156
 #: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
-msgstr "Prestiž"
+msgstr "Prekaljeni"
 
 #: src/components/_user/user/Level.tsx:172
 msgid "Prestige to drop levels and re-activate your XP bonus."
@@ -8634,7 +8634,7 @@ msgstr "Supporter značajka"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:157
 msgid "Supporter Gift"
-msgstr "Supporter Poklon"
+msgstr "Veliki Mecena"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
@@ -9706,7 +9706,7 @@ msgstr "Glasajte na izborima"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
-msgstr "Glasač"
+msgstr "Vox Populi"
 
 #: src/components/_military/war/WarComparison.tsx:45
 msgid "VS"
@@ -10202,7 +10202,7 @@ msgstr "Pomogao je u prijevodu igre na drugi јezik"
 #. placeholder {1}: staticGameConfig.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:34
 msgid "You invited a friend or spammed forum posts. After they reach level {0}, you will get the badge + {1}% of all your referrals' badge rewards"
-msgstr "Pozvao je priјatelja ili je spamao po forumima. Nakon što dostignu razinu {0}, dobivaš značku i {1}% od iznosa svih nagrada koje referirani korisnik prikupi kroz vlastite značke."
+msgstr "Pozvao je priјatelja ili je spamao po forumima. Nakon što dostignu razinu {0}, dobivaš značku i {1}% od iznosa nagrada za značke svojih preporučenih korisnika."
 
 #: src/components/_user/worker/WageReductionAlert.tsx:44
 msgid "You left the company."
