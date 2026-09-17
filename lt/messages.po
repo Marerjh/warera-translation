@@ -827,12 +827,12 @@ msgstr "<0>Jaustukai</0> pokalbyje"
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>Už kiekvieną šiame raunde abiejų pusių padarytą <1/> žalos į raundo fondą pridedama po <2>{0}</2>.</0><3>Fondas išdalijamas raundo pabaigoje: daugiausia žalos padaręs žaidėjas gauna vertingiausią įrangą, antras – kitą ir t. t. Įranga, kuri atitektų tau, rodoma tavo eilutėje žemiau esančiame reitinge.</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>Kas <1/> bendros abiejų pusių padarytos žalos į mūšio fondą pridedamas <2>{0}</2>.</0><3>Fondas išdalijamas mūšio pabaigoje: daugiausia žalos padaręs žaidėjas gauna vertingiausią įrangą, antras – kitą ir t. t. Įranga, kuri atitektų tau, rodoma tavo eilutėje žemiau esančiame reitinge.</3>"
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
