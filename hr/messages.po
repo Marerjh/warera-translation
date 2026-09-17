@@ -7371,15 +7371,15 @@ msgstr "Baci se na posao!"
 #: src/components/_economy/inventory/DismantleModal.tsx:46
 #: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
-msgstr "Brže rastavljajte predmete"
+msgstr "Rastavite predmete"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:46
 msgid "Quick equip best items of any tier"
-msgstr "Brže opremanje opremom bilo koje kakvoće"
+msgstr "Brzo opremanje najboljom opremom bilo kojeg rariteta"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:77
 msgid "Quickly dismantle items"
-msgstr "Brže rastavjajte predmete"
+msgstr "Brže rastavite predmete"
 
 #: src/components/_user/user/UserEffectSelector.tsx:60
 msgid "Rainbow"
