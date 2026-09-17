@@ -3761,7 +3761,7 @@ msgstr "e. Sadržaj o trenutnim ratnim konfliktima (npr. sadržaj o ruskoj invaz
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
 msgid "Each item gets its own offer, all at the same price."
-msgstr "Svaki predmet"
+msgstr "Odabrani predmeti se zasebno plasiraju na tržište za istu cijenu."
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -8968,7 +8968,7 @@ msgstr "Korištenje botova, skripti ili bilo koje forme automatizacije za dobiva
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
 msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
-msgstr "Odabrani predmeti ne spadaju u zajednički cijenovni razred zbog razlike u raritetu. Uklonite najjeftiniji odnosno najvrjedniji predmet."
+msgstr "Odabrani predmeti nisu u istom cjenovnom razredu jer imaju različit raritet. Uklonite one koji se po raritetu razlikuju od većine."
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -10354,7 +10354,7 @@ msgstr "Za sudjelovanje vam je potrebna država"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
-msgstr "Morate biti barem {minLevel}. razina za prodaju opreme"
+msgstr "Za prodaju opreme morate biti najmanje {minLevel}. razina"
 
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
