@@ -673,7 +673,7 @@ msgstr "<0>{0}</0> protiv nepriјatelja <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr "Vojna baza pruža <0>{0}</0> napadačkog bonusa kad se napada iz ove regije.<1/>Građani dobivaju puni obrambeni bonus, a saveznici polovicu."
+msgstr "Vojna baza pruža <0>{0}</0> napadačkog bonusa kad se napada iz ove regije.<1/>Građani dobivaju puni napadački bonus, a saveznici polovicu."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -1643,7 +1643,7 @@ msgstr "Definira količinu <0>Poena Proizvodnje</0> koјu je moguće akumulirati
 
 #: src/components/_user/user/skills.frontConfig.tsx:200
 msgid "Amount of <0>Workers</0> you can manage. And daily hire limit."
-msgstr "Povećava maksimalan broj <0>radnika</0> kojima možete upravljati te dnevni limit zapošljavanja."
+msgstr "Povećava broj <0>radnika</0> kojima možete upravljati i koje možete dnevno zaposliti."
 
 #: src/components/_user/user/skills.frontConfig.tsx:123
 msgid "Amount of companies you can own"
@@ -3761,7 +3761,7 @@ msgstr "e. Sadržaj o trenutnim ratnim konfliktima (npr. sadržaj o ruskoj invaz
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
 msgid "Each item gets its own offer, all at the same price."
-msgstr "Svaki predmet"
+msgstr "Odabrani predmeti se zasebno plasiraju na tržište za istu cijenu."
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -5010,7 +5010,7 @@ msgstr "Kupovina predmeta"
 
 #: src/components/_economy/transaction/TransactionList.tsx:74
 msgid "Item Market"
-msgstr "Transakcije predmeta"
+msgstr "Oprema i oružje"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
@@ -6694,7 +6694,7 @@ msgstr "Otvori kutiju"
 
 #: src/components/_economy/transaction/TransactionList.tsx:89
 msgid "Open Case"
-msgstr "Oprema iz kutija"
+msgstr "Predmeti iz kutija"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:229
 msgid "Open Cases"
@@ -8968,7 +8968,7 @@ msgstr "Korištenje botova, skripti ili bilo koje forme automatizacije za dobiva
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
 msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
-msgstr "Odabrani predmeti ne spadaju u zajednički cijenovni razred zbog razlike u raritetu. Uklonite najjeftiniji odnosno najvrjedniji predmet."
+msgstr "Odabrani predmeti nisu u istom cjenovnom razredu jer imaju različit raritet. Uklonite one koji se po raritetu razlikuju od većine."
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -10354,7 +10354,7 @@ msgstr "Za sudjelovanje vam je potrebna država"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
-msgstr "Morate biti barem {minLevel}. razina za prodaju opreme"
+msgstr "Za prodaju opreme morate biti najmanje {minLevel}. razina"
 
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
