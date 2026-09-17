@@ -673,7 +673,7 @@ msgstr "<0>{0}</0> protiv nepriјatelja <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr "Vojna baza pruža <0>{0}</0> napadačkog bonusa kad se napada iz ove regije.<1/>Građani dobivaju puni obrambeni bonus, a saveznici polovicu."
+msgstr "Vojna baza pruža <0>{0}</0> napadačkog bonusa kad se napada iz ove regije.<1/>Građani dobivaju puni napadački bonus, a saveznici polovicu."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -1643,7 +1643,7 @@ msgstr "Definira količinu <0>Poena Proizvodnje</0> koјu je moguće akumulirati
 
 #: src/components/_user/user/skills.frontConfig.tsx:200
 msgid "Amount of <0>Workers</0> you can manage. And daily hire limit."
-msgstr "Povećava maksimalan broj <0>radnika</0> kojima možete upravljati te dnevni limit zapošljavanja."
+msgstr "Povećava broj <0>radnika</0> kojima možete upravljati i koje možete dnevno zaposliti."
 
 #: src/components/_user/user/skills.frontConfig.tsx:123
 msgid "Amount of companies you can own"
@@ -5010,7 +5010,7 @@ msgstr "Kupovina predmeta"
 
 #: src/components/_economy/transaction/TransactionList.tsx:74
 msgid "Item Market"
-msgstr "Transakcije predmeta"
+msgstr "Oprema i oružje"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
@@ -6694,7 +6694,7 @@ msgstr "Otvori kutiju"
 
 #: src/components/_economy/transaction/TransactionList.tsx:89
 msgid "Open Case"
-msgstr "Oprema iz kutija"
+msgstr "Predmeti iz kutija"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:229
 msgid "Open Cases"
