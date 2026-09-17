@@ -826,14 +826,14 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotes</0> chatissa"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
-msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>Jokainen <1/> vahinko, joka on tehty tällä kierroksella molemmille puolille, lisää <2>{0}</2> kierrossaalisaltaaseen.</0><3>Kierrossaalis jaetaan kierroksen lopussa, eniten vahinkoa tehneelle pelaajalle menee paras esine ja niin edelleen...</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:64
+msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
-msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>Jokainen <1/> molemmille puolille tehty kokonaisvahinko lisää <2>{0}</2> taistelusaalisaltaaseen.</0><3>Taistelusaalis jaetaan taistelun lopussa, eniten vahinkoa tehneelle pelaajalle menee paras esine ja niin edelleen...</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:79
+msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
@@ -2128,11 +2128,7 @@ msgstr ""
 msgid "Battle Hero"
 msgstr "Taistelun sankari"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Battle loot"
-msgstr "Taistelusaalis"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Battle loot pool"
 msgstr "Taistelusaalisallas"
 
@@ -3685,7 +3681,7 @@ msgstr ""
 msgid "Dissolve the alliance permanently, removing every member country."
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:103
 msgid "Distributed"
 msgstr "Jaettu"
 
@@ -5160,10 +5156,6 @@ msgstr ""
 msgid "Language"
 msgstr "Kieli"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
-msgid "Last"
-msgstr ""
-
 #: src/components/_user/user/UserHeader.tsx:358
 msgid "Last connection"
 msgstr ""
@@ -5462,10 +5454,6 @@ msgstr "Saalismahdollisuus"
 #: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Loot reward"
 msgstr "Saalispalkinto"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
-msgid "Loots"
-msgstr "Saaliit"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:23
 msgid "Love Paper Jet"
@@ -8032,7 +8020,7 @@ msgstr "Kierros"
 msgid "Round {0}"
 msgstr "Kierros {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Round {roundNumber} loot pool"
 msgstr "Kierros {roundNumber} ryöstöallas"
 
@@ -8062,10 +8050,6 @@ msgstr ""
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
 msgstr "Kierroksen sankari"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Round loot"
-msgstr "Kierrossaalis"
 
 #: src/components/_military/battle/BattleTimeline.tsx:78
 msgid "Rounds timeline"
@@ -9161,7 +9145,6 @@ msgstr "Myrskykirja"
 msgid "Tome of Tides"
 msgstr "Aaltokirja"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:209
 msgid "Top"
 msgstr "Yläosa"

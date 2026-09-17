@@ -823,14 +823,14 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emoticoane</0> în chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
-msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>Fiecare <1/> daune totale în această rundă adaugă o <2>{0}</2> la prada rundei.</0><3>Prada e distribuită la sfârșitul rundei, locul 1 primind cel mai bun item, ș.a.m.d.</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:64
+msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
-msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>Fiecare <1/> daune totale adaugă o <2>{0}</2> la prada luptei.</0><3>Prada e distribuită la sfârșitul luptei, locul 1 primind cel mai bun item, ș.a.m.d.</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:79
+msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
@@ -2125,11 +2125,7 @@ msgstr ""
 msgid "Battle Hero"
 msgstr "Eroul Luptei"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Battle loot"
-msgstr "Prada luptei"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Battle loot pool"
 msgstr "Prada luptei"
 
@@ -3682,7 +3678,7 @@ msgstr ""
 msgid "Dissolve the alliance permanently, removing every member country."
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:103
 msgid "Distributed"
 msgstr "Distribuite"
 
@@ -5157,10 +5153,6 @@ msgstr ""
 msgid "Language"
 msgstr "Limbă"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
-msgid "Last"
-msgstr "Ultimul"
-
 #: src/components/_user/user/UserHeader.tsx:358
 msgid "Last connection"
 msgstr ""
@@ -5458,10 +5450,6 @@ msgstr "Șansă pradă"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Loot reward"
-msgstr "Pradă"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
-msgid "Loots"
 msgstr "Pradă"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:23
@@ -8029,7 +8017,7 @@ msgstr "Runda"
 msgid "Round {0}"
 msgstr "Runda {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Round {roundNumber} loot pool"
 msgstr "Pradă runda {roundNumber}"
 
@@ -8059,10 +8047,6 @@ msgstr "Timp rămas estimat"
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
 msgstr "Eroul Rundei"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Round loot"
-msgstr "Pradă rundă"
 
 #: src/components/_military/battle/BattleTimeline.tsx:78
 msgid "Rounds timeline"
@@ -9158,7 +9142,6 @@ msgstr ""
 msgid "Tome of Tides"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:209
 msgid "Top"
 msgstr "Top"

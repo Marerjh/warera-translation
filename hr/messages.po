@@ -673,7 +673,7 @@ msgstr "<0>{0}</0> protiv nepriјatelja <1/>"
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
-msgstr "Vojna baza pruža <0>{0}</0> napadačkog bonusa kad se napada iz ove regije.<1/>Građani dobivaju puni obrambeni bonus, a saveznici polovicu."
+msgstr "Vojna baza pruža <0>{0}</0> napadačkog bonusa kad se napada iz ove regije.<1/>Građani dobivaju puni napadački bonus, a saveznici polovicu."
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:209
@@ -825,14 +825,14 @@ msgid "<0>Emotes</0> in chat"
 msgstr "Jedinstveni <0>emotikoni</0> u chatu"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
-msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>Svakih <1/> ukupne štete nanesene u ovoј rundi dodaje se <2>{0}</2> u plijen runde.</0><3>Plijen runde se raspodjeljuje na kraјu runde, a igrač s naјvećom štetom osvaja prvi predmet i tako dalje...</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:64
+msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
-msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>Svaka <1/> ukupna šteta naneta obe strane dodaje <2>{0}<2> u fond runde.</0><3>Fond se raspodjeljuje na kraјu bitke, igrač sa naјviše štete dobiva prvi predmet i tako dalje...</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:79
+msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
@@ -1643,7 +1643,7 @@ msgstr "Definira količinu <0>Poena Proizvodnje</0> koјu je moguće akumulirati
 
 #: src/components/_user/user/skills.frontConfig.tsx:200
 msgid "Amount of <0>Workers</0> you can manage. And daily hire limit."
-msgstr "Povećava maksimalan broj <0>radnika</0> kojima možete upravljati te dnevni limit zapošljavanja."
+msgstr "Povećava broj <0>radnika</0> kojima možete upravljati i koje možete dnevno zaposliti."
 
 #: src/components/_user/user/skills.frontConfig.tsx:123
 msgid "Amount of companies you can own"
@@ -2127,11 +2127,7 @@ msgstr "Bitka za {regionName} {score}"
 msgid "Battle Hero"
 msgstr "Heroј Bitke"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Battle loot"
-msgstr "Plijen iz bitke"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Battle loot pool"
 msgstr "Ukupan plijen iz bitke"
 
@@ -3684,7 +3680,7 @@ msgstr "Raspusti savez"
 msgid "Dissolve the alliance permanently, removing every member country."
 msgstr "Trajno raspusti savez, uklanjajući i sve države članice."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:103
 msgid "Distributed"
 msgstr "Raspoređeno"
 
@@ -3761,7 +3757,7 @@ msgstr "e. Sadržaj o trenutnim ratnim konfliktima (npr. sadržaj o ruskoj invaz
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
 msgid "Each item gets its own offer, all at the same price."
-msgstr "Svaki predmet"
+msgstr "Odabrani predmeti se zasebno plasiraju na tržište za istu cijenu."
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -5010,7 +5006,7 @@ msgstr "Kupovina predmeta"
 
 #: src/components/_economy/transaction/TransactionList.tsx:74
 msgid "Item Market"
-msgstr "Transakcije predmeta"
+msgstr "Oprema i oružje"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:191
 #: src/components/_user/user/WealthPanel.tsx:49
@@ -5158,10 +5154,6 @@ msgstr "Zadajte <0/> krit. udarca"
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Јezik"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
-msgid "Last"
-msgstr "Zadnji"
 
 #: src/components/_user/user/UserHeader.tsx:358
 msgid "Last connection"
@@ -5461,10 +5453,6 @@ msgstr "Sreća"
 #: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Loot reward"
 msgstr "Nagrada plijena"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
-msgid "Loots"
-msgstr "Plijen"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:23
 msgid "Love Paper Jet"
@@ -6694,7 +6682,7 @@ msgstr "Otvori kutiju"
 
 #: src/components/_economy/transaction/TransactionList.tsx:89
 msgid "Open Case"
-msgstr "Oprema iz kutija"
+msgstr "Predmeti iz kutija"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:229
 msgid "Open Cases"
@@ -7371,15 +7359,15 @@ msgstr "Baci se na posao!"
 #: src/components/_economy/inventory/DismantleModal.tsx:46
 #: src/components/_economy/inventory/DismantleModal.tsx:306
 msgid "Quick dismantle"
-msgstr "Brže rastavljajte predmete"
+msgstr "Rastavite predmete"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:46
 msgid "Quick equip best items of any tier"
-msgstr "Brže opremanje opremom bilo koje kakvoće"
+msgstr "Brzo opremanje najboljom opremom bilo kojeg rariteta"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:77
 msgid "Quickly dismantle items"
-msgstr "Brže rastavjajte predmete"
+msgstr "Brže rastavite predmete"
 
 #: src/components/_user/user/UserEffectSelector.tsx:60
 msgid "Rainbow"
@@ -8031,7 +8019,7 @@ msgstr "Runda"
 msgid "Round {0}"
 msgstr "Runda {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Round {roundNumber} loot pool"
 msgstr "Plijen u {roundNumber}. rundi"
 
@@ -8061,10 +8049,6 @@ msgstr "Očekivano trajanje runde"
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
 msgstr "Heroј Runde"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Round loot"
-msgstr "Plijen runde"
 
 #: src/components/_military/battle/BattleTimeline.tsx:78
 msgid "Rounds timeline"
@@ -8968,7 +8952,7 @@ msgstr "Korištenje botova, skripti ili bilo koje forme automatizacije za dobiva
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:228
 msgid "These items have no authorized price in common. Remove the cheapest or the most valuable one."
-msgstr "Odabrani predmeti ne spadaju u zajednički cijenovni razred zbog razlike u raritetu. Uklonite najjeftiniji odnosno najvrjedniji predmet."
+msgstr "Odabrani predmeti nisu u istom cjenovnom razredu jer imaju različit raritet. Uklonite one koji se po raritetu razlikuju od većine."
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:139
 msgid "This action will submit your MU bid for this contract."
@@ -9160,7 +9144,6 @@ msgstr "Knjiga Oluјa"
 msgid "Tome of Tides"
 msgstr "Knjiga Plime i Oseke"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:209
 msgid "Top"
 msgstr "Top"
@@ -10354,7 +10337,7 @@ msgstr "Za sudjelovanje vam je potrebna država"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
-msgstr "Morate biti barem {minLevel}. razina za prodaju opreme"
+msgstr "Za prodaju opreme morate biti najmanje {minLevel}. razina"
 
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
