@@ -827,12 +827,12 @@ msgstr "<0>Emotki</0> na czacie"
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "0>Każde <1/> obrażenia zadane w tej rundzie przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>Wszystkie <1/> łączne obrażenia zadane przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3> "
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
@@ -3215,7 +3215,7 @@ msgstr "Trafienie krytyczne"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
-msgstr "Przekrocz <0/> regionów na mapie"
+msgstr "Przemierz <0/> regionów na mapie"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
@@ -3994,7 +3994,7 @@ msgstr "Wyposażenie"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
-msgstr "Założone przedmioty są pomijane przy opcji „Zaznacz wszystko”"
+msgstr "Założone przedmioty są pomijane przy opcji „Wybierz wszystko”"
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -5448,7 +5448,7 @@ msgstr "Zdobądź skrzynki"
 #: src/components/_user/user/skills.frontConfig.tsx:180
 #: src/components/_user/user/skills.frontConfig.tsx:181
 msgid "Loot chance"
-msgstr "Szansa na łup"
+msgstr "Szczęście"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Loot reward"
@@ -7346,11 +7346,11 @@ msgstr "Purpurowy Drąg"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:131
 msgid "Push the resistance here before they dig in..."
-msgstr "Zduś opór w tym miejscu, zanim się umocnią..."
+msgstr "Zmobilizuj opór w tym miejscu, zanim się umocnią..."
 
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
-msgstr "Zduś ruch oporu najpierw w tym miejscu."
+msgstr "Zmobilizuj ruch oporu najpierw w tym miejscu."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -7646,7 +7646,7 @@ msgstr "Regiony"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:595
 msgid "Regions Crossed"
-msgstr "Przekroczone regiony"
+msgstr "Przemierzone regiony"
 
 #: src/components/_political/party/party.frontConfig.tsx:125
 msgid "Regions you occupy generate double the amount of resistance."
@@ -7910,7 +7910,7 @@ msgstr "Mieszkańcy (dom tutaj)"
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
 msgid "Resist"
-msgstr "Stawiaj opór"
+msgstr "Opór"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:107
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
@@ -8335,7 +8335,7 @@ msgstr "Ustawienia"
 
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:64
 msgid "Share of active players who reached each tier, refreshed daily."
-msgstr "Udział aktywnych graczy, którzy osiągnęli poszczególne poziomy. Odświeżane codziennie."
+msgstr "Udział aktywnych graczy, którzy osiągnęli poszczególne szczeble. Odświeżane codziennie."
 
 #: src/components/_user/user/UserEffectSelector.tsx:56
 msgid "Shine"
@@ -9447,7 +9447,7 @@ msgstr "Odblokowano zestaw"
 
 #: src/components/_user/user/UserHeader.tsx:466
 msgid "Unmuted <0/>"
-msgstr "Cofnięto wyciszenie <0/>"
+msgstr "Wyciszenie cofnietę <0/>"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:93
 msgid "Unreal. This doesn't happen"
