@@ -827,12 +827,12 @@ msgstr "<0>رموز تعبيرية</0> في الدردشة"
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>كل <1/> ضرر مُلحق في هذه الجولة من كلا الجانبين يضيف <2>{0}</2> إلى مجموعة غنائم الجولة.</0><3>يتم توزيع الغنائم في نهاية الجولة: يحصل صاحب أعلى ضرر على العنصر الأكثر قيمة، ويحصل صاحب المركز الثاني على العنصر الذي يليه، وهكذا. يتم عرض العنصر المخصص لك في صفك ضمن التصنيف أدناه.</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>كل <1/> إجمالي ضرر مُلحق من كلا الجانبين يضيف <2>{0}</2> إلى مجموعة غنائم المعركة.</0><3>يتم توزيع الغنائم في نهاية المعركة: يحصل صاحب أعلى ضرر على العنصر الأكثر قيمة، ويحصل صاحب المركز الثاني على العنصر الذي يليه، وهكذا. يتم عرض العنصر المخصص لك في صفك ضمن التصنيف أدناه.</3>"
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
