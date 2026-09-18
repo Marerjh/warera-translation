@@ -827,7 +827,7 @@ msgstr "<0>Emotki</0> na czacie"
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr "0>Każde <1/> obrażenia zadane w tej rundzie przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3>"
+msgstr "<0>Każde <1/> obrażenia zadane w tej rundzie przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
