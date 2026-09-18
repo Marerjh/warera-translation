@@ -335,7 +335,7 @@ msgstr "<0/> zakończone <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:148
 msgid "<0/> financed a resistance war for <1/> in <2/>"
-msgstr "<0/> sfinansował opór dla <1/> w <2/>"
+msgstr "<0/> sfinansował ruch oporu dla <1/> w <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> financed a revolt in <1/>"
@@ -343,7 +343,7 @@ msgstr "<0/> sfinansował bunt w <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:525
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
-msgstr "<0/> fisfinansował bunt w <1/> dla <2/> przeciw <3/>"
+msgstr "<0/> sfinansował bunt w <1/> dla <2/> przeciw <3/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:65
 msgid "<0/> gifted a sub to <1/>"
@@ -409,7 +409,7 @@ msgstr "<0/> sfinansował bunt w <1/> dla <2/> przeciwko <3/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:449
 msgid "<0/> has financed resistance in <1/>"
-msgstr "<0/> sfinansował opór w <1/>"
+msgstr "<0/> sfinansował ruch oporu w <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:317
 msgid "<0/> has formed an alliance with <1/>"
@@ -445,7 +445,7 @@ msgstr "<0/> się rozpoczął! Niech rozpoczną się bitwy!"
 
 #: src/components/_political/event/event.frontConfig.tsx:463
 msgid "<0/> has suppressed resistance in <1/>"
-msgstr "<0/> stłumił bunt w <1/>"
+msgstr "<0/> stłumił opór w <1/>"
 
 #. placeholder {0}: data.money
 #: src/components/_political/event/event.frontConfig.tsx:259
@@ -827,12 +827,12 @@ msgstr "<0>Emotki</0> na czacie"
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>Każde <1/> obrażenia zadane w tej rundzie przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>Wszystkie <1/> łączne obrażenia zadane przez obie strony konfliktu trafiają jako <2>{0}</2> do wspólnej puli łupów.</0><3>Rozdział łupów następuje na koniec rundy: osoba o najwyższych obrażeniach zabiera najcenniejszy przedmiot, druga w kolejności – następny i tak dalej. Przedmiot przypisany do ciebie zobaczysz w swoim rzędzie w rankingu poniżej.</3> "
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
@@ -2988,11 +2988,11 @@ msgstr "Wesprzyj budowę <0/> razy"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:566
 msgid "Contribute to resistance <0/> times"
-msgstr "Wesprzyj opór <0/> razy"
+msgstr "Wesprzyj ruch oporu <0/> razy"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
-msgstr "Wspomóż bunt"
+msgstr "Wspomóż ruch oporu"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -3215,7 +3215,7 @@ msgstr "Trafienie krytyczne"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
-msgstr "Przekrocz <0/> regionów na mapie"
+msgstr "Przemierz <0/> regionów na mapie"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
@@ -3826,7 +3826,7 @@ msgstr "Edytuj rozkaz JW"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 msgid "Edit resistance focus"
-msgstr "Zmień cel oporu"
+msgstr "Zmień cel ruchu oporu"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -3994,7 +3994,7 @@ msgstr "Wyposażenie"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Equipped items are left out of select all."
-msgstr "Założone przedmioty są pomijane przy opcji „Zaznacz wszystko”"
+msgstr "Założone przedmioty są pomijane przy opcji „Wybierz wszystko”"
 
 #: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
@@ -4268,7 +4268,7 @@ msgstr "Finansuj bitwę ruchu oporu w okupowanym regionie swojego kraju"
 
 #: src/components/_political/law/law.frontConfig.tsx:614
 msgid "Finance a resistance to liberate an occupied region"
-msgstr "Finansuj opór, aby wyzwolić okupowany region"
+msgstr "Finansuj ruch oporu, aby wyzwolić okupowany region"
 
 #: src/components/_political/law/law.frontConfig.tsx:627
 msgid "Finance a revolt to liberate <0/>"
@@ -4277,15 +4277,15 @@ msgstr "Finansuj bunt, aby wyzwolić <0/>"
 #: src/components/_political/law/law.frontConfig.tsx:613
 #: src/components/_political/law/lawNames.tsx:38
 msgid "Finance foreign resistance"
-msgstr "Finansuj zagraniczny opór"
+msgstr "Finansuj zagraniczny ruch oporu"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:122
 msgid "Finance local resistance"
-msgstr "Finansuj lokalny opór"
+msgstr "Finansuj lokalny ruch oporu"
 
 #: src/components/_political/law/law.frontConfig.tsx:618
 msgid "Finance resistance in <0/>"
-msgstr "Finansuj opór w <0/>"
+msgstr "Finansuj ruch oporu w <0/>"
 
 #: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
@@ -4345,11 +4345,11 @@ msgstr "Pokaż moją pozycję"
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 #: src/components/_political/region/SetResistanceFocusModal.tsx:143
 msgid "Focus resistance"
-msgstr "Cel oporu"
+msgstr "Cel ruchu oporu"
 
 #: src/components/_political/region/RegionResistance.tsx:167
 msgid "Focus resistance here"
-msgstr "Ognisko oporu: tutaj"
+msgstr "Ognisko ruchu oporu: tutaj"
 
 #: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
@@ -5148,7 +5148,7 @@ msgstr "Noże nie używają amunicji"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:282
 msgid "Land <0/> critical hits"
-msgstr "Zadaj <0/> ciosów krytycznych"
+msgstr "Zadaj <0/> trafień krytycznych"
 
 #: src/components/_layout/LayoutOptions.tsx:221
 #: src/components/_user/auth/WelcomeModal.tsx:152
@@ -5448,7 +5448,7 @@ msgstr "Zdobądź skrzynki"
 #: src/components/_user/user/skills.frontConfig.tsx:180
 #: src/components/_user/user/skills.frontConfig.tsx:181
 msgid "Loot chance"
-msgstr "Szansa na łup"
+msgstr "Szczęście"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Loot reward"
@@ -5949,7 +5949,7 @@ msgstr "Uchwały"
 #: src/components/_political/region/MoveButton.tsx:120
 #: src/components/_political/region/MoveButton.tsx:132
 msgid "Move"
-msgstr "Udaj się"
+msgstr "Przejdź tutaj"
 
 #: src/components/_political/map/MapMenu.tsx:640
 msgid "Move & collect"
@@ -7346,11 +7346,11 @@ msgstr "Purpurowy Drąg"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:131
 msgid "Push the resistance here before they dig in..."
-msgstr "Zduś opór w tym miejscu, zanim się umocnią..."
+msgstr "Zmobilizuj ruch oporu w tym miejscu, zanim się umocnią..."
 
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
-msgstr "Zduś ruch oporu najpierw w tym miejscu."
+msgstr "Zmobilizuj ruch oporu najpierw w tym miejscu."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:36
 msgid "Put yourself to work!"
@@ -7646,7 +7646,7 @@ msgstr "Regiony"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:595
 msgid "Regions Crossed"
-msgstr "Przekroczone regiony"
+msgstr "Przemierzone regiony"
 
 #: src/components/_political/party/party.frontConfig.tsx:125
 msgid "Regions you occupy generate double the amount of resistance."
@@ -7910,13 +7910,13 @@ msgstr "Mieszkańcy (dom tutaj)"
 #: src/components/_military/hit/HitButton.tsx:529
 #: src/components/_user/mission/mission.frontConfig.tsx:564
 msgid "Resist"
-msgstr "Stawiaj opór"
+msgstr "Opór"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:107
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
-msgstr "Opór"
+msgstr "Ruch oporu"
 
 #: src/components/_political/contribution/ContributionList.tsx:198
 msgid "Resistance Contributors"
@@ -7924,11 +7924,11 @@ msgstr "Wspierający Ruch Oporu"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:244
 msgid "Resistance focus"
-msgstr "Cel oporu"
+msgstr "Cel ruchu oporu"
 
 #: src/components/_political/region/RegionResistance.tsx:205
 msgid "Resistance focused by <0/>"
-msgstr "Cel oporu wyznaczony przez <0/>"
+msgstr "Cel ruchu oporu wyznaczony przez <0/>"
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
@@ -8335,7 +8335,7 @@ msgstr "Ustawienia"
 
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:64
 msgid "Share of active players who reached each tier, refreshed daily."
-msgstr "Udział aktywnych graczy, którzy osiągnęli poszczególne poziomy. Odświeżane codziennie."
+msgstr "Udział aktywnych graczy, którzy osiągnęli poszczególne szczeble. Odświeżane codziennie."
 
 #: src/components/_user/user/UserEffectSelector.tsx:56
 msgid "Shine"
@@ -9447,7 +9447,7 @@ msgstr "Odblokowano zestaw"
 
 #: src/components/_user/user/UserHeader.tsx:466
 msgid "Unmuted <0/>"
-msgstr "Cofnięto wyciszenie <0/>"
+msgstr "Wyciszenie cofnietę <0/>"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:93
 msgid "Unreal. This doesn't happen"
@@ -10622,7 +10622,7 @@ msgstr "Twoi wrogowie"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:248
 msgid "Your government asks you to push the resistance here."
-msgstr "Twój rząd prosi o przełamanie oporu tutaj."
+msgstr "Twój rząd prosi o mobilizacje ruchu oporu tutaj."
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
