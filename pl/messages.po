@@ -5949,7 +5949,7 @@ msgstr "Uchwały"
 #: src/components/_political/region/MoveButton.tsx:120
 #: src/components/_political/region/MoveButton.tsx:132
 msgid "Move"
-msgstr "Udaj się"
+msgstr "Przemieść się"
 
 #: src/components/_political/map/MapMenu.tsx:640
 msgid "Move & collect"
