@@ -827,12 +827,12 @@ msgstr "Jedinstveni <0>emotikoni</0> u chatu"
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>Svakih <1/> nanesene ukupne štete u ovoj rundi ubacuje predmet iz <2>{0}</2> u fond plijena runde.</0><3>Fond se dijeli na kraju runde: igrač koji je nanio najviše štete dobiva najvrjedniji predmet, igrač na 2. mjestu sljedeći, i tako dalje. Predmet koji ste trenutačno na redu osvojiti prikazan je u vašem retku na ljestvici štete.</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>Svakih <1/> nanesene ukupne štete u ovoj rundi ubacuje predmet iz <2>{0}</2> u fond plijena runde.</0><3>Fond se dijeli na kraju runde: igrač koji je nanio najviše štete dobiva najvrjedniji predmet, igrač na 2. mjestu sljedeći, i tako dalje. Predmet koji ste trenutačno na redu osvojiti prikazan je u vašem retku na ljestvici štete.</3>"
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
