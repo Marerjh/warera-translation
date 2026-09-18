@@ -343,7 +343,7 @@ msgstr "<0/> sfinansował bunt w <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:525
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
-msgstr "<0/> fisfinansował bunt w <1/> dla <2/> przeciw <3/>"
+msgstr "<0/> sfinansował bunt w <1/> dla <2/> przeciw <3/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:65
 msgid "<0/> gifted a sub to <1/>"
@@ -445,7 +445,7 @@ msgstr "<0/> się rozpoczął! Niech rozpoczną się bitwy!"
 
 #: src/components/_political/event/event.frontConfig.tsx:463
 msgid "<0/> has suppressed resistance in <1/>"
-msgstr "<0/> stłumił bunt w <1/>"
+msgstr "<0/> stłumił opór w <1/>"
 
 #. placeholder {0}: data.money
 #: src/components/_political/event/event.frontConfig.tsx:259
@@ -2992,7 +2992,7 @@ msgstr "Wesprzyj opór <0/> razy"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
-msgstr "Wspomóż bunt"
+msgstr "Wspomóż opór"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
