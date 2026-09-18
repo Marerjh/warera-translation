@@ -335,7 +335,7 @@ msgstr "<0/> zakończone <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:148
 msgid "<0/> financed a resistance war for <1/> in <2/>"
-msgstr "<0/> sfinansował opór dla <1/> w <2/>"
+msgstr "<0/> sfinansował ruch oporu dla <1/> w <2/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> financed a revolt in <1/>"
@@ -409,7 +409,7 @@ msgstr "<0/> sfinansował bunt w <1/> dla <2/> przeciwko <3/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:449
 msgid "<0/> has financed resistance in <1/>"
-msgstr "<0/> sfinansował opór w <1/>"
+msgstr "<0/> sfinansował ruch oporu w <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:317
 msgid "<0/> has formed an alliance with <1/>"
@@ -2988,11 +2988,11 @@ msgstr "Wesprzyj budowę <0/> razy"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:566
 msgid "Contribute to resistance <0/> times"
-msgstr "Wesprzyj opór <0/> razy"
+msgstr "Wesprzyj ruch oporu <0/> razy"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:218
 msgid "Contribute to the resistance"
-msgstr "Wspomóż opór"
+msgstr "Wspomóż ruch oporu"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -3826,7 +3826,7 @@ msgstr "Edytuj rozkaz JW"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 msgid "Edit resistance focus"
-msgstr "Zmień cel oporu"
+msgstr "Zmień cel ruchu oporu"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -4268,7 +4268,7 @@ msgstr "Finansuj bitwę ruchu oporu w okupowanym regionie swojego kraju"
 
 #: src/components/_political/law/law.frontConfig.tsx:614
 msgid "Finance a resistance to liberate an occupied region"
-msgstr "Finansuj opór, aby wyzwolić okupowany region"
+msgstr "Finansuj ruch oporu, aby wyzwolić okupowany region"
 
 #: src/components/_political/law/law.frontConfig.tsx:627
 msgid "Finance a revolt to liberate <0/>"
@@ -4277,15 +4277,15 @@ msgstr "Finansuj bunt, aby wyzwolić <0/>"
 #: src/components/_political/law/law.frontConfig.tsx:613
 #: src/components/_political/law/lawNames.tsx:38
 msgid "Finance foreign resistance"
-msgstr "Finansuj zagraniczny opór"
+msgstr "Finansuj zagraniczny ruch oporu"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:122
 msgid "Finance local resistance"
-msgstr "Finansuj lokalny opór"
+msgstr "Finansuj lokalny ruch oporu"
 
 #: src/components/_political/law/law.frontConfig.tsx:618
 msgid "Finance resistance in <0/>"
-msgstr "Finansuj opór w <0/>"
+msgstr "Finansuj ruch oporu w <0/>"
 
 #: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
@@ -4345,11 +4345,11 @@ msgstr "Pokaż moją pozycję"
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 #: src/components/_political/region/SetResistanceFocusModal.tsx:143
 msgid "Focus resistance"
-msgstr "Cel oporu"
+msgstr "Cel ruchu oporu"
 
 #: src/components/_political/region/RegionResistance.tsx:167
 msgid "Focus resistance here"
-msgstr "Ognisko oporu: tutaj"
+msgstr "Ognisko ruchu oporu: tutaj"
 
 #: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
@@ -7346,7 +7346,7 @@ msgstr "Purpurowy Drąg"
 
 #: src/components/_political/region/SetResistanceFocusModal.tsx:131
 msgid "Push the resistance here before they dig in..."
-msgstr "Zmobilizuj opór w tym miejscu, zanim się umocnią..."
+msgstr "Zmobilizuj ruch oporu w tym miejscu, zanim się umocnią..."
 
 #: src/components/_political/region/RegionResistance.tsx:216
 msgid "Push the resistance here first."
@@ -7916,7 +7916,7 @@ msgstr "Opór"
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
-msgstr "Opór"
+msgstr "Ruch oporu"
 
 #: src/components/_political/contribution/ContributionList.tsx:198
 msgid "Resistance Contributors"
@@ -7924,11 +7924,11 @@ msgstr "Wspierający Ruch Oporu"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:244
 msgid "Resistance focus"
-msgstr "Cel oporu"
+msgstr "Cel ruchu oporu"
 
 #: src/components/_political/region/RegionResistance.tsx:205
 msgid "Resistance focused by <0/>"
-msgstr "Cel oporu wyznaczony przez <0/>"
+msgstr "Cel ruchu oporu wyznaczony przez <0/>"
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
@@ -10622,7 +10622,7 @@ msgstr "Twoi wrogowie"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:248
 msgid "Your government asks you to push the resistance here."
-msgstr "Twój rząd prosi o przełamanie oporu tutaj."
+msgstr "Twój rząd prosi o mobilizacje ruchu oporu tutaj."
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
 msgid "Your infos have been saved."
