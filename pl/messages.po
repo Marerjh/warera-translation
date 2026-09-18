@@ -5148,7 +5148,7 @@ msgstr "Noże nie używają amunicji"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:282
 msgid "Land <0/> critical hits"
-msgstr "Zadaj <0/> ciosów krytycznych"
+msgstr "Zadaj <0/> trafień krytycznych"
 
 #: src/components/_layout/LayoutOptions.tsx:221
 #: src/components/_user/auth/WelcomeModal.tsx:152
