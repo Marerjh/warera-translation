@@ -245,8 +245,8 @@ msgid "+{hiddenBattles} more battles"
 msgstr "Vēl {hiddenBattles} kaujas"
 
 #: src/components/_user/user/Level.tsx:185
-msgid "+{xpBonusPercent}% XP"
-msgstr "+{xpBonusPercent}% pieredzes"
+msgid "+{xpBonusPercent}%"
+msgstr "+{xpBonusPercent}%"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:381
 #: src/components/_user/notification/notification.frontConfig.tsx:1095
@@ -8018,7 +8018,7 @@ msgstr "Raunds"
 msgid "Round {0}"
 msgstr "{0}. raunds"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Round {roundNumber} loot pool"
 msgstr "{roundNumber}. raunda laupījumu fonds"
 
@@ -8048,10 +8048,6 @@ msgstr "Aptuvenās raunda beigas"
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
 msgstr "Raunda varonis"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Round loot"
-msgstr "Raunda laupījums"
 
 #: src/components/_military/battle/BattleTimeline.tsx:78
 msgid "Rounds timeline"
@@ -9147,7 +9143,6 @@ msgstr "Negaisa grāmata"
 msgid "Tome of Tides"
 msgstr "Paisuma grāmata"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:209
 msgid "Top"
 msgstr "Labākie"
