@@ -827,12 +827,12 @@ msgstr "在聊天中使用 <0>表情符號</0> "
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:64
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>雙方每在此回合造成 <1/> 傷害會在獎勵池骰出一個 <2>{0}</2>。</0><3> 獎勵池會在回合結束時發放：傷害最高的人拿到價值最高的，#2拿到下一個，依此類推。你預計獲得的物品會在排行榜中你的位置顯現。</3>"
 
 #. placeholder {0}: ts.case2
 #: src/components/_military/damageRanking/BattleLoot.tsx:79
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
-msgstr ""
+msgstr "<0>雙方每在此戰鬥造成 <1/> 傷害會在獎勵池骰出一個 <2>{0}</2>。</0><3> 獎勵池會在回合結束時發放：傷害最高的人拿到價值最高的，#2拿到下一個，依此類推。你預計獲得的物品會在排行榜中你的位置顯現。</3>"
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
